@@ -1,0 +1,13 @@
+year	year_id	team_id	team_name	jersey_number	team/opp	player_name	player_url	class_year	gp	gs	Goals	Assists	Points	Shots	Shot PCT	SOG	SOG PCT	GWG	EMO G	Man-Down G	GB	TO	CT	FOW	FOs Taken	FO%	Pen	Pen Time	GGP	GGS	G Min	Goals Allowed	GAA	Saves	Save Pct	RC	YC	Clears Suc	Clears Att	Clear Pct
+2016	12380	81	Bryant	-	TEAM	-	-	-	1	 	 	 	0	 	""	 	""	 	 	 	 	1	 	 	""	""	 	 	 	 	 	""	""	 	""	 	 	 	 	""
+2016	12380	81	Bryant	-	Totals	-	-	-	1	 	16	12	28	55	0.291	33	0.600	1	2	 	40	17	5	20	23	0.870	2	120	 	 	3,600	3	3.000	7	0.700	 	 	16	18	0.889
+2016	12380	81	Bryant	-	Opponent Totals	-	-	-	1	 	3	2	5	21	0.143	10	0.476	 	 	 	33	22	9	3	23	0.130	4	210	 	 	3,600	16	16.000	17	0.515	 	 	18	26	0.692
+2016	12380	244	Furman	-	TEAM	-	-	-	1	 	 	 	0	 	""	 	""	 	 	 	 	1	 	 	""	""	 	 	 	 	 	""	""	 	""	 	 	 	 	""
+2016	12380	244	Furman	-	Totals	-	-	-	1	 	7	4	11	19	0.368	12	0.632	 	1	 	23	13	7	5	19	0.263	5	240	 	 	3,600	8	8.000	13	0.619	 	 	16	19	0.842
+2016	12380	244	Furman	-	Opponent Totals	-	-	-	1	 	8	4	12	38	0.211	21	0.553	1	1	 	28	12	8	14	19	0.737	2	90	 	 	3,600	7	7.000	5	0.417	 	 	12	13	0.923
+2016	12380	381	Manhattan	-	TEAM	-	-	-	1	 	 	 	0	 	""	 	""	 	 	 	 	1	 	 	""	""	 	 	 	 	 	""	""	 	""	 	 	 	 	""
+2016	12380	381	Manhattan	-	Totals	-	-	-	1	 	3	2	5	21	0.143	10	0.476	 	 	 	33	22	9	3	23	0.130	4	210	 	 	3,600	16	16.000	17	0.515	 	 	18	26	0.692
+2016	12380	381	Manhattan	-	Opponent Totals	-	-	-	1	 	16	12	28	55	0.291	33	0.600	1	2	 	40	17	5	20	23	0.870	2	120	 	 	3,600	3	3.000	7	0.700	 	 	16	18	0.889
+2016	12380	518	Ohio St.	-	TEAM	-	-	-	 	 	 	 	0	 	""	 	""	 	 	 	 	 	 	 	""	""	 	 	 	 	 	""	""	 	""	 	 	 	 	""
+2016	12380	518	Ohio St.	-	Totals	-	-	-	1	 	8	4	12	38	0.211	21	0.553	1	1	 	28	12	8	14	19	0.737	2	90	 	 	3,600	7	7.000	5	0.417	 	 	12	13	0.923
+2016	12380	518	Ohio St.	-	Opponent Totals	-	-	-	1	 	7	4	11	19	0.368	12	0.632	 	1	 	23	13	7	5	19	0.263	5	240	 	 	3,600	8	8.000	13	0.619	 	 	16	19	0.842
