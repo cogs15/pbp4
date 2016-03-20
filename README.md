@@ -11,3 +11,4 @@ To run, `cd` into this repository and run:
 - [ ] Work on detection
 - [ ] Automate dumping into SQL
 - [ ] Flush STDOUT in every script on every loop
+- [ ] Stop syncing `tsv/`, `sql/` to github?
