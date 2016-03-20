@@ -232,7 +232,7 @@ teams.each_slice(tpt).with_index do |teams_slice,i|
       end
 
       print " #{found_games} scheduled, #{finished_games} completed, record #{won}-#{lost}\n"
-
+      STDOUT.flush
     end
 
   end
