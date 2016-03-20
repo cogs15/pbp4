@@ -1,11 +1,12 @@
 #!/usr/bin/env ruby
 
 require 'csv'
-require 'mechanize'
 
 require './lib/mysql_client.rb'
+require './lib/http_client.rb'
 
 mysql_client = MySQLClient.new
+http_client = HttpClient.new
 
 nthreads = 1
 
@@ -41,19 +42,11 @@ tpt = (n.to_f/nthreads.to_f).ceil
 
 threads = []
 
-# One agent for each thread?
-
-agent = Mechanize.new{ |agent| agent.history.max_size=0 }
-agent.user_agent = 'Mozilla/5.0'
-agent.robots = false
-
 teams.each_slice(tpt).with_index do |teams_slice,i|
 
   threads << Thread.new(teams_slice) do |t_teams|
 
     t_teams.each_with_index do |team,j|
-
-      sleep_time = base_sleep
 
       year = team[0]
       year_id = team[1]
@@ -61,33 +54,14 @@ teams.each_slice(tpt).with_index do |teams_slice,i|
       team_name = team[4]
 
       team_schedule_url = "http://stats.ncaa.org/team/%d/%d" % [team_id,year_id]
-
-      #print "Sleep #{sleep_time} ... "
-      sleep sleep_time
+      doc = http_client.get_html(team_schedule_url)
 
       found_games = 0
       finished_games = 0
       won = 0
       lost = 0
 
-      tries = 0
-      begin
-        doc = Nokogiri::HTML(agent.get(team_schedule_url).body)
-      rescue
-        sleep_time += sleep_increment
-        #print "sleep #{sleep_time} ... "
-        sleep sleep_time
-        tries += 1
-        if (tries > retries)
-          next
-        else
-          retry
-        end
-      end
-
-      sleep_time = base_sleep
-
-      print "#{i} #{year} #{team_name} ..."
+      puts "#{i} #{year} #{team_name} ..."
 
       doc.xpath(game_xpath).each do |game|
 
@@ -217,7 +191,7 @@ teams.each_slice(tpt).with_index do |teams_slice,i|
         mysql_client.write_schedule(row)
       end
 
-      print " #{found_games} scheduled, #{finished_games} completed, record #{won}-#{lost}\n"
+      puts " #{found_games} scheduled, #{finished_games} completed, record #{won}-#{lost}\n"
       STDOUT.flush
     end
 

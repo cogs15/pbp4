@@ -1,15 +1,13 @@
 #!/usr/bin/env ruby
 
 require 'csv'
-require 'mechanize'
 
 require './lib/mysql_client.rb'
+require './lib/http_client.rb'
+
+http_client = HttpClient.new
 
 nthreads = 1
-
-base_sleep = rand(0...30)
-sleep_increment = 3
-retries = 4
 
 year = 2016
 division = ARGV[0]
@@ -18,7 +16,7 @@ division = ARGV[0]
 
 base_url = 'http://stats.ncaa.org'
 
-#require 'awesome_print'
+#require 'awesome_puts'
 
 class String
   def to_nil
@@ -60,12 +58,6 @@ gpt = (n.to_f/nthreads.to_f).ceil
 
 threads = []
 
-# One agent for each thread?
-
-agent = Mechanize.new{ |agent| agent.history.max_size=0 }
-agent.user_agent = 'Mozilla/5.0'
-agent.robots = false
-
 game_ids.each_slice(gpt).with_index do |ids,i|
 
   threads << Thread.new(ids) do |t_ids|
@@ -74,34 +66,12 @@ game_ids.each_slice(gpt).with_index do |ids,i|
     n_t = t_ids.size
 
     t_ids.each_with_index do |game_id,j|
-
-      sleep_time = base_sleep
-
       game_url = 'http://stats.ncaa.org/game/play_by_play/%d' % [game_id]
-
-#      print "Thread #{thread_id}, sleep #{sleep_time} ... "
-#      sleep sleep_time
-
-      tries = 0
-      begin
-        page = Nokogiri::HTML(agent.get(game_url).body)
-      rescue
-        sleep_time += sleep_increment
-#        print "sleep #{sleep_time} ... "
-        sleep sleep_time
-        tries += 1
-        if (tries > retries)
-          next
-        else
-          retry
-        end
-      end
-
-      sleep_time = base_sleep
+      page = http_client.get_html(game_url)
 
       found += 1
 
-      print "#{i}, #{game_id} : #{j+1}/#{n_t}; found #{found}/#{n_t}\n"
+      puts "#{i}, #{game_id} : #{j+1}/#{n_t}; found #{found}/#{n_t}\n"
 
       page.xpath(play_xpath).each_with_index do |row,event_id|
 

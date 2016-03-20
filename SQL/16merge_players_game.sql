@@ -1,3 +1,5 @@
+use `ncaa_lacrosse`;
+
 drop table `16ncaa_player_game_stats`;
 
 CREATE TABLE if not exists `16ncaa_player_game_stats` (
@@ -66,4 +68,4 @@ where b.player_name<>'TOTALS' and b.player_name<>'Team';
         where start_position<>'""';
 
         update 16ncaa_player_game_stats
-          set position=left(position,1);      
+          set position=left(position,1);

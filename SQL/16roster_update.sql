@@ -1,3 +1,5 @@
+use `ncaa_lacrosse`;
+
 update 16ncaa_rosters roster
 left JOIN
 (select demo.team_name, demo.jersey_number, demo.year, demo.position, concat(demo.town,", ", demo.state) as town, demo.height, demo.weight

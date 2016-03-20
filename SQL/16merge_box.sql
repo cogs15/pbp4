@@ -1,3 +1,5 @@
+use `ncaa_lacrosse`;
+
 drop table `16ncaa_game_stats`;
 
 create table if not exists `16ncaa_game_stats` (

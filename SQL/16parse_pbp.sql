@@ -1,3 +1,4 @@
+use `ncaa_lacrosse`;
 
 update 16ncaa_merged_pbp
     set

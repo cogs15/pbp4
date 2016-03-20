@@ -1,3 +1,5 @@
+use `ncaa_lacrosse`;
+
 update 16ncaa_box_scores box
 left JOIN
 (select game_id, game_date, year

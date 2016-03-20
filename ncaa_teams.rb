@@ -2,10 +2,9 @@
 #!/usr/bin/env ruby
 
 require 'csv'
-require 'mechanize'
+require './lib/http_client.rb'
 
-agent = Mechanize.new{ |agent| agent.history.max_size=0 }
-agent.user_agent = 'Mozilla/5.0'
+http_client = HttpClient.new
 
 year = 2016
 division =  ARGV[0]
@@ -26,11 +25,11 @@ base_url = 'http://stats.ncaa.org'
 
 year_division_url = "http://stats.ncaa.org/team/inst_team_list?&academic_year=#{year}&conf_id=-1&division=#{division}&sport_code=MLA"
 
-print "\nRetrieving division #{division} teams for #{year} ... "
+puts "\nRetrieving division #{division} teams for #{year} ... "
 
 found_teams = 0
 
-doc = Nokogiri::HTML(agent.get(year_division_url).body)
+doc = http_client.get_html(year_division_url)
 
 doc.search("a").each do |link|
 
@@ -68,4 +67,4 @@ end
 
 ncaa_teams.close
 
-print "found #{found_teams} teams\n\n"
+puts "found #{found_teams} teams\n\n"

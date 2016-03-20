@@ -1,3 +1,5 @@
+use `ncaa_lacrosse`;
+
 create table if not exists `16ncaa_merged_pbp` (
   `merge_id` INT(11) PRIMARY KEY AUTO_INCREMENT,
   `team_id` INT(11) NOT NULL,
