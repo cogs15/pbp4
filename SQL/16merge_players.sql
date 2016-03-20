@@ -7,6 +7,8 @@ set box.game_date = sched.game_date,
 box.year = sched.year;
 
 
+drop table if exists `16ncaa_player_stats`;
+
 create table if not exists `16ncaa_player_stats` (
   `year` int(11) DEFAULT NULL,
   `team_id` int(11) NOT NULL,
@@ -33,8 +35,11 @@ create table if not exists `16ncaa_player_stats` (
   `fot` int(11) DEFAULT NULL,
   `fow_pct` decimal(11,3) DEFAULT NULL,
   `fogo_gb` int(11) DEFAULT NULL,
+  `fogo_gb_pct` decimal(11,3) DEFAULT NULL,
   `wing_gb` int(11) DEFAULT NULL,
   `save_pct` decimal(11,3) DEFAULT NULL,
+  `save_end_pct` decimal(11,3) DEFAULT NULL,
+  `save_clean_pct` decimal(11,3) DEFAULT NULL,
   `clear_turnovers` int(11) DEFAULT NULL,
   `emo_goals` int(11) DEFAULT NULL,
   `emo_assists` int(11) DEFAULT NULL,
@@ -45,7 +50,12 @@ create table if not exists `16ncaa_player_stats` (
   `unsettled_assists` int(11) DEFAULT NULL,
   `unsettled_shots` int(11) DEFAULT NULL,
   `unsettled_sog` int(11) DEFAULT NULL,
-  `unsettled_turnovers` int(11) DEFAULT NULL
+  `unsettled_turnovers` int(11) DEFAULT NULL,
+  `saves` int(11) DEFAULT NULL,
+  `clean_saves` int(11) DEFAULT NULL,
+  `saves_end` int(11) DEFAULT NULL,
+  `goals_allowed` int(11) DEFAULT NULL
+
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
@@ -58,9 +68,9 @@ from 16ncaa_rosters roster;
 
 update 16ncaa_player_stats p
 left JOIN
-(select sum(b.goals) sumGoals, sum(b.assists) sumAssists, sum(b.shots) sumShots, sum(b.SOG) sumSOG, sum(b.to) sumTurnovers, sum(b.GB) sumGB, sum(b.CT) sumCT, sum(fow) sumfow, sum(fo_taken) sumFOT, sum(saves) sumSaves, sum(goals_allowed) sumgoals_allowed, count(player_id) games, b.player_id, b.year
+(select sum(b.goals) sumGoals, sum(b.assists) sumAssists, sum(b.shots) sumShots, sum(b.SOG) sumSOG, sum(b.to) sumTurnovers, sum(b.GB) sumGB, sum(b.CT) sumCT, sum(b.fow) sumfow, sum(b.fo_taken) sumFOT, sum(b.saves) sumSaves, sum(b.goals_allowed) sumgoals_allowed, count(player_id) games, b.player_id, b.year
 from 16ncaa_box_scores b
-group by b.player_id, b.year
+group by b.player_name, b.year
 ) box on box.player_id = p.player_id and box.year=p.year
 set p.goals = box.sumGoals,
 p.GP = box.games,
@@ -74,8 +84,10 @@ p.caused_turnover = box.sumCT,
 p.fow = box.sumfow,
 p.fot = box.sumfot,
 p.fow_pct = box.sumfow/box.sumfot,
-p.save_pct = sumsaves/(sumgoals_allowed + sumSaves),
-p.GB = box.sumGB;
+p.save_pct = box.sumSaves/(box.sumgoals_allowed + box.sumSaves),
+p.GB = box.sumGB,
+p.saves = box.sumSaves,
+p.goals_allowed= box.sumgoals_allowed;
 
 
 update 16ncaa_player_stats p
@@ -169,3 +181,30 @@ where b.wing_gb=1
 group by b.gb_player, b.year
 ) pbp on pbp.gb_player = p.player_name and pbp.team_id = p.team_id  and pbp.year=p.year
 set p.wing_gb = pbp.sumwing;
+
+
+update 16ncaa_player_stats p
+left JOIN
+(select sum(b.wing_gb) sumwing, b.gb_player, b.team_id, b.year
+from 16ncaa_merged_pbp b
+where b.wing_gb=1
+group by b.gb_player, b.year
+) pbp on pbp.gb_player = p.player_name and pbp.team_id = p.team_id  and pbp.year=p.year
+set p.wing_gb = pbp.sumwing;
+
+
+update 16ncaa_player_stats p
+left JOIN
+(select sum(b.saved_shot_end) sumend, sum(b.saved_shot_clean) sumclean, b.opp_goalie, b.team_id, b.year, b.opponent_id
+from 16ncaa_merged_pbp b
+where b.saved_shot=1
+group by b.opp_goalie, b.year
+) pbp on pbp.opp_goalie = p.player_name and pbp.opponent_id = p.team_id  and pbp.year=p.year
+set p.clean_saves = pbp.sumclean,
+p.saves_end = pbp.sumend;
+
+
+update 16ncaa_player_stats
+set fogo_gb_pct = fogo_gb/fow,
+save_end_pct = saves_end/saves,
+save_clean_pct = clean_saves/saves;

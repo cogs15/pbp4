@@ -13,26 +13,37 @@ create table if not exists `16ncaa_game_stats` (
   `game_id` INT(11) NOT NULL,
   `goals` INT(11) NOT NULL,
         `opp_goals` INT(11) NOT NULL,
+        `assists` INT(11) NOT NULL,
+              `opp_assists` INT(11) NOT NULL,
+              `turnovers` INT(11) NOT NULL,
+                    `opp_turnovers` INT(11) NOT NULL,
           `possessions` INT(11) NOT NULL,
       `opp_possessions` Int(11) NOT NULL,
         `game_efficiency` DEC(11,3) NOT NULL,
         `opp_game_efficiency` DEC(11,3) NOT NULL,
         `poss_pct` DEC(11,3) NOT NULL,
-    `opp_clears_att` INT(11) NOT NULL,
-    `clears_att` INT(11) NOT NULL,
             `opp_o_eff` DEC(11,3) NOT NULL,
             `opp_d_eff` DEC(11,3) NOT NULL,
             `opp_avg_poss_pct` DEC(11,3) NOT NULL,
+            `clears_suc` INT(11) NOT NULL,
+            `opp_clears_suc` INT(11) NOT NULL,
+            `clears_att` INT(11) NOT NULL,
+            `opp_clears_att` INT(11) NOT NULL,
             `shots` INT(11) NOT NULL,
-        `opp_shots` Int(11) NOT NULL
+        `opp_shots` Int(11) NOT NULL,
+        `groundballs` INT(11) NOT NULL,
+    `opp_groundballs` Int(11) NOT NULL,
+    `fow` INT(11) NOT NULL,
+`fol` Int(11) NOT NULL
+
 );
 
 truncate `16ncaa_game_stats`;
 
-insert into `16ncaa_game_stats` (year_id, year, game_date, division_id, team_id, opponent_id, game_id, goals,  opp_goals, possessions, opp_possessions, opp_clears_att, clears_att, shots, opp_shots)
+insert into `16ncaa_game_stats` (year_id, year, game_date, division_id, team_id, opponent_id, game_id, goals,  opp_goals, assists, opp_assists, turnovers, opp_turnovers, possessions, opp_possessions, clears_suc, opp_clears_suc, clears_att, opp_clears_att, shots, opp_shots, groundballs, opp_groundballs, fow, fol)
 select sched.year_id, sched.year, sched.game_date, teams.division_id, periods.team_id,
 periods2.team_id as opponent_id,
-box.game_id, box.goals, box2.goals as opp_goals, (box.goals + box2.clears_att + 2) as possessions, (box2.goals + box.clears_att + 2) as opp_possessions, box2.clears_att as opp_clears_att, box.clears_att, box.shots as shots, box2.shots as opp_shots
+box.game_id, box.goals, box2.goals as opp_goals,  box.assists, box2.assists as opp_assists, box.to as turnovers, box2.to as opp_turnovers, (box.goals + box2.clears_att + 2) as possessions, (box2.goals + box.clears_att + 2) as opp_possessions, box.clears_suc, box2.clears_suc as opp_clears_suc,  box.clears_att, box2.clears_att as opp_clears_att,box.shots as shots, box2.shots as opp_shots, box.gb as groundballs, box2.gb as opp_groundballs, box.fow, box2.fow as fol
 from 16ncaa_periods periods
 join 16ncaa_periods periods2 on (periods.game_id,1-periods.section_id) = (periods2.game_id, periods2.section_id)
 join 16ncaa_box_scores box on (periods.game_id,periods.section_id)=(box.game_id,box.section_id)
@@ -72,12 +83,20 @@ create table if not exists `16ncaa_efficiency` (
     `division_id` INT(11) NOT NULL,
   `team_id` INT(11) NOT NULL,
   `team_name` VARCHAR(255) NOT NULL,
+            `pace` DEC(11,3) NOT NULL,
   `adj_o_efficiency` DEC(11,3) NOT NULL,
   `adj_d_efficiency` DEC(11,3) NOT NULL,
             `adj_poss_pct` DEC(11,3) NOT NULL,
-            `pace` DEC(11,3) NOT NULL,
+              `iso_gb_pct` DEC(11,3) NOT NULL,
+              `fow_pct` DEC(11,3) NOT NULL,
+              `clear_pct` DEC(11,3) NOT NULL,
+              `ride_pct` DEC(11,3) NOT NULL,
+              `a_to` DEC(11,3) NOT NULL,
+              `opp_a_to` DEC(11,3) NOT NULL,
   `goals` INT(11) NOT NULL,
         `opp_goals` INT(11) NOT NULL,
+        `shots` INT(11) NOT NULL,
+                `opp_shots` Int(11) NOT NULL,
           `possessions` INT(11) NOT NULL,
       `opp_possessions` Int(11) NOT NULL,
       `efficiency` DEC(11,3) NOT NULL,
@@ -85,13 +104,20 @@ create table if not exists `16ncaa_efficiency` (
       `opp_o_eff` DEC(11,3) NOT NULL,
       `opp_d_eff` DEC(11,3) NOT NULL,
       `poss_pct` DEC(11,3) NOT NULL,
-      `opp_avg_poss_pct` DEC(11,3) NOT NULL
+      `opp_avg_poss_pct` DEC(11,3) NOT NULL,
+      `iso_gb` INT(11) NOT NULL,
+  `opp_iso_gb` Int(11) NOT NULL,
+  `fow` INT(11) NOT NULL,
+`fol` Int(11) NOT NULL
 );
 
 truncate `16ncaa_efficiency`;
 
-insert into `16ncaa_efficiency` (year_id, year, division_id, team_id, team_name, goals,  opp_goals, possessions, opp_possessions)
-select game.year_id, game.year, game.division_id, game.team_id, game.team_name, sum(game.goals) as goals, sum(opp_goals) as opp_goals, sum(possessions) as possessions, sum(opp_possessions) as opp_possessions
+
+
+
+insert into `16ncaa_efficiency` (year_id, year, division_id, team_id, team_name, clear_pct, ride_pct, a_to, opp_a_to, goals,  opp_goals, shots, opp_shots, possessions, opp_possessions, iso_gb, opp_iso_gb, fow, fol)
+select game.year_id, game.year, game.division_id, game.team_id, game.team_name, (sum(clears_suc)/sum(clears_att)) as clear_pct, (1-sum(opp_clears_suc)/sum(opp_clears_att)) as ride_pct, (sum(game.assists)/(sum(game.turnovers)-(sum(game.clears_att)-sum(game.clears_suc)))) as a_to, (sum(game.opp_assists)/(sum(game.opp_turnovers)-(sum(game.opp_clears_att)-sum(game.opp_clears_suc)))) as opp_a_to, sum(game.goals) as goals, sum(game.opp_goals) as opp_goals, sum(shots) as shots, sum(opp_shots) as opp_shots, sum(possessions) as possessions, sum(opp_possessions) as opp_possessions, (sum(groundballs)-sum(fow)) as iso_gb, (sum(opp_groundballs)-sum(fol)) as opp_iso_gb, sum(fow) as fow, sum(fol) as fol
 from 16ncaa_game_stats game
 group by team_id, year;
 
@@ -141,3 +167,14 @@ update 16ncaa_efficiency
   update 16ncaa_efficiency t1, (select team_id, year, avg(possessions) as avgposs, avg(opp_possessions) as avgoppposs from 16ncaa_game_stats group by team_id, year) t2
   set t1.pace = avgposs+avgoppposs
   where t1.team_id = t2.team_id and t1.year = t2.year;
+
+update 16ncaa_efficiency
+  set adj_poss_pct = poss_pct/(0.5)*opp_avg_poss_pct;
+
+
+
+  update 16ncaa_efficiency
+    set fow_pct=fow/(fow+fol);
+
+    update 16ncaa_efficiency
+      set iso_gb_pct=iso_gb/(iso_gb+opp_iso_gb);

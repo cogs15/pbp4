@@ -14,8 +14,8 @@ base_sleep = 0
 sleep_increment = 3
 retries = 4
 
-year = ARGV[0]
-division = 1
+year = 2016
+division = ARGV[0]
 
 # Base URL for relative team links
 

@@ -4,8 +4,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	721	Air Force	02/20/2016	@ Marist		Marist	http://stats.ncaa.org/team/386/12380	false		false	W 7 - 6 (4OT)	true	7 - 6	false	7	6	true	4OT	4034439	http://stats.ncaa.org/game/index/4034439?org_id=386
 2016	12380	721	Air Force	02/27/2016	Dartmouth @ Denver, Colo.		Dartmouth	http://stats.ncaa.org/team/172/12380	true	Denver, Colo.	true	W 9 - 3	true	9 - 3	false	9	3	false		4033369	http://stats.ncaa.org/game/index/4033369?org_id=172
 2016	12380	721	Air Force	02/28/2016	Sacred Heart @ Denver, Colo.		Sacred Heart	http://stats.ncaa.org/team/590/12380	true	Denver, Colo.	true	W 13 - 10	true	13 - 10	false	13	10	false		4033373	http://stats.ncaa.org/game/index/4033373?org_id=721
-2016	12380	721	Air Force	03/05/2016	@ Robert Morris		Robert Morris		false		false	-									
-2016	12380	721	Air Force	03/12/2016	Furman		Furman		false		true	-									
+2016	12380	721	Air Force	03/05/2016	@ Robert Morris		Robert Morris	http://stats.ncaa.org/team/579/12380	false		false	W 11 - 10	true	11 - 10	false	11	10	false		4051423	http://stats.ncaa.org/game/index/4051423?org_id=579
+2016	12380	721	Air Force	03/12/2016	Furman		Furman	http://stats.ncaa.org/team/244/12380	false		true	W 14 - 4	true	14 - 4	false	14	4	false		4056868	http://stats.ncaa.org/game/index/4056868?org_id=721
 2016	12380	721	Air Force	03/19/2016	High Point		High Point		false		true	-									
 2016	12380	721	Air Force	03/22/2016	@ Duke		Duke		false		false	-									
 2016	12380	721	Air Force	03/26/2016	@ Detroit		Detroit		false		false	-									
@@ -17,8 +17,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	14	Albany (NY)	02/21/2016	@ Syracuse		Syracuse	http://stats.ncaa.org/team/688/12380	false		false	L 7 - 16	false	7 - 16	false	7	16	false		4022567	http://stats.ncaa.org/game/index/4022567?org_id=688
 2016	12380	14	Albany (NY)	02/27/2016	Drexel		Drexel	http://stats.ncaa.org/team/191/12380	false		true	W 20 - 14	true	20 - 14	false	20	14	false		4030380	http://stats.ncaa.org/game/index/4030380?org_id=14
 2016	12380	14	Albany (NY)	03/05/2016	Cornell		Cornell	http://stats.ncaa.org/team/167/12380	false		true	W 12 - 8	true	12 - 8	false	12	8	false		4043026	http://stats.ncaa.org/game/index/4043026?org_id=14
-2016	12380	14	Albany (NY)	03/08/2016	@ Massachusetts		Massachusetts		false		false	-									
-2016	12380	14	Albany (NY)	03/16/2016	@ Maryland		Maryland		false		false	-									
+2016	12380	14	Albany (NY)	03/08/2016	@ Massachusetts		Massachusetts	http://stats.ncaa.org/team/400/12380	false		false	W 16 - 4	true	16 - 4	false	16	4	false		4049851	http://stats.ncaa.org/game/index/4049851?org_id=400
+2016	12380	14	Albany (NY)	03/16/2016	@ Maryland		Maryland	http://stats.ncaa.org/team/392/12380	false		false	L 7 - 10	false	7 - 10	false	7	10	false		4063768	http://stats.ncaa.org/game/index/4063768?org_id=392
 2016	12380	14	Albany (NY)	03/19/2016	Stony Brook		Stony Brook		false		true	-									
 2016	12380	14	Albany (NY)	03/26/2016	@ Hartford		Hartford		false		false	-									
 2016	12380	14	Albany (NY)	03/30/2016	Harvard		Harvard		false		true	-									
@@ -33,8 +33,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	725	Army West Point	02/21/2016	VMI		VMI	http://stats.ncaa.org/team/741/12380	false		true	W 22 - 3	true	22 - 3	false	22	3	false		4026827	http://stats.ncaa.org/game/index/4026827?org_id=725
 2016	12380	725	Army West Point	02/28/2016	@ Syracuse		Syracuse	http://stats.ncaa.org/team/688/12380	false		false	L 8 - 9	false	8 - 9	false	8	9	false		4032593	http://stats.ncaa.org/game/index/4032593?org_id=688
 2016	12380	725	Army West Point	03/05/2016	@ Lafayette		Lafayette	http://stats.ncaa.org/team/342/12380	false		false	W 14 - 5	true	14 - 5	false	14	5	false		4043858	http://stats.ncaa.org/game/index/4043858?org_id=342
-2016	12380	725	Army West Point	03/12/2016	Lehigh		Lehigh		false		true	-									
-2016	12380	725	Army West Point	03/13/2016	NJIT		NJIT		false		true	-									
+2016	12380	725	Army West Point	03/12/2016	Lehigh		Lehigh	http://stats.ncaa.org/team/352/12380	false		true	W 13 - 10	true	13 - 10	false	13	10	false		4061920	http://stats.ncaa.org/game/index/4061920?org_id=725
+2016	12380	725	Army West Point	03/13/2016	NJIT		NJIT	http://stats.ncaa.org/team/471/12380	false		true	W 16 - 6	true	16 - 6	false	16	6	false		4057486	http://stats.ncaa.org/game/index/4057486?org_id=725
 2016	12380	725	Army West Point	03/19/2016	Holy Cross		Holy Cross		false		true	-									
 2016	12380	725	Army West Point	03/26/2016	@ Colgate		Colgate		false		false	-									
 2016	12380	725	Army West Point	04/02/2016	Bucknell		Bucknell		false		true	-									
@@ -46,9 +46,9 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	52	Bellarmine	02/20/2016	@ Marquette		Marquette	http://stats.ncaa.org/team/387/12380	false		false	L 7 - 9	false	7 - 9	false	7	9	false		4035542	http://stats.ncaa.org/game/index/4035542?org_id=387
 2016	12380	52	Bellarmine	02/24/2016	@ Notre Dame		Notre Dame	http://stats.ncaa.org/team/513/12380	false		false	L 6 - 11	false	6 - 11	false	6	11	false		4030647	http://stats.ncaa.org/game/index/4030647?org_id=513
 2016	12380	52	Bellarmine	02/27/2016	Quinnipiac		Quinnipiac	http://stats.ncaa.org/team/562/12380	false		true	L 6 - 12	false	6 - 12	false	6	12	false		4031267	http://stats.ncaa.org/game/index/4031267?org_id=52
-2016	12380	52	Bellarmine	03/04/2016	Detroit @ Columbus, Ohio		Detroit	http://stats.ncaa.org/team/184/12380	true	Columbus, Ohio	true	W 7 - 6	true	7 - 6	false	7	6	false		4042066	http://stats.ncaa.org/game/index/4042066?org_id=184
-2016	12380	52	Bellarmine	03/06/2016	@ Ohio St.		Ohio St.		false		false	-									
-2016	12380	52	Bellarmine	03/12/2016	Mercer		Mercer		false		true	-									
+2016	12380	52	Bellarmine	03/04/2016	Detroit @ Columbus, Ohio		Detroit	http://stats.ncaa.org/team/184/12380	true	Columbus, Ohio	true	W 7 - 6	true	7 - 6	false	7	6	false		4047943	http://stats.ncaa.org/game/index/4047943?org_id=184
+2016	12380	52	Bellarmine	03/06/2016	@ Ohio St.		Ohio St.	http://stats.ncaa.org/team/518/12380	false		false	L 5 - 9	false	5 - 9	false	5	9	false		4055491	http://stats.ncaa.org/game/index/4055491?org_id=518
+2016	12380	52	Bellarmine	03/12/2016	Mercer		Mercer	http://stats.ncaa.org/team/406/12380	false		true	W 11 - 7	true	11 - 7	false	11	7	false		4061053	http://stats.ncaa.org/game/index/4061053?org_id=52
 2016	12380	52	Bellarmine	03/19/2016	@ Jacksonville		Jacksonville		false		false	-									
 2016	12380	52	Bellarmine	03/26/2016	@ Providence		Providence		false		false	-									
 2016	12380	52	Bellarmine	04/02/2016	Air Force		Air Force		false		true	-									
@@ -59,7 +59,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	62	Binghamton	02/20/2016	@ Colgate		Colgate	http://stats.ncaa.org/team/153/12380	false		false	L 4 - 11	false	4 - 11	false	4	11	false		4020273	http://stats.ncaa.org/game/index/4020273?org_id=153
 2016	12380	62	Binghamton	02/27/2016	@ Marist		Marist	http://stats.ncaa.org/team/386/12380	false		false	L 8 - 10	false	8 - 10	false	8	10	false		4034440	http://stats.ncaa.org/game/index/4034440?org_id=386
 2016	12380	62	Binghamton	03/05/2016	@ Hobart and William Colleges		Hobart and William Colleges	http://stats.ncaa.org/team/282/12380	false		false	L 6 - 12	false	6 - 12	false	6	12	false		4043226	http://stats.ncaa.org/game/index/4043226?org_id=282
-2016	12380	62	Binghamton	03/12/2016	Delaware		Delaware		false		true	-									
+2016	12380	62	Binghamton	03/12/2016	Delaware		Delaware	http://stats.ncaa.org/team/180/12380	false		true	L 11 - 12 (1OT)	false	11 - 12	false	11	12	true	1OT	4058815	http://stats.ncaa.org/game/index/4058815?org_id=62
 2016	12380	62	Binghamton	03/19/2016	UMBC		UMBC		false		true	-									
 2016	12380	62	Binghamton	03/22/2016	Drexel		Drexel		false		true	-									
 2016	12380	62	Binghamton	03/26/2016	@ Towson		Towson		false		false	-									
@@ -76,7 +76,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	68	Boston U.	02/20/2016	Hartford		Hartford	http://stats.ncaa.org/team/272/12380	false		true	L 10 - 16	false	10 - 16	false	10	16	false		4028962	http://stats.ncaa.org/game/index/4028962?org_id=68
 2016	12380	68	Boston U.	02/27/2016	Navy		Navy	http://stats.ncaa.org/team/726/12380	false		true	W 10 - 9 (2OT)	true	10 - 9	false	10	9	true	2OT	4034418	http://stats.ncaa.org/game/index/4034418?org_id=68
 2016	12380	68	Boston U.	03/05/2016	@ Canisius		Canisius	http://stats.ncaa.org/team/116/12380	false		false	W 10 - 8	true	10 - 8	false	10	8	false		4043479	http://stats.ncaa.org/game/index/4043479?org_id=116
-2016	12380	68	Boston U.	03/12/2016	Colgate		Colgate		false		true	-									
+2016	12380	68	Boston U.	03/12/2016	Colgate		Colgate	http://stats.ncaa.org/team/153/12380	false		true	W 11 - 6	true	11 - 6	false	11	6	false		4060378	http://stats.ncaa.org/game/index/4060378?org_id=68
 2016	12380	68	Boston U.	03/19/2016	@ Bucknell		Bucknell		false		false	-									
 2016	12380	68	Boston U.	03/22/2016	@ Harvard		Harvard		false		false	-									
 2016	12380	68	Boston U.	03/26/2016	@ Lafayette		Lafayette		false		false	-									
@@ -88,8 +88,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	80	Brown	02/20/2016	@ Quinnipiac		Quinnipiac	http://stats.ncaa.org/team/562/12380	false		false	W 20 - 7	true	20 - 7	false	20	7	false		4023958	http://stats.ncaa.org/game/index/4023958?org_id=562
 2016	12380	80	Brown	02/27/2016	@ Stony Brook		Stony Brook	http://stats.ncaa.org/team/683/12380	false		false	W 16 - 14	true	16 - 14	false	16	14	false		4032217	http://stats.ncaa.org/game/index/4032217?org_id=683
 2016	12380	80	Brown	03/05/2016	Massachusetts		Massachusetts	http://stats.ncaa.org/team/400/12380	false		true	W 15 - 7	true	15 - 7	false	15	7	false		4042988	http://stats.ncaa.org/game/index/4042988?org_id=80
-2016	12380	80	Brown	03/08/2016	@ Holy Cross		Holy Cross		false		false	-									
-2016	12380	80	Brown	03/12/2016	Michigan		Michigan		false		true	-									
+2016	12380	80	Brown	03/08/2016	@ Holy Cross		Holy Cross	http://stats.ncaa.org/team/285/12380	false		false	W 20 - 7	true	20 - 7	false	20	7	false		4049840	http://stats.ncaa.org/game/index/4049840?org_id=285
+2016	12380	80	Brown	03/12/2016	Michigan		Michigan	http://stats.ncaa.org/team/418/12380	false		true	W 22 - 8	true	22 - 8	false	22	8	false		4056356	http://stats.ncaa.org/game/index/4056356?org_id=80
 2016	12380	80	Brown	03/19/2016	@ Harvard		Harvard		false		false	-									
 2016	12380	80	Brown	03/29/2016	@ Villanova		Villanova		false		false	-									
 2016	12380	80	Brown	04/02/2016	Princeton		Princeton		false		true	-									
@@ -104,9 +104,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	81	Bryant	02/20/2016	@ Providence		Providence	http://stats.ncaa.org/team/556/12380	false		false	W 12 - 10	true	12 - 10	false	12	10	false		4020240	http://stats.ncaa.org/game/index/4020240?org_id=556
 2016	12380	81	Bryant	02/27/2016	@ Hartford		Hartford	http://stats.ncaa.org/team/272/12380	false		false	W 16 - 11	true	16 - 11	false	16	11	false		4032041	http://stats.ncaa.org/game/index/4032041?org_id=272
 2016	12380	81	Bryant	03/05/2016	Yale		Yale	http://stats.ncaa.org/team/813/12380	false		true	L 4 - 14	false	4 - 14	false	4	14	false		4043795	http://stats.ncaa.org/game/index/4043795?org_id=81
-2016	12380	81	Bryant	03/08/2016	Harvard		Harvard		false		true	-									
-2016	12380	81	Bryant	03/12/2016	Drexel		Drexel		false		true	-									
-2016	12380	81	Bryant	03/15/2016	@ Siena		Siena		false		false	-									
+2016	12380	81	Bryant	03/08/2016	Harvard		Harvard	http://stats.ncaa.org/team/275/12380	false		true	W 12 - 9	true	12 - 9	false	12	9	false		4053150	http://stats.ncaa.org/game/index/4053150?org_id=81
+2016	12380	81	Bryant	03/12/2016	Drexel		Drexel	http://stats.ncaa.org/team/191/12380	false		true	L 5 - 14	false	5 - 14	false	5	14	false		4056841	http://stats.ncaa.org/game/index/4056841?org_id=81
 2016	12380	81	Bryant	03/19/2016	Mt. St. Mary's		Mt. St. Mary's		false		true	-									
 2016	12380	81	Bryant	03/25/2016	@ Sacred Heart		Sacred Heart		false		false	-									
 2016	12380	81	Bryant	04/02/2016	@ Robert Morris		Robert Morris		false		false	-									
@@ -119,8 +118,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	83	Bucknell	02/20/2016	@ Fairfield		Fairfield	http://stats.ncaa.org/team/220/12380	false		false	W 13 - 8	true	13 - 8	false	13	8	false		4025498	http://stats.ncaa.org/game/index/4025498?org_id=220
 2016	12380	83	Bucknell	02/27/2016	@ Colgate		Colgate	http://stats.ncaa.org/team/153/12380	false		false	L 10 - 11 (1OT)	false	10 - 11	false	10	11	true	1OT	4039901	http://stats.ncaa.org/game/index/4039901?org_id=153
 2016	12380	83	Bucknell	03/05/2016	Navy		Navy	http://stats.ncaa.org/team/726/12380	false		true	L 6 - 13	false	6 - 13	false	6	13	false		4043326	http://stats.ncaa.org/game/index/4043326?org_id=83
-2016	12380	83	Bucknell	03/12/2016	@ Holy Cross		Holy Cross		false		false	-									
-2016	12380	83	Bucknell	03/15/2016	Villanova		Villanova		false		true	-									
+2016	12380	83	Bucknell	03/12/2016	@ Holy Cross		Holy Cross	http://stats.ncaa.org/team/285/12380	false		false	W 18 - 12	true	18 - 12	false	18	12	false		4056297	http://stats.ncaa.org/game/index/4056297?org_id=285
+2016	12380	83	Bucknell	03/15/2016	Villanova		Villanova	http://stats.ncaa.org/team/739/12380	false		true	L 8 - 12	false	8 - 12	false	8	12	false		4061939	http://stats.ncaa.org/game/index/4061939?org_id=83
 2016	12380	83	Bucknell	03/19/2016	Boston U.		Boston U.		false		true	-									
 2016	12380	83	Bucknell	03/26/2016	@ Loyola Maryland		Loyola Maryland		false		false	-									
 2016	12380	83	Bucknell	04/02/2016	@ Army West Point		Army West Point		false		false	-									
@@ -128,8 +127,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	83	Bucknell	04/15/2016	Lafayette		Lafayette		false		true	-									
 2016	12380	83	Bucknell	04/22/2016	Lehigh		Lehigh		false		true	-									
 2016	12380	116	Canisius	03/05/2016	Boston U.		Boston U.	http://stats.ncaa.org/team/68/12380	false		true	L 8 - 10	false	8 - 10	false	8	10	false		4043479	http://stats.ncaa.org/game/index/4043479?org_id=116
-2016	12380	116	Canisius	03/08/2016	Vermont@Oshawa, CAN		VermontOshawa, CAN		false		false	-									
-2016	12380	116	Canisius	03/15/2016	Hobart and William Colleges		Hobart and William Colleges		false		true	-									
+2016	12380	116	Canisius	03/08/2016	Vermont @ Oshawa, Ontario		Vermont	http://stats.ncaa.org/team/738/12380	true	Oshawa, Ontario	true	W 11 - 6	true	11 - 6	false	11	6	false		4050024	http://stats.ncaa.org/game/index/4050024?org_id=116
+2016	12380	116	Canisius	03/15/2016	Hobart and William Colleges		Hobart and William Colleges	http://stats.ncaa.org/team/282/12380	false		true	L 7 - 8 (2OT)	false	7 - 8	false	7	8	true	2OT	4062290	http://stats.ncaa.org/game/index/4062290?org_id=116
 2016	12380	116	Canisius	03/19/2016	@ Siena		Siena		false		false	-									
 2016	12380	116	Canisius	03/26/2016	@ Marist		Marist		false		false	-									
 2016	12380	116	Canisius	04/02/2016	Monmouth		Monmouth		false		true	-									
@@ -141,10 +140,10 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	153	Colgate	02/14/2016	@ Michigan		Michigan	http://stats.ncaa.org/team/418/12380	false		false	L 8 - 9	false	8 - 9	false	8	9	false		4013163	http://stats.ncaa.org/game/index/4013163?org_id=418
 2016	12380	153	Colgate	02/20/2016	Binghamton		Binghamton	http://stats.ncaa.org/team/62/12380	false		true	W 11 - 4	true	11 - 4	false	11	4	false		4020273	http://stats.ncaa.org/game/index/4020273?org_id=153
 2016	12380	153	Colgate	02/27/2016	Bucknell		Bucknell	http://stats.ncaa.org/team/83/12380	false		true	W 11 - 10 (1OT)	true	11 - 10	false	11	10	true	1OT	4039901	http://stats.ncaa.org/game/index/4039901?org_id=153
-2016	12380	153	Colgate	03/05/2016	@ Lehigh		Lehigh	http://stats.ncaa.org/team/352/12380	false		false	L 9 - 12	false	9 - 12	false	9	12	false		4043401	http://stats.ncaa.org/game/index/4043401?org_id=352
-2016	12380	153	Colgate	03/08/2016	@ Hobart and William Colleges		Hobart and William Colleges		false		false	-									
-2016	12380	153	Colgate	03/12/2016	@ Boston U.		Boston U.		false		false	-									
-2016	12380	153	Colgate	03/15/2016	Cornell		Cornell		false		true	-									
+2016	12380	153	Colgate	03/05/2016	@ Lehigh		Lehigh	http://stats.ncaa.org/team/352/12380	false		false	L 9 - 12	false	9 - 12	false	9	12	false		4046236	http://stats.ncaa.org/game/index/4046236?org_id=352
+2016	12380	153	Colgate	03/08/2016	@ Hobart and William Colleges		Hobart and William Colleges	http://stats.ncaa.org/team/282/12380	false		false	W 7 - 6	true	7 - 6	false	7	6	false		4049850	http://stats.ncaa.org/game/index/4049850?org_id=282
+2016	12380	153	Colgate	03/12/2016	@ Boston U.		Boston U.	http://stats.ncaa.org/team/68/12380	false		false	L 6 - 11	false	6 - 11	false	6	11	false		4060378	http://stats.ncaa.org/game/index/4060378?org_id=68
+2016	12380	153	Colgate	03/15/2016	Cornell		Cornell	http://stats.ncaa.org/team/167/12380	false		true	L 5 - 6	false	5 - 6	false	5	6	false		4061993	http://stats.ncaa.org/game/index/4061993?org_id=153
 2016	12380	153	Colgate	03/19/2016	Fairfield		Fairfield		false		true	-									
 2016	12380	153	Colgate	03/26/2016	Army West Point		Army West Point		false		true	-									
 2016	12380	153	Colgate	04/03/2016	Loyola Maryland		Loyola Maryland		false		true	-									
@@ -155,8 +154,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	167	Cornell	02/20/2016	Penn St.		Penn St.	http://stats.ncaa.org/team/539/12380	false		true	L 7 - 8	false	7 - 8	false	7	8	false		4021909	http://stats.ncaa.org/game/index/4021909?org_id=167
 2016	12380	167	Cornell	02/27/2016	Hobart and William Colleges @ West Palm Beach, FL		Hobart and William Colleges	http://stats.ncaa.org/team/282/12380	true	West Palm Beach, FL	true	W 10 - 8	true	10 - 8	false	10	8	false		4035612	http://stats.ncaa.org/game/index/4035612?org_id=167
 2016	12380	167	Cornell	03/05/2016	@ Albany (NY)		Albany (NY)	http://stats.ncaa.org/team/14/12380	false		false	L 8 - 12	false	8 - 12	false	8	12	false		4043026	http://stats.ncaa.org/game/index/4043026?org_id=14
-2016	12380	167	Cornell	03/12/2016	Virginia		Virginia		false		true	-									
-2016	12380	167	Cornell	03/15/2016	@ Colgate		Colgate		false		false	-									
+2016	12380	167	Cornell	03/12/2016	Virginia		Virginia	http://stats.ncaa.org/team/746/12380	false		true	W 14 - 10	true	14 - 10	false	14	10	false		4056113	http://stats.ncaa.org/game/index/4056113?org_id=167
+2016	12380	167	Cornell	03/15/2016	@ Colgate		Colgate	http://stats.ncaa.org/team/153/12380	false		false	W 6 - 5	true	6 - 5	false	6	5	false		4061993	http://stats.ncaa.org/game/index/4061993?org_id=153
 2016	12380	167	Cornell	03/19/2016	Yale		Yale		false		true	-									
 2016	12380	167	Cornell	03/26/2016	@ Penn		Penn		false		false	-									
 2016	12380	167	Cornell	04/02/2016	@ Dartmouth		Dartmouth		false		false	-									
@@ -168,7 +167,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	172	Dartmouth	02/20/2016	@ Sacred Heart		Sacred Heart	http://stats.ncaa.org/team/590/12380	false		false	L 8 - 10	false	8 - 10	false	8	10	false		4021235	http://stats.ncaa.org/game/index/4021235?org_id=590
 2016	12380	172	Dartmouth	02/27/2016	Air Force @ Denver, Colo.		Air Force	http://stats.ncaa.org/team/721/12380	true	Denver, Colo.	true	L 3 - 9	false	3 - 9	false	3	9	false		4033369	http://stats.ncaa.org/game/index/4033369?org_id=172
 2016	12380	172	Dartmouth	02/28/2016	@ Denver		Denver	http://stats.ncaa.org/team/183/12380	false		false	L 6 - 16	false	6 - 16	false	6	16	false		4032566	http://stats.ncaa.org/game/index/4032566?org_id=183
-2016	12380	172	Dartmouth	03/05/2016	Wagner		Wagner		false		true	-									
+2016	12380	172	Dartmouth	03/05/2016	Wagner		Wagner	http://stats.ncaa.org/team/748/12380	false		true	L 6 - 7	false	6 - 7	false	6	7	false		4045849	http://stats.ncaa.org/game/index/4045849?org_id=172
 2016	12380	172	Dartmouth	03/19/2016	@ Michigan		Michigan		false		false	-									
 2016	12380	172	Dartmouth	03/22/2016	NJIT		NJIT		false		true	-									
 2016	12380	172	Dartmouth	03/26/2016	@ Harvard		Harvard		false		false	-									
@@ -185,8 +184,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	180	Delaware	02/27/2016	Michigan @ Costa Mesa, Calif.		Michigan	http://stats.ncaa.org/team/418/12380	true	Costa Mesa, Calif.	true	L 7 - 10	false	7 - 10	false	7	10	false		4041056	http://stats.ncaa.org/game/index/4041056?org_id=180
 2016	12380	180	Delaware	03/01/2016	VMI		VMI	http://stats.ncaa.org/team/741/12380	false		true	W 14 - 6	true	14 - 6	false	14	6	false		4037176	http://stats.ncaa.org/game/index/4037176?org_id=180
 2016	12380	180	Delaware	03/05/2016	Villanova		Villanova	http://stats.ncaa.org/team/739/12380	false		true	L 13 - 23	false	13 - 23	false	13	23	false		4043477	http://stats.ncaa.org/game/index/4043477?org_id=180
-2016	12380	180	Delaware	03/08/2016	@ Manhattan		Manhattan		false		false	-									
-2016	12380	180	Delaware	03/12/2016	@ Binghamton		Binghamton		false		false	-									
+2016	12380	180	Delaware	03/08/2016	@ Manhattan		Manhattan	http://stats.ncaa.org/team/381/12380	false		false	W 6 - 5	true	6 - 5	false	6	5	false		4052858	http://stats.ncaa.org/game/index/4052858?org_id=381
+2016	12380	180	Delaware	03/12/2016	@ Binghamton		Binghamton	http://stats.ncaa.org/team/62/12380	false		false	W 12 - 11 (1OT)	true	12 - 11	false	12	11	true	1OT	4058815	http://stats.ncaa.org/game/index/4058815?org_id=62
 2016	12380	180	Delaware	03/19/2016	@ Saint Joseph's		Saint Joseph's		false		false	-									
 2016	12380	180	Delaware	03/26/2016	@ Rutgers		Rutgers		false		false	-									
 2016	12380	180	Delaware	04/02/2016	Massachusetts		Massachusetts		false		true	-									
@@ -198,8 +197,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	183	Denver	02/20/2016	Duke @ Kennesaw, Ga.		Duke	http://stats.ncaa.org/team/193/12380	true	Kennesaw, Ga.	true	W 14 - 12	true	14 - 12	false	14	12	false		4028179	http://stats.ncaa.org/game/index/4028179?org_id=193
 2016	12380	183	Denver	02/27/2016	Sacred Heart		Sacred Heart	http://stats.ncaa.org/team/590/12380	false		true	W 18 - 7	true	18 - 7	false	18	7	false		4031170	http://stats.ncaa.org/game/index/4031170?org_id=183
 2016	12380	183	Denver	02/28/2016	Dartmouth		Dartmouth	http://stats.ncaa.org/team/172/12380	false		true	W 16 - 6	true	16 - 6	false	16	6	false		4032566	http://stats.ncaa.org/game/index/4032566?org_id=183
-2016	12380	183	Denver	03/05/2016	@ North Carolina		North Carolina	http://stats.ncaa.org/team/457/12380	false		false	W 13 - 12 (1OT)	true	13 - 12	false	13	12	true	1OT	4043669	http://stats.ncaa.org/game/index/4043669?org_id=457
-2016	12380	183	Denver	03/13/2016	@ Notre Dame		Notre Dame		false		false	-									
+2016	12380	183	Denver	03/05/2016	@ North Carolina		North Carolina	http://stats.ncaa.org/team/457/12380	false		false	W 13 - 12 (1OT)	true	13 - 12	false	13	12	true	1OT	4046511	http://stats.ncaa.org/game/index/4046511?org_id=457
+2016	12380	183	Denver	03/13/2016	@ Notre Dame		Notre Dame	http://stats.ncaa.org/team/513/12380	false		false	W 9 - 8 (1OT)	true	9 - 8	false	9	8	true	1OT	4062776	http://stats.ncaa.org/game/index/4062776?org_id=513
 2016	12380	183	Denver	03/19/2016	Ohio St.		Ohio St.		false		true	-									
 2016	12380	183	Denver	03/26/2016	Penn St.@Dallas, TX		Penn St.Dallas, TX		false		false	-									
 2016	12380	183	Denver	04/02/2016	@ Georgetown		Georgetown		false		false	-									
@@ -210,8 +209,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	184	Detroit	02/13/2016	@ Ohio St.		Ohio St.	http://stats.ncaa.org/team/518/12380	false		false	L 5 - 16	false	5 - 16	false	5	16	false		4021490	http://stats.ncaa.org/game/index/4021490?org_id=518
 2016	12380	184	Detroit	02/19/2016	@ Mercer		Mercer	http://stats.ncaa.org/team/406/12380	false		false	L 8 - 9	false	8 - 9	false	8	9	false		4021842	http://stats.ncaa.org/game/index/4021842?org_id=406
 2016	12380	184	Detroit	02/27/2016	@ Notre Dame		Notre Dame	http://stats.ncaa.org/team/513/12380	false		false	L 5 - 14	false	5 - 14	false	5	14	false		4031270	http://stats.ncaa.org/game/index/4031270?org_id=513
-2016	12380	184	Detroit	03/04/2016	Bellarmine @ Columbus, Ohio		Bellarmine	http://stats.ncaa.org/team/52/12380	true	Columbus, Ohio	true	L 6 - 7	false	6 - 7	false	6	7	false		4042066	http://stats.ncaa.org/game/index/4042066?org_id=184
-2016	12380	184	Detroit	03/06/2016	Marquette@Columbus, OH		MarquetteColumbus, OH		false		false	-									
+2016	12380	184	Detroit	03/04/2016	Bellarmine @ Columbus, Ohio		Bellarmine	http://stats.ncaa.org/team/52/12380	true	Columbus, Ohio	true	L 6 - 7	false	6 - 7	false	6	7	false		4047943	http://stats.ncaa.org/game/index/4047943?org_id=184
+2016	12380	184	Detroit	03/06/2016	Marquette @ Columbus, Ohio		Marquette	http://stats.ncaa.org/team/387/12380	true	Columbus, Ohio	true	L 8 - 10	false	8 - 10	false	8	10	false		4044594	http://stats.ncaa.org/game/index/4044594?org_id=184
 2016	12380	184	Detroit	03/19/2016	@ Manhattan		Manhattan		false		false	-									
 2016	12380	184	Detroit	03/26/2016	Air Force		Air Force		false		true	-									
 2016	12380	184	Detroit	04/02/2016	Siena		Siena		false		true	-									
@@ -223,8 +222,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	191	Drexel	02/27/2016	@ Albany (NY)		Albany (NY)	http://stats.ncaa.org/team/14/12380	false		false	L 14 - 20	false	14 - 20	false	14	20	false		4030380	http://stats.ncaa.org/game/index/4030380?org_id=14
 2016	12380	191	Drexel	03/01/2016	@ Villanova		Villanova	http://stats.ncaa.org/team/739/12380	false		false	L 9 - 14	false	9 - 14	false	9	14	false		4036968	http://stats.ncaa.org/game/index/4036968?org_id=739
 2016	12380	191	Drexel	03/05/2016	@ Saint Joseph's		Saint Joseph's	http://stats.ncaa.org/team/606/12380	false		false	W 10 - 9	true	10 - 9	false	10	9	false		4043356	http://stats.ncaa.org/game/index/4043356?org_id=606
-2016	12380	191	Drexel	03/08/2016	Maryland		Maryland		false		true	-									
-2016	12380	191	Drexel	03/12/2016	@ Bryant		Bryant		false		false	-									
+2016	12380	191	Drexel	03/08/2016	Maryland		Maryland	http://stats.ncaa.org/team/392/12380	false		true	L 8 - 12	false	8 - 12	false	8	12	false		4052003	http://stats.ncaa.org/game/index/4052003?org_id=191
+2016	12380	191	Drexel	03/12/2016	@ Bryant		Bryant	http://stats.ncaa.org/team/81/12380	false		false	W 14 - 5	true	14 - 5	false	14	5	false		4056841	http://stats.ncaa.org/game/index/4056841?org_id=81
 2016	12380	191	Drexel	03/19/2016	St. John's (NY)		St. John's (NY)		false		true	-									
 2016	12380	191	Drexel	03/22/2016	@ Binghamton		Binghamton		false		false	-									
 2016	12380	191	Drexel	03/26/2016	Mercer		Mercer		false		true	-									
@@ -238,10 +237,9 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	193	Duke	02/20/2016	Denver @ Kennesaw, Ga.		Denver	http://stats.ncaa.org/team/183/12380	true	Kennesaw, Ga.	true	L 12 - 14	false	12 - 14	false	12	14	false		4028179	http://stats.ncaa.org/game/index/4028179?org_id=193
 2016	12380	193	Duke	02/27/2016	@ Jacksonville		Jacksonville	http://stats.ncaa.org/team/316/12380	false		false	W 18 - 5	true	18 - 5	false	18	5	false		4032852	http://stats.ncaa.org/game/index/4032852?org_id=316
 2016	12380	193	Duke	02/29/2016	Mercer		Mercer	http://stats.ncaa.org/team/406/12380	false		true	W 19 - 9	true	19 - 9	false	19	9	false		4036276	http://stats.ncaa.org/game/index/4036276?org_id=193
-2016	12380	193	Duke	03/05/2016	Harvard@Hempstead, NY		HarvardHempstead, NY		false		false	-									
-2016	12380	193	Duke	03/05/2016	@ Harvard		Harvard	http://stats.ncaa.org/team/275/12380	false		false	L 9 - 14	false	9 - 14	false	9	14	false		4043501	http://stats.ncaa.org/game/index/4043501?org_id=275
-2016	12380	193	Duke	03/07/2016	Richmond		Richmond		false		true	-									
-2016	12380	193	Duke	03/12/2016	@ Loyola Maryland		Loyola Maryland		false		false	-									
+2016	12380	193	Duke	03/05/2016	@ Harvard		Harvard	http://stats.ncaa.org/team/275/12380	false		false	L 9 - 14	false	9 - 14	false	9	14	false		4046386	http://stats.ncaa.org/game/index/4046386?org_id=275
+2016	12380	193	Duke	03/07/2016	Richmond		Richmond	http://stats.ncaa.org/team/575/12380	false		true	L 10 - 12	false	10 - 12	false	10	12	false		4048500	http://stats.ncaa.org/game/index/4048500?org_id=193
+2016	12380	193	Duke	03/12/2016	@ Loyola Maryland		Loyola Maryland	http://stats.ncaa.org/team/369/12380	false		false	W 15 - 6	true	15 - 6	false	15	6	false		4061796	http://stats.ncaa.org/game/index/4061796?org_id=369
 2016	12380	193	Duke	03/19/2016	Georgetown		Georgetown		false		true	-									
 2016	12380	193	Duke	03/22/2016	Air Force		Air Force		false		true	-									
 2016	12380	193	Duke	03/26/2016	Syracuse		Syracuse		false		true	-									
@@ -254,9 +252,9 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	220	Fairfield	02/20/2016	Bucknell		Bucknell	http://stats.ncaa.org/team/83/12380	false		true	L 8 - 13	false	8 - 13	false	8	13	false		4025498	http://stats.ncaa.org/game/index/4025498?org_id=220
 2016	12380	220	Fairfield	02/27/2016	@ Rutgers		Rutgers	http://stats.ncaa.org/team/587/12380	false		false	L 6 - 12	false	6 - 12	false	6	12	false		4034499	http://stats.ncaa.org/game/index/4034499?org_id=587
 2016	12380	220	Fairfield	03/01/2016	UMass Lowell		UMass Lowell	http://stats.ncaa.org/team/368/12380	false		true	W 12 - 10	true	12 - 10	false	12	10	false		4037179	http://stats.ncaa.org/game/index/4037179?org_id=220
-2016	12380	220	Fairfield	03/05/2016	Stony Brook		Stony Brook	http://stats.ncaa.org/team/683/12380	false		true	L 6 - 9	false	6 - 9	false	6	9	false		4043262	http://stats.ncaa.org/game/index/4043262?org_id=683
-2016	12380	220	Fairfield	03/08/2016	@ Georgetown		Georgetown		false		false	-									
-2016	12380	220	Fairfield	03/12/2016	Yale		Yale		false		true	-									
+2016	12380	220	Fairfield	03/05/2016	Stony Brook		Stony Brook	http://stats.ncaa.org/team/683/12380	false		true	L 6 - 9	false	6 - 9	false	6	9	false		4044280	http://stats.ncaa.org/game/index/4044280?org_id=220
+2016	12380	220	Fairfield	03/08/2016	@ Georgetown		Georgetown	http://stats.ncaa.org/team/251/12380	false		false	W 13 - 9	true	13 - 9	false	13	9	false		4050848	http://stats.ncaa.org/game/index/4050848?org_id=251
+2016	12380	220	Fairfield	03/12/2016	Yale		Yale	http://stats.ncaa.org/team/813/12380	false		true	L 5 - 10	false	5 - 10	false	5	10	false		4062552	http://stats.ncaa.org/game/index/4062552?org_id=220
 2016	12380	220	Fairfield	03/19/2016	@ Colgate		Colgate		false		false	-									
 2016	12380	220	Fairfield	03/22/2016	Quinnipiac		Quinnipiac		false		true	-									
 2016	12380	220	Fairfield	03/26/2016	@ Villanova		Villanova		false		false	-									
@@ -268,9 +266,9 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	244	Furman	02/06/2016	Ohio St.		Ohio St.	http://stats.ncaa.org/team/518/12380	false		true	L 7 - 8	false	7 - 8	false	7	8	false		4003564	http://stats.ncaa.org/game/index/4003564?org_id=244
 2016	12380	244	Furman	02/13/2016	@ North Carolina		North Carolina	http://stats.ncaa.org/team/457/12380	false		false	L 6 - 14	false	6 - 14	false	6	14	false		4011194	http://stats.ncaa.org/game/index/4011194?org_id=457
 2016	12380	244	Furman	02/20/2016	Lehigh		Lehigh	http://stats.ncaa.org/team/352/12380	false		true	L 7 - 15	false	7 - 15	false	7	15	false		4025001	http://stats.ncaa.org/game/index/4025001?org_id=244
-2016	12380	244	Furman	03/05/2016	@ Mt. St. Mary's		Mt. St. Mary's	http://stats.ncaa.org/team/450/12380	false		false	L 8 - 10	false	8 - 10	false	8	10	false		4042877	http://stats.ncaa.org/game/index/4042877?org_id=450
-2016	12380	244	Furman	03/08/2016	Penn St.		Penn St.		false		true	-									
-2016	12380	244	Furman	03/12/2016	@ Air Force		Air Force		false		false	-									
+2016	12380	244	Furman	03/05/2016	@ Mt. St. Mary's		Mt. St. Mary's	http://stats.ncaa.org/team/450/12380	false		false	L 8 - 10	false	8 - 10	false	8	10	false		4045874	http://stats.ncaa.org/game/index/4045874?org_id=450
+2016	12380	244	Furman	03/08/2016	Penn St.		Penn St.	http://stats.ncaa.org/team/539/12380	false		true	L 7 - 16	false	7 - 16	false	7	16	false		4049576	http://stats.ncaa.org/game/index/4049576?org_id=244
+2016	12380	244	Furman	03/12/2016	@ Air Force		Air Force	http://stats.ncaa.org/team/721/12380	false		false	L 4 - 14	false	4 - 14	false	4	14	false		4056868	http://stats.ncaa.org/game/index/4056868?org_id=721
 2016	12380	244	Furman	03/19/2016	@ Towson		Towson		false		false	-									
 2016	12380	244	Furman	03/26/2016	@ VMI		VMI		false		false	-									
 2016	12380	244	Furman	04/02/2016	Jacksonville		Jacksonville		false		true	-									
@@ -279,11 +277,11 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	244	Furman	04/23/2016	High Point		High Point		false		true	-									
 2016	12380	244	Furman	04/30/2016	@ Bellarmine		Bellarmine		false		false	-									
 2016	12380	251	Georgetown	02/20/2016	Notre Dame @ Kennesaw, Ga.		Notre Dame	http://stats.ncaa.org/team/513/12380	true	Kennesaw, Ga.	true	L 7 - 12	false	7 - 12	false	7	12	false		4024689	http://stats.ncaa.org/game/index/4024689?org_id=513
-2016	12380	251	Georgetown	02/27/2016	@ Towson		Towson	http://stats.ncaa.org/team/711/12380	false		false	L 7 - 10	false	7 - 10	false	7	10	false		4032162	http://stats.ncaa.org/game/index/4032162?org_id=711
+2016	12380	251	Georgetown	02/27/2016	@ Towson		Towson	http://stats.ncaa.org/team/711/12380	false		false	L 7 - 10	false	7 - 10	false	7	10	false		4061448	http://stats.ncaa.org/game/index/4061448?org_id=711
 2016	12380	251	Georgetown	03/01/2016	Mt. St. Mary's		Mt. St. Mary's	http://stats.ncaa.org/team/450/12380	false		true	L 8 - 11	false	8 - 11	false	8	11	false		4037250	http://stats.ncaa.org/game/index/4037250?org_id=251
-2016	12380	251	Georgetown	03/05/2016	@ Hofstra		Hofstra	http://stats.ncaa.org/team/283/12380	false		false	W 11 - 6	true	11 - 6	false	11	6	false		4043299	http://stats.ncaa.org/game/index/4043299?org_id=283
-2016	12380	251	Georgetown	03/08/2016	Fairfield		Fairfield		false		true	-									
-2016	12380	251	Georgetown	03/12/2016	Hobart and William Colleges		Hobart and William Colleges		false		true	-									
+2016	12380	251	Georgetown	03/05/2016	@ Hofstra		Hofstra	http://stats.ncaa.org/team/283/12380	false		false	W 11 - 6	true	11 - 6	false	11	6	false		4051057	http://stats.ncaa.org/game/index/4051057?org_id=283
+2016	12380	251	Georgetown	03/08/2016	Fairfield		Fairfield	http://stats.ncaa.org/team/220/12380	false		true	L 9 - 13	false	9 - 13	false	9	13	false		4050848	http://stats.ncaa.org/game/index/4050848?org_id=251
+2016	12380	251	Georgetown	03/12/2016	Hobart and William Colleges		Hobart and William Colleges	http://stats.ncaa.org/team/282/12380	false		true	L 9 - 10	false	9 - 10	false	9	10	false		4061113	http://stats.ncaa.org/game/index/4061113?org_id=251
 2016	12380	251	Georgetown	03/19/2016	@ Duke		Duke		false		false	-									
 2016	12380	251	Georgetown	03/23/2016	Loyola Maryland		Loyola Maryland		false		true	-									
 2016	12380	251	Georgetown	03/26/2016	@ Marquette		Marquette		false		false	-									
@@ -295,9 +293,9 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	272	Hartford	02/20/2016	@ Boston U.		Boston U.	http://stats.ncaa.org/team/68/12380	false		false	W 16 - 10	true	16 - 10	false	16	10	false		4028962	http://stats.ncaa.org/game/index/4028962?org_id=68
 2016	12380	272	Hartford	02/27/2016	Bryant		Bryant	http://stats.ncaa.org/team/81/12380	false		true	L 11 - 16	false	11 - 16	false	11	16	false		4032041	http://stats.ncaa.org/game/index/4032041?org_id=272
 2016	12380	272	Hartford	03/01/2016	@ Massachusetts		Massachusetts	http://stats.ncaa.org/team/400/12380	false		false	L 3 - 11	false	3 - 11	false	3	11	false		4037183	http://stats.ncaa.org/game/index/4037183?org_id=400
-2016	12380	272	Hartford	03/05/2016	@ Manhattan		Manhattan		false		false	-									
-2016	12380	272	Hartford	03/12/2016	Quinnipiac		Quinnipiac		false		true	-									
-2016	12380	272	Hartford	03/15/2016	@ Marist		Marist		false		false	-									
+2016	12380	272	Hartford	03/05/2016	@ Manhattan		Manhattan	http://stats.ncaa.org/team/381/12380	false		false	W 16 - 4	true	16 - 4	false	16	4	false		4045896	http://stats.ncaa.org/game/index/4045896?org_id=381
+2016	12380	272	Hartford	03/12/2016	Quinnipiac		Quinnipiac	http://stats.ncaa.org/team/562/12380	false		true	L 10 - 11 (1OT)	false	10 - 11	false	10	11	true	1OT	4062857	http://stats.ncaa.org/game/index/4062857?org_id=272
+2016	12380	272	Hartford	03/15/2016	@ Marist		Marist	http://stats.ncaa.org/team/386/12380	false		false	W 11 - 8	true	11 - 8	false	11	8	false		4062442	http://stats.ncaa.org/game/index/4062442?org_id=386
 2016	12380	272	Hartford	03/19/2016	@ UMass Lowell		UMass Lowell		false		false	-									
 2016	12380	272	Hartford	03/26/2016	Albany (NY)		Albany (NY)		false		true	-									
 2016	12380	272	Hartford	03/29/2016	Holy Cross		Holy Cross		false		true	-									
@@ -310,10 +308,9 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	275	Harvard	02/20/2016	Villanova		Villanova	http://stats.ncaa.org/team/739/12380	false		true	W 13 - 12 (1OT)	true	13 - 12	false	13	12	true	1OT	4022564	http://stats.ncaa.org/game/index/4022564?org_id=275
 2016	12380	275	Harvard	02/23/2016	Holy Cross		Holy Cross	http://stats.ncaa.org/team/285/12380	false		true	W 11 - 10 (2OT)	true	11 - 10	false	11	10	true	2OT	4026034	http://stats.ncaa.org/game/index/4026034?org_id=275
 2016	12380	275	Harvard	02/27/2016	@ Massachusetts		Massachusetts	http://stats.ncaa.org/team/400/12380	false		false	W 10 - 9 (1OT)	true	10 - 9	false	10	9	true	1OT	4030798	http://stats.ncaa.org/game/index/4030798?org_id=275
-2016	12380	275	Harvard	03/05/2016	Duke@Hempstead, NY		DukeHempstead, NY		false		false	-									
-2016	12380	275	Harvard	03/05/2016	Duke		Duke	http://stats.ncaa.org/team/193/12380	false		true	W 14 - 9	true	14 - 9	false	14	9	false		4043501	http://stats.ncaa.org/game/index/4043501?org_id=275
-2016	12380	275	Harvard	03/08/2016	@ Bryant		Bryant		false		false	-									
-2016	12380	275	Harvard	03/12/2016	@ Penn St.		Penn St.		false		false	-									
+2016	12380	275	Harvard	03/05/2016	Duke		Duke	http://stats.ncaa.org/team/193/12380	false		true	W 14 - 9	true	14 - 9	false	14	9	false		4046386	http://stats.ncaa.org/game/index/4046386?org_id=275
+2016	12380	275	Harvard	03/08/2016	@ Bryant		Bryant	http://stats.ncaa.org/team/81/12380	false		false	L 9 - 12	false	9 - 12	false	9	12	false		4053150	http://stats.ncaa.org/game/index/4053150?org_id=81
+2016	12380	275	Harvard	03/12/2016	@ Penn St.		Penn St.	http://stats.ncaa.org/team/539/12380	false		false	L 12 - 13 (1OT)	false	12 - 13	false	12	13	true	1OT	4056033	http://stats.ncaa.org/game/index/4056033?org_id=275
 2016	12380	275	Harvard	03/19/2016	Brown		Brown		false		true	-									
 2016	12380	275	Harvard	03/22/2016	Boston U.		Boston U.		false		true	-									
 2016	12380	275	Harvard	03/26/2016	Dartmouth		Dartmouth		false		true	-									
@@ -327,8 +324,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	19651	High Point	02/20/2016	@ Maryland		Maryland	http://stats.ncaa.org/team/392/12380	false		false	L 10 - 15	false	10 - 15	false	10	15	false		4020448	http://stats.ncaa.org/game/index/4020448?org_id=392
 2016	12380	19651	High Point	02/23/2016	@ Virginia		Virginia	http://stats.ncaa.org/team/746/12380	false		false	W 12 - 11 (1OT)	true	12 - 11	false	12	11	true	1OT	4026702	http://stats.ncaa.org/game/index/4026702?org_id=746
 2016	12380	19651	High Point	02/27/2016	@ Robert Morris		Robert Morris	http://stats.ncaa.org/team/579/12380	false		false	W 15 - 10	true	15 - 10	false	15	10	false		4035437	http://stats.ncaa.org/game/index/4035437?org_id=579
-2016	12380	19651	High Point	03/05/2016	Marist		Marist	http://stats.ncaa.org/team/386/12380	false		true	W 11 - 9	true	11 - 9	false	11	9	false		4043791	http://stats.ncaa.org/game/index/4043791?org_id=19651
-2016	12380	19651	High Point	03/12/2016	Providence		Providence		false		true	-									
+2016	12380	19651	High Point	03/05/2016	Marist		Marist	http://stats.ncaa.org/team/386/12380	false		true	W 11 - 9	true	11 - 9	false	11	9	false		4044585	http://stats.ncaa.org/game/index/4044585?org_id=19651
+2016	12380	19651	High Point	03/12/2016	Providence		Providence	http://stats.ncaa.org/team/556/12380	false		true	W 13 - 12	true	13 - 12	false	13	12	false		4056050	http://stats.ncaa.org/game/index/4056050?org_id=19651
 2016	12380	19651	High Point	03/19/2016	@ Air Force		Air Force		false		false	-									
 2016	12380	19651	High Point	03/27/2016	@ Richmond		Richmond		false		false	-									
 2016	12380	19651	High Point	04/03/2016	Mercer		Mercer		false		true	-									
@@ -340,9 +337,9 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	282	Hobart and William Colleges	02/20/2016	Siena @ Kennesaw, Ga.		Siena	http://stats.ncaa.org/team/639/12380	true	Kennesaw, Ga.	true	W 12 - 9	true	12 - 9	false	12	9	false		4027298	http://stats.ncaa.org/game/index/4027298?org_id=282
 2016	12380	282	Hobart and William Colleges	02/27/2016	Cornell @ West Palm Beach, FL		Cornell	http://stats.ncaa.org/team/167/12380	true	West Palm Beach, FL	true	L 8 - 10	false	8 - 10	false	8	10	false		4035612	http://stats.ncaa.org/game/index/4035612?org_id=167
 2016	12380	282	Hobart and William Colleges	03/05/2016	Binghamton		Binghamton	http://stats.ncaa.org/team/62/12380	false		true	W 12 - 6	true	12 - 6	false	12	6	false		4043226	http://stats.ncaa.org/game/index/4043226?org_id=282
-2016	12380	282	Hobart and William Colleges	03/08/2016	Colgate		Colgate		false		true	-									
-2016	12380	282	Hobart and William Colleges	03/12/2016	@ Georgetown		Georgetown		false		false	-									
-2016	12380	282	Hobart and William Colleges	03/15/2016	@ Canisius		Canisius		false		false	-									
+2016	12380	282	Hobart and William Colleges	03/08/2016	Colgate		Colgate	http://stats.ncaa.org/team/153/12380	false		true	L 6 - 7	false	6 - 7	false	6	7	false		4049850	http://stats.ncaa.org/game/index/4049850?org_id=282
+2016	12380	282	Hobart and William Colleges	03/12/2016	@ Georgetown		Georgetown	http://stats.ncaa.org/team/251/12380	false		false	W 10 - 9	true	10 - 9	false	10	9	false		4061113	http://stats.ncaa.org/game/index/4061113?org_id=251
+2016	12380	282	Hobart and William Colleges	03/15/2016	@ Canisius		Canisius	http://stats.ncaa.org/team/116/12380	false		false	W 8 - 7 (2OT)	true	8 - 7	false	8	7	true	2OT	4062290	http://stats.ncaa.org/game/index/4062290?org_id=116
 2016	12380	282	Hobart and William Colleges	03/19/2016	@ Wagner		Wagner		false		false	-									
 2016	12380	282	Hobart and William Colleges	03/26/2016	Saint Joseph's		Saint Joseph's		false		true	-									
 2016	12380	282	Hobart and William Colleges	04/06/2016	Syracuse		Syracuse		false		true	-									
@@ -353,9 +350,9 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	283	Hofstra	02/20/2016	@ North Carolina		North Carolina	http://stats.ncaa.org/team/457/12380	false		false	W 10 - 5	true	10 - 5	false	10	5	false		4022131	http://stats.ncaa.org/game/index/4022131?org_id=457
 2016	12380	283	Hofstra	02/27/2016	Princeton		Princeton	http://stats.ncaa.org/team/554/12380	false		true	W 11 - 10 (1OT)	true	11 - 10	false	11	10	true	1OT	4035021	http://stats.ncaa.org/game/index/4035021?org_id=283
 2016	12380	283	Hofstra	03/01/2016	NJIT		NJIT	http://stats.ncaa.org/team/471/12380	false		true	W 19 - 4	true	19 - 4	false	19	4	false		4037287	http://stats.ncaa.org/game/index/4037287?org_id=283
-2016	12380	283	Hofstra	03/05/2016	Georgetown		Georgetown	http://stats.ncaa.org/team/251/12380	false		true	L 6 - 11	false	6 - 11	false	6	11	false		4043299	http://stats.ncaa.org/game/index/4043299?org_id=283
-2016	12380	283	Hofstra	03/12/2016	Ohio St.		Ohio St.		false		true	-									
-2016	12380	283	Hofstra	03/15/2016	@ Stony Brook		Stony Brook		false		false	-									
+2016	12380	283	Hofstra	03/05/2016	Georgetown		Georgetown	http://stats.ncaa.org/team/251/12380	false		true	L 6 - 11	false	6 - 11	false	6	11	false		4051057	http://stats.ncaa.org/game/index/4051057?org_id=283
+2016	12380	283	Hofstra	03/12/2016	Ohio St.		Ohio St.	http://stats.ncaa.org/team/518/12380	false		true	W 8 - 5	true	8 - 5	false	8	5	false		4056115	http://stats.ncaa.org/game/index/4056115?org_id=283
+2016	12380	283	Hofstra	03/15/2016	@ Stony Brook		Stony Brook	http://stats.ncaa.org/team/683/12380	false		false	L 5 - 13	false	5 - 13	false	5	13	false		4062187	http://stats.ncaa.org/game/index/4062187?org_id=683
 2016	12380	283	Hofstra	03/19/2016	@ Providence		Providence		false		false	-									
 2016	12380	283	Hofstra	03/22/2016	Vermont		Vermont		false		true	-									
 2016	12380	283	Hofstra	03/26/2016	@ St. John's (NY)		St. John's (NY)		false		false	-									
@@ -368,9 +365,9 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	285	Holy Cross	02/20/2016	Vermont		Vermont	http://stats.ncaa.org/team/738/12380	false		true	L 8 - 14	false	8 - 14	false	8	14	false		4020573	http://stats.ncaa.org/game/index/4020573?org_id=285
 2016	12380	285	Holy Cross	02/23/2016	@ Harvard		Harvard	http://stats.ncaa.org/team/275/12380	false		false	L 10 - 11 (2OT)	false	10 - 11	false	10	11	true	2OT	4026034	http://stats.ncaa.org/game/index/4026034?org_id=275
 2016	12380	285	Holy Cross	02/27/2016	@ Lehigh		Lehigh	http://stats.ncaa.org/team/352/12380	false		false	L 11 - 12	false	11 - 12	false	11	12	false		4038620	http://stats.ncaa.org/game/index/4038620?org_id=352
-2016	12380	285	Holy Cross	03/05/2016	Loyola Maryland		Loyola Maryland	http://stats.ncaa.org/team/369/12380	false		true	L 9 - 10	false	9 - 10	false	9	10	false		4043856	http://stats.ncaa.org/game/index/4043856?org_id=285
-2016	12380	285	Holy Cross	03/08/2016	Brown		Brown		false		true	-									
-2016	12380	285	Holy Cross	03/12/2016	Bucknell		Bucknell		false		true	-									
+2016	12380	285	Holy Cross	03/05/2016	Loyola Maryland		Loyola Maryland	http://stats.ncaa.org/team/369/12380	false		true	L 9 - 10	false	9 - 10	false	9	10	false		4050079	http://stats.ncaa.org/game/index/4050079?org_id=285
+2016	12380	285	Holy Cross	03/08/2016	Brown		Brown	http://stats.ncaa.org/team/80/12380	false		true	L 7 - 20	false	7 - 20	false	7	20	false		4049840	http://stats.ncaa.org/game/index/4049840?org_id=285
+2016	12380	285	Holy Cross	03/12/2016	Bucknell		Bucknell	http://stats.ncaa.org/team/83/12380	false		true	L 12 - 18	false	12 - 18	false	12	18	false		4056297	http://stats.ncaa.org/game/index/4056297?org_id=285
 2016	12380	285	Holy Cross	03/19/2016	@ Army West Point		Army West Point		false		false	-									
 2016	12380	285	Holy Cross	03/26/2016	Jacksonville		Jacksonville		false		true	-									
 2016	12380	285	Holy Cross	03/29/2016	@ Hartford		Hartford		false		false	-									
@@ -383,7 +380,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	316	Jacksonville	02/18/2016	@ St. John's (NY)		St. John's (NY)	http://stats.ncaa.org/team/603/12380	false		false	W 8 - 7	true	8 - 7	false	8	7	false		4021982	http://stats.ncaa.org/game/index/4021982?org_id=603
 2016	12380	316	Jacksonville	02/27/2016	Duke		Duke	http://stats.ncaa.org/team/193/12380	false		true	L 5 - 18	false	5 - 18	false	5	18	false		4032852	http://stats.ncaa.org/game/index/4032852?org_id=316
 2016	12380	316	Jacksonville	03/05/2016	@ UMass Lowell		UMass Lowell	http://stats.ncaa.org/team/368/12380	false		false	L 9 - 12	false	9 - 12	false	9	12	false		4042863	http://stats.ncaa.org/game/index/4042863?org_id=368
-2016	12380	316	Jacksonville	03/12/2016	@ Richmond		Richmond		false		false	-									
+2016	12380	316	Jacksonville	03/12/2016	@ Richmond		Richmond	http://stats.ncaa.org/team/575/12380	false		false	L 6 - 12	false	6 - 12	false	6	12	false		4056845	http://stats.ncaa.org/game/index/4056845?org_id=575
 2016	12380	316	Jacksonville	03/19/2016	Bellarmine		Bellarmine		false		true	-									
 2016	12380	316	Jacksonville	03/26/2016	@ Holy Cross		Holy Cross		false		false	-									
 2016	12380	316	Jacksonville	04/02/2016	@ Furman		Furman		false		false	-									
@@ -395,7 +392,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	322	Johns Hopkins	02/20/2016	@ Loyola Maryland		Loyola Maryland	http://stats.ncaa.org/team/369/12380	false		false	L 8 - 9	false	8 - 9	false	8	9	false		4020357	http://stats.ncaa.org/game/index/4020357?org_id=369
 2016	12380	322	Johns Hopkins	02/28/2016	North Carolina		North Carolina	http://stats.ncaa.org/team/457/12380	false		true	L 11 - 15	false	11 - 15	false	11	15	false		4032143	http://stats.ncaa.org/game/index/4032143?org_id=322
 2016	12380	322	Johns Hopkins	03/05/2016	Princeton		Princeton	http://stats.ncaa.org/team/554/12380	false		true	W 17 - 7	true	17 - 7	false	17	7	false		4043492	http://stats.ncaa.org/game/index/4043492?org_id=322
-2016	12380	322	Johns Hopkins	03/12/2016	Towson		Towson		false		true	-									
+2016	12380	322	Johns Hopkins	03/12/2016	Towson		Towson	http://stats.ncaa.org/team/711/12380	false		true	W 14 - 8	true	14 - 8	false	14	8	false		4056369	http://stats.ncaa.org/game/index/4056369?org_id=322
 2016	12380	322	Johns Hopkins	03/19/2016	Syracuse		Syracuse		false		true	-									
 2016	12380	322	Johns Hopkins	03/27/2016	@ Virginia		Virginia		false		false	-									
 2016	12380	322	Johns Hopkins	03/30/2016	@ UMBC		UMBC		false		false	-									
@@ -408,9 +405,9 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	342	Lafayette	02/19/2016	Wagner		Wagner	http://stats.ncaa.org/team/748/12380	false		true	W 12 - 7	true	12 - 7	false	12	7	false		4019435	http://stats.ncaa.org/game/index/4019435?org_id=342
 2016	12380	342	Lafayette	02/27/2016	@ Loyola Maryland		Loyola Maryland	http://stats.ncaa.org/team/369/12380	false		false	L 8 - 12	false	8 - 12	false	8	12	false		4032573	http://stats.ncaa.org/game/index/4032573?org_id=369
 2016	12380	342	Lafayette	03/05/2016	Army West Point		Army West Point	http://stats.ncaa.org/team/725/12380	false		true	L 5 - 14	false	5 - 14	false	5	14	false		4043858	http://stats.ncaa.org/game/index/4043858?org_id=342
-2016	12380	342	Lafayette	03/08/2016	@ Penn		Penn		false		false	-									
-2016	12380	342	Lafayette	03/12/2016	@ Navy		Navy		false		false	-									
+2016	12380	342	Lafayette	03/08/2016	@ Penn		Penn	http://stats.ncaa.org/team/540/12380	false		false	L 6 - 12	false	6 - 12	false	6	12	false		4050288	http://stats.ncaa.org/game/index/4050288?org_id=342
 2016	12380	342	Lafayette	03/19/2016	Lehigh		Lehigh		false		true	-									
+2016	12380	342	Lafayette	03/22/2016	@ Navy		Navy		false		false	-									
 2016	12380	342	Lafayette	03/26/2016	Boston U.		Boston U.		false		true	-									
 2016	12380	342	Lafayette	04/02/2016	UMBC		UMBC		false		true	-									
 2016	12380	342	Lafayette	04/05/2016	@ Monmouth		Monmouth		false		false	-									
@@ -422,8 +419,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	352	Lehigh	02/14/2016	@ Duke		Duke	http://stats.ncaa.org/team/193/12380	false		false	L 11 - 13	false	11 - 13	false	11	13	false		4014704	http://stats.ncaa.org/game/index/4014704?org_id=193
 2016	12380	352	Lehigh	02/20/2016	@ Furman		Furman	http://stats.ncaa.org/team/244/12380	false		false	W 15 - 7	true	15 - 7	false	15	7	false		4025001	http://stats.ncaa.org/game/index/4025001?org_id=244
 2016	12380	352	Lehigh	02/27/2016	Holy Cross		Holy Cross	http://stats.ncaa.org/team/285/12380	false		true	W 12 - 11	true	12 - 11	false	12	11	false		4038620	http://stats.ncaa.org/game/index/4038620?org_id=352
-2016	12380	352	Lehigh	03/05/2016	Colgate		Colgate	http://stats.ncaa.org/team/153/12380	false		true	W 12 - 9	true	12 - 9	false	12	9	false		4043401	http://stats.ncaa.org/game/index/4043401?org_id=352
-2016	12380	352	Lehigh	03/12/2016	@ Army West Point		Army West Point		false		false	-									
+2016	12380	352	Lehigh	03/05/2016	Colgate		Colgate	http://stats.ncaa.org/team/153/12380	false		true	W 12 - 9	true	12 - 9	false	12	9	false		4046236	http://stats.ncaa.org/game/index/4046236?org_id=352
+2016	12380	352	Lehigh	03/12/2016	@ Army West Point		Army West Point	http://stats.ncaa.org/team/725/12380	false		false	L 10 - 13	false	10 - 13	false	10	13	false		4061920	http://stats.ncaa.org/game/index/4061920?org_id=725
 2016	12380	352	Lehigh	03/19/2016	@ Lafayette		Lafayette		false		false	-									
 2016	12380	352	Lehigh	03/26/2016	Navy		Navy		false		true	-									
 2016	12380	352	Lehigh	03/29/2016	Stony Brook		Stony Brook		false		true	-									
@@ -435,9 +432,9 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	369	Loyola Maryland	02/13/2016	@ Virginia		Virginia	http://stats.ncaa.org/team/746/12380	false		false	W 11 - 4	true	11 - 4	false	11	4	false		4013262	http://stats.ncaa.org/game/index/4013262?org_id=746
 2016	12380	369	Loyola Maryland	02/20/2016	Johns Hopkins		Johns Hopkins	http://stats.ncaa.org/team/322/12380	false		true	W 9 - 8	true	9 - 8	false	9	8	false		4020357	http://stats.ncaa.org/game/index/4020357?org_id=369
 2016	12380	369	Loyola Maryland	02/27/2016	Lafayette		Lafayette	http://stats.ncaa.org/team/342/12380	false		true	W 12 - 8	true	12 - 8	false	12	8	false		4032573	http://stats.ncaa.org/game/index/4032573?org_id=369
-2016	12380	369	Loyola Maryland	03/02/2016	Towson		Towson	http://stats.ncaa.org/team/711/12380	false		true	L 8 - 10	false	8 - 10	false	8	10	false		4038659	http://stats.ncaa.org/game/index/4038659?org_id=711
-2016	12380	369	Loyola Maryland	03/05/2016	@ Holy Cross		Holy Cross	http://stats.ncaa.org/team/285/12380	false		false	W 10 - 9	true	10 - 9	false	10	9	false		4043856	http://stats.ncaa.org/game/index/4043856?org_id=285
-2016	12380	369	Loyola Maryland	03/12/2016	Duke		Duke		false		true	-									
+2016	12380	369	Loyola Maryland	03/02/2016	Towson		Towson	http://stats.ncaa.org/team/711/12380	false		true	L 8 - 10	false	8 - 10	false	8	10	false		4048870	http://stats.ncaa.org/game/index/4048870?org_id=711
+2016	12380	369	Loyola Maryland	03/05/2016	@ Holy Cross		Holy Cross	http://stats.ncaa.org/team/285/12380	false		false	W 10 - 9	true	10 - 9	false	10	9	false		4050079	http://stats.ncaa.org/game/index/4050079?org_id=285
+2016	12380	369	Loyola Maryland	03/12/2016	Duke		Duke	http://stats.ncaa.org/team/193/12380	false		true	L 6 - 15	false	6 - 15	false	6	15	false		4061796	http://stats.ncaa.org/game/index/4061796?org_id=369
 2016	12380	369	Loyola Maryland	03/19/2016	@ Navy		Navy		false		false	-									
 2016	12380	369	Loyola Maryland	03/23/2016	@ Georgetown		Georgetown		false		false	-									
 2016	12380	369	Loyola Maryland	03/26/2016	Bucknell		Bucknell		false		true	-									
@@ -447,12 +444,12 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	369	Loyola Maryland	04/22/2016	Army West Point		Army West Point		false		true	-									
 2016	12380	381	Manhattan	02/06/2016	@ Bryant		Bryant	http://stats.ncaa.org/team/81/12380	false		false	L 3 - 16	false	3 - 16	false	3	16	false		4003276	http://stats.ncaa.org/game/index/4003276?org_id=81
 2016	12380	381	Manhattan	02/12/2016	@ Wagner		Wagner	http://stats.ncaa.org/team/748/12380	false		false	L 8 - 15	false	8 - 15	false	8	15	false		4012919	http://stats.ncaa.org/game/index/4012919?org_id=748
-2016	12380	381	Manhattan	02/20/2016	@ Robert Morris		Robert Morris	http://stats.ncaa.org/team/579/12380	false		false	L 6 - 19	false	6 - 19	false	6	19	false		4024426	http://stats.ncaa.org/game/index/4024426?org_id=579
+2016	12380	381	Manhattan	02/20/2016	@ Robert Morris		Robert Morris	http://stats.ncaa.org/team/579/12380	false		false	L 6 - 19	false	6 - 19	false	6	19	false		4047679	http://stats.ncaa.org/game/index/4047679?org_id=579
 2016	12380	381	Manhattan	02/27/2016	@ Saint Joseph's		Saint Joseph's	http://stats.ncaa.org/team/606/12380	false		false	L 9 - 16	false	9 - 16	false	9	16	false		4031896	http://stats.ncaa.org/game/index/4031896?org_id=606
-2016	12380	381	Manhattan	03/05/2016	Hartford		Hartford		false		true	-									
-2016	12380	381	Manhattan	03/08/2016	Delaware		Delaware		false		true	-									
-2016	12380	381	Manhattan	03/12/2016	@ UMass Lowell		UMass Lowell		false		false	-									
-2016	12380	381	Manhattan	03/14/2016	North Carolina		North Carolina		false		true	-									
+2016	12380	381	Manhattan	03/05/2016	Hartford		Hartford	http://stats.ncaa.org/team/272/12380	false		true	L 4 - 16	false	4 - 16	false	4	16	false		4045896	http://stats.ncaa.org/game/index/4045896?org_id=381
+2016	12380	381	Manhattan	03/08/2016	Delaware		Delaware	http://stats.ncaa.org/team/180/12380	false		true	L 5 - 6	false	5 - 6	false	5	6	false		4052858	http://stats.ncaa.org/game/index/4052858?org_id=381
+2016	12380	381	Manhattan	03/12/2016	@ UMass Lowell		UMass Lowell	http://stats.ncaa.org/team/368/12380	false		false	W 8 - 5	true	8 - 5	false	8	5	false		4056283	http://stats.ncaa.org/game/index/4056283?org_id=368
+2016	12380	381	Manhattan	03/14/2016	North Carolina		North Carolina	http://stats.ncaa.org/team/457/12380	false		true	L 2 - 18	false	2 - 18	false	2	18	false		4060952	http://stats.ncaa.org/game/index/4060952?org_id=381
 2016	12380	381	Manhattan	03/19/2016	Detroit		Detroit		false		true	-									
 2016	12380	381	Manhattan	03/26/2016	Monmouth		Monmouth		false		true	-									
 2016	12380	381	Manhattan	04/02/2016	@ NJIT		NJIT		false		false	-									
@@ -462,9 +459,9 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	381	Manhattan	04/30/2016	@ Quinnipiac		Quinnipiac		false		false	-									
 2016	12380	386	Marist	02/20/2016	Air Force		Air Force	http://stats.ncaa.org/team/721/12380	false		true	L 6 - 7 (4OT)	false	6 - 7	false	6	7	true	4OT	4034439	http://stats.ncaa.org/game/index/4034439?org_id=386
 2016	12380	386	Marist	02/27/2016	Binghamton		Binghamton	http://stats.ncaa.org/team/62/12380	false		true	W 10 - 8	true	10 - 8	false	10	8	false		4034440	http://stats.ncaa.org/game/index/4034440?org_id=386
-2016	12380	386	Marist	03/05/2016	@ High Point		High Point	http://stats.ncaa.org/team/19651/12380	false		false	L 9 - 11	false	9 - 11	false	9	11	false		4043791	http://stats.ncaa.org/game/index/4043791?org_id=19651
-2016	12380	386	Marist	03/12/2016	@ UMBC		UMBC		false		false	-									
-2016	12380	386	Marist	03/15/2016	Hartford		Hartford		false		true	-									
+2016	12380	386	Marist	03/05/2016	@ High Point		High Point	http://stats.ncaa.org/team/19651/12380	false		false	L 9 - 11	false	9 - 11	false	9	11	false		4044585	http://stats.ncaa.org/game/index/4044585?org_id=19651
+2016	12380	386	Marist	03/12/2016	@ UMBC		UMBC	http://stats.ncaa.org/team/391/12380	false		false	L 8 - 9 (1OT)	false	8 - 9	false	8	9	true	1OT	4060296	http://stats.ncaa.org/game/index/4060296?org_id=391
+2016	12380	386	Marist	03/15/2016	Hartford		Hartford	http://stats.ncaa.org/team/272/12380	false		true	L 8 - 11	false	8 - 11	false	8	11	false		4062442	http://stats.ncaa.org/game/index/4062442?org_id=386
 2016	12380	386	Marist	03/19/2016	@ Monmouth		Monmouth		false		false	-									
 2016	12380	386	Marist	03/23/2016	@ Michigan		Michigan		false		false	-									
 2016	12380	386	Marist	03/26/2016	Canisius		Canisius		false		true	-									
@@ -477,8 +474,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	387	Marquette	02/20/2016	Bellarmine		Bellarmine	http://stats.ncaa.org/team/52/12380	false		true	W 9 - 7	true	9 - 7	false	9	7	false		4035542	http://stats.ncaa.org/game/index/4035542?org_id=387
 2016	12380	387	Marquette	02/27/2016	@ Richmond		Richmond	http://stats.ncaa.org/team/575/12380	false		false	W 7 - 2	true	7 - 2	false	7	2	false		4033425	http://stats.ncaa.org/game/index/4033425?org_id=575
 2016	12380	387	Marquette	03/04/2016	@ Ohio St.		Ohio St.	http://stats.ncaa.org/team/518/12380	false		false	L 8 - 12	false	8 - 12	false	8	12	false		4042421	http://stats.ncaa.org/game/index/4042421?org_id=518
-2016	12380	387	Marquette	03/06/2016	Detroit@Columbus, OH		DetroitColumbus, OH		false		false	-									
-2016	12380	387	Marquette	03/12/2016	Robert Morris		Robert Morris		false		true	-									
+2016	12380	387	Marquette	03/06/2016	Detroit @ Columbus, Ohio		Detroit	http://stats.ncaa.org/team/184/12380	true	Columbus, Ohio	true	W 10 - 8	true	10 - 8	false	10	8	false		4044594	http://stats.ncaa.org/game/index/4044594?org_id=184
+2016	12380	387	Marquette	03/12/2016	Robert Morris		Robert Morris	http://stats.ncaa.org/team/579/12380	false		true	W 13 - 5	true	13 - 5	false	13	5	false		4056491	http://stats.ncaa.org/game/index/4056491?org_id=387
 2016	12380	387	Marquette	03/19/2016	@ Quinnipiac		Quinnipiac		false		false	-									
 2016	12380	387	Marquette	03/26/2016	Georgetown		Georgetown		false		true	-									
 2016	12380	387	Marquette	04/02/2016	Villanova		Villanova		false		true	-									
@@ -490,9 +487,9 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	392	Maryland	02/20/2016	High Point		High Point	http://stats.ncaa.org/team/19651/12380	false		true	W 15 - 10	true	15 - 10	false	15	10	false		4020448	http://stats.ncaa.org/game/index/4020448?org_id=392
 2016	12380	392	Maryland	02/27/2016	@ Yale		Yale	http://stats.ncaa.org/team/813/12380	false		false	L 5 - 8	false	5 - 8	false	5	8	false		4030445	http://stats.ncaa.org/game/index/4030445?org_id=813
 2016	12380	392	Maryland	03/05/2016	Notre Dame @ Costa Mesa, CA		Notre Dame	http://stats.ncaa.org/team/513/12380	true	Costa Mesa, CA	true	L 4 - 9	false	4 - 9	false	4	9	false		4044103	http://stats.ncaa.org/game/index/4044103?org_id=513
-2016	12380	392	Maryland	03/08/2016	@ Drexel		Drexel		false		false	-									
-2016	12380	392	Maryland	03/12/2016	@ Princeton		Princeton		false		false	-									
-2016	12380	392	Maryland	03/16/2016	Albany (NY)		Albany (NY)		false		true	-									
+2016	12380	392	Maryland	03/08/2016	@ Drexel		Drexel	http://stats.ncaa.org/team/191/12380	false		false	W 12 - 8	true	12 - 8	false	12	8	false		4052003	http://stats.ncaa.org/game/index/4052003?org_id=191
+2016	12380	392	Maryland	03/12/2016	@ Princeton		Princeton	http://stats.ncaa.org/team/554/12380	false		false	W 17 - 5	true	17 - 5	false	17	5	false		4056124	http://stats.ncaa.org/game/index/4056124?org_id=554
+2016	12380	392	Maryland	03/16/2016	Albany (NY)		Albany (NY)	http://stats.ncaa.org/team/14/12380	false		true	W 10 - 7	true	10 - 7	false	10	7	false		4063768	http://stats.ncaa.org/game/index/4063768?org_id=392
 2016	12380	392	Maryland	03/26/2016	North Carolina		North Carolina		false		true	-									
 2016	12380	392	Maryland	03/29/2016	@ Penn		Penn		false		false	-									
 2016	12380	392	Maryland	04/02/2016	@ Michigan		Michigan		false		false	-									
@@ -506,8 +503,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	400	Massachusetts	02/27/2016	Harvard		Harvard	http://stats.ncaa.org/team/275/12380	false		true	L 9 - 10 (1OT)	false	9 - 10	false	9	10	true	1OT	4030798	http://stats.ncaa.org/game/index/4030798?org_id=275
 2016	12380	400	Massachusetts	03/01/2016	Hartford		Hartford	http://stats.ncaa.org/team/272/12380	false		true	W 11 - 3	true	11 - 3	false	11	3	false		4037183	http://stats.ncaa.org/game/index/4037183?org_id=400
 2016	12380	400	Massachusetts	03/05/2016	@ Brown		Brown	http://stats.ncaa.org/team/80/12380	false		false	L 7 - 15	false	7 - 15	false	7	15	false		4042988	http://stats.ncaa.org/game/index/4042988?org_id=80
-2016	12380	400	Massachusetts	03/08/2016	Albany (NY)		Albany (NY)		false		true	-									
-2016	12380	400	Massachusetts	03/12/2016	North Carolina		North Carolina		false		true	-									
+2016	12380	400	Massachusetts	03/08/2016	Albany (NY)		Albany (NY)	http://stats.ncaa.org/team/14/12380	false		true	L 4 - 16	false	4 - 16	false	4	16	false		4049851	http://stats.ncaa.org/game/index/4049851?org_id=400
+2016	12380	400	Massachusetts	03/12/2016	North Carolina		North Carolina	http://stats.ncaa.org/team/457/12380	false		true	W 14 - 9	true	14 - 9	false	14	9	false		4056262	http://stats.ncaa.org/game/index/4056262?org_id=400
 2016	12380	400	Massachusetts	03/19/2016	@ Penn St.		Penn St.		false		false	-									
 2016	12380	400	Massachusetts	04/02/2016	@ Delaware		Delaware		false		false	-									
 2016	12380	400	Massachusetts	04/09/2016	Towson		Towson		false		true	-									
@@ -518,8 +515,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	406	Mercer	02/19/2016	Detroit		Detroit	http://stats.ncaa.org/team/184/12380	false		true	W 9 - 8	true	9 - 8	false	9	8	false		4021842	http://stats.ncaa.org/game/index/4021842?org_id=406
 2016	12380	406	Mercer	02/23/2016	Siena		Siena	http://stats.ncaa.org/team/639/12380	false		true	W 12 - 11	true	12 - 11	false	12	11	false		4037180	http://stats.ncaa.org/game/index/4037180?org_id=406
 2016	12380	406	Mercer	02/29/2016	@ Duke		Duke	http://stats.ncaa.org/team/193/12380	false		false	L 9 - 19	false	9 - 19	false	9	19	false		4036276	http://stats.ncaa.org/game/index/4036276?org_id=193
-2016	12380	406	Mercer	03/08/2016	Robert Morris		Robert Morris		false		true	-									
-2016	12380	406	Mercer	03/12/2016	@ Bellarmine		Bellarmine		false		false	-									
+2016	12380	406	Mercer	03/08/2016	Robert Morris		Robert Morris	http://stats.ncaa.org/team/579/12380	false		true	L 10 - 11 (1OT)	false	10 - 11	false	10	11	true	1OT	4053387	http://stats.ncaa.org/game/index/4053387?org_id=406
+2016	12380	406	Mercer	03/12/2016	@ Bellarmine		Bellarmine	http://stats.ncaa.org/team/52/12380	false		false	L 7 - 11	false	7 - 11	false	7	11	false		4061053	http://stats.ncaa.org/game/index/4061053?org_id=52
 2016	12380	406	Mercer	03/19/2016	VMI		VMI		false		true	-									
 2016	12380	406	Mercer	03/26/2016	@ Drexel		Drexel		false		false	-									
 2016	12380	406	Mercer	04/03/2016	@ High Point		High Point		false		false	-									
@@ -532,7 +529,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	418	Michigan	02/20/2016	@ Penn		Penn	http://stats.ncaa.org/team/540/12380	false		false	L 10 - 12	false	10 - 12	false	10	12	false		4022565	http://stats.ncaa.org/game/index/4022565?org_id=540
 2016	12380	418	Michigan	02/27/2016	Delaware @ Costa Mesa, Calif.		Delaware	http://stats.ncaa.org/team/180/12380	true	Costa Mesa, Calif.	true	W 10 - 7	true	10 - 7	false	10	7	false		4041056	http://stats.ncaa.org/game/index/4041056?org_id=180
 2016	12380	418	Michigan	03/05/2016	Vermont		Vermont	http://stats.ncaa.org/team/738/12380	false		true	W 15 - 13	true	15 - 13	false	15	13	false		4043793	http://stats.ncaa.org/game/index/4043793?org_id=418
-2016	12380	418	Michigan	03/12/2016	@ Brown		Brown		false		false	-									
+2016	12380	418	Michigan	03/12/2016	@ Brown		Brown	http://stats.ncaa.org/team/80/12380	false		false	L 8 - 22	false	8 - 22	false	8	22	false		4056356	http://stats.ncaa.org/game/index/4056356?org_id=80
 2016	12380	418	Michigan	03/19/2016	Dartmouth		Dartmouth		false		true	-									
 2016	12380	418	Michigan	03/23/2016	Marist		Marist		false		true	-									
 2016	12380	418	Michigan	04/02/2016	Maryland		Maryland		false		true	-									
@@ -542,10 +539,10 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	418	Michigan	04/30/2016	@ Penn St.		Penn St.		false		false	-									
 2016	12380	439	Monmouth	02/14/2016	@ Jacksonville		Jacksonville	http://stats.ncaa.org/team/316/12380	false		false	W 11 - 5	true	11 - 5	false	11	5	false		4015862	http://stats.ncaa.org/game/index/4015862?org_id=316
 2016	12380	439	Monmouth	02/23/2016	@ Wagner		Wagner	http://stats.ncaa.org/team/748/12380	false		false	W 8 - 4	true	8 - 4	false	8	4	false		4025982	http://stats.ncaa.org/game/index/4025982?org_id=748
-2016	12380	439	Monmouth	03/05/2016	Rutgers		Rutgers	http://stats.ncaa.org/team/587/12380	false		true	L 6 - 12	false	6 - 12	false	6	12	false		4043405	http://stats.ncaa.org/game/index/4043405?org_id=439
-2016	12380	439	Monmouth	03/08/2016	NJIT		NJIT		false		true	-									
-2016	12380	439	Monmouth	03/12/2016	Saint Joseph's		Saint Joseph's		false		true	-									
-2016	12380	439	Monmouth	03/15/2016	@ VMI		VMI		false		false	-									
+2016	12380	439	Monmouth	03/05/2016	Rutgers		Rutgers	http://stats.ncaa.org/team/587/12380	false		true	L 6 - 12	false	6 - 12	false	6	12	false		4047926	http://stats.ncaa.org/game/index/4047926?org_id=439
+2016	12380	439	Monmouth	03/08/2016	NJIT		NJIT	http://stats.ncaa.org/team/471/12380	false		true	W 12 - 5	true	12 - 5	false	12	5	false		4052128	http://stats.ncaa.org/game/index/4052128?org_id=439
+2016	12380	439	Monmouth	03/12/2016	Saint Joseph's		Saint Joseph's	http://stats.ncaa.org/team/606/12380	false		true	L 8 - 18	false	8 - 18	false	8	18	false		4056545	http://stats.ncaa.org/game/index/4056545?org_id=439
+2016	12380	439	Monmouth	03/15/2016	@ VMI		VMI	http://stats.ncaa.org/team/741/12380	false		false	W 17 - 5	true	17 - 5	false	17	5	false		4063284	http://stats.ncaa.org/game/index/4063284?org_id=741
 2016	12380	439	Monmouth	03/19/2016	Marist		Marist		false		true	-									
 2016	12380	439	Monmouth	03/26/2016	@ Manhattan		Manhattan		false		false	-									
 2016	12380	439	Monmouth	04/02/2016	@ Canisius		Canisius		false		false	-									
@@ -557,8 +554,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	450	Mt. St. Mary's	02/20/2016	@ Towson		Towson	http://stats.ncaa.org/team/711/12380	false		false	L 5 - 9	false	5 - 9	false	5	9	false		4021846	http://stats.ncaa.org/game/index/4021846?org_id=711
 2016	12380	450	Mt. St. Mary's	02/23/2016	@ Richmond		Richmond	http://stats.ncaa.org/team/575/12380	false		false	L 6 - 9	false	6 - 9	false	6	9	false		4026823	http://stats.ncaa.org/game/index/4026823?org_id=575
 2016	12380	450	Mt. St. Mary's	03/01/2016	@ Georgetown		Georgetown	http://stats.ncaa.org/team/251/12380	false		false	W 11 - 8	true	11 - 8	false	11	8	false		4037250	http://stats.ncaa.org/game/index/4037250?org_id=251
-2016	12380	450	Mt. St. Mary's	03/05/2016	Furman		Furman	http://stats.ncaa.org/team/244/12380	false		true	W 10 - 8	true	10 - 8	false	10	8	false		4042877	http://stats.ncaa.org/game/index/4042877?org_id=450
-2016	12380	450	Mt. St. Mary's	03/12/2016	VMI		VMI		false		true	-									
+2016	12380	450	Mt. St. Mary's	03/05/2016	Furman		Furman	http://stats.ncaa.org/team/244/12380	false		true	W 10 - 8	true	10 - 8	false	10	8	false		4045874	http://stats.ncaa.org/game/index/4045874?org_id=450
+2016	12380	450	Mt. St. Mary's	03/12/2016	VMI		VMI	http://stats.ncaa.org/team/741/12380	false		true	W 14 - 2	true	14 - 2	false	14	2	false		4057036	http://stats.ncaa.org/game/index/4057036?org_id=450
 2016	12380	450	Mt. St. Mary's	03/19/2016	@ Bryant		Bryant		false		false	-									
 2016	12380	450	Mt. St. Mary's	03/26/2016	Robert Morris		Robert Morris		false		true	-									
 2016	12380	450	Mt. St. Mary's	03/29/2016	UMBC		UMBC		false		true	-									
@@ -573,8 +570,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	471	NJIT	02/27/2016	VMI		VMI	http://stats.ncaa.org/team/741/12380	false		true	L 7 - 10	false	7 - 10	false	7	10	false		4031026	http://stats.ncaa.org/game/index/4031026?org_id=471
 2016	12380	471	NJIT	03/01/2016	@ Hofstra		Hofstra	http://stats.ncaa.org/team/283/12380	false		false	L 4 - 19	false	4 - 19	false	4	19	false		4037287	http://stats.ncaa.org/game/index/4037287?org_id=283
 2016	12380	471	NJIT	03/05/2016	@ Quinnipiac		Quinnipiac	http://stats.ncaa.org/team/562/12380	false		false	L 7 - 9	false	7 - 9	false	7	9	false		4042814	http://stats.ncaa.org/game/index/4042814?org_id=562
-2016	12380	471	NJIT	03/08/2016	@ Monmouth		Monmouth		false		false	-									
-2016	12380	471	NJIT	03/13/2016	@ Army West Point		Army West Point		false		false	-									
+2016	12380	471	NJIT	03/08/2016	@ Monmouth		Monmouth	http://stats.ncaa.org/team/439/12380	false		false	L 5 - 12	false	5 - 12	false	5	12	false		4052128	http://stats.ncaa.org/game/index/4052128?org_id=439
+2016	12380	471	NJIT	03/13/2016	@ Army West Point		Army West Point	http://stats.ncaa.org/team/725/12380	false		false	L 6 - 16	false	6 - 16	false	6	16	false		4057486	http://stats.ncaa.org/game/index/4057486?org_id=725
 2016	12380	471	NJIT	03/18/2016	@ Rutgers		Rutgers		false		false	-									
 2016	12380	471	NJIT	03/22/2016	@ Dartmouth		Dartmouth		false		false	-									
 2016	12380	471	NJIT	03/26/2016	@ Wagner		Wagner		false		false	-									
@@ -587,8 +584,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	726	Navy	02/21/2016	Delaware		Delaware	http://stats.ncaa.org/team/180/12380	false		true	W 5 - 1	true	5 - 1	false	5	1	false		4022378	http://stats.ncaa.org/game/index/4022378?org_id=726
 2016	12380	726	Navy	02/27/2016	@ Boston U.		Boston U.	http://stats.ncaa.org/team/68/12380	false		false	L 9 - 10 (2OT)	false	9 - 10	false	9	10	true	2OT	4034418	http://stats.ncaa.org/game/index/4034418?org_id=68
 2016	12380	726	Navy	03/05/2016	@ Bucknell		Bucknell	http://stats.ncaa.org/team/83/12380	false		false	W 13 - 6	true	13 - 6	false	13	6	false		4043326	http://stats.ncaa.org/game/index/4043326?org_id=83
-2016	12380	726	Navy	03/12/2016	Lafayette		Lafayette		false		true	-									
 2016	12380	726	Navy	03/19/2016	Loyola Maryland		Loyola Maryland		false		true	-									
+2016	12380	726	Navy	03/22/2016	Lafayette		Lafayette		false		true	-									
 2016	12380	726	Navy	03/26/2016	@ Lehigh		Lehigh		false		false	-									
 2016	12380	726	Navy	04/02/2016	Holy Cross		Holy Cross		false		true	-									
 2016	12380	726	Navy	04/09/2016	Colgate		Colgate		false		true	-									
@@ -599,9 +596,9 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	457	North Carolina	02/13/2016	Furman		Furman	http://stats.ncaa.org/team/244/12380	false		true	W 14 - 6	true	14 - 6	false	14	6	false		4011194	http://stats.ncaa.org/game/index/4011194?org_id=457
 2016	12380	457	North Carolina	02/20/2016	Hofstra		Hofstra	http://stats.ncaa.org/team/283/12380	false		true	L 5 - 10	false	5 - 10	false	5	10	false		4022131	http://stats.ncaa.org/game/index/4022131?org_id=457
 2016	12380	457	North Carolina	02/28/2016	@ Johns Hopkins		Johns Hopkins	http://stats.ncaa.org/team/322/12380	false		false	W 15 - 11	true	15 - 11	false	15	11	false		4032143	http://stats.ncaa.org/game/index/4032143?org_id=322
-2016	12380	457	North Carolina	03/05/2016	Denver		Denver	http://stats.ncaa.org/team/183/12380	false		true	L 12 - 13 (1OT)	false	12 - 13	false	12	13	true	1OT	4043669	http://stats.ncaa.org/game/index/4043669?org_id=457
-2016	12380	457	North Carolina	03/12/2016	@ Massachusetts		Massachusetts		false		false	-									
-2016	12380	457	North Carolina	03/14/2016	@ Manhattan		Manhattan		false		false	-									
+2016	12380	457	North Carolina	03/05/2016	Denver		Denver	http://stats.ncaa.org/team/183/12380	false		true	L 12 - 13 (1OT)	false	12 - 13	false	12	13	true	1OT	4046511	http://stats.ncaa.org/game/index/4046511?org_id=457
+2016	12380	457	North Carolina	03/12/2016	@ Massachusetts		Massachusetts	http://stats.ncaa.org/team/400/12380	false		false	L 9 - 14	false	9 - 14	false	9	14	false		4056262	http://stats.ncaa.org/game/index/4056262?org_id=400
+2016	12380	457	North Carolina	03/14/2016	@ Manhattan		Manhattan	http://stats.ncaa.org/team/381/12380	false		false	W 18 - 2	true	18 - 2	false	18	2	false		4060952	http://stats.ncaa.org/game/index/4060952?org_id=381
 2016	12380	457	North Carolina	03/19/2016	Richmond		Richmond		false		true	-									
 2016	12380	457	North Carolina	03/26/2016	@ Maryland		Maryland		false		false	-									
 2016	12380	457	North Carolina	04/01/2016	@ Duke		Duke		false		false	-									
@@ -612,7 +609,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	513	Notre Dame	02/24/2016	Bellarmine		Bellarmine	http://stats.ncaa.org/team/52/12380	false		true	W 11 - 6	true	11 - 6	false	11	6	false		4030647	http://stats.ncaa.org/game/index/4030647?org_id=513
 2016	12380	513	Notre Dame	02/27/2016	Detroit		Detroit	http://stats.ncaa.org/team/184/12380	false		true	W 14 - 5	true	14 - 5	false	14	5	false		4031270	http://stats.ncaa.org/game/index/4031270?org_id=513
 2016	12380	513	Notre Dame	03/05/2016	Maryland @ Costa Mesa, CA		Maryland	http://stats.ncaa.org/team/392/12380	true	Costa Mesa, CA	true	W 9 - 4	true	9 - 4	false	9	4	false		4044103	http://stats.ncaa.org/game/index/4044103?org_id=513
-2016	12380	513	Notre Dame	03/13/2016	Denver		Denver		false		true	-									
+2016	12380	513	Notre Dame	03/13/2016	Denver		Denver	http://stats.ncaa.org/team/183/12380	false		true	L 8 - 9 (1OT)	false	8 - 9	false	8	9	true	1OT	4062776	http://stats.ncaa.org/game/index/4062776?org_id=513
 2016	12380	513	Notre Dame	03/19/2016	Virginia		Virginia		false		true	-									
 2016	12380	513	Notre Dame	03/26/2016	@ Ohio St.		Ohio St.		false		false	-									
 2016	12380	513	Notre Dame	04/02/2016	@ Syracuse		Syracuse		false		false	-									
@@ -625,9 +622,9 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	518	Ohio St.	02/20/2016	@ Massachusetts		Massachusetts	http://stats.ncaa.org/team/400/12380	false		false	L 9 - 16	false	9 - 16	false	9	16	false		4024688	http://stats.ncaa.org/game/index/4024688?org_id=400
 2016	12380	518	Ohio St.	02/26/2016	UMBC		UMBC	http://stats.ncaa.org/team/391/12380	false		true	W 12 - 7	true	12 - 7	false	12	7	false		4030134	http://stats.ncaa.org/game/index/4030134?org_id=518
 2016	12380	518	Ohio St.	03/04/2016	Marquette		Marquette	http://stats.ncaa.org/team/387/12380	false		true	W 12 - 8	true	12 - 8	false	12	8	false		4042421	http://stats.ncaa.org/game/index/4042421?org_id=518
-2016	12380	518	Ohio St.	03/06/2016	Bellarmine		Bellarmine		false		true	-									
-2016	12380	518	Ohio St.	03/12/2016	@ Hofstra		Hofstra		false		false	-									
-2016	12380	518	Ohio St.	03/15/2016	Towson		Towson		false		true	-									
+2016	12380	518	Ohio St.	03/06/2016	Bellarmine		Bellarmine	http://stats.ncaa.org/team/52/12380	false		true	W 9 - 5	true	9 - 5	false	9	5	false		4055491	http://stats.ncaa.org/game/index/4055491?org_id=518
+2016	12380	518	Ohio St.	03/12/2016	@ Hofstra		Hofstra	http://stats.ncaa.org/team/283/12380	false		false	L 5 - 8	false	5 - 8	false	5	8	false		4056115	http://stats.ncaa.org/game/index/4056115?org_id=283
+2016	12380	518	Ohio St.	03/15/2016	Towson		Towson	http://stats.ncaa.org/team/711/12380	false		true	L 9 - 10 (1OT)	false	9 - 10	false	9	10	true	1OT	4062239	http://stats.ncaa.org/game/index/4062239?org_id=518
 2016	12380	518	Ohio St.	03/19/2016	@ Denver		Denver		false		false	-									
 2016	12380	518	Ohio St.	03/26/2016	Notre Dame		Notre Dame		false		true	-									
 2016	12380	518	Ohio St.	04/03/2016	Penn St.		Penn St.		false		true	-									
@@ -637,9 +634,9 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	518	Ohio St.	04/30/2016	Rutgers		Rutgers		false		true	-									
 2016	12380	540	Penn	02/20/2016	Michigan		Michigan	http://stats.ncaa.org/team/418/12380	false		true	W 12 - 10	true	12 - 10	false	12	10	false		4022565	http://stats.ncaa.org/game/index/4022565?org_id=540
 2016	12380	540	Penn	02/28/2016	@ Virginia		Virginia	http://stats.ncaa.org/team/746/12380	false		false	L 10 - 15	false	10 - 15	false	10	15	false		4033400	http://stats.ncaa.org/game/index/4033400?org_id=746
-2016	12380	540	Penn	03/05/2016	Penn St.		Penn St.		false		true	-									
-2016	12380	540	Penn	03/08/2016	Lafayette		Lafayette		false		true	-									
-2016	12380	540	Penn	03/12/2016	@ Villanova		Villanova		false		false	-									
+2016	12380	540	Penn	03/05/2016	Penn St.		Penn St.	http://stats.ncaa.org/team/539/12380	false		true	W 11 - 7	true	11 - 7	false	11	7	false		4047377	http://stats.ncaa.org/game/index/4047377?org_id=540
+2016	12380	540	Penn	03/08/2016	Lafayette		Lafayette	http://stats.ncaa.org/team/342/12380	false		true	W 12 - 6	true	12 - 6	false	12	6	false		4050288	http://stats.ncaa.org/game/index/4050288?org_id=342
+2016	12380	540	Penn	03/12/2016	@ Villanova		Villanova	http://stats.ncaa.org/team/739/12380	false		false	L 8 - 16	false	8 - 16	false	8	16	false		4058876	http://stats.ncaa.org/game/index/4058876?org_id=739
 2016	12380	540	Penn	03/19/2016	@ Princeton		Princeton		false		false	-									
 2016	12380	540	Penn	03/26/2016	Cornell		Cornell		false		true	-									
 2016	12380	540	Penn	03/29/2016	Maryland		Maryland		false		true	-									
@@ -653,9 +650,9 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	539	Penn St.	02/13/2016	Hobart and William Colleges		Hobart and William Colleges	http://stats.ncaa.org/team/282/12380	false		true	W 17 - 12	true	17 - 12	false	17	12	false		4014111	http://stats.ncaa.org/game/index/4014111?org_id=539
 2016	12380	539	Penn St.	02/20/2016	@ Cornell		Cornell	http://stats.ncaa.org/team/167/12380	false		false	W 8 - 7	true	8 - 7	false	8	7	false		4021909	http://stats.ncaa.org/game/index/4021909?org_id=167
 2016	12380	539	Penn St.	02/27/2016	Villanova		Villanova	http://stats.ncaa.org/team/739/12380	false		true	L 9 - 19	false	9 - 19	false	9	19	false		4031007	http://stats.ncaa.org/game/index/4031007?org_id=539
-2016	12380	539	Penn St.	03/05/2016	@ Penn		Penn		false		false	-									
-2016	12380	539	Penn St.	03/08/2016	@ Furman		Furman		false		false	-									
-2016	12380	539	Penn St.	03/12/2016	Harvard		Harvard		false		true	-									
+2016	12380	539	Penn St.	03/05/2016	@ Penn		Penn	http://stats.ncaa.org/team/540/12380	false		false	L 7 - 11	false	7 - 11	false	7	11	false		4047377	http://stats.ncaa.org/game/index/4047377?org_id=540
+2016	12380	539	Penn St.	03/08/2016	@ Furman		Furman	http://stats.ncaa.org/team/244/12380	false		false	W 16 - 7	true	16 - 7	false	16	7	false		4049576	http://stats.ncaa.org/game/index/4049576?org_id=244
+2016	12380	539	Penn St.	03/12/2016	Harvard		Harvard	http://stats.ncaa.org/team/275/12380	false		true	W 13 - 12 (1OT)	true	13 - 12	false	13	12	true	1OT	4056033	http://stats.ncaa.org/game/index/4056033?org_id=275
 2016	12380	539	Penn St.	03/19/2016	Massachusetts		Massachusetts		false		true	-									
 2016	12380	539	Penn St.	03/26/2016	Denver@Dallas, TX		DenverDallas, TX		false		false	-									
 2016	12380	539	Penn St.	04/03/2016	@ Ohio St.		Ohio St.		false		false	-									
@@ -666,8 +663,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	554	Princeton	02/20/2016	NJIT		NJIT	http://stats.ncaa.org/team/471/12380	false		true	W 21 - 4	true	21 - 4	false	21	4	false		4020715	http://stats.ncaa.org/game/index/4020715?org_id=554
 2016	12380	554	Princeton	02/27/2016	@ Hofstra		Hofstra	http://stats.ncaa.org/team/283/12380	false		false	L 10 - 11 (1OT)	false	10 - 11	false	10	11	true	1OT	4035021	http://stats.ncaa.org/game/index/4035021?org_id=283
 2016	12380	554	Princeton	03/05/2016	@ Johns Hopkins		Johns Hopkins	http://stats.ncaa.org/team/322/12380	false		false	L 7 - 17	false	7 - 17	false	7	17	false		4043492	http://stats.ncaa.org/game/index/4043492?org_id=322
-2016	12380	554	Princeton	03/12/2016	Maryland		Maryland		false		true	-									
-2016	12380	554	Princeton	03/14/2016	Rutgers		Rutgers		false		true	-									
+2016	12380	554	Princeton	03/12/2016	Maryland		Maryland	http://stats.ncaa.org/team/392/12380	false		true	L 5 - 17	false	5 - 17	false	5	17	false		4056124	http://stats.ncaa.org/game/index/4056124?org_id=554
+2016	12380	554	Princeton	03/14/2016	Rutgers		Rutgers	http://stats.ncaa.org/team/587/12380	false		true	W 10 - 7	true	10 - 7	false	10	7	false		4060678	http://stats.ncaa.org/game/index/4060678?org_id=554
 2016	12380	554	Princeton	03/19/2016	Penn		Penn		false		true	-									
 2016	12380	554	Princeton	03/26/2016	@ Yale		Yale		false		false	-									
 2016	12380	554	Princeton	04/02/2016	@ Brown		Brown		false		false	-									
@@ -680,8 +677,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	556	Providence	02/12/2016	Holy Cross		Holy Cross	http://stats.ncaa.org/team/285/12380	false		true	W 12 - 8	true	12 - 8	false	12	8	false		4015462	http://stats.ncaa.org/game/index/4015462?org_id=556
 2016	12380	556	Providence	02/20/2016	Bryant		Bryant	http://stats.ncaa.org/team/81/12380	false		true	L 10 - 12	false	10 - 12	false	10	12	false		4020240	http://stats.ncaa.org/game/index/4020240?org_id=556
 2016	12380	556	Providence	02/27/2016	@ Vermont		Vermont	http://stats.ncaa.org/team/738/12380	false		false	W 11 - 8	true	11 - 8	false	11	8	false		4034637	http://stats.ncaa.org/game/index/4034637?org_id=738
-2016	12380	556	Providence	03/05/2016	@ Sacred Heart		Sacred Heart	http://stats.ncaa.org/team/590/12380	false		false	W 11 - 8	true	11 - 8	false	11	8	false		4042902	http://stats.ncaa.org/game/index/4042902?org_id=590
-2016	12380	556	Providence	03/12/2016	@ High Point		High Point		false		false	-									
+2016	12380	556	Providence	03/05/2016	@ Sacred Heart		Sacred Heart	http://stats.ncaa.org/team/590/12380	false		false	W 11 - 8	true	11 - 8	false	11	8	false		4046415	http://stats.ncaa.org/game/index/4046415?org_id=590
+2016	12380	556	Providence	03/12/2016	@ High Point		High Point	http://stats.ncaa.org/team/19651/12380	false		false	L 12 - 13	false	12 - 13	false	12	13	false		4056050	http://stats.ncaa.org/game/index/4056050?org_id=19651
 2016	12380	556	Providence	03/19/2016	Hofstra		Hofstra		false		true	-									
 2016	12380	556	Providence	03/22/2016	UMass Lowell		UMass Lowell		false		true	-									
 2016	12380	556	Providence	03/26/2016	Bellarmine		Bellarmine		false		true	-									
@@ -694,7 +691,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	562	Quinnipiac	02/20/2016	Brown		Brown	http://stats.ncaa.org/team/80/12380	false		true	L 7 - 20	false	7 - 20	false	7	20	false		4023958	http://stats.ncaa.org/game/index/4023958?org_id=562
 2016	12380	562	Quinnipiac	02/27/2016	@ Bellarmine		Bellarmine	http://stats.ncaa.org/team/52/12380	false		false	W 12 - 6	true	12 - 6	false	12	6	false		4031267	http://stats.ncaa.org/game/index/4031267?org_id=52
 2016	12380	562	Quinnipiac	03/05/2016	NJIT		NJIT	http://stats.ncaa.org/team/471/12380	false		true	W 9 - 7	true	9 - 7	false	9	7	false		4042814	http://stats.ncaa.org/game/index/4042814?org_id=562
-2016	12380	562	Quinnipiac	03/12/2016	@ Hartford		Hartford		false		false	-									
+2016	12380	562	Quinnipiac	03/12/2016	@ Hartford		Hartford	http://stats.ncaa.org/team/272/12380	false		false	W 11 - 10 (1OT)	true	11 - 10	false	11	10	true	1OT	4062857	http://stats.ncaa.org/game/index/4062857?org_id=272
 2016	12380	562	Quinnipiac	03/19/2016	Marquette		Marquette		false		true	-									
 2016	12380	562	Quinnipiac	03/22/2016	@ Fairfield		Fairfield		false		false	-									
 2016	12380	562	Quinnipiac	03/26/2016	Siena		Siena		false		true	-									
@@ -707,9 +704,9 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	575	Richmond	02/20/2016	@ UMBC		UMBC	http://stats.ncaa.org/team/391/12380	false		false	W 7 - 5	true	7 - 5	false	7	5	false		4020103	http://stats.ncaa.org/game/index/4020103?org_id=391
 2016	12380	575	Richmond	02/23/2016	Mt. St. Mary's		Mt. St. Mary's	http://stats.ncaa.org/team/450/12380	false		true	W 9 - 6	true	9 - 6	false	9	6	false		4026823	http://stats.ncaa.org/game/index/4026823?org_id=575
 2016	12380	575	Richmond	02/27/2016	Marquette		Marquette	http://stats.ncaa.org/team/387/12380	false		true	L 2 - 7	false	2 - 7	false	2	7	false		4033425	http://stats.ncaa.org/game/index/4033425?org_id=575
-2016	12380	575	Richmond	03/05/2016	@ VMI		VMI	http://stats.ncaa.org/team/741/12380	false		false	W 11 - 6	true	11 - 6	false	11	6	false		4043887	http://stats.ncaa.org/game/index/4043887?org_id=741
-2016	12380	575	Richmond	03/07/2016	@ Duke		Duke		false		false	-									
-2016	12380	575	Richmond	03/12/2016	Jacksonville		Jacksonville		false		true	-									
+2016	12380	575	Richmond	03/05/2016	@ VMI		VMI	http://stats.ncaa.org/team/741/12380	false		false	W 11 - 6	true	11 - 6	false	11	6	false		4046317	http://stats.ncaa.org/game/index/4046317?org_id=741
+2016	12380	575	Richmond	03/07/2016	@ Duke		Duke	http://stats.ncaa.org/team/193/12380	false		false	W 12 - 10	true	12 - 10	false	12	10	false		4048500	http://stats.ncaa.org/game/index/4048500?org_id=193
+2016	12380	575	Richmond	03/12/2016	Jacksonville		Jacksonville	http://stats.ncaa.org/team/316/12380	false		true	W 12 - 6	true	12 - 6	false	12	6	false		4056845	http://stats.ncaa.org/game/index/4056845?org_id=575
 2016	12380	575	Richmond	03/19/2016	@ North Carolina		North Carolina		false		false	-									
 2016	12380	575	Richmond	03/27/2016	High Point		High Point		false		true	-									
 2016	12380	575	Richmond	04/02/2016	Virginia		Virginia		false		true	-									
@@ -719,11 +716,11 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	575	Richmond	04/30/2016	@ Mercer		Mercer		false		false	-									
 2016	12380	579	Robert Morris	02/06/2016	@ Penn St.		Penn St.	http://stats.ncaa.org/team/539/12380	false		false	L 7 - 20	false	7 - 20	false	7	20	false		4004129	http://stats.ncaa.org/game/index/4004129?org_id=539
 2016	12380	579	Robert Morris	02/13/2016	@ Bellarmine		Bellarmine	http://stats.ncaa.org/team/52/12380	false		false	L 10 - 11	false	10 - 11	false	10	11	false		4013304	http://stats.ncaa.org/game/index/4013304?org_id=52
-2016	12380	579	Robert Morris	02/20/2016	Manhattan		Manhattan	http://stats.ncaa.org/team/381/12380	false		true	W 19 - 6	true	19 - 6	false	19	6	false		4024426	http://stats.ncaa.org/game/index/4024426?org_id=579
+2016	12380	579	Robert Morris	02/20/2016	Manhattan		Manhattan	http://stats.ncaa.org/team/381/12380	false		true	W 19 - 6	true	19 - 6	false	19	6	false		4047679	http://stats.ncaa.org/game/index/4047679?org_id=579
 2016	12380	579	Robert Morris	02/27/2016	High Point		High Point	http://stats.ncaa.org/team/19651/12380	false		true	L 10 - 15	false	10 - 15	false	10	15	false		4035437	http://stats.ncaa.org/game/index/4035437?org_id=579
-2016	12380	579	Robert Morris	03/05/2016	Air Force		Air Force		false		true	-									
-2016	12380	579	Robert Morris	03/08/2016	@ Mercer		Mercer		false		false	-									
-2016	12380	579	Robert Morris	03/12/2016	@ Marquette		Marquette		false		false	-									
+2016	12380	579	Robert Morris	03/05/2016	Air Force		Air Force	http://stats.ncaa.org/team/721/12380	false		true	L 10 - 11	false	10 - 11	false	10	11	false		4051423	http://stats.ncaa.org/game/index/4051423?org_id=579
+2016	12380	579	Robert Morris	03/08/2016	@ Mercer		Mercer	http://stats.ncaa.org/team/406/12380	false		false	W 11 - 10 (1OT)	true	11 - 10	false	11	10	true	1OT	4053387	http://stats.ncaa.org/game/index/4053387?org_id=406
+2016	12380	579	Robert Morris	03/12/2016	@ Marquette		Marquette	http://stats.ncaa.org/team/387/12380	false		false	L 5 - 13	false	5 - 13	false	5	13	false		4056491	http://stats.ncaa.org/game/index/4056491?org_id=387
 2016	12380	579	Robert Morris	03/19/2016	Sacred Heart		Sacred Heart		false		true	-									
 2016	12380	579	Robert Morris	03/26/2016	@ Mt. St. Mary's		Mt. St. Mary's		false		false	-									
 2016	12380	579	Robert Morris	04/02/2016	Bryant		Bryant		false		true	-									
@@ -735,9 +732,9 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	587	Rutgers	02/20/2016	@ Army West Point		Army West Point	http://stats.ncaa.org/team/725/12380	false		false	W 13 - 11	true	13 - 11	false	13	11	false		4023392	http://stats.ncaa.org/game/index/4023392?org_id=725
 2016	12380	587	Rutgers	02/27/2016	Fairfield		Fairfield	http://stats.ncaa.org/team/220/12380	false		true	W 12 - 6	true	12 - 6	false	12	6	false		4034499	http://stats.ncaa.org/game/index/4034499?org_id=587
 2016	12380	587	Rutgers	03/01/2016	@ Wagner		Wagner	http://stats.ncaa.org/team/748/12380	false		false	W 15 - 7	true	15 - 7	false	15	7	false		4037307	http://stats.ncaa.org/game/index/4037307?org_id=748
-2016	12380	587	Rutgers	03/05/2016	@ Monmouth		Monmouth	http://stats.ncaa.org/team/439/12380	false		false	W 12 - 6	true	12 - 6	false	12	6	false		4043405	http://stats.ncaa.org/game/index/4043405?org_id=439
-2016	12380	587	Rutgers	03/11/2016	@ Stony Brook		Stony Brook		false		false	-									
-2016	12380	587	Rutgers	03/14/2016	@ Princeton		Princeton		false		false	-									
+2016	12380	587	Rutgers	03/05/2016	@ Monmouth		Monmouth	http://stats.ncaa.org/team/439/12380	false		false	W 12 - 6	true	12 - 6	false	12	6	false		4047926	http://stats.ncaa.org/game/index/4047926?org_id=439
+2016	12380	587	Rutgers	03/11/2016	@ Stony Brook		Stony Brook	http://stats.ncaa.org/team/683/12380	false		false	L 6 - 15	false	6 - 15	false	6	15	false		4055526	http://stats.ncaa.org/game/index/4055526?org_id=683
+2016	12380	587	Rutgers	03/14/2016	@ Princeton		Princeton	http://stats.ncaa.org/team/554/12380	false		false	L 7 - 10	false	7 - 10	false	7	10	false		4060678	http://stats.ncaa.org/game/index/4060678?org_id=554
 2016	12380	587	Rutgers	03/18/2016	NJIT		NJIT		false		true	-									
 2016	12380	587	Rutgers	03/26/2016	Delaware		Delaware		false		true	-									
 2016	12380	587	Rutgers	04/02/2016	Johns Hopkins		Johns Hopkins		false		true	-									
@@ -750,8 +747,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	590	Sacred Heart	02/20/2016	Dartmouth		Dartmouth	http://stats.ncaa.org/team/172/12380	false		true	W 10 - 8	true	10 - 8	false	10	8	false		4021235	http://stats.ncaa.org/game/index/4021235?org_id=590
 2016	12380	590	Sacred Heart	02/27/2016	@ Denver		Denver	http://stats.ncaa.org/team/183/12380	false		false	L 7 - 18	false	7 - 18	false	7	18	false		4031170	http://stats.ncaa.org/game/index/4031170?org_id=183
 2016	12380	590	Sacred Heart	02/28/2016	Air Force @ Denver, Colo.		Air Force	http://stats.ncaa.org/team/721/12380	true	Denver, Colo.	true	L 10 - 13	false	10 - 13	false	10	13	false		4033373	http://stats.ncaa.org/game/index/4033373?org_id=721
-2016	12380	590	Sacred Heart	03/05/2016	Providence		Providence	http://stats.ncaa.org/team/556/12380	false		true	L 8 - 11	false	8 - 11	false	8	11	false		4042902	http://stats.ncaa.org/game/index/4042902?org_id=590
-2016	12380	590	Sacred Heart	03/12/2016	@ Vermont		Vermont		false		false	-									
+2016	12380	590	Sacred Heart	03/05/2016	Providence		Providence	http://stats.ncaa.org/team/556/12380	false		true	L 8 - 11	false	8 - 11	false	8	11	false		4046415	http://stats.ncaa.org/game/index/4046415?org_id=590
+2016	12380	590	Sacred Heart	03/12/2016	@ Vermont		Vermont	http://stats.ncaa.org/team/738/12380	false		false	L 8 - 9 (1OT)	false	8 - 9	false	8	9	true	1OT	4059096	http://stats.ncaa.org/game/index/4059096?org_id=738
 2016	12380	590	Sacred Heart	03/19/2016	@ Robert Morris		Robert Morris		false		false	-									
 2016	12380	590	Sacred Heart	03/25/2016	Bryant		Bryant		false		true	-									
 2016	12380	590	Sacred Heart	04/02/2016	Mt. St. Mary's		Mt. St. Mary's		false		true	-									
@@ -765,8 +762,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	606	Saint Joseph's	02/27/2016	Manhattan		Manhattan	http://stats.ncaa.org/team/381/12380	false		true	W 16 - 9	true	16 - 9	false	16	9	false		4031896	http://stats.ncaa.org/game/index/4031896?org_id=606
 2016	12380	606	Saint Joseph's	03/02/2016	St. John's (NY)		St. John's (NY)	http://stats.ncaa.org/team/603/12380	false		true	W 16 - 8	true	16 - 8	false	16	8	false		4038705	http://stats.ncaa.org/game/index/4038705?org_id=606
 2016	12380	606	Saint Joseph's	03/05/2016	Drexel		Drexel	http://stats.ncaa.org/team/191/12380	false		true	L 9 - 10	false	9 - 10	false	9	10	false		4043356	http://stats.ncaa.org/game/index/4043356?org_id=606
-2016	12380	606	Saint Joseph's	03/08/2016	@ Virginia		Virginia		false		false	-									
-2016	12380	606	Saint Joseph's	03/12/2016	@ Monmouth		Monmouth		false		false	-									
+2016	12380	606	Saint Joseph's	03/08/2016	@ Virginia		Virginia	http://stats.ncaa.org/team/746/12380	false		false	L 7 - 9	false	7 - 9	false	7	9	false		4050118	http://stats.ncaa.org/game/index/4050118?org_id=746
+2016	12380	606	Saint Joseph's	03/12/2016	@ Monmouth		Monmouth	http://stats.ncaa.org/team/439/12380	false		false	W 18 - 8	true	18 - 8	false	18	8	false		4056545	http://stats.ncaa.org/game/index/4056545?org_id=439
 2016	12380	606	Saint Joseph's	03/19/2016	Delaware		Delaware		false		true	-									
 2016	12380	606	Saint Joseph's	03/26/2016	@ Hobart and William Colleges		Hobart and William Colleges		false		false	-									
 2016	12380	606	Saint Joseph's	04/02/2016	@ Wagner		Wagner		false		false	-									
@@ -780,7 +777,6 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	639	Siena	02/23/2016	@ Mercer		Mercer	http://stats.ncaa.org/team/406/12380	false		false	L 11 - 12	false	11 - 12	false	11	12	false		4037180	http://stats.ncaa.org/game/index/4037180?org_id=406
 2016	12380	639	Siena	02/27/2016	UMass Lowell		UMass Lowell	http://stats.ncaa.org/team/368/12380	false		true	W 11 - 7	true	11 - 7	false	11	7	false		4037091	http://stats.ncaa.org/game/index/4037091?org_id=639
 2016	12380	639	Siena	03/05/2016	@ St. John's (NY)		St. John's (NY)	http://stats.ncaa.org/team/603/12380	false		false	L 9 - 10	false	9 - 10	false	9	10	false		4043184	http://stats.ncaa.org/game/index/4043184?org_id=603
-2016	12380	639	Siena	03/15/2016	Bryant		Bryant		false		true	-									
 2016	12380	639	Siena	03/19/2016	Canisius		Canisius		false		true	-									
 2016	12380	639	Siena	03/26/2016	@ Quinnipiac		Quinnipiac		false		false	-									
 2016	12380	639	Siena	04/02/2016	@ Detroit		Detroit		false		false	-									
@@ -794,8 +790,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	603	St. John's (NY)	02/21/2016	@ Stony Brook		Stony Brook	http://stats.ncaa.org/team/683/12380	false		false	L 6 - 14	false	6 - 14	false	6	14	false		4026831	http://stats.ncaa.org/game/index/4026831?org_id=683
 2016	12380	603	St. John's (NY)	03/02/2016	@ Saint Joseph's		Saint Joseph's	http://stats.ncaa.org/team/606/12380	false		false	L 8 - 16	false	8 - 16	false	8	16	false		4038705	http://stats.ncaa.org/game/index/4038705?org_id=606
 2016	12380	603	St. John's (NY)	03/05/2016	Siena		Siena	http://stats.ncaa.org/team/639/12380	false		true	W 10 - 9	true	10 - 9	false	10	9	false		4043184	http://stats.ncaa.org/game/index/4043184?org_id=603
-2016	12380	603	St. John's (NY)	03/08/2016	@ Yale		Yale		false		false	-									
-2016	12380	603	St. John's (NY)	03/12/2016	@ Syracuse		Syracuse		false		false	-									
+2016	12380	603	St. John's (NY)	03/08/2016	@ Yale		Yale	http://stats.ncaa.org/team/813/12380	false		false	L 8 - 13	false	8 - 13	false	8	13	false		4050061	http://stats.ncaa.org/game/index/4050061?org_id=813
+2016	12380	603	St. John's (NY)	03/12/2016	@ Syracuse		Syracuse	http://stats.ncaa.org/team/688/12380	false		false	L 4 - 15	false	4 - 15	false	4	15	false		4056624	http://stats.ncaa.org/game/index/4056624?org_id=688
 2016	12380	603	St. John's (NY)	03/19/2016	@ Drexel		Drexel		false		false	-									
 2016	12380	603	St. John's (NY)	03/26/2016	Hofstra		Hofstra		false		true	-									
 2016	12380	603	St. John's (NY)	04/02/2016	@ Providence		Providence		false		false	-									
@@ -806,9 +802,9 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	683	Stony Brook	02/16/2016	Sacred Heart		Sacred Heart	http://stats.ncaa.org/team/590/12380	false		true	W 17 - 8	true	17 - 8	false	17	8	false		4014985	http://stats.ncaa.org/game/index/4014985?org_id=683
 2016	12380	683	Stony Brook	02/21/2016	St. John's (NY)		St. John's (NY)	http://stats.ncaa.org/team/603/12380	false		true	W 14 - 6	true	14 - 6	false	14	6	false		4026831	http://stats.ncaa.org/game/index/4026831?org_id=683
 2016	12380	683	Stony Brook	02/27/2016	Brown		Brown	http://stats.ncaa.org/team/80/12380	false		true	L 14 - 16	false	14 - 16	false	14	16	false		4032217	http://stats.ncaa.org/game/index/4032217?org_id=683
-2016	12380	683	Stony Brook	03/05/2016	@ Fairfield		Fairfield	http://stats.ncaa.org/team/220/12380	false		false	W 9 - 6	true	9 - 6	false	9	6	false		4043262	http://stats.ncaa.org/game/index/4043262?org_id=683
-2016	12380	683	Stony Brook	03/11/2016	Rutgers		Rutgers		false		true	-									
-2016	12380	683	Stony Brook	03/15/2016	Hofstra		Hofstra		false		true	-									
+2016	12380	683	Stony Brook	03/05/2016	@ Fairfield		Fairfield	http://stats.ncaa.org/team/220/12380	false		false	W 9 - 6	true	9 - 6	false	9	6	false		4044280	http://stats.ncaa.org/game/index/4044280?org_id=220
+2016	12380	683	Stony Brook	03/11/2016	Rutgers		Rutgers	http://stats.ncaa.org/team/587/12380	false		true	W 15 - 6	true	15 - 6	false	15	6	false		4055526	http://stats.ncaa.org/game/index/4055526?org_id=683
+2016	12380	683	Stony Brook	03/15/2016	Hofstra		Hofstra	http://stats.ncaa.org/team/283/12380	false		true	W 13 - 5	true	13 - 5	false	13	5	false		4062187	http://stats.ncaa.org/game/index/4062187?org_id=683
 2016	12380	683	Stony Brook	03/19/2016	@ Albany (NY)		Albany (NY)		false		false	-									
 2016	12380	683	Stony Brook	03/26/2016	@ UMBC		UMBC		false		false	-									
 2016	12380	683	Stony Brook	03/29/2016	@ Lehigh		Lehigh		false		false	-									
@@ -822,7 +818,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	688	Syracuse	02/21/2016	Albany (NY)		Albany (NY)	http://stats.ncaa.org/team/14/12380	false		true	W 16 - 7	true	16 - 7	false	16	7	false		4022567	http://stats.ncaa.org/game/index/4022567?org_id=688
 2016	12380	688	Syracuse	02/28/2016	Army West Point		Army West Point	http://stats.ncaa.org/team/725/12380	false		true	W 9 - 8	true	9 - 8	false	9	8	false		4032593	http://stats.ncaa.org/game/index/4032593?org_id=688
 2016	12380	688	Syracuse	03/04/2016	@ Virginia		Virginia	http://stats.ncaa.org/team/746/12380	false		false	W 14 - 13	true	14 - 13	false	14	13	false		4042107	http://stats.ncaa.org/game/index/4042107?org_id=746
-2016	12380	688	Syracuse	03/12/2016	St. John's (NY)		St. John's (NY)		false		true	-									
+2016	12380	688	Syracuse	03/12/2016	St. John's (NY)		St. John's (NY)	http://stats.ncaa.org/team/603/12380	false		true	W 15 - 4	true	15 - 4	false	15	4	false		4056624	http://stats.ncaa.org/game/index/4056624?org_id=688
 2016	12380	688	Syracuse	03/19/2016	@ Johns Hopkins		Johns Hopkins		false		false	-									
 2016	12380	688	Syracuse	03/26/2016	@ Duke		Duke		false		false	-									
 2016	12380	688	Syracuse	04/02/2016	Notre Dame		Notre Dame		false		true	-									
@@ -833,11 +829,11 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	688	Syracuse	05/07/2016	Colgate		Colgate		false		true	-									
 2016	12380	711	Towson	02/12/2016	Mercer		Mercer	http://stats.ncaa.org/team/406/12380	false		true	W 11 - 2	true	11 - 2	false	11	2	false		4009724	http://stats.ncaa.org/game/index/4009724?org_id=711
 2016	12380	711	Towson	02/20/2016	Mt. St. Mary's		Mt. St. Mary's	http://stats.ncaa.org/team/450/12380	false		true	W 9 - 5	true	9 - 5	false	9	5	false		4021846	http://stats.ncaa.org/game/index/4021846?org_id=711
-2016	12380	711	Towson	02/27/2016	Georgetown		Georgetown	http://stats.ncaa.org/team/251/12380	false		true	W 10 - 7	true	10 - 7	false	10	7	false		4032162	http://stats.ncaa.org/game/index/4032162?org_id=711
-2016	12380	711	Towson	03/02/2016	@ Loyola Maryland		Loyola Maryland	http://stats.ncaa.org/team/369/12380	false		false	W 10 - 8	true	10 - 8	false	10	8	false		4038659	http://stats.ncaa.org/game/index/4038659?org_id=711
-2016	12380	711	Towson	03/05/2016	UMBC		UMBC	http://stats.ncaa.org/team/391/12380	false		true	W 14 - 6	true	14 - 6	false	14	6	false		4043130	http://stats.ncaa.org/game/index/4043130?org_id=711
-2016	12380	711	Towson	03/12/2016	@ Johns Hopkins		Johns Hopkins		false		false	-									
-2016	12380	711	Towson	03/15/2016	@ Ohio St.		Ohio St.		false		false	-									
+2016	12380	711	Towson	02/27/2016	Georgetown		Georgetown	http://stats.ncaa.org/team/251/12380	false		true	W 10 - 7	true	10 - 7	false	10	7	false		4061448	http://stats.ncaa.org/game/index/4061448?org_id=711
+2016	12380	711	Towson	03/02/2016	@ Loyola Maryland		Loyola Maryland	http://stats.ncaa.org/team/369/12380	false		false	W 10 - 8	true	10 - 8	false	10	8	false		4048870	http://stats.ncaa.org/game/index/4048870?org_id=711
+2016	12380	711	Towson	03/05/2016	UMBC		UMBC	http://stats.ncaa.org/team/391/12380	false		true	W 14 - 6	true	14 - 6	false	14	6	false		4049057	http://stats.ncaa.org/game/index/4049057?org_id=711
+2016	12380	711	Towson	03/12/2016	@ Johns Hopkins		Johns Hopkins	http://stats.ncaa.org/team/322/12380	false		false	L 8 - 14	false	8 - 14	false	8	14	false		4056369	http://stats.ncaa.org/game/index/4056369?org_id=322
+2016	12380	711	Towson	03/15/2016	@ Ohio St.		Ohio St.	http://stats.ncaa.org/team/518/12380	false		false	W 10 - 9 (1OT)	true	10 - 9	false	10	9	true	1OT	4062239	http://stats.ncaa.org/game/index/4062239?org_id=518
 2016	12380	711	Towson	03/19/2016	Furman		Furman		false		true	-									
 2016	12380	711	Towson	03/26/2016	Binghamton		Binghamton		false		true	-									
 2016	12380	711	Towson	04/02/2016	Drexel		Drexel		false		true	-									
@@ -847,8 +843,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	711	Towson	04/30/2016	@ Hofstra		Hofstra		false		false	-									
 2016	12380	391	UMBC	02/20/2016	Richmond		Richmond	http://stats.ncaa.org/team/575/12380	false		true	L 5 - 7	false	5 - 7	false	5	7	false		4020103	http://stats.ncaa.org/game/index/4020103?org_id=391
 2016	12380	391	UMBC	02/26/2016	@ Ohio St.		Ohio St.	http://stats.ncaa.org/team/518/12380	false		false	L 7 - 12	false	7 - 12	false	7	12	false		4030134	http://stats.ncaa.org/game/index/4030134?org_id=518
-2016	12380	391	UMBC	03/05/2016	@ Towson		Towson	http://stats.ncaa.org/team/711/12380	false		false	L 6 - 14	false	6 - 14	false	6	14	false		4043130	http://stats.ncaa.org/game/index/4043130?org_id=711
-2016	12380	391	UMBC	03/12/2016	Marist		Marist		false		true	-									
+2016	12380	391	UMBC	03/05/2016	@ Towson		Towson	http://stats.ncaa.org/team/711/12380	false		false	L 6 - 14	false	6 - 14	false	6	14	false		4049057	http://stats.ncaa.org/game/index/4049057?org_id=711
+2016	12380	391	UMBC	03/12/2016	Marist		Marist	http://stats.ncaa.org/team/386/12380	false		true	W 9 - 8 (1OT)	true	9 - 8	false	9	8	true	1OT	4060296	http://stats.ncaa.org/game/index/4060296?org_id=391
 2016	12380	391	UMBC	03/19/2016	@ Binghamton		Binghamton		false		false	-									
 2016	12380	391	UMBC	03/26/2016	Stony Brook		Stony Brook		false		true	-									
 2016	12380	391	UMBC	03/29/2016	@ Mt. St. Mary's		Mt. St. Mary's		false		false	-									
@@ -864,8 +860,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	368	UMass Lowell	02/27/2016	@ Siena		Siena	http://stats.ncaa.org/team/639/12380	false		false	L 7 - 11	false	7 - 11	false	7	11	false		4037091	http://stats.ncaa.org/game/index/4037091?org_id=639
 2016	12380	368	UMass Lowell	03/01/2016	@ Fairfield		Fairfield	http://stats.ncaa.org/team/220/12380	false		false	L 10 - 12	false	10 - 12	false	10	12	false		4037179	http://stats.ncaa.org/game/index/4037179?org_id=220
 2016	12380	368	UMass Lowell	03/05/2016	Jacksonville		Jacksonville	http://stats.ncaa.org/team/316/12380	false		true	W 12 - 9	true	12 - 9	false	12	9	false		4042863	http://stats.ncaa.org/game/index/4042863?org_id=368
-2016	12380	368	UMass Lowell	03/12/2016	Manhattan		Manhattan		false		true	-									
-2016	12380	368	UMass Lowell	03/15/2016	@ Wagner		Wagner		false		false	-									
+2016	12380	368	UMass Lowell	03/12/2016	Manhattan		Manhattan	http://stats.ncaa.org/team/381/12380	false		true	L 5 - 8	false	5 - 8	false	5	8	false		4056283	http://stats.ncaa.org/game/index/4056283?org_id=368
+2016	12380	368	UMass Lowell	03/15/2016	@ Wagner		Wagner	http://stats.ncaa.org/team/748/12380	false		false	W 12 - 11	true	12 - 11	false	12	11	false		4061961	http://stats.ncaa.org/game/index/4061961?org_id=748
 2016	12380	368	UMass Lowell	03/19/2016	Hartford		Hartford		false		true	-									
 2016	12380	368	UMass Lowell	03/22/2016	@ Providence		Providence		false		false	-									
 2016	12380	368	UMass Lowell	03/26/2016	@ Vermont		Vermont		false		false	-									
@@ -879,10 +875,10 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	741	VMI	02/21/2016	@ Army West Point		Army West Point	http://stats.ncaa.org/team/725/12380	false		false	L 3 - 22	false	3 - 22	false	3	22	false		4026827	http://stats.ncaa.org/game/index/4026827?org_id=725
 2016	12380	741	VMI	02/27/2016	@ NJIT		NJIT	http://stats.ncaa.org/team/471/12380	false		false	W 10 - 7	true	10 - 7	false	10	7	false		4031026	http://stats.ncaa.org/game/index/4031026?org_id=471
 2016	12380	741	VMI	03/01/2016	@ Delaware		Delaware	http://stats.ncaa.org/team/180/12380	false		false	L 6 - 14	false	6 - 14	false	6	14	false		4037176	http://stats.ncaa.org/game/index/4037176?org_id=180
-2016	12380	741	VMI	03/05/2016	Richmond		Richmond	http://stats.ncaa.org/team/575/12380	false		true	L 6 - 11	false	6 - 11	false	6	11	false		4043887	http://stats.ncaa.org/game/index/4043887?org_id=741
-2016	12380	741	VMI	03/08/2016	Wagner		Wagner		false		true	-									
-2016	12380	741	VMI	03/12/2016	@ Mt. St. Mary's		Mt. St. Mary's		false		false	-									
-2016	12380	741	VMI	03/15/2016	Monmouth		Monmouth		false		true	-									
+2016	12380	741	VMI	03/05/2016	Richmond		Richmond	http://stats.ncaa.org/team/575/12380	false		true	L 6 - 11	false	6 - 11	false	6	11	false		4046317	http://stats.ncaa.org/game/index/4046317?org_id=741
+2016	12380	741	VMI	03/08/2016	Wagner		Wagner	http://stats.ncaa.org/team/748/12380	false		true	L 6 - 7	false	6 - 7	false	6	7	false		4049979	http://stats.ncaa.org/game/index/4049979?org_id=741
+2016	12380	741	VMI	03/12/2016	@ Mt. St. Mary's		Mt. St. Mary's	http://stats.ncaa.org/team/450/12380	false		false	L 2 - 14	false	2 - 14	false	2	14	false		4057036	http://stats.ncaa.org/game/index/4057036?org_id=450
+2016	12380	741	VMI	03/15/2016	Monmouth		Monmouth	http://stats.ncaa.org/team/439/12380	false		true	L 5 - 17	false	5 - 17	false	5	17	false		4063284	http://stats.ncaa.org/game/index/4063284?org_id=741
 2016	12380	741	VMI	03/19/2016	@ Mercer		Mercer		false		false	-									
 2016	12380	741	VMI	03/26/2016	Furman		Furman		false		true	-									
 2016	12380	741	VMI	03/29/2016	@ Virginia		Virginia		false		false	-									
@@ -896,8 +892,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	738	Vermont	02/20/2016	@ Holy Cross		Holy Cross	http://stats.ncaa.org/team/285/12380	false		false	W 14 - 8	true	14 - 8	false	14	8	false		4020573	http://stats.ncaa.org/game/index/4020573?org_id=285
 2016	12380	738	Vermont	02/27/2016	Providence		Providence	http://stats.ncaa.org/team/556/12380	false		true	L 8 - 11	false	8 - 11	false	8	11	false		4034637	http://stats.ncaa.org/game/index/4034637?org_id=738
 2016	12380	738	Vermont	03/05/2016	@ Michigan		Michigan	http://stats.ncaa.org/team/418/12380	false		false	L 13 - 15	false	13 - 15	false	13	15	false		4043793	http://stats.ncaa.org/game/index/4043793?org_id=418
-2016	12380	738	Vermont	03/08/2016	Canisius@Oshawa, CAN		CanisiusOshawa, CAN		false		false	-									
-2016	12380	738	Vermont	03/12/2016	Sacred Heart		Sacred Heart		false		true	-									
+2016	12380	738	Vermont	03/08/2016	Canisius @ Oshawa, Ontario		Canisius	http://stats.ncaa.org/team/116/12380	true	Oshawa, Ontario	true	L 6 - 11	false	6 - 11	false	6	11	false		4050024	http://stats.ncaa.org/game/index/4050024?org_id=116
+2016	12380	738	Vermont	03/12/2016	Sacred Heart		Sacred Heart	http://stats.ncaa.org/team/590/12380	false		true	W 9 - 8 (1OT)	true	9 - 8	false	9	8	true	1OT	4059096	http://stats.ncaa.org/game/index/4059096?org_id=738
 2016	12380	738	Vermont	03/22/2016	@ Hofstra		Hofstra		false		false	-									
 2016	12380	738	Vermont	03/26/2016	UMass Lowell		UMass Lowell		false		true	-									
 2016	12380	738	Vermont	03/29/2016	Dartmouth		Dartmouth		false		true	-									
@@ -910,8 +906,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	739	Villanova	02/27/2016	@ Penn St.		Penn St.	http://stats.ncaa.org/team/539/12380	false		false	W 19 - 9	true	19 - 9	false	19	9	false		4031007	http://stats.ncaa.org/game/index/4031007?org_id=539
 2016	12380	739	Villanova	03/01/2016	Drexel		Drexel	http://stats.ncaa.org/team/191/12380	false		true	W 14 - 9	true	14 - 9	false	14	9	false		4036968	http://stats.ncaa.org/game/index/4036968?org_id=739
 2016	12380	739	Villanova	03/05/2016	@ Delaware		Delaware	http://stats.ncaa.org/team/180/12380	false		false	W 23 - 13	true	23 - 13	false	23	13	false		4043477	http://stats.ncaa.org/game/index/4043477?org_id=180
-2016	12380	739	Villanova	03/12/2016	Penn		Penn		false		true	-									
-2016	12380	739	Villanova	03/15/2016	@ Bucknell		Bucknell		false		false	-									
+2016	12380	739	Villanova	03/12/2016	Penn		Penn	http://stats.ncaa.org/team/540/12380	false		true	W 16 - 8	true	16 - 8	false	16	8	false		4058876	http://stats.ncaa.org/game/index/4058876?org_id=739
+2016	12380	739	Villanova	03/15/2016	@ Bucknell		Bucknell	http://stats.ncaa.org/team/83/12380	false		false	W 12 - 8	true	12 - 8	false	12	8	false		4061939	http://stats.ncaa.org/game/index/4061939?org_id=83
 2016	12380	739	Villanova	03/26/2016	Fairfield		Fairfield		false		true	-									
 2016	12380	739	Villanova	03/29/2016	Brown		Brown		false		true	-									
 2016	12380	739	Villanova	04/02/2016	@ Marquette		Marquette		false		false	-									
@@ -924,8 +920,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	746	Virginia	02/23/2016	High Point		High Point	http://stats.ncaa.org/team/19651/12380	false		true	L 11 - 12 (1OT)	false	11 - 12	false	11	12	true	1OT	4026702	http://stats.ncaa.org/game/index/4026702?org_id=746
 2016	12380	746	Virginia	02/28/2016	Penn		Penn	http://stats.ncaa.org/team/540/12380	false		true	W 15 - 10	true	15 - 10	false	15	10	false		4033400	http://stats.ncaa.org/game/index/4033400?org_id=746
 2016	12380	746	Virginia	03/04/2016	Syracuse		Syracuse	http://stats.ncaa.org/team/688/12380	false		true	L 13 - 14	false	13 - 14	false	13	14	false		4042107	http://stats.ncaa.org/game/index/4042107?org_id=746
-2016	12380	746	Virginia	03/08/2016	Saint Joseph's		Saint Joseph's		false		true	-									
-2016	12380	746	Virginia	03/12/2016	@ Cornell		Cornell		false		false	-									
+2016	12380	746	Virginia	03/08/2016	Saint Joseph's		Saint Joseph's	http://stats.ncaa.org/team/606/12380	false		true	W 9 - 7	true	9 - 7	false	9	7	false		4050118	http://stats.ncaa.org/game/index/4050118?org_id=746
+2016	12380	746	Virginia	03/12/2016	@ Cornell		Cornell	http://stats.ncaa.org/team/167/12380	false		false	L 10 - 14	false	10 - 14	false	10	14	false		4056113	http://stats.ncaa.org/game/index/4056113?org_id=167
 2016	12380	746	Virginia	03/19/2016	@ Notre Dame		Notre Dame		false		false	-									
 2016	12380	746	Virginia	03/27/2016	Johns Hopkins		Johns Hopkins		false		true	-									
 2016	12380	746	Virginia	03/29/2016	VMI		VMI		false		true	-									
@@ -937,10 +933,10 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	748	Wagner	02/19/2016	@ Lafayette		Lafayette	http://stats.ncaa.org/team/342/12380	false		false	L 7 - 12	false	7 - 12	false	7	12	false		4019435	http://stats.ncaa.org/game/index/4019435?org_id=342
 2016	12380	748	Wagner	02/23/2016	Monmouth		Monmouth	http://stats.ncaa.org/team/439/12380	false		true	L 4 - 8	false	4 - 8	false	4	8	false		4025982	http://stats.ncaa.org/game/index/4025982?org_id=748
 2016	12380	748	Wagner	03/01/2016	Rutgers		Rutgers	http://stats.ncaa.org/team/587/12380	false		true	L 7 - 15	false	7 - 15	false	7	15	false		4037307	http://stats.ncaa.org/game/index/4037307?org_id=748
-2016	12380	748	Wagner	03/05/2016	@ Dartmouth		Dartmouth		false		false	-									
-2016	12380	748	Wagner	03/08/2016	@ VMI		VMI		false		false	-									
-2016	12380	748	Wagner	03/10/2016	@ Hampton		Hampton		false		false	-									
-2016	12380	748	Wagner	03/15/2016	UMass Lowell		UMass Lowell		false		true	-									
+2016	12380	748	Wagner	03/05/2016	@ Dartmouth		Dartmouth	http://stats.ncaa.org/team/172/12380	false		false	W 7 - 6	true	7 - 6	false	7	6	false		4045849	http://stats.ncaa.org/game/index/4045849?org_id=172
+2016	12380	748	Wagner	03/08/2016	@ VMI		VMI	http://stats.ncaa.org/team/741/12380	false		false	W 7 - 6	true	7 - 6	false	7	6	false		4049979	http://stats.ncaa.org/game/index/4049979?org_id=741
+2016	12380	748	Wagner	03/10/2016	Hampton @ Charlottesville, Va.		Hampton	http://stats.ncaa.org/team/270/12380	true	Charlottesville, Va.	true	W 18 - 4	true	18 - 4	false	18	4	false		4053574	http://stats.ncaa.org/game/index/4053574?org_id=748
+2016	12380	748	Wagner	03/15/2016	UMass Lowell		UMass Lowell	http://stats.ncaa.org/team/368/12380	false		true	L 11 - 12	false	11 - 12	false	11	12	false		4061961	http://stats.ncaa.org/game/index/4061961?org_id=748
 2016	12380	748	Wagner	03/19/2016	Hobart and William Colleges		Hobart and William Colleges		false		true	-									
 2016	12380	748	Wagner	03/26/2016	NJIT		NJIT		false		true	-									
 2016	12380	748	Wagner	04/02/2016	Saint Joseph's		Saint Joseph's		false		true	-									
@@ -951,8 +947,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	813	Yale	02/20/2016	@ UMass Lowell		UMass Lowell	http://stats.ncaa.org/team/368/12380	false		false	W 17 - 7	true	17 - 7	false	17	7	false		4025499	http://stats.ncaa.org/game/index/4025499?org_id=368
 2016	12380	813	Yale	02/27/2016	Maryland		Maryland	http://stats.ncaa.org/team/392/12380	false		true	W 8 - 5	true	8 - 5	false	8	5	false		4030445	http://stats.ncaa.org/game/index/4030445?org_id=813
 2016	12380	813	Yale	03/05/2016	@ Bryant		Bryant	http://stats.ncaa.org/team/81/12380	false		false	W 14 - 4	true	14 - 4	false	14	4	false		4043795	http://stats.ncaa.org/game/index/4043795?org_id=81
-2016	12380	813	Yale	03/08/2016	St. John's (NY)		St. John's (NY)		false		true	-									
-2016	12380	813	Yale	03/12/2016	@ Fairfield		Fairfield		false		false	-									
+2016	12380	813	Yale	03/08/2016	St. John's (NY)		St. John's (NY)	http://stats.ncaa.org/team/603/12380	false		true	W 13 - 8	true	13 - 8	false	13	8	false		4050061	http://stats.ncaa.org/game/index/4050061?org_id=813
+2016	12380	813	Yale	03/12/2016	@ Fairfield		Fairfield	http://stats.ncaa.org/team/220/12380	false		false	W 10 - 5	true	10 - 5	false	10	5	false		4062552	http://stats.ncaa.org/game/index/4062552?org_id=220
 2016	12380	813	Yale	03/19/2016	@ Cornell		Cornell		false		false	-									
 2016	12380	813	Yale	03/26/2016	Princeton		Princeton		false		true	-									
 2016	12380	813	Yale	04/02/2016	Penn		Penn		false		true	-									
