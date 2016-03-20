@@ -4,6 +4,10 @@ To run, `cd` into this repository and run:
 ./run.sh
 ```
 
+### Tests
+
+- Compare number of goals to NCAA values
+
 ### TODO
 
 - [x] Make a script to run the whole thing
