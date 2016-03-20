@@ -6,7 +6,7 @@ require 'mechanize'
 
 nthreads = 1
 
-base_sleep = 0
+base_sleep = rand(0...8)
 sleep_increment = 3
 retries = 4
 

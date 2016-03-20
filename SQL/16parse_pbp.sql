@@ -362,3 +362,65 @@ where t1.game_id=t2.game_id and t1.event_id = t2.event_id+1 and t1.poss_number=t
           update 16ncaa_merged_pbp t1, (select game_id, event_id, play_text, fow from 16ncaa_merged_pbp order by event_id) t2
          set t1.unsettled=1
          where t1.game_id=t2.game_id and t1.event_id = t2.event_id+1 and t2.fow and t1.time_elapsed < .334and t1.fow_turnover is null;
+
+
+
+
+         update 16ncaa_merged_pbp
+         set
+         goalie_start = 1,
+          goalie= split_part(play_text,' at goalie',1)
+             where play_text like '%at goalie%' and game_time=0;
+
+             update 16ncaa_merged_pbp
+             set
+             goalie_change = 1,
+              goalie= split_part(play_text,' at goalie',1)
+                 where play_text like '%at goalie%' and game_time>0;
+
+                 update 16ncaa_merged_pbp
+                 set
+                  opp_goalie= replace(split_part(play_text,'SAVE ',2),'.','')
+                     where saved_shot=1;
+
+                     update 16ncaa_merged_pbp
+                     set
+                    goalie = replace(replace(goalie, ', ', ','),',',', '),
+                     opp_goalie = replace(replace(opp_goalie, ', ', ','),',',', ');
+
+                     update 16ncaa_merged_pbp
+                     set
+                     goalie = concat(split_part(goalie,' ',2), ", ",split_part(goalie, ' ',1))
+                     where goalie not like '%,%';
+
+                     update 16ncaa_merged_pbp
+                     set
+                     opp_goalie = concat(split_part(opp_goalie,' ',2), ", ",split_part(opp_goalie, ' ',1))
+                     where opp_goalie not like '%,%';
+
+
+                     update 16ncaa_merged_pbp t1, (select game_id, event_id, team_id, goalie, opp_goalie, opponent_id from 16ncaa_merged_pbp order by event_id) t2
+                    set t1.goalie=t2.goalie,
+                    t1.opp_goalie=t2.opp_goalie
+                    where t1.game_id=t2.game_id and t1.event_id = t2.event_id+1 and t1.team_id=t2.team_id and t1.goalie_change is not null;
+
+                    update 16ncaa_merged_pbp t1, (select game_id, event_id, team_id, goalie, opp_goalie, opponent_id from 16ncaa_merged_pbp order by event_id) t2
+                   set t1.goalie=t2.opp_goalie,
+                   t1.opp_goalie=t2.goalie
+                   where t1.game_id=t2.game_id and t1.event_id = t2.event_id+1 and t1.team_id=t2.opponent_id and t1.goalie_change is not null;
+
+
+
+
+
+         update 16ncaa_merged_pbp t1, (select game_id, event_id, play_text, opponent_id from 16ncaa_merged_pbp) t2
+        set t1.saved_shot_clean=1
+        where t1.saved_shot=1 and t1.game_id=t2.game_id and t1.event_id = t2.event_id-1 and t2.play_text like 'clear%' and t1.team_id = t2.opponent_id;
+
+        update 16ncaa_merged_pbp t1, (select game_id, event_id, play_text, opponent_id from 16ncaa_merged_pbp) t2
+       set t1.saved_shot_dreb=1
+       where t1.saved_shot=1 and t1.game_id=t2.game_id and t1.event_id = t2.event_id-1 and t2.play_text like 'ground%' and t1.team_id = t2.opponent_id;
+
+       update 16ncaa_merged_pbp t1, (select game_id, event_id, play_text, team_id from 16ncaa_merged_pbp) t2
+      set t1.saved_shot_dreb=1
+      where t1.saved_shot=1 and t1.game_id=t2.game_id and t1.event_id = t2.event_id-1 and t2.play_text like 'ground%' and t1.team_id = t2.team_id;

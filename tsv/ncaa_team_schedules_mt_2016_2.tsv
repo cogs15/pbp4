@@ -1,6 +1,6 @@
 year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	opponent_url	neutral_site	neutral_location	home_game	score_string	team_won	score	exempt	team_score	opponent_score	overtime	overtime_periods	game_id	game_url
 2016	12380	929	Adams St.	02/20/2016	@ Colorado Col.		Colorado Col.	http://stats.ncaa.org/team/154/12380	false		false	L 7 - 14	false	7 - 14	false	7	14	false		4021898	http://stats.ncaa.org/game/index/4021898?org_id=154
-2016	12380	929	Adams St.	03/06/2016	@ Rockhurst		Rockhurst		false		false	-									
+2016	12380	929	Adams St.	03/06/2016	@ Rockhurst		Rockhurst	http://stats.ncaa.org/team/1328/12380	false		false	L 6 - 10	false	6 - 10	false	6	10	false		4045853	http://stats.ncaa.org/game/index/4045853?org_id=1328
 2016	12380	929	Adams St.	03/15/2016	Rockhurst		Rockhurst		false		true	-									
 2016	12380	929	Adams St.	03/19/2016	@ Saint Leo		Saint Leo		false		false	-									
 2016	12380	929	Adams St.	03/22/2016	@ Fla. Southern		Fla. Southern		false		false	-									
@@ -15,7 +15,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	3	Adelphi	02/19/2016	@ Tampa		Tampa	http://stats.ncaa.org/team/689/12380	false		false	L 11 - 19	false	11 - 19	false	11	19	false		4038517	http://stats.ncaa.org/game/index/4038517?org_id=689
 2016	12380	3	Adelphi	02/22/2016	@ Fla. Southern		Fla. Southern	http://stats.ncaa.org/team/233/12380	false		false	W 15 - 8	true	15 - 8	false	15	8	false		4025800	http://stats.ncaa.org/game/index/4025800?org_id=233
 2016	12380	3	Adelphi	02/27/2016	@ LIU Post		LIU Post	http://stats.ncaa.org/team/362/12380	false		false	W 15 - 9	true	15 - 9	false	15	9	false		4034483	http://stats.ncaa.org/game/index/4034483?org_id=362
-2016	12380	3	Adelphi	03/05/2016	@ American Int'l		American Int'l		false		false	-									
+2016	12380	3	Adelphi	03/05/2016	@ American Int'l		American Int'l	http://stats.ncaa.org/team/22/12380	false		false	W 24 - 7	true	24 - 7	false	24	7	false		4047556	http://stats.ncaa.org/game/index/4047556?org_id=22
 2016	12380	3	Adelphi	03/12/2016	Saint Rose		Saint Rose		false		true	-									
 2016	12380	3	Adelphi	03/15/2016	@ Assumption		Assumption		false		false	-									
 2016	12380	3	Adelphi	03/19/2016	@ Southern N.H.		Southern N.H.		false		false	-									
@@ -29,8 +29,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	3	Adelphi	04/23/2016	@ Le Moyne		Le Moyne		false		false	-									
 2016	12380	10	Ala.-Huntsville	02/13/2016	@ Sewanee		Sewanee	http://stats.ncaa.org/team/652/12380	false		false	L 2 - 17	false	2 - 17	false	2	17	false		4013274	http://stats.ncaa.org/game/index/4013274?org_id=652
 2016	12380	10	Ala.-Huntsville	02/21/2016	Brevard		Brevard	http://stats.ncaa.org/team/30094/12380	false		true	W 11 - 10 (1OT)	true	11 - 10	false	11	10	true	1OT	4025601	http://stats.ncaa.org/game/index/4025601?org_id=10
-2016	12380	10	Ala.-Huntsville	03/05/2016	@ North Greenville		North Greenville		false		false	-									
-2016	12380	10	Ala.-Huntsville	03/09/2016	Ohio Valley		Ohio Valley		false		true	-									
+2016	12380	10	Ala.-Huntsville	03/05/2016	@ North Greenville		North Greenville	http://stats.ncaa.org/team/9223/12380	false		false	L 1 - 16	false	1 - 16	false	1	16	false		4043882	http://stats.ncaa.org/game/index/4043882?org_id=9223
+2016	12380	10	Ala.-Huntsville	03/09/2016	Ohio Valley		Ohio Valley	http://stats.ncaa.org/team/15207/12380	false		true	L 14 - 17	false	14 - 17	false	14	17	false		4051426	http://stats.ncaa.org/game/index/4051426?org_id=10
 2016	12380	10	Ala.-Huntsville	03/21/2016	@ Catawba		Catawba		false		false	-									
 2016	12380	10	Ala.-Huntsville	03/23/2016	@ Wingate		Wingate		false		false	-									
 2016	12380	10	Ala.-Huntsville	03/26/2016	Colorado St.-Pueblo		Colorado St.-Pueblo		false		true	-									
@@ -43,7 +43,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	934	Alderson Broaddus	02/13/2016	@ Queens (NC)		Queens (NC)	http://stats.ncaa.org/team/11504/12380	false		false	L 11 - 20	false	11 - 20	false	11	20	false		4011575	http://stats.ncaa.org/game/index/4011575?org_id=11504
 2016	12380	934	Alderson Broaddus	02/19/2016	Roberts Wesleyan		Roberts Wesleyan	http://stats.ncaa.org/team/30150/12380	false		true	W 16 - 5	true	16 - 5	false	16	5	false		4026200	http://stats.ncaa.org/game/index/4026200?org_id=934
 2016	12380	934	Alderson Broaddus	02/27/2016	Lees-McRae		Lees-McRae	http://stats.ncaa.org/team/13302/12380	false		true	W 19 - 4	true	19 - 4	false	19	4	false		4034515	http://stats.ncaa.org/game/index/4034515?org_id=934
-2016	12380	934	Alderson Broaddus	03/10/2016	Florida Tech		Florida Tech		false		true	-									
+2016	12380	934	Alderson Broaddus	03/10/2016	Florida Tech		Florida Tech	http://stats.ncaa.org/team/230/12380	false		true	L 7 - 11	false	7 - 11	false	7	11	false		4053298	http://stats.ncaa.org/game/index/4053298?org_id=934
 2016	12380	934	Alderson Broaddus	03/12/2016	@ Lindenwood (MO)		Lindenwood (MO)		false		false	-									
 2016	12380	934	Alderson Broaddus	03/16/2016	Dist. Columbia		Dist. Columbia		false		true	-									
 2016	12380	934	Alderson Broaddus	03/19/2016	Walsh		Walsh		false		true	-									
@@ -58,7 +58,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	22	American Int'l	02/20/2016	@ Mercy		Mercy	http://stats.ncaa.org/team/407/12380	false		false	L 4 - 20	false	4 - 20	false	4	20	false		4021908	http://stats.ncaa.org/game/index/4021908?org_id=407
 2016	12380	22	American Int'l	02/28/2016	@ Merrimack		Merrimack	http://stats.ncaa.org/team/410/12380	false		false	L 2 - 27	false	2 - 27	false	2	27	false		4033700	http://stats.ncaa.org/game/index/4033700?org_id=410
 2016	12380	22	American Int'l	03/02/2016	@ Post		Post	http://stats.ncaa.org/team/1318/12380	false		false	L 2 - 17	false	2 - 17	false	2	17	false		4038863	http://stats.ncaa.org/game/index/4038863?org_id=1318
-2016	12380	22	American Int'l	03/05/2016	Adelphi		Adelphi		false		true	-									
+2016	12380	22	American Int'l	03/05/2016	Adelphi		Adelphi	http://stats.ncaa.org/team/3/12380	false		true	L 7 - 24	false	7 - 24	false	7	24	false		4047556	http://stats.ncaa.org/game/index/4047556?org_id=22
 2016	12380	22	American Int'l	03/11/2016	@ Assumption		Assumption		false		false	-									
 2016	12380	22	American Int'l	03/15/2016	@ Dominican (NY)		Dominican (NY)		false		false	-									
 2016	12380	22	American Int'l	03/19/2016	St. Anselm		St. Anselm		false		true	-									
@@ -71,8 +71,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	22	American Int'l	04/23/2016	Saint Michael's		Saint Michael's		false		true	-									
 2016	12380	22	American Int'l	04/30/2016	Georgian Court		Georgian Court		false		true	-									
 2016	12380	36	Assumption	02/20/2016	@ Molloy		Molloy	http://stats.ncaa.org/team/437/12380	false		false	L 12 - 13	false	12 - 13	false	12	13	false		4021901	http://stats.ncaa.org/game/index/4021901?org_id=437
-2016	12380	36	Assumption	03/05/2016	@ Dowling		Dowling		false		false	-									
-2016	12380	36	Assumption	03/08/2016	@ NYIT		NYIT		false		false	-									
+2016	12380	36	Assumption	03/05/2016	Dowling		Dowling	http://stats.ncaa.org/team/2692/12380	false		true	L 6 - 12	false	6 - 12	false	6	12	false		4050576	http://stats.ncaa.org/game/index/4050576?org_id=36
+2016	12380	36	Assumption	03/08/2016	@ NYIT		NYIT	http://stats.ncaa.org/team/477/12380	false		false	L 6 - 13	false	6 - 13	false	6	13	false		4050019	http://stats.ncaa.org/game/index/4050019?org_id=477
 2016	12380	36	Assumption	03/11/2016	American Int'l		American Int'l		false		true	-									
 2016	12380	36	Assumption	03/15/2016	Adelphi		Adelphi		false		true	-									
 2016	12380	36	Assumption	03/19/2016	Saint Rose		Saint Rose		false		true	-									
@@ -99,7 +99,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	2683	Belmont Abbey	04/13/2016	Limestone		Limestone		false		true	-									
 2016	12380	2683	Belmont Abbey	04/16/2016	@ Mars Hill		Mars Hill		false		false	-									
 2016	12380	2683	Belmont Abbey	04/23/2016	@ Pfeiffer		Pfeiffer		false		false	-									
-2016	12380	56	Bentley	03/05/2016	NYIT		NYIT		false		true	-									
+2016	12380	56	Bentley	03/05/2016	NYIT		NYIT	http://stats.ncaa.org/team/477/12380	false		true	L 3 - 8	false	3 - 8	false	3	8	false		4042758	http://stats.ncaa.org/game/index/4042758?org_id=477
 2016	12380	56	Bentley	03/15/2016	@ Catawba		Catawba		false		false	-									
 2016	12380	56	Bentley	03/19/2016	Franklin Pierce		Franklin Pierce		false		true	-									
 2016	12380	56	Bentley	03/26/2016	Assumption		Assumption		false		true	-									
@@ -117,8 +117,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	30094	Brevard	02/21/2016	@ Ala.-Huntsville		Ala.-Huntsville	http://stats.ncaa.org/team/10/12380	false		false	L 10 - 11 (1OT)	false	10 - 11	false	10	11	true	1OT	4025601	http://stats.ncaa.org/game/index/4025601?org_id=10
 2016	12380	30094	Brevard	02/27/2016	@ Young Harris		Young Harris	http://stats.ncaa.org/team/30154/12380	false		false	L 7 - 24	false	7 - 24	false	7	24	false		4037204	http://stats.ncaa.org/game/index/4037204?org_id=30154
 2016	12380	30094	Brevard	03/02/2016	@ Belmont Abbey		Belmont Abbey	http://stats.ncaa.org/team/2683/12380	false		false	L 5 - 9	false	5 - 9	false	5	9	false		4040181	http://stats.ncaa.org/game/index/4040181?org_id=2683
-2016	12380	30094	Brevard	03/05/2016	Tusculum		Tusculum		false		true	-									
-2016	12380	30094	Brevard	03/10/2016	Davis & Elkins		Davis & Elkins		false		true	-									
+2016	12380	30094	Brevard	03/05/2016	Tusculum		Tusculum	http://stats.ncaa.org/team/12830/12380	false		true	L 6 - 13	false	6 - 13	false	6	13	false		4042819	http://stats.ncaa.org/game/index/4042819?org_id=30094
+2016	12380	30094	Brevard	03/10/2016	Davis & Elkins		Davis & Elkins	http://stats.ncaa.org/team/174/12380	false		true	-									
 2016	12380	30094	Brevard	03/12/2016	@ Coker		Coker		false		false	-									
 2016	12380	30094	Brevard	03/19/2016	Queens (NC)		Queens (NC)		false		true	-									
 2016	12380	30094	Brevard	03/23/2016	Lenoir-Rhyne		Lenoir-Rhyne		false		true	-									
@@ -129,7 +129,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	30094	Brevard	04/19/2016	@ Catawba		Catawba		false		false	-									
 2016	12380	1001	Catawba	02/13/2016	@ Belmont Abbey		Belmont Abbey	http://stats.ncaa.org/team/2683/12380	false		false	L 3 - 18	false	3 - 18	false	3	18	false		4015288	http://stats.ncaa.org/game/index/4015288?org_id=2683
 2016	12380	1001	Catawba	02/20/2016	@ Mount Olive		Mount Olive	http://stats.ncaa.org/team/1245/12380	false		false	L 5 - 11	false	5 - 11	false	5	11	false		4022932	http://stats.ncaa.org/game/index/4022932?org_id=1245
-2016	12380	1001	Catawba	03/05/2016	Queens (NC)		Queens (NC)		false		true	-									
+2016	12380	1001	Catawba	03/05/2016	Queens (NC)		Queens (NC)	http://stats.ncaa.org/team/11504/12380	false		true	L 11 - 14	false	11 - 14	false	11	14	false		4044510	http://stats.ncaa.org/game/index/4044510?org_id=1001
 2016	12380	1001	Catawba	03/12/2016	@ Lincoln Memorial		Lincoln Memorial		false		false	-									
 2016	12380	1001	Catawba	03/15/2016	Bentley		Bentley		false		true	-									
 2016	12380	1001	Catawba	03/19/2016	@ Mars Hill		Mars Hill		false		false	-									
@@ -144,7 +144,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	21323	Chestnut Hill	02/20/2016	Seton Hill		Seton Hill	http://stats.ncaa.org/team/30063/12380	false		true	L 6 - 18	false	6 - 18	false	6	18	false		4021907	http://stats.ncaa.org/game/index/4021907?org_id=21323
 2016	12380	21323	Chestnut Hill	03/01/2016	@ Tampa		Tampa	http://stats.ncaa.org/team/689/12380	false		false	L 6 - 12	false	6 - 12	false	6	12	false		4038536	http://stats.ncaa.org/game/index/4038536?org_id=689
 2016	12380	21323	Chestnut Hill	03/03/2016	@ Fla. Southern		Fla. Southern	http://stats.ncaa.org/team/233/12380	false		false	L 10 - 12	false	10 - 12	false	10	12	false		4040159	http://stats.ncaa.org/game/index/4040159?org_id=233
-2016	12380	21323	Chestnut Hill	03/06/2016	Molloy		Molloy		false		true	-									
+2016	12380	21323	Chestnut Hill	03/06/2016	Molloy		Molloy	http://stats.ncaa.org/team/437/12380	false		true	L 9 - 14	false	9 - 14	false	9	14	false		4045854	http://stats.ncaa.org/game/index/4045854?org_id=21323
 2016	12380	21323	Chestnut Hill	03/12/2016	@ Mercy		Mercy		false		false	-									
 2016	12380	21323	Chestnut Hill	03/19/2016	LIU Post		LIU Post		false		true	-									
 2016	12380	21323	Chestnut Hill	03/26/2016	@ Dowling		Dowling		false		false	-									
@@ -156,10 +156,10 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	21323	Chestnut Hill	04/30/2016	NYIT		NYIT		false		true	-									
 2016	12380	1023	Coker	02/12/2016	Rollins		Rollins	http://stats.ncaa.org/team/584/12380	false		true	L 10 - 12	false	10 - 12	false	10	12	false		4011553	http://stats.ncaa.org/game/index/4011553?org_id=1023
 2016	12380	1023	Coker	02/15/2016	Roberts Wesleyan		Roberts Wesleyan	http://stats.ncaa.org/team/30150/12380	false		true	L 7 - 18	false	7 - 18	false	7	18	false		4014709	http://stats.ncaa.org/game/index/4014709?org_id=1023
-2016	12380	1023	Coker	02/26/2016	Pfeiffer		Pfeiffer	http://stats.ncaa.org/team/542/12380	false		true	L 10 - 12	false	10 - 12	false	10	12	false		4030047	http://stats.ncaa.org/game/index/4030047?org_id=1023
+2016	12380	1023	Coker	02/26/2016	Pfeiffer		Pfeiffer	http://stats.ncaa.org/team/542/12380	false		true	L 10 - 12	false	10 - 12	false	10	12	false		4047899	http://stats.ncaa.org/game/index/4047899?org_id=1023
 2016	12380	1023	Coker	02/29/2016	Lynn		Lynn	http://stats.ncaa.org/team/20794/12380	false		true	L 9 - 14	false	9 - 14	false	9	14	false		4039977	http://stats.ncaa.org/game/index/4039977?org_id=1023
-2016	12380	1023	Coker	03/05/2016	@ Lenoir-Rhyne		Lenoir-Rhyne		false		false	-									
-2016	12380	1023	Coker	03/08/2016	@ Saint Leo		Saint Leo		false		false	-									
+2016	12380	1023	Coker	03/05/2016	@ Lenoir-Rhyne		Lenoir-Rhyne	http://stats.ncaa.org/team/1170/12380	false		false	L 9 - 22	false	9 - 22	false	9	22	false		4047884	http://stats.ncaa.org/game/index/4047884?org_id=1023
+2016	12380	1023	Coker	03/08/2016	@ Saint Leo		Saint Leo	http://stats.ncaa.org/team/608/12380	false		false	L 8 - 13	false	8 - 13	false	8	13	false		4050053	http://stats.ncaa.org/game/index/4050053?org_id=608
 2016	12380	1023	Coker	03/12/2016	Brevard		Brevard		false		true	-									
 2016	12380	1023	Coker	03/19/2016	Shorter		Shorter		false		true	-									
 2016	12380	1023	Coker	03/26/2016	Wingate		Wingate		false		true	-									
@@ -199,9 +199,9 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	2720	Colorado St.-Pueblo	04/22/2016	@ Colorado Mesa		Colorado Mesa		false		false	-									
 2016	12380	2720	Colorado St.-Pueblo	04/24/2016	@ Westminster (UT)		Westminster (UT)		false		false	-									
 2016	12380	2720	Colorado St.-Pueblo	04/30/2016	Adams St.		Adams St.		false		true	-									
-2016	12380	174	Davis & Elkins	03/05/2016	@ Young Harris		Young Harris		false		false	-									
-2016	12380	174	Davis & Elkins	03/08/2016	@ Shorter		Shorter		false		false	-									
-2016	12380	174	Davis & Elkins	03/10/2016	@ Brevard		Brevard		false		false	-									
+2016	12380	174	Davis & Elkins	03/05/2016	@ Young Harris		Young Harris	http://stats.ncaa.org/team/30154/12380	false		false	L 1 - 18	false	1 - 18	false	1	18	false		4043869	http://stats.ncaa.org/game/index/4043869?org_id=30154
+2016	12380	174	Davis & Elkins	03/08/2016	@ Shorter		Shorter	http://stats.ncaa.org/team/30151/12380	false		false	L 4 - 26	false	4 - 26	false	4	26	false		4050295	http://stats.ncaa.org/game/index/4050295?org_id=30151
+2016	12380	174	Davis & Elkins	03/10/2016	Brevard		Brevard	http://stats.ncaa.org/team/30094/12380	false		true	-									
 2016	12380	174	Davis & Elkins	03/12/2016	@ Cumberlands (KY)		Cumberlands (KY)		false		false	-									
 2016	12380	174	Davis & Elkins	04/03/2016	Ala.-Huntsville		Ala.-Huntsville		false		true	-									
 2016	12380	174	Davis & Elkins	04/06/2016	@ Wheeling Jesuit		Wheeling Jesuit		false		false	-									
@@ -209,7 +209,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	174	Davis & Elkins	04/23/2016	Mars Hill@Charleston, W.Va.		Mars HillCharleston, W.Va.		false		false	-									
 2016	12380	174	Davis & Elkins	04/30/2016	@ Ohio Valley		Ohio Valley		false		false	-									
 2016	12380	186	Dist. Columbia	02/27/2016	Post		Post	http://stats.ncaa.org/team/1318/12380	false		true	L 10 - 19	false	10 - 19	false	10	19	false		4036877	http://stats.ncaa.org/game/index/4036877?org_id=1318
-2016	12380	186	Dist. Columbia	03/04/2016	Dominican (NY)		Dominican (NY)		false		true	-									
+2016	12380	186	Dist. Columbia	03/04/2016	Dominican (NY)		Dominican (NY)	http://stats.ncaa.org/team/8956/12380	false		true	L 8 - 9 (1OT)	false	8 - 9	false	8	9	true	1OT	4046262	http://stats.ncaa.org/game/index/4046262?org_id=186
 2016	12380	186	Dist. Columbia	03/12/2016	@ St. Thomas Aquinas		St. Thomas Aquinas		false		false	-									
 2016	12380	186	Dist. Columbia	03/16/2016	@ Alderson Broaddus		Alderson Broaddus		false		false	-									
 2016	12380	186	Dist. Columbia	03/19/2016	NYIT		NYIT		false		true	-									
@@ -223,8 +223,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	8956	Dominican (NY)	02/20/2016	@ Georgian Court		Georgian Court	http://stats.ncaa.org/team/9004/12380	false		false	W 9 - 4	true	9 - 4	false	9	4	false		4021905	http://stats.ncaa.org/game/index/4021905?org_id=8956
 2016	12380	8956	Dominican (NY)	02/27/2016	@ St. Anselm		St. Anselm	http://stats.ncaa.org/team/593/12380	false		false	L 3 - 20	false	3 - 20	false	3	20	false		4031320	http://stats.ncaa.org/game/index/4031320?org_id=593
 2016	12380	8956	Dominican (NY)	03/02/2016	@ Pace		Pace	http://stats.ncaa.org/team/533/12380	false		false	L 5 - 18	false	5 - 18	false	5	18	false		4040368	http://stats.ncaa.org/game/index/4040368?org_id=533
-2016	12380	8956	Dominican (NY)	03/04/2016	@ Dist. Columbia		Dist. Columbia		false		false	-									
-2016	12380	8956	Dominican (NY)	03/09/2016	Lynn@JHU		LynnJHU		false		false	-									
+2016	12380	8956	Dominican (NY)	03/04/2016	@ Dist. Columbia		Dist. Columbia	http://stats.ncaa.org/team/186/12380	false		false	W 9 - 8 (1OT)	true	9 - 8	false	9	8	true	1OT	4046262	http://stats.ncaa.org/game/index/4046262?org_id=186
+2016	12380	8956	Dominican (NY)	03/09/2016	Lynn @ Baltimore, Md.		Lynn	http://stats.ncaa.org/team/20794/12380	true	Baltimore, Md.	true	L 5 - 16	false	5 - 16	false	5	16	false		4053305	http://stats.ncaa.org/game/index/4053305?org_id=8956
 2016	12380	8956	Dominican (NY)	03/11/2016	Roberts Wesleyan		Roberts Wesleyan		false		true	-									
 2016	12380	8956	Dominican (NY)	03/15/2016	American Int'l		American Int'l		false		true	-									
 2016	12380	8956	Dominican (NY)	03/18/2016	@ Post		Post		false		false	-									
@@ -236,8 +236,9 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	8956	Dominican (NY)	04/23/2016	NYIT		NYIT		false		true	-									
 2016	12380	8956	Dominican (NY)	04/30/2016	Dowling		Dowling		false		true	-									
 2016	12380	2692	Dowling	02/24/2016	St. Thomas Aquinas		St. Thomas Aquinas	http://stats.ncaa.org/team/1348/12380	false		true	W 18 - 2	true	18 - 2	false	18	2	false		4028231	http://stats.ncaa.org/game/index/4028231?org_id=2692
-2016	12380	2692	Dowling	02/27/2016	@ Pace		Pace	http://stats.ncaa.org/team/533/12380	false		false	W 14 - 13	true	14 - 13	false	14	13	false		4040367	http://stats.ncaa.org/game/index/4040367?org_id=533
-2016	12380	2692	Dowling	03/05/2016	Assumption		Assumption		false		true	-									
+2016	12380	2692	Dowling	02/27/2016	@ Pace		Pace	http://stats.ncaa.org/team/533/12380	false		false	W 14 - 13	true	14 - 13	false	14	13	false		4046395	http://stats.ncaa.org/game/index/4046395?org_id=533
+2016	12380	2692	Dowling	03/05/2016	@ Assumption		Assumption	http://stats.ncaa.org/team/36/12380	false		false	W 12 - 6	true	12 - 6	false	12	6	false		4050576	http://stats.ncaa.org/game/index/4050576?org_id=36
+2016	12380	2692	Dowling	03/08/2016	Post		Post	http://stats.ncaa.org/team/1318/12380	false		true	W 14 - 6	true	14 - 6	false	14	6	false		4050294	http://stats.ncaa.org/game/index/4050294?org_id=2692
 2016	12380	2692	Dowling	03/12/2016	NYIT		NYIT		false		true	-									
 2016	12380	2692	Dowling	03/19/2016	@ Mercy		Mercy		false		false	-									
 2016	12380	2692	Dowling	03/23/2016	@ Mercyhurst		Mercyhurst		false		false	-									
@@ -253,8 +254,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	30193	Emmanuel (GA)	02/17/2016	Limestone		Limestone	http://stats.ncaa.org/team/1174/12380	false		true	L 3 - 23	false	3 - 23	false	3	23	false		4016525	http://stats.ncaa.org/game/index/4016525?org_id=30193
 2016	12380	30193	Emmanuel (GA)	02/24/2016	@ North Greenville		North Greenville	http://stats.ncaa.org/team/9223/12380	false		false	L 8 - 12	false	8 - 12	false	8	12	false		4027337	http://stats.ncaa.org/game/index/4027337?org_id=9223
 2016	12380	30193	Emmanuel (GA)	02/27/2016	UIndy		UIndy	http://stats.ncaa.org/team/309/12380	false		true	L 6 - 16	false	6 - 16	false	6	16	false		4031470	http://stats.ncaa.org/game/index/4031470?org_id=30193
-2016	12380	30193	Emmanuel (GA)	03/06/2016	Lynn		Lynn		false		true	-									
-2016	12380	30193	Emmanuel (GA)	03/10/2016	Notre Dame de Namur		Notre Dame de Namur		false		true	-									
+2016	12380	30193	Emmanuel (GA)	03/06/2016	Lynn		Lynn	http://stats.ncaa.org/team/20794/12380	false		true	L 6 - 19	false	6 - 19	false	6	19	false		4048186	http://stats.ncaa.org/game/index/4048186?org_id=20794
+2016	12380	30193	Emmanuel (GA)	03/10/2016	@ Notre Dame de Namur		Notre Dame de Namur		false		false	-									
 2016	12380	30193	Emmanuel (GA)	03/12/2016	Tusculum		Tusculum		false		true	-									
 2016	12380	30193	Emmanuel (GA)	03/19/2016	Belmont Abbey		Belmont Abbey		false		true	-									
 2016	12380	30193	Emmanuel (GA)	03/21/2016	Colorado St.-Pueblo		Colorado St.-Pueblo		false		true	-									
@@ -271,7 +272,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	233	Fla. Southern	02/26/2016	Mars Hill		Mars Hill	http://stats.ncaa.org/team/1199/12380	false		true	W 12 - 6	true	12 - 6	false	12	6	false		4029881	http://stats.ncaa.org/game/index/4029881?org_id=233
 2016	12380	233	Fla. Southern	02/28/2016	Lenoir-Rhyne		Lenoir-Rhyne	http://stats.ncaa.org/team/1170/12380	false		true	W 11 - 6	true	11 - 6	false	11	6	false		4032251	http://stats.ncaa.org/game/index/4032251?org_id=233
 2016	12380	233	Fla. Southern	03/03/2016	Chestnut Hill		Chestnut Hill	http://stats.ncaa.org/team/21323/12380	false		true	W 12 - 10	true	12 - 10	false	12	10	false		4040159	http://stats.ncaa.org/game/index/4040159?org_id=233
-2016	12380	233	Fla. Southern	03/09/2016	Wingate		Wingate		false		true	-									
+2016	12380	233	Fla. Southern	03/09/2016	Wingate		Wingate	http://stats.ncaa.org/team/1462/12380	false		true	L 11 - 13	false	11 - 13	false	11	13	false		4051559	http://stats.ncaa.org/game/index/4051559?org_id=233
 2016	12380	233	Fla. Southern	03/12/2016	Limestone		Limestone		false		true	-									
 2016	12380	233	Fla. Southern	03/17/2016	Colorado Mesa		Colorado Mesa		false		true	-									
 2016	12380	233	Fla. Southern	03/19/2016	UIndy		UIndy		false		true	-									
@@ -285,16 +286,16 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	230	Florida Tech	02/13/2016	North Greenville		North Greenville	http://stats.ncaa.org/team/9223/12380	false		true	W 10 - 5	true	10 - 5	false	10	5	false		4011559	http://stats.ncaa.org/game/index/4011559?org_id=230
 2016	12380	230	Florida Tech	02/26/2016	Lenoir-Rhyne		Lenoir-Rhyne	http://stats.ncaa.org/team/1170/12380	false		true	L 10 - 13	false	10 - 13	false	10	13	false		4030017	http://stats.ncaa.org/game/index/4030017?org_id=230
 2016	12380	230	Florida Tech	02/28/2016	Mars Hill		Mars Hill	http://stats.ncaa.org/team/1199/12380	false		true	W 10 - 7	true	10 - 7	false	10	7	false		4032366	http://stats.ncaa.org/game/index/4032366?org_id=230
-2016	12380	230	Florida Tech	03/07/2016	Wheeling Jesuit@Baltimore, MD		Wheeling JesuitBaltimore, MD		false		false	-									
-2016	12380	230	Florida Tech	03/09/2016	@ Seton Hill		Seton Hill		false		false	-									
-2016	12380	230	Florida Tech	03/10/2016	@ Alderson Broaddus		Alderson Broaddus		false		false	-									
+2016	12380	230	Florida Tech	03/07/2016	Wheeling Jesuit @ Baltimore, MD		Wheeling Jesuit	http://stats.ncaa.org/team/12799/12380	true	Baltimore, MD	true	W 12 - 11 (1OT)	true	12 - 11	false	12	11	true	1OT	4048445	http://stats.ncaa.org/game/index/4048445?org_id=12799
+2016	12380	230	Florida Tech	03/09/2016	@ Seton Hill		Seton Hill	http://stats.ncaa.org/team/30063/12380	false		false	L 7 - 11	false	7 - 11	false	7	11	false		4052070	http://stats.ncaa.org/game/index/4052070?org_id=30063
+2016	12380	230	Florida Tech	03/10/2016	@ Alderson Broaddus		Alderson Broaddus	http://stats.ncaa.org/team/934/12380	false		false	W 11 - 7	true	11 - 7	false	11	7	false		4053298	http://stats.ncaa.org/game/index/4053298?org_id=934
 2016	12380	230	Florida Tech	03/19/2016	@ Limestone		Limestone		false		false	-									
 2016	12380	230	Florida Tech	03/26/2016	@ Fla. Southern		Fla. Southern		false		false	-									
 2016	12380	230	Florida Tech	04/01/2016	Saint Leo		Saint Leo		false		true	-									
 2016	12380	230	Florida Tech	04/05/2016	Tampa		Tampa		false		true	-									
 2016	12380	230	Florida Tech	04/16/2016	@ Rollins		Rollins		false		false	-									
 2016	12380	230	Florida Tech	04/23/2016	Lynn		Lynn		false		true	-									
-2016	12380	241	Franklin Pierce	03/05/2016	Post		Post		false		true	-									
+2016	12380	241	Franklin Pierce	03/05/2016	Post		Post	http://stats.ncaa.org/team/1318/12380	false		true	L 11 - 15	false	11 - 15	false	11	15	false		4045884	http://stats.ncaa.org/game/index/4045884?org_id=241
 2016	12380	241	Franklin Pierce	03/12/2016	@ Saint Michael's		Saint Michael's		false		false	-									
 2016	12380	241	Franklin Pierce	03/16/2016	@ Georgian Court		Georgian Court		false		false	-									
 2016	12380	241	Franklin Pierce	03/19/2016	@ Bentley		Bentley		false		false	-									
@@ -310,8 +311,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	9004	Georgian Court	02/20/2016	Dominican (NY)		Dominican (NY)	http://stats.ncaa.org/team/8956/12380	false		true	L 4 - 9	false	4 - 9	false	4	9	false		4021905	http://stats.ncaa.org/game/index/4021905?org_id=8956
 2016	12380	9004	Georgian Court	02/23/2016	@ Mercy		Mercy	http://stats.ncaa.org/team/407/12380	false		false	L 5 - 17	false	5 - 17	false	5	17	false		4034445	http://stats.ncaa.org/game/index/4034445?org_id=407
 2016	12380	9004	Georgian Court	03/02/2016	Molloy		Molloy	http://stats.ncaa.org/team/437/12380	false		true	L 5 - 16	false	5 - 16	false	5	16	false		4038616	http://stats.ncaa.org/game/index/4038616?org_id=437
-2016	12380	9004	Georgian Court	03/05/2016	Pace		Pace		false		true	-									
-2016	12380	9004	Georgian Court	03/08/2016	LIU Post		LIU Post		false		true	-									
+2016	12380	9004	Georgian Court	03/05/2016	Pace		Pace	http://stats.ncaa.org/team/533/12380	false		true	L 7 - 18	false	7 - 18	false	7	18	false		4043860	http://stats.ncaa.org/game/index/4043860?org_id=9004
+2016	12380	9004	Georgian Court	03/08/2016	LIU Post		LIU Post	http://stats.ncaa.org/team/362/12380	false		true	L 3 - 16	false	3 - 16	false	3	16	false		4051317	http://stats.ncaa.org/game/index/4051317?org_id=9004
 2016	12380	9004	Georgian Court	03/12/2016	Southern N.H.		Southern N.H.		false		true	-									
 2016	12380	9004	Georgian Court	03/16/2016	Franklin Pierce		Franklin Pierce		false		true	-									
 2016	12380	9004	Georgian Court	03/21/2016	Saint Michael's		Saint Michael's		false		true	-									
@@ -325,8 +326,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	362	LIU Post	02/20/2016	@ Merrimack		Merrimack	http://stats.ncaa.org/team/410/12380	false		false	L 10 - 12	false	10 - 12	false	10	12	false		4021931	http://stats.ncaa.org/game/index/4021931?org_id=410
 2016	12380	362	LIU Post	02/27/2016	Adelphi		Adelphi	http://stats.ncaa.org/team/3/12380	false		true	L 9 - 15	false	9 - 15	false	9	15	false		4034483	http://stats.ncaa.org/game/index/4034483?org_id=362
 2016	12380	362	LIU Post	03/02/2016	St. Thomas Aquinas		St. Thomas Aquinas	http://stats.ncaa.org/team/1348/12380	false		true	W 16 - 3	true	16 - 3	false	16	3	false		4038877	http://stats.ncaa.org/game/index/4038877?org_id=362
-2016	12380	362	LIU Post	03/05/2016	@ Roberts Wesleyan		Roberts Wesleyan		false		false	-									
-2016	12380	362	LIU Post	03/08/2016	@ Georgian Court		Georgian Court		false		false	-									
+2016	12380	362	LIU Post	03/05/2016	@ Roberts Wesleyan		Roberts Wesleyan	http://stats.ncaa.org/team/30150/12380	false		false	W 15 - 6	true	15 - 6	false	15	6	false		4051120	http://stats.ncaa.org/game/index/4051120?org_id=30150
+2016	12380	362	LIU Post	03/08/2016	@ Georgian Court		Georgian Court	http://stats.ncaa.org/team/9004/12380	false		false	W 16 - 3	true	16 - 3	false	16	3	false		4051317	http://stats.ncaa.org/game/index/4051317?org_id=9004
 2016	12380	362	LIU Post	03/12/2016	@ Molloy		Molloy		false		false	-									
 2016	12380	362	LIU Post	03/19/2016	@ Chestnut Hill		Chestnut Hill		false		false	-									
 2016	12380	362	LIU Post	03/23/2016	Dominican (NY)		Dominican (NY)		false		true	-									
@@ -336,8 +337,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	362	LIU Post	04/23/2016	Mercy		Mercy		false		true	-									
 2016	12380	362	LIU Post	04/30/2016	Dist. Columbia		Dist. Columbia		false		true	-									
 2016	12380	2746	Lake Erie	02/27/2016	@ Mercy		Mercy	http://stats.ncaa.org/team/407/12380	false		false	W 12 - 11	true	12 - 11	false	12	11	false		4030783	http://stats.ncaa.org/game/index/4030783?org_id=407
-2016	12380	2746	Lake Erie	03/02/2016	@ Lenoir-Rhyne		Lenoir-Rhyne	http://stats.ncaa.org/team/1170/12380	false		false	W 14 - 6	true	14 - 6	false	14	6	false		4040310	http://stats.ncaa.org/game/index/4040310?org_id=2746
-2016	12380	2746	Lake Erie	03/05/2016	@ Tampa		Tampa		false		false	-									
+2016	12380	2746	Lake Erie	03/02/2016	@ Lenoir-Rhyne		Lenoir-Rhyne	http://stats.ncaa.org/team/1170/12380	false		false	W 14 - 6	true	14 - 6	false	14	6	false		4045927	http://stats.ncaa.org/game/index/4045927?org_id=2746
+2016	12380	2746	Lake Erie	03/05/2016	@ Tampa		Tampa	http://stats.ncaa.org/team/689/12380	false		false	L 7 - 9	false	7 - 9	false	7	9	false		4045300	http://stats.ncaa.org/game/index/4045300?org_id=689
 2016	12380	2746	Lake Erie	03/12/2016	Le Moyne		Le Moyne		false		true	-									
 2016	12380	2746	Lake Erie	03/16/2016	@ Ohio Valley		Ohio Valley		false		false	-									
 2016	12380	2746	Lake Erie	03/19/2016	Pfeiffer		Pfeiffer		false		true	-									
@@ -351,7 +352,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	2746	Lake Erie	05/01/2016	Wheeling Jesuit		Wheeling Jesuit		false		true	-									
 2016	12380	349	Le Moyne	02/20/2016	Rockhurst		Rockhurst	http://stats.ncaa.org/team/1328/12380	false		true	W 24 - 8	true	24 - 8	false	24	8	false		4024654	http://stats.ncaa.org/game/index/4024654?org_id=349
 2016	12380	349	Le Moyne	02/27/2016	Walsh		Walsh	http://stats.ncaa.org/team/30141/12380	false		true	W 22 - 5	true	22 - 5	false	22	5	false		4031322	http://stats.ncaa.org/game/index/4031322?org_id=349
-2016	12380	349	Le Moyne	03/06/2016	Mount Olive@Baltimore, MD		Mount OliveBaltimore, MD		false		false	-									
+2016	12380	349	Le Moyne	03/06/2016	Mount Olive @ Baltimore, Md.		Mount Olive	http://stats.ncaa.org/team/1245/12380	true	Baltimore, Md.	true	W 12 - 5	true	12 - 5	false	12	5	false		4045156	http://stats.ncaa.org/game/index/4045156?org_id=349
 2016	12380	349	Le Moyne	03/12/2016	@ Lake Erie		Lake Erie		false		false	-									
 2016	12380	349	Le Moyne	03/19/2016	Merrimack		Merrimack		false		true	-									
 2016	12380	349	Le Moyne	03/22/2016	@ American Int'l		American Int'l		false		false	-									
@@ -366,8 +367,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	349	Le Moyne	04/29/2016	@ Bentley		Bentley		false		false	-									
 2016	12380	13302	Lees-McRae	02/13/2016	@ Greensboro		Greensboro	http://stats.ncaa.org/team/263/12380	false		false	L 6 - 8	false	6 - 8	false	6	8	false		4011576	http://stats.ncaa.org/game/index/4011576?org_id=263
 2016	12380	13302	Lees-McRae	02/27/2016	@ Alderson Broaddus		Alderson Broaddus	http://stats.ncaa.org/team/934/12380	false		false	L 4 - 19	false	4 - 19	false	4	19	false		4034515	http://stats.ncaa.org/game/index/4034515?org_id=934
-2016	12380	13302	Lees-McRae	03/05/2016	Notre Dame de Namur		Notre Dame de Namur		false		true	-									
-2016	12380	13302	Lees-McRae	03/08/2016	@ Rollins		Rollins		false		false	-									
+2016	12380	13302	Lees-McRae	03/05/2016	Notre Dame de Namur		Notre Dame de Namur	http://stats.ncaa.org/team/30056/12380	false		true	W 12 - 10	true	12 - 10	false	12	10	false		4046430	http://stats.ncaa.org/game/index/4046430?org_id=13302
+2016	12380	13302	Lees-McRae	03/08/2016	@ Rollins		Rollins	http://stats.ncaa.org/team/584/12380	false		false	L 3 - 21	false	3 - 21	false	3	21	false		4050293	http://stats.ncaa.org/game/index/4050293?org_id=584
 2016	12380	13302	Lees-McRae	03/12/2016	@ Saint Leo		Saint Leo		false		false	-									
 2016	12380	13302	Lees-McRae	03/15/2016	Pfeiffer		Pfeiffer		false		true	-									
 2016	12380	13302	Lees-McRae	03/22/2016	@ Belmont Abbey		Belmont Abbey		false		false	-									
@@ -382,8 +383,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	1170	Lenoir-Rhyne	02/20/2016	@ Belmont Abbey		Belmont Abbey	http://stats.ncaa.org/team/2683/12380	false		false	L 10 - 11	false	10 - 11	false	10	11	false		4020583	http://stats.ncaa.org/game/index/4020583?org_id=2683
 2016	12380	1170	Lenoir-Rhyne	02/26/2016	@ Florida Tech		Florida Tech	http://stats.ncaa.org/team/230/12380	false		false	W 13 - 10	true	13 - 10	false	13	10	false		4030017	http://stats.ncaa.org/game/index/4030017?org_id=230
 2016	12380	1170	Lenoir-Rhyne	02/28/2016	@ Fla. Southern		Fla. Southern	http://stats.ncaa.org/team/233/12380	false		false	L 6 - 11	false	6 - 11	false	6	11	false		4032251	http://stats.ncaa.org/game/index/4032251?org_id=233
-2016	12380	1170	Lenoir-Rhyne	03/02/2016	Lake Erie		Lake Erie	http://stats.ncaa.org/team/2746/12380	false		true	L 6 - 14	false	6 - 14	false	6	14	false		4040310	http://stats.ncaa.org/game/index/4040310?org_id=2746
-2016	12380	1170	Lenoir-Rhyne	03/05/2016	Coker		Coker		false		true	-									
+2016	12380	1170	Lenoir-Rhyne	03/02/2016	Lake Erie		Lake Erie	http://stats.ncaa.org/team/2746/12380	false		true	L 6 - 14	false	6 - 14	false	6	14	false		4045927	http://stats.ncaa.org/game/index/4045927?org_id=2746
+2016	12380	1170	Lenoir-Rhyne	03/05/2016	Coker		Coker	http://stats.ncaa.org/team/1023/12380	false		true	W 22 - 9	true	22 - 9	false	22	9	false		4047884	http://stats.ncaa.org/game/index/4047884?org_id=1023
 2016	12380	1170	Lenoir-Rhyne	03/12/2016	Lynn		Lynn		false		true	-									
 2016	12380	1170	Lenoir-Rhyne	03/16/2016	Wingate		Wingate		false		true	-									
 2016	12380	1170	Lenoir-Rhyne	03/19/2016	@ Tusculum		Tusculum		false		false	-									
@@ -397,8 +398,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	1174	Limestone	02/17/2016	@ Emmanuel (GA)		Emmanuel (GA)	http://stats.ncaa.org/team/30193/12380	false		false	W 23 - 3	true	23 - 3	false	23	3	false		4016525	http://stats.ncaa.org/game/index/4016525?org_id=30193
 2016	12380	1174	Limestone	02/20/2016	@ Saint Leo		Saint Leo	http://stats.ncaa.org/team/608/12380	false		false	W 16 - 7	true	16 - 7	false	16	7	false		4021903	http://stats.ncaa.org/game/index/4021903?org_id=608
 2016	12380	1174	Limestone	02/27/2016	Tampa		Tampa	http://stats.ncaa.org/team/689/12380	false		true	W 25 - 7	true	25 - 7	false	25	7	false		4031311	http://stats.ncaa.org/game/index/4031311?org_id=1174
-2016	12380	1174	Limestone	03/05/2016	Lynn		Lynn		false		true	-									
-2016	12380	1174	Limestone	03/08/2016	@ Queens (NC)		Queens (NC)		false		false	-									
+2016	12380	1174	Limestone	03/05/2016	Lynn		Lynn	http://stats.ncaa.org/team/20794/12380	false		true	W 16 - 6	true	16 - 6	false	16	6	false		4043152	http://stats.ncaa.org/game/index/4043152?org_id=1174
+2016	12380	1174	Limestone	03/08/2016	@ Queens (NC)		Queens (NC)	http://stats.ncaa.org/team/11504/12380	false		false	W 19 - 8	true	19 - 8	false	19	8	false		4052019	http://stats.ncaa.org/game/index/4052019?org_id=11504
 2016	12380	1174	Limestone	03/12/2016	@ Fla. Southern		Fla. Southern		false		false	-									
 2016	12380	1174	Limestone	03/19/2016	Florida Tech		Florida Tech		false		true	-									
 2016	12380	1174	Limestone	03/23/2016	North Greenville		North Greenville		false		true	-									
@@ -412,7 +413,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	1176	Lincoln Memorial	02/06/2016	Emmanuel (GA)		Emmanuel (GA)	http://stats.ncaa.org/team/30193/12380	false		true	W 12 - 4	true	12 - 4	false	12	4	false		4003029	http://stats.ncaa.org/game/index/4003029?org_id=1176
 2016	12380	1176	Lincoln Memorial	02/17/2016	@ North Greenville		North Greenville	http://stats.ncaa.org/team/9223/12380	false		false	W 12 - 7	true	12 - 7	false	12	7	false		4016876	http://stats.ncaa.org/game/index/4016876?org_id=1176
 2016	12380	1176	Lincoln Memorial	02/27/2016	@ Queens (NC)		Queens (NC)	http://stats.ncaa.org/team/11504/12380	false		false	L 8 - 20	false	8 - 20	false	8	20	false		4035631	http://stats.ncaa.org/game/index/4035631?org_id=11504
-2016	12380	1176	Lincoln Memorial	03/07/2016	Notre Dame de Namur		Notre Dame de Namur		false		true	-									
+2016	12380	1176	Lincoln Memorial	03/07/2016	Notre Dame de Namur		Notre Dame de Namur	http://stats.ncaa.org/team/30056/12380	false		true	W 22 - 7	true	22 - 7	false	22	7	false		4048187	http://stats.ncaa.org/game/index/4048187?org_id=1176
 2016	12380	1176	Lincoln Memorial	03/12/2016	Catawba		Catawba		false		true	-									
 2016	12380	1176	Lincoln Memorial	03/19/2016	@ Wingate		Wingate		false		false	-									
 2016	12380	1176	Lincoln Memorial	03/25/2016	@ Georgian Court		Georgian Court		false		false	-									
@@ -425,7 +426,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	30136	Lindenwood (MO)	02/25/2016	Colorado St.-Pueblo		Colorado St.-Pueblo	http://stats.ncaa.org/team/2720/12380	false		true	W 24 - 5	true	24 - 5	false	24	5	false		4029611	http://stats.ncaa.org/game/index/4029611?org_id=30136
 2016	12380	30136	Lindenwood (MO)	02/28/2016	Rollins		Rollins	http://stats.ncaa.org/team/584/12380	false		true	L 7 - 11	false	7 - 11	false	7	11	false		4034484	http://stats.ncaa.org/game/index/4034484?org_id=30136
 2016	12380	30136	Lindenwood (MO)	03/03/2016	@ Ohio Valley		Ohio Valley	http://stats.ncaa.org/team/15207/12380	false		false	W 21 - 6	true	21 - 6	false	21	6	false		4040362	http://stats.ncaa.org/game/index/4040362?org_id=15207
-2016	12380	30136	Lindenwood (MO)	03/05/2016	@ Seton Hill		Seton Hill		false		false	-									
+2016	12380	30136	Lindenwood (MO)	03/05/2016	@ Seton Hill		Seton Hill	http://stats.ncaa.org/team/30063/12380	false		false	L 9 - 13	false	9 - 13	false	9	13	false		4043888	http://stats.ncaa.org/game/index/4043888?org_id=30063
 2016	12380	30136	Lindenwood (MO)	03/12/2016	Alderson Broaddus		Alderson Broaddus		false		true	-									
 2016	12380	30136	Lindenwood (MO)	03/16/2016	@ Roberts Wesleyan		Roberts Wesleyan		false		false	-									
 2016	12380	30136	Lindenwood (MO)	03/19/2016	Wheeling Jesuit		Wheeling Jesuit		false		true	-									
@@ -438,9 +439,9 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	20794	Lynn	02/13/2016	Shorter		Shorter	http://stats.ncaa.org/team/30151/12380	false		true	W 15 - 6	true	15 - 6	false	15	6	false		4038259	http://stats.ncaa.org/game/index/4038259?org_id=20794
 2016	12380	20794	Lynn	02/27/2016	@ Mount Olive		Mount Olive	http://stats.ncaa.org/team/1245/12380	false		false	W 10 - 8	true	10 - 8	false	10	8	false		4038240	http://stats.ncaa.org/game/index/4038240?org_id=1245
 2016	12380	20794	Lynn	02/29/2016	@ Coker		Coker	http://stats.ncaa.org/team/1023/12380	false		false	W 14 - 9	true	14 - 9	false	14	9	false		4039977	http://stats.ncaa.org/game/index/4039977?org_id=1023
-2016	12380	20794	Lynn	03/05/2016	@ Limestone		Limestone		false		false	-									
-2016	12380	20794	Lynn	03/06/2016	@ Emmanuel (GA)		Emmanuel (GA)		false		false	-									
-2016	12380	20794	Lynn	03/09/2016	Dominican (NY)@JHU		Dominican (NY)JHU		false		false	-									
+2016	12380	20794	Lynn	03/05/2016	@ Limestone		Limestone	http://stats.ncaa.org/team/1174/12380	false		false	L 6 - 16	false	6 - 16	false	6	16	false		4043152	http://stats.ncaa.org/game/index/4043152?org_id=1174
+2016	12380	20794	Lynn	03/06/2016	@ Emmanuel (GA)		Emmanuel (GA)	http://stats.ncaa.org/team/30193/12380	false		false	W 19 - 6	true	19 - 6	false	19	6	false		4048186	http://stats.ncaa.org/game/index/4048186?org_id=20794
+2016	12380	20794	Lynn	03/09/2016	Dominican (NY) @ Baltimore, Md.		Dominican (NY)	http://stats.ncaa.org/team/8956/12380	true	Baltimore, Md.	true	W 16 - 5	true	16 - 5	false	16	5	false		4053305	http://stats.ncaa.org/game/index/4053305?org_id=8956
 2016	12380	20794	Lynn	03/12/2016	@ Lenoir-Rhyne		Lenoir-Rhyne		false		false	-									
 2016	12380	20794	Lynn	03/19/2016	Tampa		Tampa		false		true	-									
 2016	12380	20794	Lynn	03/23/2016	MIT		MIT		false		true	-									
@@ -453,7 +454,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	1199	Mars Hill	02/20/2016	UIndy		UIndy	http://stats.ncaa.org/team/309/12380	false		true	L 9 - 12	false	9 - 12	false	9	12	false		4038440	http://stats.ncaa.org/game/index/4038440?org_id=1199
 2016	12380	1199	Mars Hill	02/26/2016	@ Fla. Southern		Fla. Southern	http://stats.ncaa.org/team/233/12380	false		false	L 6 - 12	false	6 - 12	false	6	12	false		4029881	http://stats.ncaa.org/game/index/4029881?org_id=233
 2016	12380	1199	Mars Hill	02/28/2016	@ Florida Tech		Florida Tech	http://stats.ncaa.org/team/230/12380	false		false	L 7 - 10	false	7 - 10	false	7	10	false		4032366	http://stats.ncaa.org/game/index/4032366?org_id=230
-2016	12380	1199	Mars Hill	03/05/2016	Wingate		Wingate		false		true	-									
+2016	12380	1199	Mars Hill	03/05/2016	Wingate		Wingate	http://stats.ncaa.org/team/1462/12380	false		true	L 6 - 7 (2OT)	false	6 - 7	false	6	7	true	2OT	4043864	http://stats.ncaa.org/game/index/4043864?org_id=1199
 2016	12380	1199	Mars Hill	03/12/2016	@ Queens (NC)		Queens (NC)		false		false	-									
 2016	12380	1199	Mars Hill	03/19/2016	Catawba		Catawba		false		true	-									
 2016	12380	1199	Mars Hill	03/26/2016	@ Lenoir-Rhyne		Lenoir-Rhyne		false		false	-									
@@ -480,7 +481,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	407	Mercy	04/30/2016	Seton Hill		Seton Hill		false		true	-									
 2016	12380	408	Mercyhurst	02/21/2016	Wingate @ Ashland, Va.		Wingate	http://stats.ncaa.org/team/1462/12380	true	Ashland, Va.	true	W 9 - 8 (4OT)	true	9 - 8	false	9	8	true	4OT	4036966	http://stats.ncaa.org/game/index/4036966?org_id=408
 2016	12380	408	Mercyhurst	02/27/2016	@ Saint Rose		Saint Rose	http://stats.ncaa.org/team/1347/12380	false		false	W 7 - 3	true	7 - 3	false	7	3	false		4031325	http://stats.ncaa.org/game/index/4031325?org_id=1347
-2016	12380	408	Mercyhurst	03/05/2016	@ Wheeling Jesuit		Wheeling Jesuit		false		false	-									
+2016	12380	408	Mercyhurst	03/05/2016	@ Wheeling Jesuit		Wheeling Jesuit	http://stats.ncaa.org/team/12799/12380	false		false	W 11 - 10 (1OT)	true	11 - 10	false	11	10	true	1OT	4043886	http://stats.ncaa.org/game/index/4043886?org_id=12799
 2016	12380	408	Mercyhurst	03/12/2016	Mount Olive		Mount Olive		false		true	-									
 2016	12380	408	Mercyhurst	03/15/2016	@ Walsh		Walsh		false		false	-									
 2016	12380	408	Mercyhurst	03/19/2016	Seton Hill		Seton Hill		false		true	-									
@@ -495,8 +496,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	408	Mercyhurst	04/30/2016	@ UIndy		UIndy		false		false	-									
 2016	12380	410	Merrimack	02/20/2016	LIU Post		LIU Post	http://stats.ncaa.org/team/362/12380	false		true	W 12 - 10	true	12 - 10	false	12	10	false		4021931	http://stats.ncaa.org/game/index/4021931?org_id=410
 2016	12380	410	Merrimack	02/28/2016	American Int'l		American Int'l	http://stats.ncaa.org/team/22/12380	false		true	W 27 - 2	true	27 - 2	false	27	2	false		4033700	http://stats.ncaa.org/game/index/4033700?org_id=410
-2016	12380	410	Merrimack	03/05/2016	@ Southern N.H.		Southern N.H.		false		false	-									
-2016	12380	410	Merrimack	03/08/2016	Saint Michael's		Saint Michael's		false		true	-									
+2016	12380	410	Merrimack	03/05/2016	@ Southern N.H.		Southern N.H.	http://stats.ncaa.org/team/468/12380	false		false	W 19 - 12	true	19 - 12	false	19	12	false		4045877	http://stats.ncaa.org/game/index/4045877?org_id=410
+2016	12380	410	Merrimack	03/08/2016	Saint Michael's		Saint Michael's	http://stats.ncaa.org/team/613/12380	false		true	W 20 - 6	true	20 - 6	false	20	6	false		4051569	http://stats.ncaa.org/game/index/4051569?org_id=410
 2016	12380	410	Merrimack	03/12/2016	@ Pace		Pace		false		false	-									
 2016	12380	410	Merrimack	03/19/2016	@ Le Moyne		Le Moyne		false		false	-									
 2016	12380	410	Merrimack	03/26/2016	Molloy		Molloy		false		true	-									
@@ -510,8 +511,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	437	Molloy	02/20/2016	Assumption		Assumption	http://stats.ncaa.org/team/36/12380	false		true	W 13 - 12	true	13 - 12	false	13	12	false		4021901	http://stats.ncaa.org/game/index/4021901?org_id=437
 2016	12380	437	Molloy	02/27/2016	Wheeling Jesuit		Wheeling Jesuit	http://stats.ncaa.org/team/12799/12380	false		true	W 13 - 11	true	13 - 11	false	13	11	false		4031308	http://stats.ncaa.org/game/index/4031308?org_id=437
 2016	12380	437	Molloy	03/02/2016	@ Georgian Court		Georgian Court	http://stats.ncaa.org/team/9004/12380	false		false	W 16 - 5	true	16 - 5	false	16	5	false		4038616	http://stats.ncaa.org/game/index/4038616?org_id=437
-2016	12380	437	Molloy	03/06/2016	@ Chestnut Hill		Chestnut Hill		false		false	-									
-2016	12380	437	Molloy	03/09/2016	Southern N.H.		Southern N.H.		false		true	-									
+2016	12380	437	Molloy	03/06/2016	@ Chestnut Hill		Chestnut Hill	http://stats.ncaa.org/team/21323/12380	false		false	W 14 - 9	true	14 - 9	false	14	9	false		4045854	http://stats.ncaa.org/game/index/4045854?org_id=21323
+2016	12380	437	Molloy	03/09/2016	Southern N.H.		Southern N.H.	http://stats.ncaa.org/team/468/12380	false		true	W 15 - 8	true	15 - 8	false	15	8	false		4052044	http://stats.ncaa.org/game/index/4052044?org_id=437
 2016	12380	437	Molloy	03/12/2016	LIU Post		LIU Post		false		true	-									
 2016	12380	437	Molloy	03/16/2016	@ Saint Rose		Saint Rose		false		false	-									
 2016	12380	437	Molloy	03/18/2016	@ St. Thomas Aquinas		St. Thomas Aquinas		false		false	-									
@@ -529,7 +530,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	1245	Mount Olive	02/20/2016	Catawba		Catawba	http://stats.ncaa.org/team/1001/12380	false		true	W 11 - 5	true	11 - 5	false	11	5	false		4022932	http://stats.ncaa.org/game/index/4022932?org_id=1245
 2016	12380	1245	Mount Olive	02/27/2016	Lynn		Lynn	http://stats.ncaa.org/team/20794/12380	false		true	L 8 - 10	false	8 - 10	false	8	10	false		4038240	http://stats.ncaa.org/game/index/4038240?org_id=1245
 2016	12380	1245	Mount Olive	03/02/2016	@ Wingate		Wingate	http://stats.ncaa.org/team/1462/12380	false		false	W 9 - 8	true	9 - 8	false	9	8	false		4038642	http://stats.ncaa.org/game/index/4038642?org_id=1462
-2016	12380	1245	Mount Olive	03/06/2016	Le Moyne@Baltimore, MD		Le MoyneBaltimore, MD		false		false	-									
+2016	12380	1245	Mount Olive	03/06/2016	Le Moyne @ Baltimore, Md.		Le Moyne	http://stats.ncaa.org/team/349/12380	true	Baltimore, Md.	true	L 5 - 12	false	5 - 12	false	5	12	false		4045156	http://stats.ncaa.org/game/index/4045156?org_id=349
 2016	12380	1245	Mount Olive	03/12/2016	@ Mercyhurst		Mercyhurst		false		false	-									
 2016	12380	1245	Mount Olive	03/19/2016	@ North Greenville		North Greenville		false		false	-									
 2016	12380	1245	Mount Olive	03/23/2016	@ Pfeiffer		Pfeiffer		false		false	-									
@@ -540,8 +541,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	1245	Mount Olive	04/23/2016	@ Limestone		Limestone		false		false	-									
 2016	12380	477	NYIT	02/17/2016	St. Thomas Aquinas		St. Thomas Aquinas	http://stats.ncaa.org/team/1348/12380	false		true	W 20 - 1	true	20 - 1	false	20	1	false		4024697	http://stats.ncaa.org/game/index/4024697?org_id=477
 2016	12380	477	NYIT	02/27/2016	@ Seton Hill		Seton Hill	http://stats.ncaa.org/team/30063/12380	false		false	L 10 - 12	false	10 - 12	false	10	12	false		4030401	http://stats.ncaa.org/game/index/4030401?org_id=30063
-2016	12380	477	NYIT	03/05/2016	@ Bentley		Bentley		false		false	-									
-2016	12380	477	NYIT	03/08/2016	Assumption		Assumption		false		true	-									
+2016	12380	477	NYIT	03/05/2016	@ Bentley		Bentley	http://stats.ncaa.org/team/56/12380	false		false	W 8 - 3	true	8 - 3	false	8	3	false		4042758	http://stats.ncaa.org/game/index/4042758?org_id=477
+2016	12380	477	NYIT	03/08/2016	Assumption		Assumption	http://stats.ncaa.org/team/36/12380	false		true	W 13 - 6	true	13 - 6	false	13	6	false		4050019	http://stats.ncaa.org/game/index/4050019?org_id=477
 2016	12380	477	NYIT	03/12/2016	@ Dowling		Dowling		false		false	-									
 2016	12380	477	NYIT	03/16/2016	Saint Michael's		Saint Michael's		false		true	-									
 2016	12380	477	NYIT	03/19/2016	@ Dist. Columbia		Dist. Columbia		false		false	-									
@@ -558,8 +559,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	9223	North Greenville	02/24/2016	Emmanuel (GA)		Emmanuel (GA)	http://stats.ncaa.org/team/30193/12380	false		true	W 12 - 8	true	12 - 8	false	12	8	false		4027337	http://stats.ncaa.org/game/index/4027337?org_id=9223
 2016	12380	9223	North Greenville	02/27/2016	Tusculum		Tusculum	http://stats.ncaa.org/team/12830/12380	false		true	W 9 - 8	true	9 - 8	false	9	8	false		4030549	http://stats.ncaa.org/game/index/4030549?org_id=9223
 2016	12380	9223	North Greenville	03/02/2016	@ Young Harris		Young Harris	http://stats.ncaa.org/team/30154/12380	false		false	L 5 - 11	false	5 - 11	false	5	11	false		4038865	http://stats.ncaa.org/game/index/4038865?org_id=30154
-2016	12380	9223	North Greenville	03/05/2016	Ala.-Huntsville		Ala.-Huntsville		false		true	-									
-2016	12380	9223	North Greenville	03/09/2016	@ Wheeling Jesuit		Wheeling Jesuit		false		false	-									
+2016	12380	9223	North Greenville	03/05/2016	Ala.-Huntsville		Ala.-Huntsville	http://stats.ncaa.org/team/10/12380	false		true	W 16 - 1	true	16 - 1	false	16	1	false		4043882	http://stats.ncaa.org/game/index/4043882?org_id=9223
+2016	12380	9223	North Greenville	03/09/2016	@ Wheeling Jesuit		Wheeling Jesuit	http://stats.ncaa.org/team/12799/12380	false		false	L 8 - 11	false	8 - 11	false	8	11	false		4052064	http://stats.ncaa.org/game/index/4052064?org_id=12799
 2016	12380	9223	North Greenville	03/12/2016	@ Walsh		Walsh		false		false	-									
 2016	12380	9223	North Greenville	03/19/2016	Mount Olive		Mount Olive		false		true	-									
 2016	12380	9223	North Greenville	03/23/2016	@ Limestone		Limestone		false		false	-									
@@ -569,16 +570,16 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	9223	North Greenville	04/16/2016	@ Pfeiffer		Pfeiffer		false		false	-									
 2016	12380	9223	North Greenville	04/20/2016	Mars Hill		Mars Hill		false		true	-									
 2016	12380	30056	Notre Dame de Namur	02/13/2016	Westminster (UT)		Westminster (UT)	http://stats.ncaa.org/team/30209/12380	false		true	L 10 - 18	false	10 - 18	false	10	18	false		4011573	http://stats.ncaa.org/game/index/4011573?org_id=30209
-2016	12380	30056	Notre Dame de Namur	03/05/2016	@ Lees-McRae		Lees-McRae		false		false	-									
-2016	12380	30056	Notre Dame de Namur	03/07/2016	@ Lincoln Memorial		Lincoln Memorial		false		false	-									
-2016	12380	30056	Notre Dame de Namur	03/09/2016	@ Young Harris		Young Harris		false		false	-									
+2016	12380	30056	Notre Dame de Namur	03/05/2016	@ Lees-McRae		Lees-McRae	http://stats.ncaa.org/team/13302/12380	false		false	L 10 - 12	false	10 - 12	false	10	12	false		4046430	http://stats.ncaa.org/game/index/4046430?org_id=13302
+2016	12380	30056	Notre Dame de Namur	03/07/2016	@ Lincoln Memorial		Lincoln Memorial	http://stats.ncaa.org/team/1176/12380	false		false	L 7 - 22	false	7 - 22	false	7	22	false		4048187	http://stats.ncaa.org/game/index/4048187?org_id=1176
+2016	12380	30056	Notre Dame de Namur	03/09/2016	@ Young Harris		Young Harris	http://stats.ncaa.org/team/30154/12380	false		false	L 7 - 17	false	7 - 17	false	7	17	false		4051210	http://stats.ncaa.org/game/index/4051210?org_id=30154
 2016	12380	30056	Notre Dame de Namur	03/10/2016	@ Emmanuel (GA)		Emmanuel (GA)		false		false	-									
 2016	12380	30056	Notre Dame de Namur	03/31/2016	@ Colorado Mesa		Colorado Mesa		false		false	-									
 2016	12380	30056	Notre Dame de Namur	04/01/2016	@ Colorado St.-Pueblo		Colorado St.-Pueblo		false		false	-									
 2016	12380	30056	Notre Dame de Namur	04/03/2016	@ Adams St.		Adams St.		false		false	-									
 2016	12380	15207	Ohio Valley	03/03/2016	Lindenwood (MO)		Lindenwood (MO)	http://stats.ncaa.org/team/30136/12380	false		true	L 6 - 21	false	6 - 21	false	6	21	false		4040362	http://stats.ncaa.org/game/index/4040362?org_id=15207
-2016	12380	15207	Ohio Valley	03/07/2016	@ Young Harris		Young Harris		false		false	-									
-2016	12380	15207	Ohio Valley	03/09/2016	@ Ala.-Huntsville		Ala.-Huntsville		false		false	-									
+2016	12380	15207	Ohio Valley	03/07/2016	@ Young Harris		Young Harris	http://stats.ncaa.org/team/30154/12380	false		false	L 7 - 25	false	7 - 25	false	7	25	false		4048188	http://stats.ncaa.org/game/index/4048188?org_id=30154
+2016	12380	15207	Ohio Valley	03/09/2016	@ Ala.-Huntsville		Ala.-Huntsville	http://stats.ncaa.org/team/10/12380	false		false	W 17 - 14	true	17 - 14	false	17	14	false		4051426	http://stats.ncaa.org/game/index/4051426?org_id=10
 2016	12380	15207	Ohio Valley	03/16/2016	Lake Erie		Lake Erie		false		true	-									
 2016	12380	15207	Ohio Valley	03/19/2016	@ Hampton		Hampton		false		false	-									
 2016	12380	15207	Ohio Valley	04/02/2016	Wheeling Jesuit		Wheeling Jesuit		false		true	-									
@@ -589,9 +590,9 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	15207	Ohio Valley	04/23/2016	@ Walsh		Walsh		false		false	-									
 2016	12380	15207	Ohio Valley	04/30/2016	Davis & Elkins		Davis & Elkins		false		true	-									
 2016	12380	533	Pace	02/20/2016	Post		Post	http://stats.ncaa.org/team/1318/12380	false		true	W 15 - 9	true	15 - 9	false	15	9	false		4040422	http://stats.ncaa.org/game/index/4040422?org_id=533
-2016	12380	533	Pace	02/27/2016	Dowling		Dowling	http://stats.ncaa.org/team/2692/12380	false		true	L 13 - 14	false	13 - 14	false	13	14	false		4040367	http://stats.ncaa.org/game/index/4040367?org_id=533
+2016	12380	533	Pace	02/27/2016	Dowling		Dowling	http://stats.ncaa.org/team/2692/12380	false		true	L 13 - 14	false	13 - 14	false	13	14	false		4046395	http://stats.ncaa.org/game/index/4046395?org_id=533
 2016	12380	533	Pace	03/02/2016	Dominican (NY)		Dominican (NY)	http://stats.ncaa.org/team/8956/12380	false		true	W 18 - 5	true	18 - 5	false	18	5	false		4040368	http://stats.ncaa.org/game/index/4040368?org_id=533
-2016	12380	533	Pace	03/05/2016	@ Georgian Court		Georgian Court		false		false	-									
+2016	12380	533	Pace	03/05/2016	@ Georgian Court		Georgian Court	http://stats.ncaa.org/team/9004/12380	false		false	W 18 - 7	true	18 - 7	false	18	7	false		4043860	http://stats.ncaa.org/game/index/4043860?org_id=9004
 2016	12380	533	Pace	03/12/2016	Merrimack		Merrimack		false		true	-									
 2016	12380	533	Pace	03/19/2016	@ Saint Michael's		Saint Michael's		false		false	-									
 2016	12380	533	Pace	03/26/2016	@ St. Thomas Aquinas		St. Thomas Aquinas		false		false	-									
@@ -607,8 +608,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	542	Pfeiffer	02/06/2016	Brevard		Brevard	http://stats.ncaa.org/team/30094/12380	false		true	W 15 - 7	true	15 - 7	false	15	7	false		4005150	http://stats.ncaa.org/game/index/4005150?org_id=542
 2016	12380	542	Pfeiffer	02/13/2016	@ Mars Hill		Mars Hill	http://stats.ncaa.org/team/1199/12380	false		false	W 13 - 9	true	13 - 9	false	13	9	false		4010659	http://stats.ncaa.org/game/index/4010659?org_id=1199
 2016	12380	542	Pfeiffer	02/20/2016	Queens (NC)		Queens (NC)	http://stats.ncaa.org/team/11504/12380	false		true	W 14 - 12	true	14 - 12	false	14	12	false		4023758	http://stats.ncaa.org/game/index/4023758?org_id=542
-2016	12380	542	Pfeiffer	02/26/2016	@ Coker		Coker	http://stats.ncaa.org/team/1023/12380	false		false	W 12 - 10	true	12 - 10	false	12	10	false		4030047	http://stats.ncaa.org/game/index/4030047?org_id=1023
-2016	12380	542	Pfeiffer	03/05/2016	@ Saint Leo		Saint Leo		false		false	-									
+2016	12380	542	Pfeiffer	02/26/2016	@ Coker		Coker	http://stats.ncaa.org/team/1023/12380	false		false	W 12 - 10	true	12 - 10	false	12	10	false		4047899	http://stats.ncaa.org/game/index/4047899?org_id=1023
+2016	12380	542	Pfeiffer	03/05/2016	@ Saint Leo		Saint Leo	http://stats.ncaa.org/team/608/12380	false		false	L 8 - 9	false	8 - 9	false	8	9	false		4046436	http://stats.ncaa.org/game/index/4046436?org_id=608
 2016	12380	542	Pfeiffer	03/12/2016	Seton Hill		Seton Hill		false		true	-									
 2016	12380	542	Pfeiffer	03/15/2016	@ Lees-McRae		Lees-McRae		false		false	-									
 2016	12380	542	Pfeiffer	03/19/2016	@ Lake Erie		Lake Erie		false		false	-									
@@ -621,7 +622,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	1318	Post	02/20/2016	@ Pace		Pace	http://stats.ncaa.org/team/533/12380	false		false	L 9 - 15	false	9 - 15	false	9	15	false		4040422	http://stats.ncaa.org/game/index/4040422?org_id=533
 2016	12380	1318	Post	02/27/2016	@ Dist. Columbia		Dist. Columbia	http://stats.ncaa.org/team/186/12380	false		false	W 19 - 10	true	19 - 10	false	19	10	false		4036877	http://stats.ncaa.org/game/index/4036877?org_id=1318
 2016	12380	1318	Post	03/02/2016	American Int'l		American Int'l	http://stats.ncaa.org/team/22/12380	false		true	W 17 - 2	true	17 - 2	false	17	2	false		4038863	http://stats.ncaa.org/game/index/4038863?org_id=1318
-2016	12380	1318	Post	03/05/2016	@ Franklin Pierce		Franklin Pierce		false		false	-									
+2016	12380	1318	Post	03/05/2016	@ Franklin Pierce		Franklin Pierce	http://stats.ncaa.org/team/241/12380	false		false	W 15 - 11	true	15 - 11	false	15	11	false		4045884	http://stats.ncaa.org/game/index/4045884?org_id=241
+2016	12380	1318	Post	03/08/2016	@ Dowling		Dowling	http://stats.ncaa.org/team/2692/12380	false		false	L 6 - 14	false	6 - 14	false	6	14	false		4050294	http://stats.ncaa.org/game/index/4050294?org_id=2692
 2016	12380	1318	Post	03/10/2016	@ Saint Leo		Saint Leo		false		false	-									
 2016	12380	1318	Post	03/15/2016	@ St. Thomas Aquinas		St. Thomas Aquinas		false		false	-									
 2016	12380	1318	Post	03/18/2016	Dominican (NY)		Dominican (NY)		false		true	-									
@@ -637,8 +639,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	11504	Queens (NC)	02/20/2016	@ Pfeiffer		Pfeiffer	http://stats.ncaa.org/team/542/12380	false		false	L 12 - 14	false	12 - 14	false	12	14	false		4023758	http://stats.ncaa.org/game/index/4023758?org_id=542
 2016	12380	11504	Queens (NC)	02/24/2016	Belmont Abbey		Belmont Abbey	http://stats.ncaa.org/team/2683/12380	false		true	W 16 - 10	true	16 - 10	false	16	10	false		4029238	http://stats.ncaa.org/game/index/4029238?org_id=11504
 2016	12380	11504	Queens (NC)	02/27/2016	Lincoln Memorial		Lincoln Memorial	http://stats.ncaa.org/team/1176/12380	false		true	W 20 - 8	true	20 - 8	false	20	8	false		4035631	http://stats.ncaa.org/game/index/4035631?org_id=11504
-2016	12380	11504	Queens (NC)	03/05/2016	@ Catawba		Catawba		false		false	-									
-2016	12380	11504	Queens (NC)	03/08/2016	Limestone		Limestone		false		true	-									
+2016	12380	11504	Queens (NC)	03/05/2016	@ Catawba		Catawba	http://stats.ncaa.org/team/1001/12380	false		false	W 14 - 11	true	14 - 11	false	14	11	false		4044510	http://stats.ncaa.org/game/index/4044510?org_id=1001
+2016	12380	11504	Queens (NC)	03/08/2016	Limestone		Limestone	http://stats.ncaa.org/team/1174/12380	false		true	L 8 - 19	false	8 - 19	false	8	19	false		4052019	http://stats.ncaa.org/game/index/4052019?org_id=11504
 2016	12380	11504	Queens (NC)	03/12/2016	Mars Hill		Mars Hill		false		true	-									
 2016	12380	11504	Queens (NC)	03/19/2016	@ Brevard		Brevard		false		false	-									
 2016	12380	11504	Queens (NC)	03/26/2016	Mercyhurst		Mercyhurst		false		true	-									
@@ -652,8 +654,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	30150	Roberts Wesleyan	02/17/2016	@ Mount Olive		Mount Olive	http://stats.ncaa.org/team/1245/12380	false		false	L 4 - 13	false	4 - 13	false	4	13	false		4015979	http://stats.ncaa.org/game/index/4015979?org_id=1245
 2016	12380	30150	Roberts Wesleyan	02/19/2016	@ Alderson Broaddus		Alderson Broaddus	http://stats.ncaa.org/team/934/12380	false		false	L 5 - 16	false	5 - 16	false	5	16	false		4026200	http://stats.ncaa.org/game/index/4026200?org_id=934
 2016	12380	30150	Roberts Wesleyan	03/02/2016	@ Walsh		Walsh	http://stats.ncaa.org/team/30141/12380	false		false	L 9 - 10 (2OT)	false	9 - 10	false	9	10	true	2OT	4038864	http://stats.ncaa.org/game/index/4038864?org_id=30141
-2016	12380	30150	Roberts Wesleyan	03/05/2016	LIU Post		LIU Post		false		true	-									
-2016	12380	30150	Roberts Wesleyan	03/09/2016	Saint Rose		Saint Rose		false		true	-									
+2016	12380	30150	Roberts Wesleyan	03/05/2016	LIU Post		LIU Post	http://stats.ncaa.org/team/362/12380	false		true	L 6 - 15	false	6 - 15	false	6	15	false		4051120	http://stats.ncaa.org/game/index/4051120?org_id=30150
+2016	12380	30150	Roberts Wesleyan	03/09/2016	Saint Rose		Saint Rose	http://stats.ncaa.org/team/1347/12380	false		true	L 6 - 14	false	6 - 14	false	6	14	false		4052700	http://stats.ncaa.org/game/index/4052700?org_id=30150
 2016	12380	30150	Roberts Wesleyan	03/11/2016	@ Dominican (NY)		Dominican (NY)		false		false	-									
 2016	12380	30150	Roberts Wesleyan	03/16/2016	Lindenwood (MO)		Lindenwood (MO)		false		true	-									
 2016	12380	30150	Roberts Wesleyan	03/26/2016	@ NYIT		NYIT		false		false	-									
@@ -666,8 +668,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	1328	Rockhurst	02/13/2016	@ Hendrix		Hendrix	http://stats.ncaa.org/team/1124/12380	false		false	W 7 - 6 (1OT)	true	7 - 6	false	7	6	true	1OT	4010838	http://stats.ncaa.org/game/index/4010838?org_id=1124
 2016	12380	1328	Rockhurst	02/20/2016	@ Le Moyne		Le Moyne	http://stats.ncaa.org/team/349/12380	false		false	L 8 - 24	false	8 - 24	false	8	24	false		4024654	http://stats.ncaa.org/game/index/4024654?org_id=349
 2016	12380	1328	Rockhurst	02/27/2016	Colorado St.-Pueblo		Colorado St.-Pueblo	http://stats.ncaa.org/team/2720/12380	false		true	W 18 - 12	true	18 - 12	false	18	12	false		4031313	http://stats.ncaa.org/game/index/4031313?org_id=1328
-2016	12380	1328	Rockhurst	03/06/2016	Adams St.		Adams St.		false		true	-									
-2016	12380	1328	Rockhurst	03/07/2016	Cornell College		Cornell College		false		true	-									
+2016	12380	1328	Rockhurst	03/06/2016	Adams St.		Adams St.	http://stats.ncaa.org/team/929/12380	false		true	W 10 - 6	true	10 - 6	false	10	6	false		4045853	http://stats.ncaa.org/game/index/4045853?org_id=1328
+2016	12380	1328	Rockhurst	03/07/2016	Cornell College		Cornell College	http://stats.ncaa.org/team/166/12380	false		true	W 19 - 4	true	19 - 4	false	19	4	false		4048174	http://stats.ncaa.org/game/index/4048174?org_id=1328
 2016	12380	1328	Rockhurst	03/15/2016	@ Adams St.		Adams St.		false		false	-									
 2016	12380	1328	Rockhurst	03/16/2016	@ Colorado St.-Pueblo		Colorado St.-Pueblo		false		false	-									
 2016	12380	1328	Rockhurst	03/19/2016	Westminster (UT)@Colorado Springs, CO		Westminster (UT)Colorado Springs, CO		false		false	-									
@@ -682,7 +684,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	584	Rollins	02/12/2016	@ Coker		Coker	http://stats.ncaa.org/team/1023/12380	false		false	W 12 - 10	true	12 - 10	false	12	10	false		4011553	http://stats.ncaa.org/game/index/4011553?org_id=1023
 2016	12380	584	Rollins	02/14/2016	@ Mount Olive		Mount Olive	http://stats.ncaa.org/team/1245/12380	false		false	L 8 - 11	false	8 - 11	false	8	11	false		4014801	http://stats.ncaa.org/game/index/4014801?org_id=1245
 2016	12380	584	Rollins	02/28/2016	@ Lindenwood (MO)		Lindenwood (MO)	http://stats.ncaa.org/team/30136/12380	false		false	W 11 - 7	true	11 - 7	false	11	7	false		4034484	http://stats.ncaa.org/game/index/4034484?org_id=30136
-2016	12380	584	Rollins	03/08/2016	Lees-McRae		Lees-McRae		false		true	-									
+2016	12380	584	Rollins	03/08/2016	Lees-McRae		Lees-McRae	http://stats.ncaa.org/team/13302/12380	false		true	W 21 - 3	true	21 - 3	false	21	3	false		4050293	http://stats.ncaa.org/game/index/4050293?org_id=584
 2016	12380	584	Rollins	03/10/2016	Belmont Abbey		Belmont Abbey		false		true	-									
 2016	12380	584	Rollins	03/12/2016	Wingate		Wingate		false		true	-									
 2016	12380	584	Rollins	03/16/2016	UIndy		UIndy		false		true	-									
@@ -695,8 +697,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	608	Saint Leo	02/13/2016	Emmanuel (GA)		Emmanuel (GA)	http://stats.ncaa.org/team/30193/12380	false		true	W 22 - 3	true	22 - 3	false	22	3	false		4011578	http://stats.ncaa.org/game/index/4011578?org_id=608
 2016	12380	608	Saint Leo	02/20/2016	Limestone		Limestone	http://stats.ncaa.org/team/1174/12380	false		true	L 7 - 16	false	7 - 16	false	7	16	false		4021903	http://stats.ncaa.org/game/index/4021903?org_id=608
 2016	12380	608	Saint Leo	02/27/2016	@ Shorter		Shorter	http://stats.ncaa.org/team/30151/12380	false		false	W 17 - 7	true	17 - 7	false	17	7	false		4030436	http://stats.ncaa.org/game/index/4030436?org_id=30151
-2016	12380	608	Saint Leo	03/05/2016	Pfeiffer		Pfeiffer		false		true	-									
-2016	12380	608	Saint Leo	03/08/2016	Coker		Coker		false		true	-									
+2016	12380	608	Saint Leo	03/05/2016	Pfeiffer		Pfeiffer	http://stats.ncaa.org/team/542/12380	false		true	W 9 - 8	true	9 - 8	false	9	8	false		4046436	http://stats.ncaa.org/game/index/4046436?org_id=608
+2016	12380	608	Saint Leo	03/08/2016	Coker		Coker	http://stats.ncaa.org/team/1023/12380	false		true	W 13 - 8	true	13 - 8	false	13	8	false		4050053	http://stats.ncaa.org/game/index/4050053?org_id=608
 2016	12380	608	Saint Leo	03/10/2016	Post		Post		false		true	-									
 2016	12380	608	Saint Leo	03/12/2016	Lees-McRae		Lees-McRae		false		true	-									
 2016	12380	608	Saint Leo	03/15/2016	Colorado Mesa		Colorado Mesa		false		true	-									
@@ -706,7 +708,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	608	Saint Leo	04/09/2016	Lynn		Lynn		false		true	-									
 2016	12380	608	Saint Leo	04/15/2016	@ Tampa		Tampa		false		false	-									
 2016	12380	608	Saint Leo	04/23/2016	@ Fla. Southern		Fla. Southern		false		false	-									
-2016	12380	613	Saint Michael's	03/08/2016	@ Merrimack		Merrimack		false		false	-									
+2016	12380	613	Saint Michael's	03/08/2016	@ Merrimack		Merrimack	http://stats.ncaa.org/team/410/12380	false		false	L 6 - 20	false	6 - 20	false	6	20	false		4051569	http://stats.ncaa.org/game/index/4051569?org_id=410
 2016	12380	613	Saint Michael's	03/12/2016	Franklin Pierce		Franklin Pierce		false		true	-									
 2016	12380	613	Saint Michael's	03/16/2016	@ NYIT		NYIT		false		false	-									
 2016	12380	613	Saint Michael's	03/19/2016	Pace		Pace		false		true	-									
@@ -722,8 +724,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	613	Saint Michael's	04/30/2016	@ Saint Rose		Saint Rose		false		false	-									
 2016	12380	1347	Saint Rose	02/27/2016	Mercyhurst		Mercyhurst	http://stats.ncaa.org/team/408/12380	false		true	L 3 - 7	false	3 - 7	false	3	7	false		4031325	http://stats.ncaa.org/game/index/4031325?org_id=1347
 2016	12380	1347	Saint Rose	03/04/2016	Mercy		Mercy	http://stats.ncaa.org/team/407/12380	false		true	L 2 - 7	false	2 - 7	false	2	7	false		4041783	http://stats.ncaa.org/game/index/4041783?org_id=1347
-2016	12380	1347	Saint Rose	03/06/2016	St. Thomas Aquinas		St. Thomas Aquinas		false		true	-									
-2016	12380	1347	Saint Rose	03/09/2016	@ Roberts Wesleyan		Roberts Wesleyan		false		false	-									
+2016	12380	1347	Saint Rose	03/06/2016	St. Thomas Aquinas		St. Thomas Aquinas	http://stats.ncaa.org/team/1348/12380	false		true	W 12 - 3	true	12 - 3	false	12	3	false		4044898	http://stats.ncaa.org/game/index/4044898?org_id=1347
+2016	12380	1347	Saint Rose	03/09/2016	@ Roberts Wesleyan		Roberts Wesleyan	http://stats.ncaa.org/team/30150/12380	false		false	W 14 - 6	true	14 - 6	false	14	6	false		4052700	http://stats.ncaa.org/game/index/4052700?org_id=30150
 2016	12380	1347	Saint Rose	03/12/2016	@ Adelphi		Adelphi		false		false	-									
 2016	12380	1347	Saint Rose	03/16/2016	Molloy		Molloy		false		true	-									
 2016	12380	1347	Saint Rose	03/19/2016	@ Assumption		Assumption		false		false	-									
@@ -739,8 +741,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	30063	Seton Hill	02/13/2016	@ Wingate		Wingate	http://stats.ncaa.org/team/1462/12380	false		false	W 13 - 12	true	13 - 12	false	13	12	false		4022238	http://stats.ncaa.org/game/index/4022238?org_id=1462
 2016	12380	30063	Seton Hill	02/20/2016	@ Chestnut Hill		Chestnut Hill	http://stats.ncaa.org/team/21323/12380	false		false	W 18 - 6	true	18 - 6	false	18	6	false		4021907	http://stats.ncaa.org/game/index/4021907?org_id=21323
 2016	12380	30063	Seton Hill	02/27/2016	NYIT		NYIT	http://stats.ncaa.org/team/477/12380	false		true	W 12 - 10	true	12 - 10	false	12	10	false		4030401	http://stats.ncaa.org/game/index/4030401?org_id=30063
-2016	12380	30063	Seton Hill	03/05/2016	Lindenwood (MO)		Lindenwood (MO)		false		true	-									
-2016	12380	30063	Seton Hill	03/09/2016	Florida Tech		Florida Tech		false		true	-									
+2016	12380	30063	Seton Hill	03/05/2016	Lindenwood (MO)		Lindenwood (MO)	http://stats.ncaa.org/team/30136/12380	false		true	W 13 - 9	true	13 - 9	false	13	9	false		4043888	http://stats.ncaa.org/game/index/4043888?org_id=30063
+2016	12380	30063	Seton Hill	03/09/2016	Florida Tech		Florida Tech	http://stats.ncaa.org/team/230/12380	false		true	W 11 - 7	true	11 - 7	false	11	7	false		4052070	http://stats.ncaa.org/game/index/4052070?org_id=30063
 2016	12380	30063	Seton Hill	03/12/2016	@ Pfeiffer		Pfeiffer		false		false	-									
 2016	12380	30063	Seton Hill	03/19/2016	@ Mercyhurst		Mercyhurst		false		false	-									
 2016	12380	30063	Seton Hill	03/26/2016	Limestone		Limestone		false		true	-									
@@ -755,8 +757,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	30151	Shorter	02/13/2016	@ Lynn		Lynn	http://stats.ncaa.org/team/20794/12380	false		false	L 6 - 15	false	6 - 15	false	6	15	false		4038259	http://stats.ncaa.org/game/index/4038259?org_id=20794
 2016	12380	30151	Shorter	02/20/2016	Lindenwood (MO)		Lindenwood (MO)	http://stats.ncaa.org/team/30136/12380	false		true	L 7 - 19	false	7 - 19	false	7	19	false		4028398	http://stats.ncaa.org/game/index/4028398?org_id=30151
 2016	12380	30151	Shorter	02/27/2016	Saint Leo		Saint Leo	http://stats.ncaa.org/team/608/12380	false		true	L 7 - 17	false	7 - 17	false	7	17	false		4030436	http://stats.ncaa.org/game/index/4030436?org_id=30151
-2016	12380	30151	Shorter	03/05/2016	@ UIndy		UIndy		false		false	-									
-2016	12380	30151	Shorter	03/08/2016	Davis & Elkins		Davis & Elkins		false		true	-									
+2016	12380	30151	Shorter	03/05/2016	@ UIndy		UIndy	http://stats.ncaa.org/team/309/12380	false		false	L 6 - 17	false	6 - 17	false	6	17	false		4043369	http://stats.ncaa.org/game/index/4043369?org_id=309
+2016	12380	30151	Shorter	03/08/2016	Davis & Elkins		Davis & Elkins	http://stats.ncaa.org/team/174/12380	false		true	W 26 - 4	true	26 - 4	false	26	4	false		4050295	http://stats.ncaa.org/game/index/4050295?org_id=30151
 2016	12380	30151	Shorter	03/12/2016	Belmont Abbey		Belmont Abbey		false		true	-									
 2016	12380	30151	Shorter	03/19/2016	@ Coker		Coker		false		false	-									
 2016	12380	30151	Shorter	03/24/2016	Colorado St.-Pueblo		Colorado St.-Pueblo		false		true	-									
@@ -765,8 +767,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	30151	Shorter	04/09/2016	Catawba		Catawba		false		true	-									
 2016	12380	30151	Shorter	04/16/2016	Young Harris		Young Harris		false		true	-									
 2016	12380	30151	Shorter	04/23/2016	Ala.-Huntsville		Ala.-Huntsville		false		true	-									
-2016	12380	468	Southern N.H.	03/05/2016	Merrimack		Merrimack		false		true	-									
-2016	12380	468	Southern N.H.	03/09/2016	@ Molloy		Molloy		false		false	-									
+2016	12380	468	Southern N.H.	03/05/2016	Merrimack		Merrimack	http://stats.ncaa.org/team/410/12380	false		true	L 12 - 19	false	12 - 19	false	12	19	false		4045877	http://stats.ncaa.org/game/index/4045877?org_id=410
+2016	12380	468	Southern N.H.	03/09/2016	@ Molloy		Molloy	http://stats.ncaa.org/team/437/12380	false		false	L 8 - 15	false	8 - 15	false	8	15	false		4052044	http://stats.ncaa.org/game/index/4052044?org_id=437
 2016	12380	468	Southern N.H.	03/12/2016	@ Georgian Court		Georgian Court		false		false	-									
 2016	12380	468	Southern N.H.	03/19/2016	Adelphi		Adelphi		false		true	-									
 2016	12380	468	Southern N.H.	03/26/2016	@ Le Moyne		Le Moyne		false		false	-									
@@ -795,7 +797,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	1348	St. Thomas Aquinas	02/17/2016	@ NYIT		NYIT	http://stats.ncaa.org/team/477/12380	false		false	L 1 - 20	false	1 - 20	false	1	20	false		4024697	http://stats.ncaa.org/game/index/4024697?org_id=477
 2016	12380	1348	St. Thomas Aquinas	02/24/2016	@ Dowling		Dowling	http://stats.ncaa.org/team/2692/12380	false		false	L 2 - 18	false	2 - 18	false	2	18	false		4028231	http://stats.ncaa.org/game/index/4028231?org_id=2692
 2016	12380	1348	St. Thomas Aquinas	03/02/2016	@ LIU Post		LIU Post	http://stats.ncaa.org/team/362/12380	false		false	L 3 - 16	false	3 - 16	false	3	16	false		4038877	http://stats.ncaa.org/game/index/4038877?org_id=362
-2016	12380	1348	St. Thomas Aquinas	03/06/2016	@ Saint Rose		Saint Rose		false		false	-									
+2016	12380	1348	St. Thomas Aquinas	03/06/2016	@ Saint Rose		Saint Rose	http://stats.ncaa.org/team/1347/12380	false		false	L 3 - 12	false	3 - 12	false	3	12	false		4044898	http://stats.ncaa.org/game/index/4044898?org_id=1347
 2016	12380	1348	St. Thomas Aquinas	03/12/2016	Dist. Columbia		Dist. Columbia		false		true	-									
 2016	12380	1348	St. Thomas Aquinas	03/15/2016	Post		Post		false		true	-									
 2016	12380	1348	St. Thomas Aquinas	03/18/2016	Molloy		Molloy		false		true	-									
@@ -810,7 +812,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	689	Tampa	02/21/2016	Walsh		Walsh	http://stats.ncaa.org/team/30141/12380	false		true	W 15 - 8	true	15 - 8	false	15	8	false		4038518	http://stats.ncaa.org/game/index/4038518?org_id=689
 2016	12380	689	Tampa	02/27/2016	@ Limestone		Limestone	http://stats.ncaa.org/team/1174/12380	false		false	L 7 - 25	false	7 - 25	false	7	25	false		4031311	http://stats.ncaa.org/game/index/4031311?org_id=1174
 2016	12380	689	Tampa	03/01/2016	Chestnut Hill		Chestnut Hill	http://stats.ncaa.org/team/21323/12380	false		true	W 12 - 6	true	12 - 6	false	12	6	false		4038536	http://stats.ncaa.org/game/index/4038536?org_id=689
-2016	12380	689	Tampa	03/05/2016	Lake Erie		Lake Erie		false		true	-									
+2016	12380	689	Tampa	03/05/2016	Lake Erie		Lake Erie	http://stats.ncaa.org/team/2746/12380	false		true	W 9 - 7	true	9 - 7	false	9	7	false		4045300	http://stats.ncaa.org/game/index/4045300?org_id=689
 2016	12380	689	Tampa	03/12/2016	Colorado Mesa		Colorado Mesa		false		true	-									
 2016	12380	689	Tampa	03/19/2016	@ Lynn		Lynn		false		false	-									
 2016	12380	689	Tampa	03/25/2016	Adams St.		Adams St.		false		true	-									
@@ -822,8 +824,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	12830	Tusculum	02/06/2016	Limestone		Limestone	http://stats.ncaa.org/team/1174/12380	false		true	L 5 - 16	false	5 - 16	false	5	16	false		4008666	http://stats.ncaa.org/game/index/4008666?org_id=12830
 2016	12380	12830	Tusculum	02/14/2016	@ Tampa		Tampa	http://stats.ncaa.org/team/689/12380	false		false	L 9 - 17	false	9 - 17	false	9	17	false		4015829	http://stats.ncaa.org/game/index/4015829?org_id=689
 2016	12380	12830	Tusculum	02/27/2016	@ North Greenville		North Greenville	http://stats.ncaa.org/team/9223/12380	false		false	L 8 - 9	false	8 - 9	false	8	9	false		4030549	http://stats.ncaa.org/game/index/4030549?org_id=9223
-2016	12380	12830	Tusculum	03/05/2016	@ Brevard		Brevard		false		false	-									
-2016	12380	12830	Tusculum	03/08/2016	@ Walsh		Walsh		false		false	-									
+2016	12380	12830	Tusculum	03/05/2016	@ Brevard		Brevard	http://stats.ncaa.org/team/30094/12380	false		false	W 13 - 6	true	13 - 6	false	13	6	false		4042819	http://stats.ncaa.org/game/index/4042819?org_id=30094
+2016	12380	12830	Tusculum	03/08/2016	@ Walsh		Walsh	http://stats.ncaa.org/team/30141/12380	false		false	L 9 - 10 (2OT)	false	9 - 10	false	9	10	true	2OT	4049801	http://stats.ncaa.org/game/index/4049801?org_id=30141
 2016	12380	12830	Tusculum	03/12/2016	@ Emmanuel (GA)		Emmanuel (GA)		false		false	-									
 2016	12380	12830	Tusculum	03/19/2016	Lenoir-Rhyne		Lenoir-Rhyne		false		true	-									
 2016	12380	12830	Tusculum	03/26/2016	@ Catawba		Catawba		false		false	-									
@@ -834,7 +836,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	12830	Tusculum	04/23/2016	@ Wingate		Wingate		false		false	-									
 2016	12380	309	UIndy	02/20/2016	@ Mars Hill		Mars Hill	http://stats.ncaa.org/team/1199/12380	false		false	W 12 - 9	true	12 - 9	false	12	9	false		4038440	http://stats.ncaa.org/game/index/4038440?org_id=1199
 2016	12380	309	UIndy	02/27/2016	@ Emmanuel (GA)		Emmanuel (GA)	http://stats.ncaa.org/team/30193/12380	false		false	W 16 - 6	true	16 - 6	false	16	6	false		4031470	http://stats.ncaa.org/game/index/4031470?org_id=30193
-2016	12380	309	UIndy	03/05/2016	Shorter		Shorter		false		true	-									
+2016	12380	309	UIndy	03/05/2016	Shorter		Shorter	http://stats.ncaa.org/team/30151/12380	false		true	W 17 - 6	true	17 - 6	false	17	6	false		4043369	http://stats.ncaa.org/game/index/4043369?org_id=309
 2016	12380	309	UIndy	03/12/2016	@ Wheeling Jesuit		Wheeling Jesuit		false		false	-									
 2016	12380	309	UIndy	03/16/2016	@ Rollins		Rollins		false		false	-									
 2016	12380	309	UIndy	03/19/2016	@ Fla. Southern		Fla. Southern		false		false	-									
@@ -849,7 +851,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	30141	Walsh	02/21/2016	@ Tampa		Tampa	http://stats.ncaa.org/team/689/12380	false		false	L 8 - 15	false	8 - 15	false	8	15	false		4038518	http://stats.ncaa.org/game/index/4038518?org_id=689
 2016	12380	30141	Walsh	02/27/2016	@ Le Moyne		Le Moyne	http://stats.ncaa.org/team/349/12380	false		false	L 5 - 22	false	5 - 22	false	5	22	false		4031322	http://stats.ncaa.org/game/index/4031322?org_id=349
 2016	12380	30141	Walsh	03/02/2016	Roberts Wesleyan		Roberts Wesleyan	http://stats.ncaa.org/team/30150/12380	false		true	W 10 - 9 (2OT)	true	10 - 9	false	10	9	true	2OT	4038864	http://stats.ncaa.org/game/index/4038864?org_id=30141
-2016	12380	30141	Walsh	03/08/2016	Tusculum		Tusculum		false		true	-									
+2016	12380	30141	Walsh	03/08/2016	Tusculum		Tusculum	http://stats.ncaa.org/team/12830/12380	false		true	W 10 - 9 (2OT)	true	10 - 9	false	10	9	true	2OT	4049801	http://stats.ncaa.org/game/index/4049801?org_id=30141
 2016	12380	30141	Walsh	03/12/2016	North Greenville		North Greenville		false		true	-									
 2016	12380	30141	Walsh	03/15/2016	Mercyhurst		Mercyhurst		false		true	-									
 2016	12380	30141	Walsh	03/19/2016	@ Alderson Broaddus		Alderson Broaddus		false		false	-									
@@ -862,7 +864,7 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	30141	Walsh	04/23/2016	Ohio Valley		Ohio Valley		false		true	-									
 2016	12380	30209	Westminster (UT)	02/13/2016	@ Notre Dame de Namur		Notre Dame de Namur	http://stats.ncaa.org/team/30056/12380	false		false	W 18 - 10	true	18 - 10	false	18	10	false		4011573	http://stats.ncaa.org/game/index/4011573?org_id=30209
 2016	12380	30209	Westminster (UT)	02/20/2016	@ Colorado Mesa		Colorado Mesa	http://stats.ncaa.org/team/11416/12380	false		false	W 12 - 7	true	12 - 7	false	12	7	false		4021906	http://stats.ncaa.org/game/index/4021906?org_id=11416
-2016	12380	30209	Westminster (UT)	03/05/2016	@ Whittier		Whittier		false		false	-									
+2016	12380	30209	Westminster (UT)	03/05/2016	@ Whittier		Whittier	http://stats.ncaa.org/team/781/12380	false		false	L 9 - 11	false	9 - 11	false	9	11	false		4044067	http://stats.ncaa.org/game/index/4044067?org_id=30209
 2016	12380	30209	Westminster (UT)	03/19/2016	Rockhurst@Colorado Springs, CO		RockhurstColorado Springs, CO		false		false	-									
 2016	12380	30209	Westminster (UT)	04/03/2016	Rockhurst@Grand Junction, CO		RockhurstGrand Junction, CO		false		false	-									
 2016	12380	30209	Westminster (UT)	04/08/2016	@ Adams St.		Adams St.		false		false	-									
@@ -871,9 +873,9 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	30209	Westminster (UT)	04/22/2016	Adams St.		Adams St.		false		true	-									
 2016	12380	30209	Westminster (UT)	04/24/2016	Colorado St.-Pueblo		Colorado St.-Pueblo		false		true	-									
 2016	12380	12799	Wheeling Jesuit	02/27/2016	@ Molloy		Molloy	http://stats.ncaa.org/team/437/12380	false		false	L 11 - 13	false	11 - 13	false	11	13	false		4031308	http://stats.ncaa.org/game/index/4031308?org_id=437
-2016	12380	12799	Wheeling Jesuit	03/05/2016	Mercyhurst		Mercyhurst		false		true	-									
-2016	12380	12799	Wheeling Jesuit	03/07/2016	Florida Tech@Baltimore, MD		Florida TechBaltimore, MD		false		false	-									
-2016	12380	12799	Wheeling Jesuit	03/09/2016	North Greenville		North Greenville		false		true	-									
+2016	12380	12799	Wheeling Jesuit	03/05/2016	Mercyhurst		Mercyhurst	http://stats.ncaa.org/team/408/12380	false		true	L 10 - 11 (1OT)	false	10 - 11	false	10	11	true	1OT	4043886	http://stats.ncaa.org/game/index/4043886?org_id=12799
+2016	12380	12799	Wheeling Jesuit	03/07/2016	Florida Tech @ Baltimore, MD		Florida Tech	http://stats.ncaa.org/team/230/12380	true	Baltimore, MD	true	L 11 - 12 (1OT)	false	11 - 12	false	11	12	true	1OT	4048445	http://stats.ncaa.org/game/index/4048445?org_id=12799
+2016	12380	12799	Wheeling Jesuit	03/09/2016	North Greenville		North Greenville	http://stats.ncaa.org/team/9223/12380	false		true	W 11 - 8	true	11 - 8	false	11	8	false		4052064	http://stats.ncaa.org/game/index/4052064?org_id=12799
 2016	12380	12799	Wheeling Jesuit	03/12/2016	UIndy		UIndy		false		true	-									
 2016	12380	12799	Wheeling Jesuit	03/19/2016	@ Lindenwood (MO)		Lindenwood (MO)		false		false	-									
 2016	12380	12799	Wheeling Jesuit	03/25/2016	Walsh		Walsh		false		true	-									
@@ -886,8 +888,8 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	1462	Wingate	02/21/2016	Mercyhurst @ Ashland, Va.		Mercyhurst	http://stats.ncaa.org/team/408/12380	true	Ashland, Va.	true	L 8 - 9 (4OT)	false	8 - 9	false	8	9	true	4OT	4036966	http://stats.ncaa.org/game/index/4036966?org_id=408
 2016	12380	1462	Wingate	02/27/2016	@ Belmont Abbey		Belmont Abbey	http://stats.ncaa.org/team/2683/12380	false		false	L 9 - 13	false	9 - 13	false	9	13	false		4031326	http://stats.ncaa.org/game/index/4031326?org_id=2683
 2016	12380	1462	Wingate	03/02/2016	Mount Olive		Mount Olive	http://stats.ncaa.org/team/1245/12380	false		true	L 8 - 9	false	8 - 9	false	8	9	false		4038642	http://stats.ncaa.org/game/index/4038642?org_id=1462
-2016	12380	1462	Wingate	03/05/2016	@ Mars Hill		Mars Hill		false		false	-									
-2016	12380	1462	Wingate	03/09/2016	@ Fla. Southern		Fla. Southern		false		false	-									
+2016	12380	1462	Wingate	03/05/2016	@ Mars Hill		Mars Hill	http://stats.ncaa.org/team/1199/12380	false		false	W 7 - 6 (2OT)	true	7 - 6	false	7	6	true	2OT	4043864	http://stats.ncaa.org/game/index/4043864?org_id=1199
+2016	12380	1462	Wingate	03/09/2016	@ Fla. Southern		Fla. Southern	http://stats.ncaa.org/team/233/12380	false		false	W 13 - 11	true	13 - 11	false	13	11	false		4051559	http://stats.ncaa.org/game/index/4051559?org_id=233
 2016	12380	1462	Wingate	03/12/2016	@ Rollins		Rollins		false		false	-									
 2016	12380	1462	Wingate	03/16/2016	@ Lenoir-Rhyne		Lenoir-Rhyne		false		false	-									
 2016	12380	1462	Wingate	03/19/2016	Lincoln Memorial		Lincoln Memorial		false		true	-									
@@ -902,9 +904,9 @@ year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	o
 2016	12380	30154	Young Harris	02/13/2016	Fla. Southern		Fla. Southern	http://stats.ncaa.org/team/233/12380	false		true	L 3 - 10	false	3 - 10	false	3	10	false		4012943	http://stats.ncaa.org/game/index/4012943?org_id=30154
 2016	12380	30154	Young Harris	02/27/2016	Brevard		Brevard	http://stats.ncaa.org/team/30094/12380	false		true	W 24 - 7	true	24 - 7	false	24	7	false		4037204	http://stats.ncaa.org/game/index/4037204?org_id=30154
 2016	12380	30154	Young Harris	03/02/2016	North Greenville		North Greenville	http://stats.ncaa.org/team/9223/12380	false		true	W 11 - 5	true	11 - 5	false	11	5	false		4038865	http://stats.ncaa.org/game/index/4038865?org_id=30154
-2016	12380	30154	Young Harris	03/05/2016	Davis & Elkins		Davis & Elkins		false		true	-									
-2016	12380	30154	Young Harris	03/07/2016	Ohio Valley		Ohio Valley		false		true	-									
-2016	12380	30154	Young Harris	03/09/2016	Notre Dame de Namur		Notre Dame de Namur		false		true	-									
+2016	12380	30154	Young Harris	03/05/2016	Davis & Elkins		Davis & Elkins	http://stats.ncaa.org/team/174/12380	false		true	W 18 - 1	true	18 - 1	false	18	1	false		4043869	http://stats.ncaa.org/game/index/4043869?org_id=30154
+2016	12380	30154	Young Harris	03/07/2016	Ohio Valley		Ohio Valley	http://stats.ncaa.org/team/15207/12380	false		true	W 25 - 7	true	25 - 7	false	25	7	false		4048188	http://stats.ncaa.org/game/index/4048188?org_id=30154
+2016	12380	30154	Young Harris	03/09/2016	Notre Dame de Namur		Notre Dame de Namur	http://stats.ncaa.org/team/30056/12380	false		true	W 17 - 7	true	17 - 7	false	17	7	false		4051210	http://stats.ncaa.org/game/index/4051210?org_id=30154
 2016	12380	30154	Young Harris	03/19/2016	Colorado St.-Pueblo		Colorado St.-Pueblo		false		true	-									
 2016	12380	30154	Young Harris	03/23/2016	Piedmont		Piedmont		false		true	-									
 2016	12380	30154	Young Harris	03/26/2016	@ Lynn		Lynn		false		false	-									
