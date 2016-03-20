@@ -48,7 +48,7 @@ from 16ncaa_periods periods
 join 16ncaa_periods periods2 on (periods.game_id,1-periods.section_id) = (periods2.game_id, periods2.section_id)
 join 16ncaa_box_scores box on (periods.game_id,periods.section_id)=(box.game_id,box.section_id)
 join 16ncaa_box_scores box2 on (periods2.game_id,periods2.section_id)=(box2.game_id,box2.section_id)
-join 16ncaa_schedule sched on (periods.team_id,periods.game_id)=(sched.team_id,sched.game_id)
+join ncaa_schedules sched on (periods.team_id,periods.game_id)=(sched.team_id,sched.game_id)
 join 16ncaa_teams teams on (periods.team_id,sched.year_id)=(teams.team_id,teams.year_id)
 where box.player_name= 'totals'
 and box2.player_name = 'totals';

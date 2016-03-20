@@ -3,6 +3,10 @@
 require 'csv'
 require 'mechanize'
 
+require './lib/mysql_client.rb'
+
+mysql_client = MySQLClient.new
+
 nthreads = 1
 
 base_sleep = 0
@@ -23,21 +27,6 @@ game_xpath = '//*[@id="contentarea"]/table/tr[2]/td[1]/table/tr[position()>2]'
 ncaa_teams = CSV.open("tsv/ncaa_teams_#{year}_#{division}.tsv",
                       "r",
                       {:col_sep => "\t", :headers => TRUE})
-ncaa_team_schedules = CSV.open("tsv/ncaa_team_schedules_mt_#{year}_#{division}.tsv",
-                               "w",
-                               {:col_sep => "\t"})
-
-# Header for team file
-
-ncaa_team_schedules << ["year", "year_id",
-                        "team_id", "team_name",
-                        "game_date", "game_string",
-                        "opponent_id", "opponent_name", "opponent_url",
-                        "neutral_site", "neutral_location", "home_game",
-                        "score_string", "team_won", "score", "exempt",
-                        "team_score", "opponent_score",
-                        "overtime", "overtime_periods",
-                        "game_id", "game_url"]
 
 # Get team IDs
 
@@ -225,10 +214,7 @@ teams.each_slice(tpt).with_index do |teams_slice,i|
           end
         end
 
-        if (row.size>7)
-          ncaa_team_schedules << row
-        end
-
+        mysql_client.write_schedule(row)
       end
 
       print " #{found_games} scheduled, #{finished_games} completed, record #{won}-#{lost}\n"
@@ -240,5 +226,3 @@ teams.each_slice(tpt).with_index do |teams_slice,i|
 end
 
 threads.each(&:join)
-
-ncaa_team_schedules.close

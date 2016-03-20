@@ -4,6 +4,8 @@
 require 'csv'
 require 'mechanize'
 
+require './lib/mysql_client.rb'
+
 nthreads = 1
 
 base_sleep = rand(0...8)
@@ -25,9 +27,6 @@ base_url = 'http://stats.ncaa.org'
 
 box_scores_xpath = '//*[@id="contentarea"]/table[position()>4]/tr[position()>2]'
 
-ncaa_team_schedules = CSV.open("tsv/ncaa_team_schedules_mt_#{year}_#{division}.tsv",
-                               "r",
-                               {:col_sep => "\t", :headers => TRUE})
 ncaa_box_scores = CSV.open("tsv/ncaa_games_box_scores_mt_#{year}_#{division}.tsv",
                            "w",
                            {:col_sep => "\t"})
@@ -36,21 +35,10 @@ ncaa_box_scores = CSV.open("tsv/ncaa_games_box_scores_mt_#{year}_#{division}.tsv
 
 ncaa_box_scores << ["game_id", "section_id", "player_id", "player_name", "player_url",
 "position","Goals",	"Assists",	"Points",	"Shots",	"SOG",	"Man-Up G",	"Man-Down G",	"GB",	"TO",	"CT",	"FO Won",	"FOs Taken",	"Pen",	"Pen Time",	"G Min",	"Goals Allowed",	"Saves",	"W",	"L",	"T",	"RC",	"YC",	"Clears	Att",	"Clear Pct"]
+
 # Get game IDs
-
-game_ids = []
-ncaa_team_schedules.each do |game|
-  game_ids << game["game_id"]
-end
-
-# Pull each game only once
-# Modify in-place, so don't chain
-
-game_ids.compact!
-game_ids.sort!
-game_ids.uniq!
-
-#game_ids = game_ids[0..199]
+mysql_client = MySQLClient.new
+game_ids = mysql_client.get_unique_game_ids()
 
 n = game_ids.size
 

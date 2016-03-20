@@ -3,6 +3,8 @@
 require 'csv'
 require 'mechanize'
 
+require './lib/mysql_client.rb'
+
 nthreads = 1
 
 base_sleep = rand(0...30)
@@ -29,9 +31,6 @@ play_xpath = '//table[position()>1 and @class="mytable"]/tr[position()>1]'
 #periods_xpath = '//*[@id="contentarea"]/table[1]/tr[position()>1]'
 periods_xpath = '//table[position()=1 and @class="mytable"]/tr[position()>1]'
 
-ncaa_team_schedules = CSV.open("tsv/ncaa_team_schedules_mt_#{year}_#{division}.tsv",
-                               "r",
-                               {:col_sep => "\t", :headers => TRUE})
 ncaa_play_by_play = CSV.open("tsv/ncaa_games_play_by_play_mt_#{year}_#{division}.tsv",
                              "w",
                              {:col_sep => "\t"})
@@ -50,18 +49,8 @@ ncaa_periods << ["game_id", "section_id", "team_id", "team_name", "team_url",
                  "period_scores"]
 
 # Get game IDs
-
-game_ids = []
-ncaa_team_schedules.each do |game|
-  game_ids << game["game_id"]
-end
-
-# Pull each game only once
-# Modify in-place, so don't chain
-
-game_ids.compact!
-game_ids.sort!
-game_ids.uniq!
+mysql_client = MySQLClient.new
+game_ids = mysql_client.get_unique_game_ids()
 
 #game_ids = game_ids[0..199]
 

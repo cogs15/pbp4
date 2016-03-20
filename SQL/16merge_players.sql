@@ -1,7 +1,7 @@
 update 16ncaa_box_scores box
 left JOIN
 (select game_id, game_date, year
-from 16ncaa_schedule b
+from ncaa_schedules b
 ) sched on sched.game_id = box.game_id
 set box.game_date = sched.game_date,
 box.year = sched.year;

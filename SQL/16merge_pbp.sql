@@ -41,7 +41,7 @@ and periods2.section_id = 0;
 update 16ncaa_merged_pbp pbp
 left JOIN
 (select game_id, game_date, year
-from 16ncaa_schedule b
+from ncaa_schedules b
 ) sched on sched.game_id = pbp.game_id
 set pbp.game_date = sched.game_date,
 pbp.year = sched.year;
