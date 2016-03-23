@@ -1,17 +1,14 @@
-
 #!/usr/bin/env ruby
 
 require 'csv'
+require './lib/mysql_client.rb'
 require './lib/http_client.rb'
 
+mysql_client = MySQLClient.new
 http_client = HttpClient.new
 
 year = 2016
 division =  ARGV[0]
-
-ncaa_teams = CSV.open("tsv/ncaa_teams_#{year}_#{division}.tsv",
-                      "w",
-                      {:col_sep => "\t"})
 
 # Header for team file
 
@@ -60,8 +57,8 @@ doc.search("a").each do |link|
     found_teams += 1
 
   end
-
-  ncaa_teams.flush
+        mysql_client.write_teams(ncaa_teams)
+      STDOUT.flush
 
 end
 

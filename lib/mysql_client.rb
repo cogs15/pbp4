@@ -36,6 +36,18 @@ class MySQLClient
       statement.execute(*row)
   end
 
+  def write_teams(ncaa_teams)
+    statement = @client.prepare(
+      "REPLACE INTO `ncaa_lacrosse`.`teams`
+       (year, year_id, division, team_id, team_name, team_url)
+        VALUES
+       (?, ?, ?, ?, ?, ?)
+      ")
+
+      statement.execute(*row)
+  end
+
+
   def get_unique_game_ids()
     to_return = []
 
@@ -51,8 +63,7 @@ class MySQLClient
 
     to_return.sort!
     to_return.uniq!
-    
+
     return to_return
   end
-
 end
