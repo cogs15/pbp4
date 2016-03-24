@@ -1,22 +1,22 @@
 #!/usr/bin/env ruby
 
 require 'csv'
-
-require './lib/mysql_client.rb'
-require './lib/http_client.rb'
-
-mysql_client = MySQLClient.new
-http_client = HttpClient.new
+require 'mechanize'
 
 nthreads = 1
 
+base_sleep = rand(0...3)
+sleep_increment = 3
+retries = 4
+
 year = 2016
+division = ARGV[0]
 
 # Base URL
 
 base_url = 'http://stats.ncaa.org'
 
-#require 'awesome_puts'
+#require 'awesome_print'
 
 class String
   def to_nil
@@ -29,16 +29,39 @@ play_xpath = '//table[position()>1 and @class="mytable"]/tr[position()>1]'
 #periods_xpath = '//*[@id="contentarea"]/table[1]/tr[position()>1]'
 periods_xpath = '//table[position()=1 and @class="mytable"]/tr[position()>1]'
 
-
+ncaa_team_schedules = CSV.open("tsv/ncaa_team_schedules_mt_#{year}_#{division}.tsv",
+                               "r",
+                               {:col_sep => "\t", :headers => TRUE})
+ncaa_play_by_play = CSV.open("tsv/ncaa_games_play_by_play_mt_#{year}_#{division}.tsv",
+                             "w",
+                             {:col_sep => "\t"})
+ncaa_periods = CSV.open("tsv/ncaa_games_periods_mt_#{year}_#{division}.tsv",
+                        "w",
+                        {:col_sep => "\t"})
 
 # Headers
 
+ncaa_play_by_play << ["game_id", "period_id", "event_id", "time", "raw_time",
+                      "team_text", "team_score",
+                      "opponent_score", "score",
+                      "opponent_text"]
 
-
+ncaa_periods << ["game_id", "section_id", "team_id", "team_name", "team_url",
+                 "period_scores"]
 
 # Get game IDs
-mysql_client = MySQLClient.new
-game_ids = mysql_client.get_unique_game_ids()
+
+game_ids = []
+ncaa_team_schedules.each do |game|
+  game_ids << game["game_id"]
+end
+
+# Pull each game only once
+# Modify in-place, so don't chain
+
+game_ids.compact!
+game_ids.sort!
+game_ids.uniq!
 
 #game_ids = game_ids[0..199]
 
@@ -48,21 +71,48 @@ gpt = (n.to_f/nthreads.to_f).ceil
 
 threads = []
 
+# One agent for each thread?
+
+agent = Mechanize.new{ |agent| agent.history.max_size=0 }
+agent.user_agent = 'Mozilla/5.0'
+agent.robots = false
+
 game_ids.each_slice(gpt).with_index do |ids,i|
 
   threads << Thread.new(ids) do |t_ids|
 
     found = 0
     n_t = t_ids.size
-        ncaa_play_by_play = []
+
     t_ids.each_with_index do |game_id,j|
+
+      sleep_time = base_sleep
+
       game_url = 'http://stats.ncaa.org/game/play_by_play/%d' % [game_id]
-      page = http_client.get_html(game_url)
+
+#      print "Thread #{thread_id}, sleep #{sleep_time} ... "
+#      sleep sleep_time
+
+      tries = 0
+      begin
+        page = Nokogiri::HTML(agent.get(game_url).body)
+      rescue
+        sleep_time += sleep_increment
+#        print "sleep #{sleep_time} ... "
+        sleep sleep_time
+        tries += 1
+        if (tries > retries)
+          next
+        else
+          retry
+        end
+      end
+
+      sleep_time = base_sleep
 
       found += 1
 
-      puts "#{i}, #{game_id} : #{j+1}/#{n_t}; found #{found}/#{n_t}\n"
-
+      print "#{i}, #{game_id} : #{j+1}/#{n_t}; found #{found}/#{n_t}\n"
 
       page.xpath(play_xpath).each_with_index do |row,event_id|
 
@@ -101,10 +151,10 @@ game_ids.each_slice(gpt).with_index do |ids,i|
           time = '00:00'
         end
 
-        ncaa_play_by_play = [game_id,period_id,event_id,time,raw_time,team_text,team_score,opponent_score,score,opponent_text]
-        mysql_client.write_pbp(ncaa_play_by_play)
+        ncaa_play_by_play << [game_id,period_id,event_id,time,raw_time,team_text,team_score,opponent_score,score,opponent_text]
+
       end
-                  ncaa_periods = []
+
       page.xpath(periods_xpath).each_with_index do |row,section_id|
         team_period_scores = []
 #        section = [game_id,section_id]
@@ -112,9 +162,7 @@ game_ids.each_slice(gpt).with_index do |ids,i|
         link_url = nil
         team_url = nil
         team_id = nil
-
         row.xpath('td').each_with_index do |element,i|
-
           case i
           when 0
             team_name = element.text.strip rescue nil
@@ -131,8 +179,7 @@ game_ids.each_slice(gpt).with_index do |ids,i|
             team_period_scores += [element.text.strip.to_i]
           end
         end
-        ncaa_periods = [game_id,section_id,team_id,team_name,team_url,team_period_scores]
-        mysql_client.write_periods(ncaa_periods)
+        ncaa_periods << [game_id,section_id,team_id,team_name,team_url,team_period_scores]
       end
     end
 
@@ -141,3 +188,5 @@ game_ids.each_slice(gpt).with_index do |ids,i|
 end
 
 threads.each(&:join)
+
+ncaa_play_by_play.close

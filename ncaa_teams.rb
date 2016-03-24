@@ -2,21 +2,16 @@
 #!/usr/bin/env ruby
 
 require 'csv'
+require './lib/mysql_client.rb'
 require './lib/http_client.rb'
 
+mysql_client = MySQLClient.new
 http_client = HttpClient.new
 
 year = 2016
 division =  ARGV[0]
 
-ncaa_teams = CSV.open("tsv/ncaa_teams_#{year}_#{division}.tsv",
-                      "w",
-                      {:col_sep => "\t"})
 
-# Header for team file
-
-ncaa_teams << ["year", "year_id", "division",
-               "team_id", "team_name", "team_url"]
 
 # Base URL for relative team links
 
@@ -27,12 +22,13 @@ year_division_url = "http://stats.ncaa.org/team/inst_team_list?&academic_year=#{
 
 puts "\nRetrieving division #{division} teams for #{year} ... "
 
+
 found_teams = 0
 
 doc = http_client.get_html(year_division_url)
 
 doc.search("a").each do |link|
-
+ncaa_teams = []
   link_url = link.attributes["href"].text
 
   # Valid team URLs
@@ -55,16 +51,20 @@ doc.search("a").each do |link|
     # NCAA team URL
 
     team_url = base_url+link_url
+    ncaa_teams += [year, year_id, division, team_id, team_name, team_url]
 
-    ncaa_teams << [year, year_id, division, team_id, team_name, team_url]
+        mysql_client.write_teams(ncaa_teams)
     found_teams += 1
 
   end
 
-  ncaa_teams.flush
+
+
 
 end
 
-ncaa_teams.close
+
+
 
 puts "found #{found_teams} teams\n\n"
+      STDOUT.flush

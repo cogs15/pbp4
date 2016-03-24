@@ -2,8 +2,10 @@
 
 require 'csv'
 
+require './lib/mysql_client.rb'
 require './lib/http_client.rb'
 
+mysql_client = MySQLClient.new
 http_client = HttpClient.new
 
 nthreads = 1
@@ -17,7 +19,7 @@ base_url = 'http://stats.ncaa.org'
 
 roster_xpath = '//*[@id="stat_grid"]/tbody/tr'
 
-ncaa_teams = CSV.open("tsv/ncaa_teams_#{year}_#{division}.tsv",
+ncaa_teams = CSV.open("tsv/ncaa_teams_#{year}.tsv",
                       "r",
                       {:col_sep => "\t", :headers => TRUE})
 ncaa_team_rosters = CSV.open("tsv/ncaa_team_rosters_mt_#{year}_#{division}.tsv",
@@ -28,11 +30,6 @@ ncaa_team_rosters = CSV.open("tsv/ncaa_team_rosters_mt_#{year}_#{division}.tsv",
 
 # Header for team file
 
-ncaa_team_rosters << ["year", "year_id",
-                      "team_id", "team_name", "jersey_number",
-                      "player_id", "player_name", "player_url",
-                      "class_year",
-                      "games_played", "games_started"]
 # Get team IDs
 
 teams = []
@@ -65,6 +62,7 @@ teams.each_slice(tpt).with_index do |teams_slice,i|
 
       puts "#{i} #{year} #{team_name} ..."
 
+ncaa_team_rosters = []
       doc.xpath(roster_xpath).each do |player|
 
         row = [year, year_id, team_id, team_name]
@@ -104,7 +102,7 @@ teams.each_slice(tpt).with_index do |teams_slice,i|
         ncaa_team_rosters << row
 
       end
-
+        mysql_client.write_rosters(ncaa_team_rosters)
       puts " #{found_players} players, #{missing_id} missing ID\n"
 
     end
@@ -114,5 +112,3 @@ teams.each_slice(tpt).with_index do |teams_slice,i|
 end
 
 threads.each(&:join)
-
-ncaa_team_rosters.close

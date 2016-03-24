@@ -1,12 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'csv'
-
-require './lib/mysql_client.rb'
-require './lib/http_client.rb'
-
-mysql_client = MySQLClient.new
-http_client = HttpClient.new
+require 'mechanize'
 
 nthreads = 1
 
@@ -25,11 +20,27 @@ game_xpath = '//*[@id="contentarea"]/table/tr[2]/td[1]/table/tr[position()>2]'
 
 #//*[@id="contentarea"]/table/tbody/tr[2]/td[1]/table/tbody/tr[3]
 
+ncaa_teams = CSV.open("tsv/ncaa_teams_#{year}_#{division}.tsv",
+                      "r",
+                      {:col_sep => "\t", :headers => TRUE})
+ncaa_team_schedules = CSV.open("tsv/ncaa_team_schedules_mt_#{year}_#{division}.tsv",
+                               "w",
+                               {:col_sep => "\t"})
 
+# Header for team file
 
-                    #  mysql_client = MySQLClient.new
-                    #  ncaa_teams = mysql_client.get_team_ids()
-                    ncaa_teams = CSV.read("tsv/ncaa_teams_#{year}.tsv","r",{:col_sep => "\t", :headers => TRUE})
+ncaa_team_schedules << ["year", "year_id",
+                        "team_id", "team_name",
+                        "game_date", "game_string",
+                        "opponent_id", "opponent_name", "opponent_url",
+                        "neutral_site", "neutral_location", "home_game",
+                        "score_string", "team_won", "score", "exempt",
+                        "team_score", "opponent_score",
+                        "overtime", "overtime_periods",
+                        "game_id", "game_url"]
+
+# Get team IDs
+
 teams = []
 ncaa_teams.each do |team|
   teams << team
@@ -41,27 +52,53 @@ tpt = (n.to_f/nthreads.to_f).ceil
 
 threads = []
 
+# One agent for each thread?
+
+agent = Mechanize.new{ |agent| agent.history.max_size=0 }
+agent.user_agent = 'Mozilla/5.0'
+agent.robots = false
+
 teams.each_slice(tpt).with_index do |teams_slice,i|
 
   threads << Thread.new(teams_slice) do |t_teams|
 
     t_teams.each_with_index do |team,j|
 
+      sleep_time = base_sleep
+
       year = team[0]
       year_id = team[1]
-      division = team[2]
       team_id = team[3]
       team_name = team[4]
 
       team_schedule_url = "http://stats.ncaa.org/team/%d/%d" % [team_id,year_id]
-      doc = http_client.get_html(team_schedule_url)
+
+      #print "Sleep #{sleep_time} ... "
+      sleep sleep_time
 
       found_games = 0
       finished_games = 0
       won = 0
       lost = 0
 
-      puts "#{i} #{year} #{team_name} ..."
+      tries = 0
+      begin
+        doc = Nokogiri::HTML(agent.get(team_schedule_url).body)
+      rescue
+        sleep_time += sleep_increment
+        #print "sleep #{sleep_time} ... "
+        sleep sleep_time
+        tries += 1
+        if (tries > retries)
+          next
+        else
+          retry
+        end
+      end
+
+      sleep_time = base_sleep
+
+      print "#{i} #{year} #{team_name} ..."
 
       doc.xpath(game_xpath).each do |game|
 
@@ -188,11 +225,14 @@ teams.each_slice(tpt).with_index do |teams_slice,i|
           end
         end
 
-        mysql_client.write_schedule(row)
+        if (row.size>7)
+          ncaa_team_schedules << row
+        end
+
       end
 
-      puts " #{found_games} scheduled, #{finished_games} completed, record #{won}-#{lost}\n"
-      STDOUT.flush
+      print " #{found_games} scheduled, #{finished_games} completed, record #{won}-#{lost}\n"
+
     end
 
   end
@@ -200,3 +240,5 @@ teams.each_slice(tpt).with_index do |teams_slice,i|
 end
 
 threads.each(&:join)
+
+ncaa_team_schedules.close

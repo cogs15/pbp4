@@ -1,4 +1,3 @@
-
 #!/usr/bin/env ruby
 
 require 'csv'
@@ -6,12 +5,12 @@ require 'csv'
 require './lib/mysql_client.rb'
 require './lib/http_client.rb'
 
+mysql_client = MySQLClient.new
 http_client = HttpClient.new
 
 nthreads = 1
 
 year = 2016
-division = ARGV[0]
 
 #require 'awesome_puts'
 
@@ -25,14 +24,9 @@ base_url = 'http://stats.ncaa.org'
 
 box_scores_xpath = '//*[@id="contentarea"]/table[position()>4]/tr[position()>2]'
 
-ncaa_box_scores = CSV.open("tsv/ncaa_games_box_scores_mt_#{year}_#{division}.tsv",
-                           "w",
-                           {:col_sep => "\t"})
 
 # Headers
 
-ncaa_box_scores << ["game_id", "section_id", "player_id", "player_name", "player_url",
-"position","Goals",	"Assists",	"Points",	"Shots",	"SOG",	"Man-Up G",	"Man-Down G",	"GB",	"TO",	"CT",	"FO Won",	"FOs Taken",	"Pen",	"Pen Time",	"G Min",	"Goals Allowed",	"Saves",	"W",	"L",	"T",	"RC",	"YC",	"Clears	Att",	"Clear Pct"]
 
 # Get game IDs
 mysql_client = MySQLClient.new
@@ -51,7 +45,9 @@ game_ids.each_slice(gpt).with_index do |ids,i|
     found = 0
     n_t = t_ids.size
 
+      ncaa_box_scores = []
     t_ids.each_with_index do |game_id,j|
+
       game_url = 'http://stats.ncaa.org/game/box_score/%d' % [game_id]
       page = http_client.get_html(game_url)
 
@@ -70,6 +66,7 @@ game_ids.each_slice(gpt).with_index do |ids,i|
 
         field_values = []
         row.xpath('td').each_with_index do |element,k|
+
           case k
           when 0
             player_name = element.text.strip rescue nil
@@ -87,8 +84,9 @@ game_ids.each_slice(gpt).with_index do |ids,i|
           end
         end
 
-        ncaa_box_scores << [game_id,section_id,player_id,player_name,player_url]+field_values
+        ncaa_box_scores = [game_id,section_id,player_id,player_name,player_url]+field_values
 
+        mysql_client.write_box(ncaa_box_scores)
       end
 
     end
@@ -98,5 +96,3 @@ game_ids.each_slice(gpt).with_index do |ids,i|
 end
 
 threads.each(&:join)
-
-ncaa_box_scores.close
