@@ -25,9 +25,8 @@ class HttpClient
       return Nokogiri::HTML(response.body)
     rescue
       puts "failed"
-      if try_number > 5
-        puts "ERROR! Tried to GET #{url} 5 times and failed, exiting"
-        exit 1
+      if (try_number > 5)
+#exit 1
       else
         puts "On try #{try_number} of 5"
         try_number += 1

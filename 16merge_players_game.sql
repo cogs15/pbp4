@@ -36,7 +36,7 @@ CREATE TABLE if not exists `ncaa_player_game_stats` (
 truncate `ncaa_player_game_stats`;
 
 insert into `ncaa_player_game_stats` (year, game_date, game_id, section_id, player_id, player_name, start_position, goals, assists, points, shots, sog, emo_g, gb, turnovers, ct, fow, fo_taken, pen, pen_time, g_min, goals_allowed, saves)
-select b.year, b.game_date, b.game_id, b.section_id,  b.player_id, b.player_name, b.position as start_position, b.goals, b.assists, b.points, b.shots, b.sog, b.emo_g, b.gb, b.to as turnovers, b.ct, b.fow, b.fo_taken, b.pen, b.pen_time, b.g_min, b.goals_allowed, b.saves
+select b.year, b.game_date, b.game_id, b.section_id,  b.player_id, b.player_name, b.position as start_position, b.goals, b.assists, b.points, b.shots, b.sog, b.emo_g, b.gb, b.turnovers as turnovers, b.ct, b.fow, b.fo_taken, b.pen, b.pen_time, b.g_min, b.goals_allowed, b.saves
 from ncaa_box_scores b
 where b.player_name<>'TOTALS' and b.player_name<>'Team';
 

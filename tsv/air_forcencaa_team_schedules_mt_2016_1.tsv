@@ -1,0 +1,16 @@
+year	year_id	team_id	team_name	game_date	game_string	opponent_id	opponent_name	opponent_url	neutral_site	neutral_location	home_game	score_string	team_won	score	exempt	team_score	opponent_score	overtime	overtime_periods	game_id	game_url
+2016	12380	721	Air Force	02/06/2016	@ Navy		Navy	http://stats.ncaa.org/team/726/12380	false		false	L 6 - 10	false	6 - 10	false	6	10	false		4004130	http://stats.ncaa.org/game/index/4004130?org_id=726
+2016	12380	721	Air Force	02/13/2016	Denver		Denver	http://stats.ncaa.org/team/183/12380	false		true	L 9 - 10	false	9 - 10	false	9	10	false		4011345	http://stats.ncaa.org/game/index/4011345?org_id=721
+2016	12380	721	Air Force	02/20/2016	@ Marist		Marist	http://stats.ncaa.org/team/386/12380	false		false	W 7 - 6 (4OT)	true	7 - 6	false	7	6	true	4OT	4034439	http://stats.ncaa.org/game/index/4034439?org_id=386
+2016	12380	721	Air Force	02/27/2016	Dartmouth @ Denver, Colo.		Dartmouth	http://stats.ncaa.org/team/172/12380	true	Denver, Colo.	true	W 9 - 3	true	9 - 3	false	9	3	false		4033369	http://stats.ncaa.org/game/index/4033369?org_id=172
+2016	12380	721	Air Force	02/28/2016	Sacred Heart @ Denver, Colo.		Sacred Heart	http://stats.ncaa.org/team/590/12380	true	Denver, Colo.	true	W 13 - 10	true	13 - 10	false	13	10	false		4033373	http://stats.ncaa.org/game/index/4033373?org_id=721
+2016	12380	721	Air Force	03/05/2016	@ Robert Morris		Robert Morris	http://stats.ncaa.org/team/579/12380	false		false	W 11 - 10	true	11 - 10	false	11	10	false		4051423	http://stats.ncaa.org/game/index/4051423?org_id=579
+2016	12380	721	Air Force	03/12/2016	Furman		Furman	http://stats.ncaa.org/team/244/12380	false		true	W 14 - 4	true	14 - 4	false	14	4	false		4056868	http://stats.ncaa.org/game/index/4056868?org_id=721
+2016	12380	721	Air Force	03/19/2016	High Point		High Point	http://stats.ncaa.org/team/19651/12380	false		true	W 13 - 4	true	13 - 4	false	13	4	false		4072000	http://stats.ncaa.org/game/index/4072000?org_id=721
+2016	12380	721	Air Force	03/22/2016	@ Duke		Duke	http://stats.ncaa.org/team/193/12380	false		false	W 10 - 9 (1OT)	true	10 - 9	false	10	9	true	1OT	4074106	http://stats.ncaa.org/game/index/4074106?org_id=193
+2016	12380	721	Air Force	03/26/2016	@ Detroit		Detroit		false		false	-
+2016	12380	721	Air Force	04/02/2016	@ Bellarmine		Bellarmine		false		false	-
+2016	12380	721	Air Force	04/09/2016	Mercer		Mercer		false		true	-
+2016	12380	721	Air Force	04/16/2016	VMI		VMI		false		true	-
+2016	12380	721	Air Force	04/23/2016	@ Richmond		Richmond		false		false	-
+2016	12380	721	Air Force	04/30/2016	@ Jacksonville		Jacksonville		false		false	-

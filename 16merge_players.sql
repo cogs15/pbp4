@@ -70,9 +70,9 @@ from ncaa_rosters roster;
 
 update ncaa_player_stats p
 left JOIN
-(select sum(b.goals) sumGoals, sum(b.assists) sumAssists, sum(b.shots) sumShots, sum(b.SOG) sumSOG, sum(b.to) sumTurnovers, sum(b.GB) sumGB, sum(b.CT) sumCT, sum(b.fow) sumfow, sum(b.fo_taken) sumFOT, sum(b.saves) sumSaves, sum(b.goals_allowed) sumgoals_allowed, count(player_id) games, b.player_id, b.year
+(select sum(b.goals) sumGoals, sum(b.assists) sumAssists, sum(b.shots) sumShots, sum(b.SOG) sumSOG, sum(b.turnovers) sumTurnovers, sum(b.GB) sumGB, sum(b.CT) sumCT, sum(b.fow) sumfow, sum(b.fo_taken) sumFOT, sum(b.saves) sumSaves, sum(b.goals_allowed) sumgoals_allowed, count(b.player_id) games, b.player_id, b.year
 from ncaa_box_scores b
-group by b.player_name, b.year
+group by b.player_id, b.year
 ) box on box.player_id = p.player_id and box.year=p.year
 set p.goals = box.sumGoals,
 p.GP = box.games,

@@ -92,7 +92,7 @@ class MySQLClient
       statement.execute(*ncaa_periods)
   end
 
-  def write_rosters(ncaa_team_rosters)
+  def write_rosters(row)
     statement = @client.prepare(
       "REPLACE INTO `ncaa_lacrosse`.`ncaa_rosters`
       (year, year_id, team_id, team_name, jersey_number,
@@ -105,7 +105,7 @@ class MySQLClient
        )
       ")
 
-      statement.execute(*ncaa_team_rosters)
+      statement.execute(*row)
   end
 
 
