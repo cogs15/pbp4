@@ -209,11 +209,11 @@ update ncaa_merged_pbp
 
  update ncaa_merged_pbp t1, (select game_id, event_id, adj_time, play_text from ncaa_merged_pbp) t2
  set t1.adj_time=t2.adj_time
- where t1.game_id=t2.game_id and t1.event_id = t2.event_id-1 and t1.time="";
+ where t1.game_id=t2.game_id and t1.event_id = t2.event_id-1 and t1.time is null;
 
  update ncaa_merged_pbp t1, (select game_id, event_id, adj_time, play_text from ncaa_merged_pbp) t2
  set t1.adj_time=t2.adj_time
- where t1.game_id=t2.game_id and t1.event_id = t2.event_id+1 and t1.time="" and t2.play_text like 'Clear%' and t2.play_text like '%failed%';
+ where t1.game_id=t2.game_id and t1.event_id = t2.event_id+1 and t1.time is null and t2.play_text like 'Clear%' and t2.play_text like '%failed%';
 
 
 
@@ -222,9 +222,28 @@ update ncaa_merged_pbp
   set t1.saved_shot_end=1
   where t1.saved_shot=1 and t1.game_id=t2.game_id and t1.event_id = t2.event_id-1 and t2.play_text not like '%penalty%' and t1.team_id = t2.opponent_id;
 
+
+  update ncaa_merged_pbp
+   set
+   shot_off= 1
+       where shot=1 and saved_shot is null and goal is null;
+
+       update ncaa_merged_pbp t1, (select game_id, event_id, play_text, opponent_id from ncaa_merged_pbp) t2
+      set t1.shot_off_end=1
+      where t1.shot_off=1 and t1.game_id=t2.game_id and t1.event_id = t2.event_id-1 and t2.play_text not like '%penalty%' and t1.team_id = t2.opponent_id and t2.play_text like 'ground%';
+
+      update ncaa_merged_pbp t1, (select game_id, event_id, play_text, opponent_id from ncaa_merged_pbp) t2
+     set t1.shot_off_end=1
+     where t1.shot_off=1 and t1.game_id=t2.game_id and t1.event_id = t2.event_id-1 and t2.play_text not like '%penalty%' and t1.team_id = t2.opponent_id and t2.play_text like 'clear%';
+
+update ncaa_merged_pbp
+  set shot_turnover=1 where shot_off_end=1 or saved_shot_end=1;
+
+
   update ncaa_merged_pbp
   set poss_start=1
   where play_text like  'clear%' and play_text like '%good%';
+
 
    update ncaa_merged_pbp
   set poss_start=1
@@ -238,6 +257,10 @@ update ncaa_merged_pbp
  update ncaa_merged_pbp
  set poss_end=1
  where goal=1 or turnover=1 or saved_shot_end=1;
+
+update ncaa_merged_pbp t1, (select poss_end, event_id, game_id from ncaa_merged_pbp) t2
+  set t1.poss_start=1
+  where t2.poss_end=1 and t1.game_id=t2.game_id and t1.event_id=t2.event_id+1;
 
   update ncaa_merged_pbp
   set poss_time=0
@@ -290,9 +313,24 @@ SET
 
 
 
-  update ncaa_merged_pbp t1, (select game_id, event_id, poss_number, team_id, poss_time, poss_start, poss_end, game_time from ncaa_merged_pbp order by game_id, event_id) t2
-set t1.poss_time= (t1.time_elapsed + t2.poss_time)
-where t1.game_id=t2.game_id and t1.event_id = t2.event_id+1 and t1.poss_number=t2.poss_number;
+#  update ncaa_merged_pbp t1, (select game_id, event_id, poss_number, team_id, poss_time, poss_start, poss_end, game_time from ncaa_merged_pbp order by game_id, event_id) t2
+#set t1.poss_time= (t1.time_elapsed + t2.poss_time)
+#where t1.game_id=t2.game_id and t1.event_id = t2.event_id+1 and t1.poss_number=t2.poss_number;
+
+
+update ncaa_merged_pbp t1, (select game_id, poss_number, team_id, sum(time_elapsed) as posstime, event_id from ncaa_merged_pbp group by poss_number, game_id) t2
+set t1.poss_time= t2.posstime
+where t1.game_id=t2.game_id and t1.poss_number=t2.poss_number;
+
+
+update ncaa_merged_pbp
+set total_time_elapsed=0;
+
+
+update ncaa_merged_pbp t1, (select min(game_time) as mini, poss_number, game_id, event_id from ncaa_merged_pbp group by poss_number, game_id) t2
+set t1.total_time_elapsed = t1.game_time-t2.mini
+  where t1.poss_number = t2.poss_number and t1.game_id=t2.game_id;
+
 
 
 
@@ -341,6 +379,41 @@ where t1.game_id=t2.game_id and t1.event_id = t2.event_id+1 and t1.poss_number=t
               update ncaa_merged_pbp t1, (select game_id, event_id, play_text, team_id, clear_fail from ncaa_merged_pbp order by event_id) t2
              set t1.clear_turnover=1
              where t1.game_id=t2.game_id and t1.event_id = t2.event_id-1 and t2.clear_fail = 1 and t2.team_id = t1.team_id and t1.turnover=1;
+
+             update ncaa_merged_pbp t1, (select game_id, event_id, play_text, team_id, opponent_id, clear_turnover, clear_fail from ncaa_merged_pbp order by event_id) t2
+            set t1.clear_to_gb=1
+            where t1.game_id=t2.game_id and t1.event_id = t2.event_id+1 and t2.clear_fail = 1 and t2.opponent_id = t1.team_id and t1.play_text like 'Ground%';
+
+            update ncaa_merged_pbp t1, (select game_id, event_id, play_text, team_id, opponent_id, clear_turnover, clear_fail from ncaa_merged_pbp order by event_id) t2
+           set t1.clear_to_gb=1
+           where t1.game_id=t2.game_id and t1.event_id = t2.event_id+1 and t2.clear_turnover = 1 and t2.opponent_id = t1.team_id and t1.play_text like 'Ground%';
+
+
+
+                       update ncaa_merged_pbp t1, (select game_id, event_id, play_text, team_id, opponent_id, clear_turnover, clear_to_gb, clear_fail from ncaa_merged_pbp order by event_id) t2
+                      set t1.clear_after_fail=1
+                      where t1.game_id=t2.game_id and t1.event_id = t2.event_id+1 and t2.clear_fail = 1  and t2.opponent_id = t1.team_id and t1.play_text like 'clear%';
+
+                      update ncaa_merged_pbp t1, (select game_id, event_id, play_text, team_id, opponent_id, clear_turnover, clear_to_gb, clear_fail from ncaa_merged_pbp order by event_id) t2
+                     set t1.clear_after_fail=1
+                     where t1.game_id=t2.game_id and t1.event_id = t2.event_id+1 and  t2.clear_turnover=1 and t2.opponent_id = t1.team_id and t1.play_text like 'clear%';
+
+                     update ncaa_merged_pbp t1, (select game_id, event_id, play_text, team_id, opponent_id, clear_turnover, clear_to_gb, clear_fail from ncaa_merged_pbp order by event_id) t2
+                    set t1.clear_after_fail=1
+                    where t1.game_id=t2.game_id and t1.event_id = t2.event_id+1 and  t2.clear_to_gb=1 and t2.team_id = t1.team_id and t1.play_text like 'clear%';
+
+                    update ncaa_merged_pbp t1, (select game_id, event_id, play_text, team_id, opponent_id, clear_turnover, clear_after_fail from ncaa_merged_pbp order by event_id) t2
+                   set t1.clear_to_offensive_end=1
+                   where t1.game_id=t2.game_id and t1.event_id = t2.event_id-1 and  t1.clear_fail=1 and t2.opponent_id = t1.team_id and t2.clear_after_fail=1;
+
+
+                   update ncaa_merged_pbp t1, (select game_id, event_id, play_text, team_id, opponent_id, clear_turnover, clear_after_fail from ncaa_merged_pbp order by event_id) t2
+                  set t1.clear_to_offensive_end=1
+                  where t1.game_id=t2.game_id and t1.event_id = t2.event_id-2 and  t1.clear_fail=1 and t2.opponent_id = t1.team_id and t2.clear_after_fail=1;
+
+                  update ncaa_merged_pbp t1, (select game_id, event_id, play_text, team_id, opponent_id, clear_turnover, clear_after_fail from ncaa_merged_pbp order by event_id) t2
+                 set t1.clear_to_offensive_end=1
+                 where t1.game_id=t2.game_id and t1.event_id = t2.event_id-3 and  t1.clear_fail=1 and t2.opponent_id = t1.team_id and t2.clear_after_fail=1;
 
 
 
@@ -423,5 +496,10 @@ where t1.game_id=t2.game_id and t1.event_id = t2.event_id+1 and t1.poss_number=t
        where t1.saved_shot=1 and t1.game_id=t2.game_id and t1.event_id = t2.event_id-1 and t2.play_text like 'ground%' and t1.team_id = t2.opponent_id;
 
        update ncaa_merged_pbp t1, (select game_id, event_id, play_text, team_id from ncaa_merged_pbp) t2
-      set t1.saved_shot_dreb=1
+      set t1.saved_shot_oreb=1
       where t1.saved_shot=1 and t1.game_id=t2.game_id and t1.event_id = t2.event_id-1 and t2.play_text like 'ground%' and t1.team_id = t2.team_id;
+
+
+      update ncaa_merged_pbp t1, (select game_id, event_id, play_text, team_id, fow from ncaa_merged_pbp) t2
+     set t1.fow_clear=1
+     where t1.play_text like 'clear%' and t1.game_id=t2.game_id and t1.event_id = t2.event_id+1 and t1.team_id = t2.team_id and t2.fow=1;

@@ -61,11 +61,11 @@ where b.player_name<>'TOTALS' and b.player_name<>'Team';
 
        update ncaa_player_game_stats t1, (select player_id, position, year from ncaa_player_stats) t2
       set t1.position = t2.position
-      where t1.player_id=t2.player_id and t1.year=t2.year and t1.start_position='""';
+      where t1.player_id=t2.player_id and t1.year=t2.year and (t1.start_position="" or t1.start_position is null);
 
       update ncaa_player_game_stats
         set position=start_position
-        where start_position<>'""';
+        where start_position<>"";
 
         update ncaa_player_game_stats
           set position=left(position,1);

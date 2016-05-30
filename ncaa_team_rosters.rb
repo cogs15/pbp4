@@ -10,7 +10,7 @@ http_client = HttpClient.new
 
 nthreads = 1
 
-year = 2016
+#year = 2016
 division = ARGV[0]
 
 # Base URL for relative team links
@@ -19,7 +19,7 @@ base_url = 'http://stats.ncaa.org'
 
 roster_xpath = '//*[@id="stat_grid"]/tbody/tr'
 
-ncaa_teams = CSV.open("tsv/ncaa_teams_#{year}.tsv",
+ncaa_teams = CSV.open("tsv/ncaa_teams_2016.tsv",
                       "r",
                       {:col_sep => "\t", :headers => TRUE})
 

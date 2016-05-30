@@ -132,17 +132,18 @@ class MySQLClient
     team_return = []
 
     results = @client.query(
-      "SELECT `year`, 'year_id', 'division', 'team_id', 'team_name'
-       FROM `ncaa_lacrosse`.`teams`
+      "SELECT 'year', 'year_id', 'division', 'team_id', 'team_name'
+       FROM `ncaa_lacrosse`.`ncaa_teams`
        WHERE `team_id` IS NOT NULL
       ")
 
     results.each do |row|
-      team_return.push("team_id", "year_id", "division", "team_id", "team_name")
+      team_return = ["year", "year_id", "division", "team_id", "team_name"]
     end
 
-    team_return.sort!
-    team_return.uniq!
+
+    #team_return.sort!
+    #team_return.uniq!
 
     return team_return
   end

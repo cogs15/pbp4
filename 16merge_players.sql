@@ -9,7 +9,7 @@ set box.game_date = sched.game_date,
 box.year = sched.year;
 
 
-drop table if exists `ncaa_player_stats`;
+#drop table if exists `ncaa_player_stats`;
 
 create table if not exists `ncaa_player_stats` (
   `year` int(11) DEFAULT NULL,
@@ -23,40 +23,47 @@ create table if not exists `ncaa_player_stats` (
   `town` varchar(255) NOT NULL,
   `height` int(11) NOT NULL,
   `weight` int(11) NOT NULL,
-  `gp` int(11) DEFAULT NULL,
-  `goals` int(11) DEFAULT NULL,
-  `assists` int(11) DEFAULT NULL,
-  `shots` int(11) DEFAULT NULL,
-  `sog` int(11) DEFAULT NULL,
-  `turnovers` int(11) DEFAULT NULL,
+  `gp` int(11) NOT NULL,
+  `goals` int(11) NOT NULL,
+  `assists` int(11) NOT NULL,
+  `shots` int(11) NOT NULL,
+  `sog` int(11) NOT NULL,
+  `turnovers` int(11) NOT NULL,
   `g_sv` decimal(11,3) DEFAULT NULL,
   `a_to` decimal(11,3) DEFAULT NULL,
-  `caused_turnover` int(11) DEFAULT NULL,
-  `gb` int(11) DEFAULT NULL,
-  `fow` int(11) DEFAULT NULL,
-  `fot` int(11) DEFAULT NULL,
+  `assisted_goal_pct` decimal(11,3) DEFAULT NULL,
+  `assisted_goals` int(11) NOT NULL,
+  `caused_turnover` int(11) NOT NULL,
+  `gb` int(11) NOT NULL,
+  `fow` int(11) NOT NULL,
+  `fot` int(11) NOT NULL,
   `fow_pct` decimal(11,3) DEFAULT NULL,
-  `fogo_gb` int(11) DEFAULT NULL,
+  `violation_pct` decimal(11,3) DEFAULT NULL,
+  `fow_gb_pct` decimal(11,3) DEFAULT NULL,
   `fogo_gb_pct` decimal(11,3) DEFAULT NULL,
-  `wing_gb` int(11) DEFAULT NULL,
+  `fogo_gb` int(11) NOT NULL,
+  `fogo_loss_gb` int(11) NOT NULL,
+  `fow_violation` int(11) NOT NULL,
+  `fol_violation` int(11) NOT NULL,
+  `wing_gb` int(11) NOT NULL,
   `save_pct` decimal(11,3) DEFAULT NULL,
   `save_end_pct` decimal(11,3) DEFAULT NULL,
   `save_clean_pct` decimal(11,3) DEFAULT NULL,
-  `clear_turnovers` int(11) DEFAULT NULL,
-  `emo_goals` int(11) DEFAULT NULL,
-  `emo_assists` int(11) DEFAULT NULL,
-  `emo_shots` int(11) DEFAULT NULL,
-  `emo_sog` int(11) DEFAULT NULL,
-  `emo_turnovers` int(11) DEFAULT NULL,
-  `unsettled_goals` int(11) DEFAULT NULL,
-  `unsettled_assists` int(11) DEFAULT NULL,
-  `unsettled_shots` int(11) DEFAULT NULL,
-  `unsettled_sog` int(11) DEFAULT NULL,
-  `unsettled_turnovers` int(11) DEFAULT NULL,
-  `saves` int(11) DEFAULT NULL,
-  `clean_saves` int(11) DEFAULT NULL,
-  `saves_end` int(11) DEFAULT NULL,
-  `goals_allowed` int(11) DEFAULT NULL
+  `clear_turnovers` int(11) NOT NULL,
+  `emo_goals` int(11) NOT NULL,
+  `emo_assists` int(11) NOT NULL,
+  `emo_shots` int(11) NOT NULL,
+  `emo_sog` int(11) NOT NULL,
+  `emo_turnovers` int(11) NOT NULL,
+  `unsettled_goals` int(11) NOT NULL,
+  `unsettled_assists` int(11) NOT NULL,
+  `unsettled_shots` int(11) NOT NULL,
+  `unsettled_sog` int(11) NOT NULL,
+  `unsettled_turnovers` int(11) NOT NULL,
+  `saves` int(11) NOT NULL,
+  `clean_saves` int(11) NOT NULL,
+  `saves_end` int(11) NOT NULL,
+  `goals_allowed` int(11) NOT NULL
 
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -177,6 +184,33 @@ set p.fogo_gb = pbp.sumFogo;
 
 update ncaa_player_stats p
 left JOIN
+(select sum(b.fogo_gb) sumFogo, b.fol_player, b.opponent_id, b.year
+from ncaa_merged_pbp b
+where b.fogo_gb=1
+group by b.fol_player, b.year
+) pbp on pbp.fol_player = p.player_name and pbp.opponent_id = p.team_id  and pbp.year=p.year
+set p.fogo_loss_gb = pbp.sumFogo;
+
+update ncaa_player_stats p
+left JOIN
+(select sum(b.fo_violation) sumfo_violation, b.fow_player, b.team_id, b.year
+from ncaa_merged_pbp b
+where b.fo_violation=1
+group by b.fow_player, b.year
+) pbp on pbp.fow_player = p.player_name and pbp.team_id = p.team_id  and pbp.year=p.year
+set p.fow_violation = pbp.sumfo_violation;
+
+update ncaa_player_stats p
+left JOIN
+(select sum(b.fo_violation) sumfo_violation, b.fol_player, b.opponent_id, b.year
+from ncaa_merged_pbp b
+where b.fo_violation=1
+group by b.fol_player, b.year
+) pbp on pbp.fol_player = p.player_name and pbp.opponent_id = p.team_id  and pbp.year=p.year
+set p.fol_violation = pbp.sumfo_violation;
+
+update ncaa_player_stats p
+left JOIN
 (select sum(b.wing_gb) sumwing, b.gb_player, b.team_id, b.year
 from ncaa_merged_pbp b
 where b.wing_gb=1
@@ -207,6 +241,21 @@ p.saves_end = pbp.sumend;
 
 
 update ncaa_player_stats
-set fogo_gb_pct = fogo_gb/fow,
+set fow_gb_pct = fogo_gb/(fow-fow_violation),
+fogo_gb_pct = fogo_gb/(fogo_gb + fogo_loss_gb),
+violation_pct = fow_violation/(fow_violation+fol_violation),
 save_end_pct = saves_end/saves,
 save_clean_pct = clean_saves/saves;
+
+update ncaa_player_stats p
+left JOIN
+(select sum(b.goal) sumAssisted, b.shot_player, b.team_id, b.year
+from ncaa_merged_pbp b
+where b.assist=1
+group by b.shot_player, b.year
+) pbp on pbp.shot_player = p.player_name and pbp.team_id = p.team_id  and pbp.year=p.year
+set p.assisted_goals = pbp.sumAssisted;
+
+
+update ncaa_player_stats
+set assisted_goal_pct = assisted_goals/goals;

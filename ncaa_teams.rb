@@ -8,8 +8,8 @@ require './lib/http_client.rb'
 mysql_client = MySQLClient.new
 http_client = HttpClient.new
 
-year = 2016
-division =  ARGV[0]
+year = ARGV[0]
+division =  ARGV[1]
 
 
 
