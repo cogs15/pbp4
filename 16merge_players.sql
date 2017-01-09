@@ -17,6 +17,7 @@ create table if not exists `ncaa_player_stats` (
   `team_name` varchar(255) NOT NULL,
   `player_id` int(11) DEFAULT NULL,
   `player_name` varchar(255) DEFAULT NULL,
+  `player_code` varchar(255) DEFAULT NULL,
   `jersey_number` int(11) NOT NULL,
   `class_year` varchar(255) NOT NULL,
   `position` varchar(255) NOT NULL,
@@ -74,6 +75,13 @@ insert into `ncaa_player_stats` (year, team_id, team_name, player_id, player_nam
 select roster.year, roster.team_id, roster.team_name, roster.player_id, roster.player_name, roster.jersey_number, roster.class_year, roster.position, roster.town, roster.height, roster.weight
 from ncaa_rosters roster;
 
+update ncaa_player_stats
+  set player_code = replace(player_name, ", jr", "");
+
+  update ncaa_player_stats
+  set player_code =  concat(team_id, left(split_part(player_code, ', ',1),4),left(split_part(player_code, ', ',2),2));
+
+
 
 update ncaa_player_stats p
 left JOIN
@@ -101,22 +109,22 @@ p.goals_allowed= box.sumgoals_allowed;
 
 update ncaa_player_stats p
 left JOIN
-(select sum(b.clear_turnover) sumclear_turnover, b.turnover_player, b.team_id, b.year
+(select sum(b.clear_turnover) sumclear_turnover, b.turnover_player_code, b.team_id, b.year
 from ncaa_merged_pbp b
 where b.clear_turnover=1
-group by b.turnover_player, b.year
-) pbp on pbp.turnover_player = p.player_name and pbp.team_id = p.team_id  and pbp.year=p.year
+group by b.turnover_player_code, b.year
+) pbp on pbp.turnover_player_code = p.player_code and pbp.team_id = p.team_id  and pbp.year=p.year
 set p.clear_turnovers = pbp.sumclear_turnover;
 
 
 
 update ncaa_player_stats p
 left JOIN
-(select sum(b.goal) sumGoals, sum(b.shot) sumShots, sum(b.saved_shot) sumSaved_shot, b.shot_player, b.team_id, b.year
+(select sum(b.goal) sumGoals, sum(b.shot) sumShots, sum(b.saved_shot) sumSaved_shot, b.shot_player_code, b.team_id, b.year
 from ncaa_merged_pbp b
 where b.emo=1
-group by b.shot_player, b.year
-) pbp on pbp.shot_player = p.player_name and pbp.team_id = p.team_id  and pbp.year=p.year
+group by b.shot_player_code, b.year
+) pbp on pbp.shot_player_code = p.player_code and pbp.team_id = p.team_id  and pbp.year=p.year
 set p.emo_goals = pbp.sumGoals,
 p.emo_shots = pbp.sumShots,
 p.emo_sog = coalesce(pbp.sumSaved_shot + pbp.sumGoals, pbp.sumSaved_shot, pbp.sumGoals);
@@ -125,11 +133,11 @@ p.emo_sog = coalesce(pbp.sumSaved_shot + pbp.sumGoals, pbp.sumSaved_shot, pbp.su
 
 update ncaa_player_stats p
 left JOIN
-(select sum(b.goal) sumGoals, sum(b.shot) sumShots, sum(b.saved_shot) sumSaved_shot, b.shot_player, b.team_id, b.year
+(select sum(b.goal) sumGoals, sum(b.shot) sumShots, sum(b.saved_shot) sumSaved_shot, b.shot_player_code, b.team_id, b.year
 from ncaa_merged_pbp b
 where b.unsettled=1
-group by b.shot_player, b.year
-) pbp on pbp.shot_player = p.player_name and pbp.team_id = p.team_id  and pbp.year=p.year
+group by b.shot_player_code, b.year
+) pbp on pbp.shot_player_code = p.player_code and pbp.team_id = p.team_id  and pbp.year=p.year
 set p.unsettled_goals = pbp.sumGoals,
 p.unsettled_shots = pbp.sumShots,
 p.unsettled_sog = coalesce(pbp.sumSaved_shot + pbp.sumGoals, pbp.sumSaved_shot, pbp.sumGoals);
@@ -137,95 +145,95 @@ p.unsettled_sog = coalesce(pbp.sumSaved_shot + pbp.sumGoals, pbp.sumSaved_shot, 
 
 update ncaa_player_stats p
 left JOIN
-(select sum(b.assist) sumAssists, b.assist_player, b.team_id, b.year
+(select sum(b.assist) sumAssists, b.assist_player_code, b.team_id, b.year
 from ncaa_merged_pbp b
 where b.emo=1
-group by b.assist_player, b.year
-) pbp on pbp.assist_player = p.player_name and pbp.team_id = p.team_id  and pbp.year=p.year
+group by b.assist_player_code, b.year
+) pbp on pbp.assist_player_code = p.player_code and pbp.team_id = p.team_id  and pbp.year=p.year
 set p.emo_assists = pbp.sumAssists;
 
 update ncaa_player_stats p
 left JOIN
-(select sum(b.assist) sumAssists, b.assist_player,  b.team_id
+(select sum(b.assist) sumAssists, b.assist_player_code,  b.team_id
 from ncaa_merged_pbp b
 where b.unsettled=1
-group by b.assist_player, b.year
-) pbp on pbp.assist_player = p.player_name and pbp.team_id = p.team_id
+group by b.assist_player_code, b.year
+) pbp on pbp.assist_player_code = p.player_code and pbp.team_id = p.team_id
 set p.unsettled_assists = pbp.sumAssists;
 
 
 update ncaa_player_stats p
 left JOIN
-(select sum(b.turnover) sumTurnover, b.turnover_player, b.team_id, b.year
+(select sum(b.turnover) sumTurnover, b.turnover_player_code, b.team_id, b.year
 from ncaa_merged_pbp b
 where b.emo=1
-group by b.turnover_player, b.year
-) pbp on pbp.turnover_player = p.player_name and pbp.team_id = p.team_id  and pbp.year=p.year
+group by b.turnover_player_code, b.year
+) pbp on pbp.turnover_player_code = p.player_code and pbp.team_id = p.team_id  and pbp.year=p.year
 set p.emo_turnovers = pbp.sumTurnover;
 
 update ncaa_player_stats p
 left JOIN
-(select sum(b.turnover) sumTurnover, b.turnover_player, b.team_id, b.year
+(select sum(b.turnover) sumTurnover, b.turnover_player_code, b.team_id, b.year
 from ncaa_merged_pbp b
 where b.unsettled=1
-group by b.turnover_player, b.year
-) pbp on pbp.turnover_player = p.player_name and pbp.team_id = p.team_id  and pbp.year=p.year
+group by b.turnover_player_code, b.year
+) pbp on pbp.turnover_player_code = p.player_code and pbp.team_id = p.team_id  and pbp.year=p.year
 set p.unsettled_turnovers = pbp.sumTurnover;
 
 
 update ncaa_player_stats p
 left JOIN
-(select sum(b.fogo_gb) sumFogo, b.fow_player, b.team_id, b.year
+(select sum(b.fogo_gb) sumFogo, b.fow_player_code, b.team_id, b.year
 from ncaa_merged_pbp b
 where b.fogo_gb=1
-group by b.fow_player, b.year
-) pbp on pbp.fow_player = p.player_name and pbp.team_id = p.team_id  and pbp.year=p.year
+group by b.fow_player_code, b.year
+) pbp on pbp.fow_player_code = p.player_code and pbp.team_id = p.team_id  and pbp.year=p.year
 set p.fogo_gb = pbp.sumFogo;
 
 update ncaa_player_stats p
 left JOIN
-(select sum(b.fogo_gb) sumFogo, b.fol_player, b.opponent_id, b.year
+(select sum(b.fogo_gb) sumFogo, b.fol_player_code, b.opponent_id, b.year
 from ncaa_merged_pbp b
 where b.fogo_gb=1
-group by b.fol_player, b.year
-) pbp on pbp.fol_player = p.player_name and pbp.opponent_id = p.team_id  and pbp.year=p.year
+group by b.fol_player_code, b.year
+) pbp on pbp.fol_player_code = p.player_code and pbp.opponent_id = p.team_id  and pbp.year=p.year
 set p.fogo_loss_gb = pbp.sumFogo;
 
 update ncaa_player_stats p
 left JOIN
-(select sum(b.fo_violation) sumfo_violation, b.fow_player, b.team_id, b.year
+(select sum(b.fo_violation) sumfo_violation, b.fow_player_code, b.team_id, b.year
 from ncaa_merged_pbp b
 where b.fo_violation=1
-group by b.fow_player, b.year
-) pbp on pbp.fow_player = p.player_name and pbp.team_id = p.team_id  and pbp.year=p.year
+group by b.fow_player_code, b.year
+) pbp on pbp.fow_player_code = p.player_code and pbp.team_id = p.team_id  and pbp.year=p.year
 set p.fow_violation = pbp.sumfo_violation;
 
 update ncaa_player_stats p
 left JOIN
-(select sum(b.fo_violation) sumfo_violation, b.fol_player, b.opponent_id, b.year
+(select sum(b.fo_violation) sumfo_violation, b.fol_player_code, b.opponent_id, b.year
 from ncaa_merged_pbp b
 where b.fo_violation=1
-group by b.fol_player, b.year
-) pbp on pbp.fol_player = p.player_name and pbp.opponent_id = p.team_id  and pbp.year=p.year
+group by b.fol_player_code, b.year
+) pbp on pbp.fol_player_code = p.player_code and pbp.opponent_id = p.team_id  and pbp.year=p.year
 set p.fol_violation = pbp.sumfo_violation;
 
 update ncaa_player_stats p
 left JOIN
-(select sum(b.wing_gb) sumwing, b.gb_player, b.team_id, b.year
+(select sum(b.wing_gb) sumwing, b.gb_player_code, b.team_id, b.year
 from ncaa_merged_pbp b
 where b.wing_gb=1
 group by b.gb_player, b.year
-) pbp on pbp.gb_player = p.player_name and pbp.team_id = p.team_id  and pbp.year=p.year
+) pbp on pbp.gb_player_code = p.player_code and pbp.team_id = p.team_id  and pbp.year=p.year
 set p.wing_gb = pbp.sumwing;
 
 
 update ncaa_player_stats p
 left JOIN
-(select sum(b.wing_gb) sumwing, b.gb_player, b.team_id, b.year
+(select sum(b.wing_gb) sumwing, b.gb_player_code, b.team_id, b.year
 from ncaa_merged_pbp b
 where b.wing_gb=1
-group by b.gb_player, b.year
-) pbp on pbp.gb_player = p.player_name and pbp.team_id = p.team_id  and pbp.year=p.year
+group by b.gb_player_code, b.year
+) pbp on pbp.gb_player_code = p.player_code and pbp.team_id = p.team_id  and pbp.year=p.year
 set p.wing_gb = pbp.sumwing;
 
 
@@ -249,11 +257,11 @@ save_clean_pct = clean_saves/saves;
 
 update ncaa_player_stats p
 left JOIN
-(select sum(b.goal) sumAssisted, b.shot_player, b.team_id, b.year
+(select sum(b.goal) sumAssisted, b.shot_player_code, b.team_id, b.year
 from ncaa_merged_pbp b
 where b.assist=1
-group by b.shot_player, b.year
-) pbp on pbp.shot_player = p.player_name and pbp.team_id = p.team_id  and pbp.year=p.year
+group by b.shot_player_code, b.year
+) pbp on pbp.shot_player_code = p.player_code and pbp.team_id = p.team_id  and pbp.year=p.year
 set p.assisted_goals = pbp.sumAssisted;
 
 

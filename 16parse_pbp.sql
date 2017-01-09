@@ -11,8 +11,8 @@ where section_id=0 and play_text like 'Faceoff %';
 update ncaa_merged_pbp
     set
 fow = 1,
-fow_player = split_part(split_part(split_part(replace(play_text,'Faceoff ',''),'[',1),' won by ',1),' vs ',2),
-fol_player = split_part(split_part(split_part(replace(play_text,'Faceoff ',''),'[',1),' won by ',1),' vs ',1)
+fow_player = replace(split_part(split_part(split_part(replace(play_text,'Faceoff ',''),'[',1),' won by ',1),' vs ',2),'.',''),
+fol_player = replace(split_part(split_part(split_part(replace(play_text,'Faceoff ',''),'[',1),' won by ',1),' vs ',1),'.','')
 where section_id=1 and play_text like 'Faceoff %';
 
 update ncaa_merged_pbp
@@ -25,7 +25,7 @@ update ncaa_merged_pbp
     update ncaa_merged_pbp
     set
     fo_violation = 1
-        where play_text like 'Faceoff %' and play_text like '% violation%';
+        where fow = 1 and play_text like '% violation%';
 
     update ncaa_merged_pbp
     set
@@ -201,6 +201,30 @@ update ncaa_merged_pbp
             set
             gb_player =  concat(split_part(gb_player,' ',2), ", ",split_part(gb_player, ' ',1))
             where gb_player not like '%,%';
+
+
+            update ncaa_merged_pbp
+            set
+            shot_player_code =  replace(shot_player, ", jr", ""),
+            assist_player_code =  replace(assist_player, ", jr", ""),
+            turnover_player_code =  replace(turnover_player, ", jr", ""),
+            fow_player_code =  replace(fow_player, ", jr", ""),
+            fol_player_code =  replace(fol_player, ", jr", ""),
+            gb_player_code =  replace(gb_player, ", jr", "");
+
+            update ncaa_merged_pbp
+            set
+            shot_player_code =  concat(team_id, left(split_part(shot_player_code, ', ',1),4),left(split_part(shot_player_code, ', ',2),2)),
+            assist_player_code =  concat(team_id, left(split_part(assist_player_code, ', ',1),4),left(split_part(assist_player_code, ', ',2),2)),
+            turnover_player_code =  concat(team_id, left(split_part(turnover_player_code, ', ',1),4),left(split_part(turnover_player_code, ', ',2),2)),
+            fow_player_code =  concat(team_id, left(split_part(fow_player_code, ', ',1),4),left(split_part(fow_player_code, ', ',2),2)),
+            fol_player_code =  concat(opponent_id, left(split_part(fol_player_code, ', ',1),4),left(split_part(fol_player_code, ', ',2),2)),
+            gb_player_code =  concat(team_id, left(split_part(gb_player_code, ', ',1),4),left(split_part(gb_player_code, ', ',2),2));
+
+
+
+
+
 
 
      update ncaa_merged_pbp
@@ -417,25 +441,25 @@ set t1.total_time_elapsed = t1.game_time-t2.mini
 
 
 
-             update ncaa_merged_pbp t1, (select game_id, event_id, play_text, clear_good from ncaa_merged_pbp order by event_id) t2
+             update ncaa_merged_pbp t1, (select game_id, event_id, play_text, clear_good from ncaa_merged_pbp order by game_id, event_id) t2
             set t1.unsettled=1
             where t1.game_id=t2.game_id and t1.event_id = t2.event_id+1 and t2.clear_good=1 and t1.time_elapsed < .334;
 
-            update ncaa_merged_pbp t1, (select game_id, event_id, play_text, clear_good from ncaa_merged_pbp order by event_id) t2
+            update ncaa_merged_pbp t1, (select game_id, event_id, play_text, clear_good from ncaa_merged_pbp order by game_id, event_id) t2
            set t1.unsettled_off_clear=1
            where t1.game_id=t2.game_id and t1.event_id = t2.event_id+1 and t2.clear_good=1 and t1.time_elapsed < .334;
 
-           update ncaa_merged_pbp t1, (select game_id, event_id, play_text, fow from ncaa_merged_pbp order by event_id) t2
+           update ncaa_merged_pbp t1, (select game_id, event_id, play_text, fow from ncaa_merged_pbp order by game_id, event_id) t2
           set t1.fow_turnover=1
-          where t1.game_id=t2.game_id and t1.event_id = t2.event_id+1 and t2.fow and t1.time_elapsed <= .084 and t1.turnover=1;
+          where t1.game_id=t2.game_id and t1.event_id = t2.event_id+1 and t2.fow=1 and t1.time_elapsed <= .084 and t1.turnover=1;
 
-          update ncaa_merged_pbp t1, (select game_id, event_id, play_text, fow from ncaa_merged_pbp order by event_id) t2
+          update ncaa_merged_pbp t1, (select game_id, event_id, play_text, fow from ncaa_merged_pbp order by game_id, event_id) t2
          set t1.unsettled_off_fow=1
-         where t1.game_id=t2.game_id and t1.event_id = t2.event_id+1 and t2.fow and t1.time_elapsed < .334 and t1.fow_turnover is null;
+         where t1.game_id=t2.game_id and t1.event_id = t2.event_id+1 and t2.fow=1 and t1.time_elapsed < .334 and t1.fow_turnover is null;
 
-          update ncaa_merged_pbp t1, (select game_id, event_id, play_text, fow from ncaa_merged_pbp order by event_id) t2
+          update ncaa_merged_pbp t1, (select game_id, event_id, play_text, fow from ncaa_merged_pbp order by game_id, event_id) t2
          set t1.unsettled=1
-         where t1.game_id=t2.game_id and t1.event_id = t2.event_id+1 and t2.fow and t1.time_elapsed < .334and t1.fow_turnover is null;
+         where t1.game_id=t2.game_id and t1.event_id = t2.event_id+1 and t2.fow=1 and t1.time_elapsed < .334 and t1.fow_turnover is null;
 
 
 
@@ -503,3 +527,15 @@ set t1.total_time_elapsed = t1.game_time-t2.mini
       update ncaa_merged_pbp t1, (select game_id, event_id, play_text, team_id, fow from ncaa_merged_pbp) t2
      set t1.fow_clear=1
      where t1.play_text like 'clear%' and t1.game_id=t2.game_id and t1.event_id = t2.event_id+1 and t1.team_id = t2.team_id and t2.fow=1;
+
+update ncaa_merged_pbp
+  set groundball=1
+  where play_text like 'Ground ball%';
+
+  update ncaa_merged_pbp
+    set groundball=1
+    where play_text like '%Ground ball%';
+
+update ncaa_merged_pbp
+  set caused_turnover=1
+  where turnover=1 and play_text like '%caused by%';

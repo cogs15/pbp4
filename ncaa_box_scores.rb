@@ -10,7 +10,7 @@ http_client = HttpClient.new
 
 nthreads = 1
 
-year = 2016
+#year = 2016
 
 #require 'awesome_puts'
 
@@ -49,7 +49,9 @@ game_ids.each_slice(gpt).with_index do |ids,i|
     t_ids.each_with_index do |game_id,j|
 
       game_url = 'http://stats.ncaa.org/game/box_score/%d' % [game_id]
-      page = http_client.get_html(game_url)
+      page = http_client.get_html(game_url) rescue nil
+
+unless page.nil?
 
       found += 1
 
@@ -87,6 +89,7 @@ game_ids.each_slice(gpt).with_index do |ids,i|
         ncaa_box_scores = [game_id,section_id,player_id,player_name,player_url]+field_values
 
         mysql_client.write_box(ncaa_box_scores)
+end
       end
 
     end

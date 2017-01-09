@@ -53,6 +53,8 @@ ncaa_teams = []
     team_url = base_url+link_url
     ncaa_teams += [year, year_id, division, team_id, team_name, team_url]
 
+
+
         mysql_client.write_teams(ncaa_teams)
     found_teams += 1
 

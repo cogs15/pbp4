@@ -1,0 +1,44 @@
+#!/usr/bin/env ruby
+
+require 'csv'
+
+require './lib/mysql_client.rb'
+require './lib/http_client.rb'
+
+mysql_client = MySQLClient.new
+http_client = HttpClient.new
+
+#year = ARGV[0]
+#division = 1
+
+# Base URL for relative team links
+
+first_year = 2017
+last_year = 2017
+
+(first_year..last_year).each do |year|
+
+for i in (1..5).step(1) do
+
+
+      team_roster_url = "http://laxpower.com/recruits/recruits.php?action=viewRcd&db=recruits2017&q=&page=#{i)"
+
+
+        doc = http_client.get_html(team_roster_url)
+
+    doc.xpath("//*[@id="grid"]/table[2]/tbody/tr").each do |row|
+
+r = []
+      row.xpath("td").each_with_index do |d,i|
+          r += [d.text.strip]
+
+end
+
+
+  mysql_client.write_laxpower(r)
+
+      end
+
+      STDOUT.flush
+end
+end

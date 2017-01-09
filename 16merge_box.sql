@@ -106,6 +106,15 @@ update ncaa_game_stats
   set possessions = possessions-opp_fow_clear - offensive_end_failed_clear,
   opp_possessions = opp_possessions - fow_clear - opp_offensive_end_failed_clear;
 
+  update ncaa_game_stats
+    set possessions = goals + saved_shots + turnovers
+    where possessions<=0;
+
+    update ncaa_game_stats
+      set opp_possessions = opp_goals + opp_saved_shots + opp_turnovers
+      where opp_possessions<=0;
+
+
 update ncaa_game_stats p
 set game_efficiency = goals/possessions,
 opp_game_efficiency = opp_goals/opp_possessions;

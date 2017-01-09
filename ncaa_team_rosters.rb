@@ -11,7 +11,7 @@ http_client = HttpClient.new
 nthreads = 1
 
 #year = 2016
-division = ARGV[0]
+#division = ARGV[0]
 
 # Base URL for relative team links
 
@@ -19,10 +19,11 @@ base_url = 'http://stats.ncaa.org'
 
 roster_xpath = '//*[@id="stat_grid"]/tbody/tr'
 
-ncaa_teams = CSV.open("tsv/ncaa_teams_2016.tsv",
-                      "r",
-                      {:col_sep => "\t", :headers => TRUE})
+#ncaa_teams = CSV.open("tsv/ncaa_teams_2016.tsv",
+#                      "r",
+#                      {:col_sep => "\t", :headers => TRUE})
 
+                      ncaa_teams = mysql_client.get_team_ids()
 
 #http://stats.ncaa.org/team/roster/11540?org_id=2
 
@@ -97,11 +98,10 @@ teams.each_slice(tpt).with_index do |teams_slice,i|
 
           end
 
-
         end
 
+            mysql_client.write_rosters(row)
 
-  mysql_client.write_rosters(row)
 
       end
 

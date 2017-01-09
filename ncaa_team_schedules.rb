@@ -28,10 +28,11 @@ game_xpath = '//*[@id="contentarea"]/table/tr[2]/td[1]/table/tr[position()>2]'
 
 
                       #mysql_client = MySQLClient.new
-                      #ncaa_teams = mysql_client.get_team_ids()
+                      ncaa_teams = mysql_client.get_team_ids()
                       #teams = mysql_client.get_team_ids()
-                    ncaa_teams = CSV.read("tsv/ncaa_teams_2016.tsv","r",{:col_sep => "\t", :headers => TRUE})
+                    #ncaa_teams = CSV.read("tsv/ncaa_teams_2016.tsv","r",{:col_sep => "\t", :headers => TRUE})
 teams = []
+
 ncaa_teams.each do |team|
   teams << team
 end

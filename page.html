@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" class=" wide js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" id="ctl00_html" style=""><head><script type="text/javascript" src="https://bam.nr-data.net/1/d955319030?a=16978621&amp;v=998.365d633&amp;to=b1MBMEsEC0UHVxFZX1YZIjdpShdZFUAAQh5ZRRMc&amp;rst=13689&amp;ref=http://gohofstra.com/roster.aspx&amp;ap=206&amp;be=548&amp;fe=10991&amp;dc=639&amp;tt=B26D61E8E4BE359B&amp;perf=%7B%22timing%22:%7B%22of%22:1483316649958,%22n%22:0,%22f%22:25,%22dn%22:25,%22dne%22:90,%22c%22:89,%22ce%22:89,%22rq%22:181,%22rp%22:321,%22rpe%22:597,%22dl%22:321,%22di%22:991,%22ds%22:1186,%22de%22:6522,%22dc%22:11538,%22l%22:11538,%22le%22:13284%7D,%22navigation%22:%7B%7D%7D&amp;jsonp=NREUM.setToken"></script><script src="https://js-agent.newrelic.com/nr-998.min.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"d955319030","applicationID":"16978621","transactionName":"b1MBMEsEC0UHVxFZX1YZNhZQShdZFUAAQh5ZRRMc","queueTime":0,"applicationTime":2,"ttGuid":"8E7F3F0611C264EC","agent":""}</script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o&lt;n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&amp;&amp;(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&amp;&amp;(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&amp;&amp;(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&amp;&amp;(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o&lt;0?0:o);++r&lt;o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&amp;&amp;e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&amp;&amp;e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c&lt;u;c++)a[c].apply(i,r);var f=s[w[n]];return f&amp;&amp;f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&amp;&amp;(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&amp;&amp;Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&amp;&amp;"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&amp;&amp;e.licenseKey&amp;&amp;e.applicationID&amp;&amp;t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&amp;&amp;i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&amp;&amp;v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},w=v&amp;&amp;g&amp;&amp;g[p]&amp;&amp;!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"d955319030","applicationID":"16978621","transactionName":"b1MBMEsEC0UHVxFZX1YZIjdpShdZFUAAQh5ZRRMc","queueTime":0,"applicationTime":206,"ttGuid":"B26D61E8E4BE359B","agent":""}</script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o&lt;n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&amp;&amp;(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&amp;&amp;(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&amp;&amp;(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&amp;&amp;(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o&lt;0?0:o);++r&lt;o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&amp;&amp;e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&amp;&amp;e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c&lt;u;c++)a[c].apply(i,r);var f=s[w[n]];return f&amp;&amp;f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&amp;&amp;(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&amp;&amp;Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&amp;&amp;"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&amp;&amp;e.licenseKey&amp;&amp;e.applicationID&amp;&amp;t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&amp;&amp;i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&amp;&amp;v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},w=v&amp;&amp;g&amp;&amp;g[p]&amp;&amp;!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script><link href="//s3.amazonaws.com/assets.sidearmsports.com/common/css/default/5/core_compressed.css" title="Core_CSS" rel="Stylesheet" type="text/css" /><link href="/rss.aspx?path=mlax" title="RSS Feed" rel="alternate" type="application/rss+xml" /><link href="/site/site.less?0.4122374" type="text/css" rel="stylesheet" id="ctl00_lnkStyleSheet" /><link type="image/vnd.microsoft.icon" href="/images/favicon.ico" rel="shortcut icon" /><link href="/rss.aspx" title="RSS Feed" type="application/rss+xml" rel="alternate" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js" type="text/javascript"></script>
+	<link href="http://fonts.sidearmsports.com/sidearm/sidearm_font.css" type="text/css" rel="stylesheet" /><script>window.client_hostname = "gohofstra.com";window.server_name = "206-225-83-77";window.client_division = "DI";window.targetting_criteria = {"page_template":"roster-list","sport_name":"mlax","sport_name_custom":"mlax","site":"hofstra","content_id":null,"sect":"mlacros"};window.client_shortname = "hofstra";window.dfp_network_code = "";window.img_dfp_unit_name = "";</script><title>
+	Hofstra University Pride Athletics - 2017 Men's Lacrosse Roster
+</title><script src="//s3.amazonaws.com/assets.sidearmsports.com/statcollector/statcollector.js?_=1483316651140" async=""></script><style type="text/css">#scoreboard_container .info { color:#fff; }
+#scoreboard_container * { float:none; }
+</style><link rel="stylesheet" type="text/css" href="/common/fonts/robotoboldcondensed/stylesheet.css" /></head>
+<!--[if IE 8 ]><body class="ie8"> <![endif]--><body style="background-image:url(/images/bg_home2.jpg);" id="ctl00_body">
+
+	<div class="skip"><a href="#content">Skip Navigation Links</a></div>
+	
+	<form id="aspnetForm" action="roster.aspx?path=mlax" method="post" name="aspnetForm">
+<div>
+<input type="hidden" value="" id="__EVENTTARGET" name="__EVENTTARGET" />
+<input type="hidden" value="" id="__EVENTARGUMENT" name="__EVENTARGUMENT" />
+<input type="hidden" value="/wEPDwULLTEzODMyMDYwNTEPFgQeCXJvc3Rlcl9pZALqCR4Lcm9zdGVyX3Nob3dnFgJmD2QWAgIBDxYCHgVjbGFzcwUFIHdpZGUWBAIBD2QWAgICDxYCHgRocmVmBRkvc2l0ZS9zaXRlLmxlc3M/MC40MTIyMzc0ZAIDDxYCHgVzdHlsZQUrYmFja2dyb3VuZC1pbWFnZTp1cmwoL2ltYWdlcy9iZ19ob21lMi5qcGcpOxYCAgEPZBYEAgcPFgIfBAU1d2lkdGg6MTA0MHB4O3BhZGRpbmc6MjBweDtmbG9hdDpsZWZ0O2JhY2tncm91bmQ6I2ZmZjsWAgIBDxYCHwQFDXdpZHRoOjEwMDBweDsWBAIBD2QWAgIBDxYCHgRUZXh0BRoyMDE3IE1lbidzIExhY3Jvc3NlIFJvc3RlcmQCAw9kFgICAQ9kFgRmD2QWCgICDxYCHgdWaXNpYmxlZ2QCAw8WAh8FZWQCCA8QDxYGHg1EYXRhVGV4dEZpZWxkBQxzZWFzb25fdGl0bGUeDkRhdGFWYWx1ZUZpZWxkBQlyb3N0ZXJfaWQeC18hRGF0YUJvdW5kZ2QQFQ8EMjAxNwQyMDE2BDIwMTUEMjAxNAQyMDEzBDIwMTIEMjAxMQQyMDEwBDIwMDkEMjAwOAQyMDA3BDIwMDYEMjAwNQQyMDA0BDIwMDMVDwQxMjU4AzIzOAMxOTgDMTk2AzE0OQIyNgIzMgMxODYDMTkzAzEyMgMxMjMDMTI0AzEyNQMxMjYDMTI3FCsDD2dnZ2dnZ2dnZ2dnZ2dnZ2RkAgoPZBYCAgEPDxYCHghtZWRpYV9pZGZkFgJmDxYCHwZoZAIQDw8WAh8GZ2QWAgIBDzwrAAsBAA8WCh4LXyFJdGVtQ291bnQCBR4IRGF0YUtleXMWBQKMCgKNCgKOCgKQCgKPCh4JUGFnZUNvdW50AgEeFV8hRGF0YVNvdXJjZUl0ZW1Db3VudAIFHgdDYXB0aW9uBQ5Db2FjaGluZyBTdGFmZmQWAmYPZBYKAgEPZBYGZg8PFgIfBQWbATxpbWcgc3JjPSIvY29tbW9uL2NvbnRyb2xzL2ltYWdlX2hhbmRsZXIuYXNweD9pbWFnZV9wYXRoPS9pbWFnZXMvMjAxNC84LzE3L3Nwb3J0c19tbGF4X3RpZXJuZXloZWFkc2hvdDE0LmpwZyZ0aHVtYl9wcmVmaXg9cnBfcm9zdGVyIiAgYWx0PSJTZXRoIFRpZXJuZXkiIC8+ZGQCAQ9kFgJmDxUBOTxhIGhyZWY9ImNvYWNoZXMuYXNweD9yYz0xMjkyJnBhdGg9bWxheCI+U2V0aCBUaWVybmV5PC9hPmQCAg9kFgJmDxUBCkhlYWQgQ29hY2hkAgIPZBYGZg8PFgIfBQWiATxpbWcgc3JjPSIvY29tbW9uL2NvbnRyb2xzL2ltYWdlX2hhbmRsZXIuYXNweD9pbWFnZV9wYXRoPS9pbWFnZXMvMjAxNC84LzE3L3Nwb3J0c19tbGF4X3VudGVyc3RlaW5oZWFkc2hvdDE0LmpwZyZ0aHVtYl9wcmVmaXg9cnBfcm9zdGVyIiAgYWx0PSJLZXZpbiBVbnRlcnN0ZWluIiAvPmRkAgEPZBYCZg8VAT08YSBocmVmPSJjb2FjaGVzLmFzcHg/cmM9MTI5MyZwYXRoPW1sYXgiPktldmluIFVudGVyc3RlaW48L2E+ZAICD2QWAmYPFQEUQXNzb2NpYXRlIEhlYWQgQ29hY2hkAgMPZBYGZg8PFgIfBQWZATxpbWcgc3JjPSIvY29tbW9uL2NvbnRyb2xzL2ltYWdlX2hhbmRsZXIuYXNweD9pbWFnZV9wYXRoPS9pbWFnZXMvMjAxNC84LzE3L3Nwb3J0c19tbGF4X2JyYXplbGhlYWRzaG90MTQuanBnJnRodW1iX3ByZWZpeD1ycF9yb3N0ZXIiICBhbHQ9IkouUC4gQnJhemVsIiAvPmRkAgEPZBYCZg8VATg8YSBocmVmPSJjb2FjaGVzLmFzcHg/cmM9MTI5NCZwYXRoPW1sYXgiPkouUC4gQnJhemVsPC9hPmQCAg9kFgJmDxUBD0Fzc2lzdGFudCBDb2FjaGQCBA9kFgZmDw8WAh8FBQYmbmJzcDtkZAIBD2QWAmYPFQE7PGEgaHJlZj0iY29hY2hlcy5hc3B4P3JjPTEyOTYmcGF0aD1tbGF4Ij5CcmFuZG9uIE1hbmdhbjwvYT5kAgIPZBYCZg8VARlWb2x1bnRlZXIgQXNzaXN0YW50IENvYWNoZAIFD2QWBmYPDxYCHwUFlQE8aW1nIHNyYz0iL2NvbW1vbi9jb250cm9scy9pbWFnZV9oYW5kbGVyLmFzcHg/aW1hZ2VfcGF0aD0vaW1hZ2VzLzIwMTQvOC8xNy9zcG9ydHNfYXRoX2F1bGxoZWFkc2hvdDE0LmpwZyZ0aHVtYl9wcmVmaXg9cnBfcm9zdGVyIiAgYWx0PSJDYXRoeSBBdWxsIiAvPmRkAgEPZBYCZg8VATc8YSBocmVmPSJjb2FjaGVzLmFzcHg/cmM9MTI5NSZwYXRoPW1sYXgiPkNhdGh5IEF1bGw8L2E+ZAICD2QWAmYPFQEJU2VjcmV0YXJ5ZAIBD2QWAgIDDxYCHwMFFi9yb3N0ZXIuYXNweD9wYXRoPW1sYXhkAisPZBYCAgEPD2QWAh4Hb25mb2N1cwUNdGhpcy52YWx1ZT0nJ2QYCQUnY3RsMDAkY3RsMTAkcnB0QWRzJGN0bDAwJG1lZGlhQWQkbW9WaWV3Dw9kZmQFJ2N0bDAwJGN0bDA2JHJwdEFkcyRjdGwwMCRtZWRpYUFkJG1vVmlldw8PZGZkBSdjdGwwMCRjdGwxMSRycHRBZHMkY3RsMDAkbWVkaWFBZCRtb1ZpZXcPD2RmZAUnY3RsMDAkY3RsMDkkcnB0QWRzJGN0bDAwJG1lZGlhQWQkbW9WaWV3Dw9kZmQFJ2N0bDAwJGN0bDA1JHJwdEFkcyRjdGwwMCRtZWRpYUFkJG1vVmlldw8PZGZkBSdjdGwwMCRjcGxoTWFpbkNvbnRlbnQkRW1haWxMaW5rMSRtdk1haW4PD2RmZAUnY3RsMDAkY3RsMTMkcnB0QWRzJGN0bDAwJG1lZGlhQWQkbW9WaWV3Dw9kZmQFHGN0bDAwJGNwbGhNYWluQ29udGVudCRtdk1haW4PD2RmZAUnY3RsMDAkY3RsMDckcnB0QWRzJGN0bDAwJG1lZGlhQWQkbW9WaWV3Dw9kZmTR5HTPbQDzFLzm5r8bw+fbpdsEnw==" id="__VIEWSTATE" name="__VIEWSTATE" />
+</div>
+
+<script type="text/javascript">
+//&lt;![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]&gt;
+</script>
+
+
+<script type="text/javascript" src="/WebResource.axd?d=1a2NzuVz5CU8vsA8boiZqrGU88d8a9Wa_I35EHkUipl2v1C1fQhC7vw1zHB3eiXoT0m13oSJYgBjCCV420WQu922cKA1&amp;t=635588402547524888"></script>
+
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.24/jquery-ui.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+<script type="text/javascript" src="//s3.amazonaws.com/assets.sidearmsports.com/common/js/default/14/master_compressed_v5.js"></script><script type="text/javascript">$(function () {setTimeout('hideAddThis()', 100);});function hideAddThis(){$('a[href*="http://www.addthis.com"]').hide();}</script>
+<script type="text/javascript" src="http://assets.sidearmsports.com/common/js/msajax.js"></script>
+<div>
+
+	<input type="hidden" value="154EA0CF" id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" />
+</div>
+		<script type="text/javascript">
+//&lt;![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$sManager', document.getElementById('aspnetForm'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
+//]]&gt;
+</script>
+
+		<header id="header">
+			<h1 class="hide">School Name Goes Here</h1>
+			<div class="row">	
+				
+
+<ul role="menubar" class="accessible_nav"><li role="menuitem" class="topnav_teams"><a href="#">Teams</a><div aria-hidden="true" role="menu"><ul><li class="separator"><span>Men's Sports</span></li><li><a href="/index.aspx?path=baseball">Baseball</a><a class="srn srn-schedule" href="/schedule.aspx?path=baseball" aria-label="Baseball Schedule">Schedule</a><a class="srn srn-roster" href="/roster.aspx?path=baseball" aria-label="Baseball Roster">Roster</a><a class="srn srn-news" href="/archives.aspx?path=baseball" aria-label="Baseball News">News</a><a class="social facebook" href="https://www.facebook.com/HofstraPride" aria-label="Baseball Facebook" target="_blank">Facebook</a><a class="social twitter" href="//twitter.com/HofstraBaseball" aria-label="Baseball Twitter" target="_blank">Twitter</a></li><li><a href="/index.aspx?path=mbball">Basketball</a><a class="srn srn-schedule" href="/schedule.aspx?path=mbball" aria-label="Mens Basketball Schedule">Schedule</a><a class="srn srn-roster" href="/roster.aspx?path=mbball" aria-label="Mens Basketball Roster">Roster</a><a class="srn srn-news" href="/archives.aspx?path=mbball" aria-label="Mens Basketball News">News</a><a class="social facebook" href="https://www.facebook.com/HofstraMBB" aria-label="Mens Basketball Facebook" target="_blank">Facebook</a><a class="social twitter" href="//twitter.com/hofstrambb" aria-label="Mens Basketball Twitter" target="_blank">Twitter</a></li><li><a href="/index.aspx?path=mcross">Cross Country</a><a class="srn srn-schedule" href="/schedule.aspx?path=mcross" aria-label="Mens Cross Country Schedule">Schedule</a><a class="srn srn-roster" href="/roster.aspx?path=mcross" aria-label="Mens Cross Country Roster">Roster</a><a class="srn srn-news" href="/archives.aspx?path=mcross" aria-label="Mens Cross Country News">News</a><a class="social facebook" href="https://www.facebook.com/hofstracc" aria-label="Mens Cross Country Facebook" target="_blank">Facebook</a><a class="social twitter" href="//twitter.com/hofstraxc" aria-label="Mens Cross Country Twitter" target="_blank">Twitter</a></li><li><a href="/index.aspx?path=mgolf">Golf</a><a class="srn srn-schedule" href="/schedule.aspx?path=mgolf" aria-label="Mens Golf Schedule">Schedule</a><a class="srn srn-roster" href="/roster.aspx?path=mgolf" aria-label="Mens Golf Roster">Roster</a><a class="srn srn-news" href="/archives.aspx?path=mgolf" aria-label="Mens Golf News">News</a><a class="social facebook" href="https://www.facebook.com/HofstraPride" aria-label="Mens Golf Facebook" target="_blank">Facebook</a><a class="social twitter" href="//twitter.com/HofstraMGolf" aria-label="Mens Golf Twitter" target="_blank">Twitter</a></li><li><a href="/index.aspx?path=mlax">Lacrosse</a><a class="srn srn-schedule" href="/schedule.aspx?path=mlax" aria-label="Mens Lacrosse Schedule">Schedule</a><a class="srn srn-roster" href="/roster.aspx?path=mlax" aria-label="Mens Lacrosse Roster">Roster</a><a class="srn srn-news" href="/archives.aspx?path=mlax" aria-label="Mens Lacrosse News">News</a><a class="social facebook" href="https://www.facebook.com/HofstraPride" aria-label="Mens Lacrosse Facebook" target="_blank">Facebook</a><a class="social twitter" href="//twitter.com/hofstramlax" aria-label="Mens Lacrosse Twitter" target="_blank">Twitter</a></li><li><a href="/index.aspx?path=msoc">Soccer</a><a class="srn srn-schedule" href="/schedule.aspx?path=msoc" aria-label="Mens Soccer Schedule">Schedule</a><a class="srn srn-roster" href="/roster.aspx?path=msoc" aria-label="Mens Soccer Roster">Roster</a><a class="srn srn-news" href="/archives.aspx?path=msoc" aria-label="Mens Soccer News">News</a><a class="social facebook" href="https://www.facebook.com/HofstraSoccer" aria-label="Mens Soccer Facebook" target="_blank">Facebook</a><a class="social twitter" href="//twitter.com/hofstramsoc" aria-label="Mens Soccer Twitter" target="_blank">Twitter</a></li><li><a href="/index.aspx?path=mten">Tennis</a><a class="srn srn-schedule" href="/schedule.aspx?path=mten" aria-label="Mens Tennis Schedule">Schedule</a><a class="srn srn-roster" href="/roster.aspx?path=mten" aria-label="Mens Tennis Roster">Roster</a><a class="srn srn-news" href="/archives.aspx?path=mten" aria-label="Mens Tennis News">News</a><a class="social facebook" href="https://www.facebook.com/pages/Hofstra-Tennis/564818173575257" aria-label="Mens Tennis Facebook" target="_blank">Facebook</a><a class="social twitter" href="//twitter.com/hofstratennis1" aria-label="Mens Tennis Twitter" target="_blank">Twitter</a></li><li><a href="/index.aspx?path=wrestling">Wrestling</a><a class="srn srn-schedule" href="/schedule.aspx?path=wrestling" aria-label="Wrestling Schedule">Schedule</a><a class="srn srn-roster" href="/roster.aspx?path=wrestling" aria-label="Wrestling Roster">Roster</a><a class="srn srn-news" href="/archives.aspx?path=wrestling" aria-label="Wrestling News">News</a><a class="social facebook" href="https://www.facebook.com/hofstrawrestling" aria-label="Wrestling Facebook" target="_blank">Facebook</a><a class="social twitter" href="//twitter.com/hofstrawrest" aria-label="Wrestling Twitter" target="_blank">Twitter</a></li></ul><ul><li class="separator"><span>Women's Sports</span></li><li><a href="/index.aspx?path=wbball">Basketball</a><a class="srn srn-schedule" href="/schedule.aspx?path=wbball" aria-label="Womens Basketball Schedule">Schedule</a><a class="srn srn-roster" href="/roster.aspx?path=wbball" aria-label="Womens Basketball Roster">Roster</a><a class="srn srn-news" href="/archives.aspx?path=wbball" aria-label="Womens Basketball News">News</a><a class="social facebook" href="https://www.facebook.com/hofstrawbb" aria-label="Womens Basketball Facebook" target="_blank">Facebook</a><a class="social twitter" href="//twitter.com/hofstrawbb" aria-label="Womens Basketball Twitter" target="_blank">Twitter</a></li><li><a href="/index.aspx?path=wcross">Cross Country</a><a class="srn srn-schedule" href="/schedule.aspx?path=wcross" aria-label="Womens Cross Country Schedule">Schedule</a><a class="srn srn-roster" href="/roster.aspx?path=wcross" aria-label="Womens Cross Country Roster">Roster</a><a class="srn srn-news" href="/archives.aspx?path=wcross" aria-label="Womens Cross Country News">News</a><a class="social facebook" href="https://www.facebook.com/hofstracc" aria-label="Womens Cross Country Facebook" target="_blank">Facebook</a><a class="social twitter" href="//twitter.com/hofstraxc" aria-label="Womens Cross Country Twitter" target="_blank">Twitter</a></li><li><a href="/index.aspx?path=fhockey">Field Hockey</a><a class="srn srn-schedule" href="/schedule.aspx?path=fhockey" aria-label="Field Hockey Schedule">Schedule</a><a class="srn srn-roster" href="/roster.aspx?path=fhockey" aria-label="Field Hockey Roster">Roster</a><a class="srn srn-news" href="/archives.aspx?path=fhockey" aria-label="Field Hockey News">News</a><a class="social facebook" href="https://www.facebook.com/HofstraFieldHockey" aria-label="Field Hockey Facebook" target="_blank">Facebook</a><a class="social twitter" href="//twitter.com/HofstraFH1" aria-label="Field Hockey Twitter" target="_blank">Twitter</a></li><li><a href="/index.aspx?path=wgolf">Golf</a><a class="srn srn-schedule" href="/schedule.aspx?path=wgolf" aria-label="Womens Golf Schedule">Schedule</a><a class="srn srn-roster" href="/roster.aspx?path=wgolf" aria-label="Womens Golf Roster">Roster</a><a class="srn srn-news" href="/archives.aspx?path=wgolf" aria-label="Womens Golf News">News</a><a class="social facebook" href="https://www.facebook.com/pages/Hofstra-Womens-Golf/116696968388655" aria-label="Womens Golf Facebook" target="_blank">Facebook</a><a class="social twitter" href="//twitter.com/hofstrawgolf" aria-label="Womens Golf Twitter" target="_blank">Twitter</a></li><li><a href="/index.aspx?path=wlax">Lacrosse</a><a class="srn srn-schedule" href="/schedule.aspx?path=wlax" aria-label="Womens Lacrosse Schedule">Schedule</a><a class="srn srn-roster" href="/roster.aspx?path=wlax" aria-label="Womens Lacrosse Roster">Roster</a><a class="srn srn-news" href="/archives.aspx?path=wlax" aria-label="Womens Lacrosse News">News</a><a class="social facebook" href="https://www.facebook.com/hofstra.lacrosse" aria-label="Womens Lacrosse Facebook" target="_blank">Facebook</a><a class="social twitter" href="//twitter.com/hofstra_wlax" aria-label="Womens Lacrosse Twitter" target="_blank">Twitter</a></li><li><a href="/index.aspx?path=wsoc">Soccer</a><a class="srn srn-schedule" href="/schedule.aspx?path=wsoc" aria-label="Womens Soccer Schedule">Schedule</a><a class="srn srn-roster" href="/roster.aspx?path=wsoc" aria-label="Womens Soccer Roster">Roster</a><a class="srn srn-news" href="/archives.aspx?path=wsoc" aria-label="Womens Soccer News">News</a><a class="social facebook" href="https://www.facebook.com/HofstraWomensSoccer" aria-label="Womens Soccer Facebook" target="_blank">Facebook</a><a class="social twitter" href="//twitter.com/hofstrapride" aria-label="Womens Soccer Twitter" target="_blank">Twitter</a></li><li><a href="/index.aspx?path=softball">Softball</a><a class="srn srn-schedule" href="/schedule.aspx?path=softball" aria-label="Softball Schedule">Schedule</a><a class="srn srn-roster" href="/roster.aspx?path=softball" aria-label="Softball Roster">Roster</a><a class="srn srn-news" href="/archives.aspx?path=softball" aria-label="Softball News">News</a><a class="social facebook" href="https://www.facebook.com/hofstra.softball" aria-label="Softball Facebook" target="_blank">Facebook</a><a class="social twitter" href="//twitter.com/hofstrasoftball" aria-label="Softball Twitter" target="_blank">Twitter</a></li><li><a href="/index.aspx?path=wten">Tennis</a><a class="srn srn-schedule" href="/schedule.aspx?path=wten" aria-label="Womens Tennis Schedule">Schedule</a><a class="srn srn-roster" href="/roster.aspx?path=wten" aria-label="Womens Tennis Roster">Roster</a><a class="srn srn-news" href="/archives.aspx?path=wten" aria-label="Womens Tennis News">News</a><a class="social facebook" href="https://www.facebook.com/pages/Hofstra-Tennis/564818173575257" aria-label="Womens Tennis Facebook" target="_blank">Facebook</a><a class="social twitter" href="//twitter.com/hofstratennis1" aria-label="Womens Tennis Twitter" target="_blank">Twitter</a></li><li><a href="/index.aspx?path=vball&amp;">Volleyball</a><a class="srn srn-schedule" href="/schedule.aspx?path=vball" aria-label="Volleyball Schedule">Schedule</a><a class="srn srn-roster" href="/roster.aspx?path=vball" aria-label="Volleyball Roster">Roster</a><a class="srn srn-news" href="/archives.aspx?path=vball" aria-label="Volleyball News">News</a><a class="social facebook" href="https://www.facebook.com/HofstraVolleyball" aria-label="Volleyball Facebook" target="_blank">Facebook</a><a class="social twitter" href="//twitter.com/hofstravb" aria-label="Volleyball Twitter" target="_blank">Twitter</a></li></ul></div></li><li role="menuitem" class="topnav_tickets"><a href="#">Tickets</a><div aria-hidden="true" role="menu"><ul><li><a href="https://tkt.xosn.com/tickets/TicketLanding.dbml?DB_OEM_ID=22200&amp;db_oem_id=22200">HofstraTickets.com</a></li><li><a href="/sports/2014/10/29/sports_tickets_contactinfo.aspx">Contact Information</a></li><li><a href="/sports/2014/9/2/GEN_0902145553.aspx">Group Packages</a></li><li><a href="/sports/2014/10/29/sports_tickets_ticketinfo.aspx">Ticket Information</a></li><li><a href="/sports/2014/10/29/sports_tickets_seatingcharts.aspx">Seating Charts</a></li><li><a href="/sb_output.aspx?form=4">Donation Request</a></li></ul></div></li><li role="menuitem" class="topnav_multimedia"><a href="#">Multimedia</a><div aria-hidden="true" role="menu"><ul><li><a target="_blank" href="http://portal.stretchinternet.com/hofstra/">Pride Productions - Live Video/Audio</a></li><li><a target="_blank" href="http://www.statbroadcast.com/events/statmonitr.php?gid=hofs">Hofstra Live Statistics</a></li></ul><ul><li><a target="_blank" href="http://portal.stretchinternet.com/caa/">CAA.tv - Live Video/Audio</a></li><li><a target="_blank" href="http://www.statbroadcast.com/events/conferencelive.php?id=caa">CAA Live Statistics</a></li></ul></div></li><li role="menuitem" class="topnav_athletics"><a href="#">Inside Athletics</a><div aria-hidden="true" role="menu"><ul><li><a href="/sports/2014/10/25/GEN_1025144915.aspx">Athletic Facilities</a></li><li><a target="_blank" href="http://www.youvisit.com/tour/hofstra">Hofstra University Virtual Tour</a></li><li><a href="/sports/2014/8/21/GEN_0821144839.aspx">Mission Statement</a></li><li><a href="/sports/2014/10/24/GEN_1024144133.aspx">Quick Facts</a></li><li><a href="/sports/2014/10/24/GEN_1024144445.aspx">Strategic Plan</a></li><li><a href="/sports/2014/8/19/GEN_0819144759.aspx">Annual Reports</a></li><li><a href="/sports/2014/10/28/GEN_1028145154.aspx">Job Opportunities</a></li></ul><ul><li><a href="/sports/2014/10/27/GEN_1027144703.aspx">Compliance</a></li><li><a href="/sports/2014/10/27/GEN_1027145158.aspx">Athletic Training / Sports Medicine</a></li><li><a href="/sports/2014/8/22/GEN_0822141421.aspx">Strength and Conditioning</a></li><li><a href="/staff.aspx">Hofstra Athletics Staff Directory</a></li><li><a href="/sports/2015/7/4/GEN_0704152532.aspx">Hofstra Athletics Mailing Addresses</a></li><li><a href="/sports/2015/6/29/GEN_0629155802.aspx">Hofstra Athletics Social Media Directory</a></li></ul><ul><li><a href="/sports/2014/11/6/GEN_1106141226.aspx">Hall of Fame</a></li><li><a href="/sports/2014/8/18/GEN_0818144806.aspx">Retired Jerseys</a></li><li><a href="/documents/2016/11/18/Hofstra_Athletics_Visiting_Team_Guide.pdf">Visiting Team Guide</a></li><li><a href="/sports/2014/8/22/GEN_0822145311.aspx">Team Virtual Guides / Record Books</a></li></ul></div></li><li role="menuitem" class="topnav_club"><a href="#">Pride Club</a><div aria-hidden="true" role="menu"><ul><li><a href="/sports/2014/10/27/GEN_1027145952.aspx">Contact Us</a></li><li><a href="/sports/2014/10/27/GEN_1027141422.aspx">Ways Of Giving</a></li><li><a href="/sports/2016/11/19/upcoming-hofstra-athletics-pride-club-events.aspx">Pride Club Events</a></li></ul><ul><li><a href="/sports/2014/10/27/GEN_1027140845.aspx">The Pride Club</a></li><li><a href="/sports/2014/10/28/GEN_1028145102.aspx">NCAA Compliance</a></li></ul><ul><li><a href="/sports/2014/10/28/GEN_1028144828.aspx">Young Alumni</a></li><li><a href="http://www.hofstra.edu/alumni/">Hofstra Alumni</a></li></ul></div></li><li role="menuitem" class="topnav_academics"><a href="#">Academics </a><div aria-hidden="true" role="menu"><ul><li><a href="/sports/2014/9/2/GEN_0902145758.aspx">Student-Athlete Services</a></li><li><a href="/sports/2014/10/25/GEN_1025145815.aspx">The Fried Center</a></li><li><a href="/sports/2014/10/24/GEN_1024145851.aspx">Student-Athlete Advisory Committee (SAAC)</a></li><li><a href="/sports/2014/11/3/GEN_1103145859.aspx">Hofstra Athletics in the Community</a></li></ul></div></li><li role="menuitem" class="topnav_camps"><a target="_blank" href="/sports/2014/11/11/GEN_1111140640.aspx">Camps</a></li><li role="menuitem" class="topnav_store"><a target="_blank" href="http://hofstra.bncollege.com/webapp/wcs/stores/servlet/BNCBHomePage?storeId=22561&amp;catalogId=10001&amp;langId=-1">Store</a></li><li role="menuitem" class="topnav_hofstra"><a target="_blank" href="http://hofstra.edu">Hofstra.edu</a></li><li role="menuitem" class="topnav_contact"><a href="/staff.aspx">Contact</a></li></ul>
+
+
+
+
+
+
+
+
+			</div>
+		</header>
+		<div class="row" id="header_logos">
+			<a id="header_logo" href="/index.aspx"><img alt="Hofstra Pride" src="/images/header_logo.png" /></a>
+			<img id="header_official" alt="The Official Online Home of Hofstra University Athletics" src="/images/header_official.png" />
+		</div>
+		<div class="row" id="mainDiv">
+			<div class="row">
+				<div class="sidebars" id="ctl00_innerPage">
+					
+
+<ul class="sidebar-links"><li class="sport-home"><a href="/index.aspx?path=mlax">Men's Lacrosse</a></li><li class=""><a href="/schedule.aspx?path=mlax">Schedule</a></li><li class=""><a href="/roster.aspx?path=mlax">Roster</a></li><li class=""><a href="/cumestats.aspx?path=mlax&amp;year=2016&amp;">Statistics</a></li><li class=""><a href="/archives.aspx?path=mlax">Archived Stories</a></li><li class="parent additional-links"><a>Additional Links</a><ul><li class=""><a href="/sports/2014/8/22/GEN_0822145739.aspx?path=mlax">James M. Shuart Stadium</a></li><li class=""><a href="/sports/2014/8/22/GEN_0822140103.aspx?path=mlax">Margiotta Hall</a></li><li class=""><a href="/sports/2016/2/29/2016-mens-lacrosse-guide.aspx?path=mlax">Team Virtual Guide</a></li><li class=""><a href="/sports/2014/8/22/MLAX_0822144751.aspx?path=mlax">Archived Statistics</a></li><li class=""><a href="http://www.caasports.com/index.aspx?path=mlax">CAA Men's Lacrosse</a></li><li class=""><a href="/sports/2014/10/31/MLAX_1031145607.aspx?path=mlax">Prospective Student-Athlete Questionnaire</a></li></ul></li></ul>
+
+
+
+
+
+
+
+
+				</div>
+				<main style="width:1040px;padding:20px;float:left;background:#fff;" role="main" class="contentDiv_container" id="ctl00_contentDiv_container">
+					<div style="width:1000px;" class="contentDiv" id="ctl00_contentDiv">
+						<a name="content"></a>
+						<div class="page_title" id="ctl00_divPageTitle"><h1>2017 Men's Lacrosse Roster</h1></div>
+						
+						
+    
+			<script src="/common/js/jquery.tablesorter.min.js" type="text/javascript"></script>
+			<script src="/common/js/jquery.tablesorter.parsers.js" type="text/javascript"></script>		
+			<style type="text/css">
+				table caption { position:absolute; left:-9999px; }
+                table.show_caption caption{ font-weight:bold; padding: 4px; position: relative; left:0 }
+                table.show_caption{margin-bottom: 20px;}
+			</style>
+            <div style="margin-bottom:5px;" class="noprint">
+                
+        <a href="/sendlink.aspx" id="emailLink">Email to a Friend</a>    
+    
+    
+   |
+                <a target="_blank" onclick="window.open(this.href, '', 'scrollbars=yes,width=800,height=800');return false;" href="/roster.aspx?path=mlax&amp;print=true">Printer Friendly</a>
+				<div style="float:right;">
+    
+    
+    
+
+
+
+
+  
+
+
+
+    
+</div>
+            </div>          
+			<div style="clear:both"></div>
+        
+            <div class="noprint" style="width:100%">
+				<div style="display:inline" id="ctl00_cplhMainContent_div_coaches_link"><a href="#coaches_anchor">Coaching Staff</a></div>
+				<div style="float:right">				 
+					
+					 
+					 
+					
+					
+				
+					<label id="ctl00_cplhMainContent_litddl_label" for="ctl00_cplhMainContent_ddlPastRosters">Season:</label>
+					<select class="roster_pastrosters_ddl" id="ctl00_cplhMainContent_ddlPastRosters" name="ctl00$cplhMainContent$ddlPastRosters">
+	<option value="1258" selected="selected">2017</option>
+	<option value="238">2016</option>
+	<option value="198">2015</option>
+	<option value="196">2014</option>
+	<option value="149">2013</option>
+	<option value="26">2012</option>
+	<option value="32">2011</option>
+	<option value="186">2010</option>
+	<option value="193">2009</option>
+	<option value="122">2008</option>
+	<option value="123">2007</option>
+	<option value="124">2006</option>
+	<option value="125">2005</option>
+	<option value="126">2004</option>
+	<option value="127">2003</option>
+
+</select>
+					<input type="submit" id="ctl00_cplhMainContent_ddlPastrosters_go" value="Go" name="ctl00$cplhMainContent$ddlPastrosters_go" />
+				 </div>
+                <br /><br />
+            </div>  
+			
+            <div class="roster_team_photo_container" id="ctl00_cplhMainContent_divTeamPhoto">
+				
+            </div>
+            <table cellspacing="0" border="0" style="border-collapse:collapse;" id="ctl00_cplhMainContent_dgrdRoster" class="default_dgrd roster_dgrd">
+	<caption>
+		2017 Men's Lacrosse Roster
+	</caption><thead style="cursor: pointer;"><tr class="default_dgrd_header roster_dgrd_header">
+		<th scope="col" class="roster_dgrd_header_no tablesorter-header">#</th><th scope="col" class="roster_dgrd_header_full_name tablesorter-header">Full Name</th><th scope="col" class="roster_dgrd_header_rp_position_short tablesorter-header">Pos.</th><th scope="col" class="roster_dgrd_header_height tablesorter-header">Ht.</th><th scope="col" class="roster_dgrd_header_rp_weight tablesorter-header">Wt.</th><th scope="col" class="roster_dgrd_header_academic_year tablesorter-header">Year</th><th scope="col" class="roster_dgrd_header_player_hometown tablesorter-header">Hometown</th><th scope="col" class="roster_dgrd_header_player_highschool tablesorter-header">High School/Previous</th>
+	</tr></thead><tbody><tr class="default_dgrd_item roster_dgrd_item">
+		<td class="roster_dgrd_no">1  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5487&amp;path=mlax">Brett <i></i>Osman<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "325")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">D</td><td class="roster_dgrd_height"><nobr>6-0</nobr></td><td class="roster_dgrd_rp_weight">190</td><td class="roster_dgrd_academic_year">Jr.    
+</td><td class="roster_dgrd_player_hometown">Miller Place, NY</td><td class="roster_dgrd_player_highschool">Miller Place</td>
+	</tr><tr class="default_dgrd_alt roster_dgrd_alt">
+		<td class="roster_dgrd_no">2  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5486&amp;path=mlax">Alex <i></i>Moeser<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "285")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">M</td><td class="roster_dgrd_height"><nobr>6-1</nobr></td><td class="roster_dgrd_rp_weight">190</td><td class="roster_dgrd_academic_year">R-Jr.    
+</td><td class="roster_dgrd_player_hometown">Greenwich, CT</td><td class="roster_dgrd_player_highschool">Greenwich</td>
+	</tr><tr class="default_dgrd_item roster_dgrd_item">
+		<td class="roster_dgrd_no">3  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5491&amp;path=mlax">Dale <i></i>Stasco<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "310")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">M</td><td class="roster_dgrd_height"><nobr>6-0</nobr></td><td class="roster_dgrd_rp_weight">175</td><td class="roster_dgrd_academic_year">Jr.    
+</td><td class="roster_dgrd_player_hometown">Garden City, NY</td><td class="roster_dgrd_player_highschool">Garden City</td>
+	</tr><tr class="default_dgrd_alt roster_dgrd_alt">
+		<td class="roster_dgrd_no">4  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5485&amp;path=mlax">Brenden <i></i>Lynch<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "287")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">M</td><td class="roster_dgrd_height"><nobr>5-8</nobr></td><td class="roster_dgrd_rp_weight">150</td><td class="roster_dgrd_academic_year">Jr.    
+</td><td class="roster_dgrd_player_hometown">Lake Forest, CA</td><td class="roster_dgrd_player_highschool">Junipero Serra</td>
+	</tr><tr class="default_dgrd_item roster_dgrd_item">
+		<td class="roster_dgrd_no">6  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5477&amp;path=mlax">Luke <i></i>Gomez<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "289")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">M</td><td class="roster_dgrd_height"><nobr>6-1</nobr></td><td class="roster_dgrd_rp_weight">180</td><td class="roster_dgrd_academic_year">Jr.    
+</td><td class="roster_dgrd_player_hometown">Ambler, PA</td><td class="roster_dgrd_player_highschool">Wissahickon</td>
+	</tr><tr class="default_dgrd_alt roster_dgrd_alt">
+		<td class="roster_dgrd_no">7  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5473&amp;path=mlax">Christian <i></i>Durkota<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "290")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">M</td><td class="roster_dgrd_height"><nobr>5-11</nobr></td><td class="roster_dgrd_rp_weight">155</td><td class="roster_dgrd_academic_year">Jr.    
+</td><td class="roster_dgrd_player_hometown">Lancaster, PA</td><td class="roster_dgrd_player_highschool">Hempfield</td>
+	</tr><tr class="default_dgrd_item roster_dgrd_item">
+		<td class="roster_dgrd_no">8  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5494&amp;path=mlax">Jimmy <i></i>Yanes<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "301")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">A</td><td class="roster_dgrd_height"><nobr>5-8</nobr></td><td class="roster_dgrd_rp_weight">170</td><td class="roster_dgrd_academic_year">So.    
+</td><td class="roster_dgrd_player_hometown">Mission Viejo, CA</td><td class="roster_dgrd_player_highschool">Junipero Serra</td>
+	</tr><tr class="default_dgrd_alt roster_dgrd_alt">
+		<td class="roster_dgrd_no">9  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5471&amp;path=mlax">Brier <i></i>Davis<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "292")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">A</td><td class="roster_dgrd_height"><nobr>5-11</nobr></td><td class="roster_dgrd_rp_weight">176</td><td class="roster_dgrd_academic_year">Sr.    
+</td><td class="roster_dgrd_player_hometown">Caledon, ON, Canada </td><td class="roster_dgrd_player_highschool">The McCallie School (TN)</td>
+	</tr><tr class="default_dgrd_item roster_dgrd_item">
+		<td class="roster_dgrd_no">11  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5478&amp;path=mlax">Tanner <i></i>Griffin<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "293")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">D</td><td class="roster_dgrd_height"><nobr>6-2</nobr></td><td class="roster_dgrd_rp_weight">180</td><td class="roster_dgrd_academic_year">Jr.    
+</td><td class="roster_dgrd_player_hometown">Loveland, OH</td><td class="roster_dgrd_player_highschool">Loveland</td>
+	</tr><tr class="default_dgrd_alt roster_dgrd_alt">
+		<td class="roster_dgrd_no">12  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5469&amp;path=mlax">Jack <i></i>Concannon<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "294")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">G</td><td class="roster_dgrd_height"><nobr>6-2</nobr></td><td class="roster_dgrd_rp_weight">170</td><td class="roster_dgrd_academic_year">Jr.    
+</td><td class="roster_dgrd_player_hometown">Lindenhurst, NY</td><td class="roster_dgrd_player_highschool">St. Anthony's</td>
+	</tr><tr class="default_dgrd_item roster_dgrd_item">
+		<td class="roster_dgrd_no">13  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5482&amp;path=mlax">James <i></i>Kitchen<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "295")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">M</td><td class="roster_dgrd_height"><nobr>6-3</nobr></td><td class="roster_dgrd_rp_weight">190</td><td class="roster_dgrd_academic_year">So.    
+</td><td class="roster_dgrd_player_hometown">Marlton, NJ</td><td class="roster_dgrd_player_highschool">St. Augustine Prep</td>
+	</tr><tr class="default_dgrd_alt roster_dgrd_alt">
+		<td class="roster_dgrd_no">15  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5472&amp;path=mlax">Michael <i></i>Diener<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "297")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">D</td><td class="roster_dgrd_height"><nobr>6-1</nobr></td><td class="roster_dgrd_rp_weight">210</td><td class="roster_dgrd_academic_year">Sr.    
+</td><td class="roster_dgrd_player_hometown">Boca Raton, FL </td><td class="roster_dgrd_player_highschool">Pine Crest School</td>
+	</tr><tr class="default_dgrd_item roster_dgrd_item">
+		<td class="roster_dgrd_no">16  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5468&amp;path=mlax">Kris <i></i>Clarke<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "298")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">M</td><td class="roster_dgrd_height"><nobr>5-10</nobr></td><td class="roster_dgrd_rp_weight">170</td><td class="roster_dgrd_academic_year">Sr.    
+</td><td class="roster_dgrd_player_hometown">Bellmore, NY </td><td class="roster_dgrd_player_highschool">Chaminade</td>
+	</tr><tr class="default_dgrd_alt roster_dgrd_alt">
+		<td class="roster_dgrd_no">17  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5499&amp;path=mlax">Robert <i></i>Casey</a>
+</td><td class="roster_dgrd_rp_position_short">G</td><td class="roster_dgrd_height"><nobr>6-2</nobr></td><td class="roster_dgrd_rp_weight">190</td><td class="roster_dgrd_academic_year">Fr.    
+</td><td class="roster_dgrd_player_hometown">Wantagh, NY</td><td class="roster_dgrd_player_highschool">Wantagh</td>
+	</tr><tr class="default_dgrd_item roster_dgrd_item">
+		<td class="roster_dgrd_no">18  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5483&amp;path=mlax">Trevor <i></i>Kupecky<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "300")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">A</td><td class="roster_dgrd_height"><nobr>6-0</nobr></td><td class="roster_dgrd_rp_weight">165</td><td class="roster_dgrd_academic_year">Sr.    
+</td><td class="roster_dgrd_player_hometown">King of Prussia, PA </td><td class="roster_dgrd_player_highschool">Upper Merion</td>
+	</tr><tr class="default_dgrd_alt roster_dgrd_alt">
+		<td class="roster_dgrd_no">20  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5503&amp;path=mlax">Ryan <i></i>Kinnard</a>
+</td><td class="roster_dgrd_rp_position_short">M</td><td class="roster_dgrd_height"><nobr>5-9</nobr></td><td class="roster_dgrd_rp_weight">170</td><td class="roster_dgrd_academic_year">Fr.    
+</td><td class="roster_dgrd_player_hometown">Media, PA</td><td class="roster_dgrd_player_highschool">Penncrest</td>
+	</tr><tr class="default_dgrd_item roster_dgrd_item">
+		<td class="roster_dgrd_no">21  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5476&amp;path=mlax">Tim <i></i>Golden<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "299")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">M</td><td class="roster_dgrd_height"><nobr>6-0</nobr></td><td class="roster_dgrd_rp_weight">180</td><td class="roster_dgrd_academic_year">Jr.    
+</td><td class="roster_dgrd_player_hometown">Rockville, MD</td><td class="roster_dgrd_player_highschool">Georgetown Prep/Wootton</td>
+	</tr><tr class="default_dgrd_alt roster_dgrd_alt">
+		<td class="roster_dgrd_no">22  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5466&amp;path=mlax">Josh <i></i>Byrne<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "319")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">A</td><td class="roster_dgrd_height"><nobr>6-3</nobr></td><td class="roster_dgrd_rp_weight">200</td><td class="roster_dgrd_academic_year">Sr.    
+</td><td class="roster_dgrd_player_hometown">New Westminster, BC, Canada</td><td class="roster_dgrd_player_highschool">New Westminster Secondary</td>
+	</tr><tr class="default_dgrd_item roster_dgrd_item">
+		<td class="roster_dgrd_no">23  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5464&amp;path=mlax">Dylan <i></i>Alderman<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "305")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">M</td><td class="roster_dgrd_height"><nobr>5-9</nobr></td><td class="roster_dgrd_rp_weight">170</td><td class="roster_dgrd_academic_year">Jr.    
+</td><td class="roster_dgrd_player_hometown">Downingtown, PA</td><td class="roster_dgrd_player_highschool">Bishop Shanahan</td>
+	</tr><tr class="default_dgrd_alt roster_dgrd_alt">
+		<td class="roster_dgrd_no">24  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5489&amp;path=mlax">John <i></i>Puckhaber<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "306")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">M</td><td class="roster_dgrd_height"><nobr>6-0</nobr></td><td class="roster_dgrd_rp_weight">180</td><td class="roster_dgrd_academic_year">R-Jr.    
+</td><td class="roster_dgrd_player_hometown">Wantagh, NY </td><td class="roster_dgrd_player_highschool">St. Anthony's</td>
+	</tr><tr class="default_dgrd_item roster_dgrd_item">
+		<td class="roster_dgrd_no">25  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5507&amp;path=mlax">Michael <i></i>Altmann</a>
+</td><td class="roster_dgrd_rp_position_short">D</td><td class="roster_dgrd_height"><nobr>6-2</nobr></td><td class="roster_dgrd_rp_weight">180</td><td class="roster_dgrd_academic_year">Fr.    
+</td><td class="roster_dgrd_player_hometown">Severna Park, MD</td><td class="roster_dgrd_player_highschool">Chesapeake Senior</td>
+	</tr><tr class="default_dgrd_alt roster_dgrd_alt">
+		<td class="roster_dgrd_no">27  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5480&amp;path=mlax">Brendan <i></i>Kavanagh<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "307")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">A</td><td class="roster_dgrd_height"><nobr>5-8</nobr></td><td class="roster_dgrd_rp_weight">160</td><td class="roster_dgrd_academic_year">Jr.    
+</td><td class="roster_dgrd_player_hometown">Rockville Centre, NY</td><td class="roster_dgrd_player_highschool">Kellenberg</td>
+	</tr><tr class="default_dgrd_item roster_dgrd_item">
+		<td class="roster_dgrd_no">29  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5498&amp;path=mlax">Kyle <i></i>Gallagher</a>
+</td><td class="roster_dgrd_rp_position_short">FO/M</td><td class="roster_dgrd_height"><nobr>5-11</nobr></td><td class="roster_dgrd_rp_weight">192</td><td class="roster_dgrd_academic_year">Fr.    
+</td><td class="roster_dgrd_player_hometown">Northport, NY</td><td class="roster_dgrd_player_highschool">St. Anthony's</td>
+	</tr><tr class="default_dgrd_alt roster_dgrd_alt">
+		<td class="roster_dgrd_no">30  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5501&amp;path=mlax">Lawrence <i></i>Galizia</a>
+</td><td class="roster_dgrd_rp_position_short">LSM</td><td class="roster_dgrd_height"><nobr>5-10</nobr></td><td class="roster_dgrd_rp_weight">170</td><td class="roster_dgrd_academic_year">Fr.    
+</td><td class="roster_dgrd_player_hometown">Oyster Bay Cove, NY</td><td class="roster_dgrd_player_highschool">St. Anthony's</td>
+	</tr><tr class="default_dgrd_item roster_dgrd_item">
+		<td class="roster_dgrd_no">31  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5508&amp;path=mlax">Kevin <i></i>O'Keefe</a>
+</td><td class="roster_dgrd_rp_position_short">DM</td><td class="roster_dgrd_height"><nobr>6-3</nobr></td><td class="roster_dgrd_rp_weight">200</td><td class="roster_dgrd_academic_year">Fr.    
+</td><td class="roster_dgrd_player_hometown">Oceanside, NY</td><td class="roster_dgrd_player_highschool">Oceanside</td>
+	</tr><tr class="default_dgrd_alt roster_dgrd_alt">
+		<td class="roster_dgrd_no">32  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5470&amp;path=mlax">Cole <i></i>Considine<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "313")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">A/M</td><td class="roster_dgrd_height"><nobr>5-11</nobr></td><td class="roster_dgrd_rp_weight">180</td><td class="roster_dgrd_academic_year">R-Jr.    
+</td><td class="roster_dgrd_player_hometown">Rockville Centre, NY </td><td class="roster_dgrd_player_highschool">South Side</td>
+	</tr><tr class="default_dgrd_item roster_dgrd_item">
+		<td class="roster_dgrd_no">33  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5488&amp;path=mlax">Matthew <i></i>Perettine<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "314")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">A</td><td class="roster_dgrd_height"><nobr>5-10</nobr></td><td class="roster_dgrd_rp_weight">153</td><td class="roster_dgrd_academic_year">Jr.    
+</td><td class="roster_dgrd_player_hometown">West Islip, NY</td><td class="roster_dgrd_player_highschool">West Islip</td>
+	</tr><tr class="default_dgrd_alt roster_dgrd_alt">
+		<td class="roster_dgrd_no">34  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5465&amp;path=mlax">Liam <i></i>Blohm<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "323")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">LSM</td><td class="roster_dgrd_height"><nobr>5-11</nobr></td><td class="roster_dgrd_rp_weight">181</td><td class="roster_dgrd_academic_year">R-So.    
+</td><td class="roster_dgrd_player_hometown">Syosset, NY</td><td class="roster_dgrd_player_highschool">Syosset</td>
+	</tr><tr class="default_dgrd_item roster_dgrd_item">
+		<td class="roster_dgrd_no">34  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5506&amp;path=mlax">Kyle <i></i>Sliwak</a>
+</td><td class="roster_dgrd_rp_position_short">DM</td><td class="roster_dgrd_height"><nobr>5-8</nobr></td><td class="roster_dgrd_rp_weight">175</td><td class="roster_dgrd_academic_year">Fr.    
+</td><td class="roster_dgrd_player_hometown">Wantagh, NY</td><td class="roster_dgrd_player_highschool">Wantagh</td>
+	</tr><tr class="default_dgrd_alt roster_dgrd_alt">
+		<td class="roster_dgrd_no">35  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5504&amp;path=mlax">Joe <i></i>Cuccias</a>
+</td><td class="roster_dgrd_rp_position_short">M</td><td class="roster_dgrd_height"><nobr>6-0</nobr></td><td class="roster_dgrd_rp_weight">197</td><td class="roster_dgrd_academic_year">So.    
+</td><td class="roster_dgrd_player_hometown">Clifton, VA</td><td class="roster_dgrd_player_highschool">Pope Paul VI</td>
+	</tr><tr class="default_dgrd_item roster_dgrd_item">
+		<td class="roster_dgrd_no">36  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5479&amp;path=mlax">Pat <i></i>Joy<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "320")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">D</td><td class="roster_dgrd_height"><nobr>6-1</nobr></td><td class="roster_dgrd_rp_weight">215</td><td class="roster_dgrd_academic_year">Sr.    
+</td><td class="roster_dgrd_player_hometown">West Islip, NY</td><td class="roster_dgrd_player_highschool">St. John the Baptist</td>
+	</tr><tr class="default_dgrd_alt roster_dgrd_alt">
+		<td class="roster_dgrd_no">37  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5500&amp;path=mlax">Eric <i></i>Wenz</a>
+</td><td class="roster_dgrd_rp_position_short">D</td><td class="roster_dgrd_height"><nobr>6-4</nobr></td><td class="roster_dgrd_rp_weight">200</td><td class="roster_dgrd_academic_year">Fr.    
+</td><td class="roster_dgrd_player_hometown">Wantagh, NY</td><td class="roster_dgrd_player_highschool">St. Anthony's</td>
+	</tr><tr class="default_dgrd_item roster_dgrd_item">
+		<td class="roster_dgrd_no">40  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5502&amp;path=mlax">Riley <i></i>Forte</a>
+</td><td class="roster_dgrd_rp_position_short">M/A</td><td class="roster_dgrd_height"><nobr>6-1</nobr></td><td class="roster_dgrd_rp_weight">175</td><td class="roster_dgrd_academic_year">Fr.    
+</td><td class="roster_dgrd_player_hometown">Dix Hills, NY</td><td class="roster_dgrd_player_highschool">Half Hollow Hills West</td>
+	</tr><tr class="default_dgrd_alt roster_dgrd_alt">
+		<td class="roster_dgrd_no">41  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5492&amp;path=mlax">Tommy <i></i>Voelkel<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "318")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">M</td><td class="roster_dgrd_height"><nobr>6-0</nobr></td><td class="roster_dgrd_rp_weight">170</td><td class="roster_dgrd_academic_year">R-Jr.    
+</td><td class="roster_dgrd_player_hometown">Chapel Hill, NC </td><td class="roster_dgrd_player_highschool">Chapel Hill</td>
+	</tr><tr class="default_dgrd_item roster_dgrd_item">
+		<td class="roster_dgrd_no">42  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5467&amp;path=mlax">Brian <i></i>Cameron<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "296")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">M</td><td class="roster_dgrd_height"><nobr>5-9</nobr></td><td class="roster_dgrd_rp_weight">180</td><td class="roster_dgrd_academic_year">So.    
+</td><td class="roster_dgrd_player_hometown">Plainview, NY</td><td class="roster_dgrd_player_highschool">Plainview-Old Bethpage JFK</td>
+	</tr><tr class="default_dgrd_alt roster_dgrd_alt">
+		<td class="roster_dgrd_no">43  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5505&amp;path=mlax">Ryan <i></i>Tierney</a>
+</td><td class="roster_dgrd_rp_position_short">A</td><td class="roster_dgrd_height"><nobr>5-10</nobr></td><td class="roster_dgrd_rp_weight">185</td><td class="roster_dgrd_academic_year">Fr.    
+</td><td class="roster_dgrd_player_hometown">Massapequa, NY</td><td class="roster_dgrd_player_highschool">Massapequa</td>
+	</tr><tr class="default_dgrd_item roster_dgrd_item">
+		<td class="roster_dgrd_no">45  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5474&amp;path=mlax">Tyler <i></i>Fleury<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "322")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">D</td><td class="roster_dgrd_height"><nobr>6-1</nobr></td><td class="roster_dgrd_rp_weight">190</td><td class="roster_dgrd_academic_year">R-Jr.    
+</td><td class="roster_dgrd_player_hometown">Edmonton, AL, Canada </td><td class="roster_dgrd_player_highschool">The Hill Academy</td>
+	</tr><tr class="default_dgrd_alt roster_dgrd_alt">
+		<td class="roster_dgrd_no">46  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5493&amp;path=mlax">Jonathan <i></i>Warg<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "321")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">D</td><td class="roster_dgrd_height"><nobr>5-11</nobr></td><td class="roster_dgrd_rp_weight">190</td><td class="roster_dgrd_academic_year">So.    
+</td><td class="roster_dgrd_player_hometown">Laurys Station, PA</td><td class="roster_dgrd_player_highschool">Parkland</td>
+	</tr><tr class="default_dgrd_item roster_dgrd_item">
+		<td class="roster_dgrd_no">47  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5475&amp;path=mlax">Zachary <i></i>Franco<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "324")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">M</td><td class="roster_dgrd_height"><nobr>6-2</nobr></td><td class="roster_dgrd_rp_weight">185</td><td class="roster_dgrd_academic_year">Sr.    
+</td><td class="roster_dgrd_player_hometown">Arnold, MD </td><td class="roster_dgrd_player_highschool">Broadneck</td>
+	</tr><tr class="default_dgrd_alt roster_dgrd_alt">
+		<td class="roster_dgrd_no">48  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5481&amp;path=mlax">Mitch <i></i>Kingsley<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "284")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+</td><td class="roster_dgrd_rp_position_short">A</td><td class="roster_dgrd_height"><nobr>5-11</nobr></td><td class="roster_dgrd_rp_weight">180</td><td class="roster_dgrd_academic_year">Jr.    
+</td><td class="roster_dgrd_player_hometown">Coto de Caza, CA</td><td class="roster_dgrd_player_highschool">Junipero Serra</td>
+	</tr><tr class="default_dgrd_item roster_dgrd_item">
+		<td class="roster_dgrd_no">88  
+</td><td class="roster_dgrd_full_name"><a href="/roster.aspx?rp_id=5509&amp;path=mlax">Griffin <i></i>Barnathan</a>
+</td><td class="roster_dgrd_rp_position_short">M</td><td class="roster_dgrd_height"><nobr>6-2</nobr></td><td class="roster_dgrd_rp_weight">185</td><td class="roster_dgrd_academic_year">So.    
+</td><td class="roster_dgrd_player_hometown">Massapequa, NY</td><td class="roster_dgrd_player_highschool">Massapequa</td>
+	</tr></tbody></table>
+            
+            
+            
+            
+            
+            <div id="ctl00_cplhMainContent_pnlCoaches">
+	
+			
+                <div class="roster_coaches_title"><a id="coaches_anchor">Coaching Staff</a></div>
+                <table cellspacing="0" border="0" style="border-collapse:collapse;" id="ctl00_cplhMainContent_dgrdStaff" class="default_dgrd roster_coaches_dgrd">
+		<caption>
+			Coaching Staff
+		</caption><tbody><tr class="default_dgrd_header roster_coaches_dgrd_header">
+			<th scope="col">Name</th><th scope="col">Title</th>
+		</tr><tr class="default_dgrd_item roster_coaches_dgrd_item">
+			<td>
+                                <a href="coaches.aspx?rc=1292&amp;path=mlax">Seth Tierney<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "326")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+                            </td><td>
+                                Head Coach
+                            </td>
+		</tr><tr class="default_dgrd_alt roster_coaches_dgrd_alt">
+			<td>
+                                <a href="coaches.aspx?rc=1293&amp;path=mlax">Kevin Unterstein<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "327")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+                            </td><td>
+                                Associate Head Coach
+                            </td>
+		</tr><tr class="default_dgrd_item roster_coaches_dgrd_item">
+			<td>
+                                <a href="coaches.aspx?rc=1294&amp;path=mlax">J.P. Brazel<img onmouseout="earit_settimer(1500); " onmouseover='earit_show_popup(this, "328")' onclick="earit_play(event)" alt="Click here to hear it" src="http://earit2.thenameengine.com/app/webroot/img/orange.png" class="earit_icon_image" /></a>
+                            </td><td>
+                                Assistant Coach
+                            </td>
+		</tr><tr class="default_dgrd_alt roster_coaches_dgrd_alt">
+			<td>
+                                <a href="coaches.aspx?rc=1296&amp;path=mlax">Brandon Mangan</a>
+                            </td><td>
+                                Volunteer Assistant Coach
+                            </td>
+		</tr><tr class="default_dgrd_item roster_coaches_dgrd_item">
+			<td>
+                                <a href="coaches.aspx?rc=1295&amp;path=mlax">Cathy Aull</a>
+                            </td><td>
+                                Secretary
+                            </td>
+		</tr>
+	</tbody></table> 
+            
+</div>
+            
+         <script type="text/javascript">
+             $(function () {                 
+                 $('input[id*="ddlPastrosters_go"]').click(function (evt) {
+                     evt.preventDefault();
+                     var roster_id = $('select[id*="_ddlPastRosters"] option:selected').val();
+                     var path;
+                     $.each(window.location.search.replace("?", "").split("&amp;"), function (idx, value) {
+                         if (value.indexOf('path') === 0)
+                             path = value.split("=")[1];
+                     });
+                     window.open('/roster.aspx?roster=' + roster_id + (path ? '&amp;path=' + path : ''), '_top');
+                 });
+
+                 
+                create_sorting_on_grid($("#ctl00_cplhMainContent_dgrdRoster"));
+                create_sorting_on_grid($("#ctl00_cplhMainContent_dgrdRoster_M"));
+                create_sorting_on_grid($("#ctl00_cplhMainContent_dgrdRoster_F"));
+                create_sorting_on_grid($("#ctl00_cplhMainContent_dgrdRoster_"));
+
+                $('table.show_caption caption').addClass('default_dgrd_header').addClass('roster_dgrd_header');
+
+                function create_sorting_on_grid($grid){
+                    var $headerRow = $grid.find("tr:first").remove(),
+                        $bodyRows = $grid.find("tr").remove(),
+                        $caption = $grid.find("caption").remove();
+
+                    $grid.children().remove();
+
+                    $caption.appendTo($grid);
+                    $("&lt;thead /&gt;").append($headerRow).appendTo($grid).css("cursor", "pointer");
+                    $("&lt;tbody /&gt;").append($bodyRows).appendTo($grid);
+
+                    var rowClasses = ["default_dgrd_item roster_dgrd_item", "default_dgrd_alt roster_dgrd_alt"];
+                    var headers = {};
+
+                    $headerRow.children().each(function (i, th) {
+                        if ($(th).hasClass("roster_dgrd_header_full_name")) {
+                            headers[i] = { sorter: "full name" };
+                        } else if ($(th).hasClass("roster_dgrd_header_player_hometown")) {
+                            headers[i] = { sorter: "hometown" };
+                        } else if ($(th).hasClass("roster_dgrd_header_hometownhighschool")) {
+                            headers[i] = { sorter: "hometown_highschool" };
+                        } else if ($(th).hasClass("roster_dgrd_header_image_combined_path")) {
+                            headers[i] = { sorter: false };
+                        }
+                    });
+
+                    $grid.tablesorter({
+                        textExtraction: fullNameTextExtraction,
+                        headers: headers,
+                        cssHeader: "tablesorter-header",
+                        cssDesc: "tablesorter-headerSortDesc",
+                        cssAsc: "tablesorter-headerSortAsc"
+                    });
+                    
+                    $grid
+                        .bind("sortStart", function () {
+                            $grid.find("tbody tr").attr("class", rowClasses[0]);
+                        })
+                        .bind("sortEnd", function () {
+                            $grid.find("tbody tr").each(function (i, row) {
+                                $(row).attr("class", rowClasses[i % 2]);
+                            });
+                        });
+                }
+             });
+
+            var fullNameTextExtraction = function(node)
+            { 
+                var to_return;
+                if($(node).find('a').length&gt;0){
+                    if($(node).find('a').attr('href').indexOf('/roster.aspx?rp_id=')&gt;-1)
+                        to_return=$(node).find('a').html();
+                    else
+                        to_return=$(node).text();
+                }else
+                    to_return=$(node).text(); 
+                
+                return to_return;
+            }
+         </script>
+		 
+			<script src="http://earit2.thenameengine.com/names/earit/Hofstra"></script>
+		 
+			<input type="hidden" id="ctl00_cplhMainContent_hidden_sport_shortname" name="ctl00$cplhMainContent$hidden_sport_shortname" />
+			<input type="hidden" id="ctl00_cplhMainContent_hidden_roster_year" name="ctl00$cplhMainContent$hidden_roster_year" />	
+
+					</div>
+				</main>
+				<div id="sponsors">
+					<div id="sponsors_carousel" style="position: relative;" class="">
+						<div id="sponsors_slider" style="position: absolute; left: 0px; top: 0px;">
+							
+    
+    
+    
+            <a rev="Sponsor1" class=" " rel="nofollow" onclick="window.open('/common/controls/adhandler.aspx?ad_id=7&amp;target=http://www.wbmason.com/', '_blank'); return false;" target="_blank" id="ctl00_ctl05_rptAds_ctl00_hlAdSpot" href="http://www.wbmason.com/" style="display: inline-block;">
+                
+        <img style="border-width:0px;z-index:1;display:block;" alt="W.B. Mason" src="/images/2014/10/23/small_WhoButLogo.jpg" id="ctl00_ctl05_rptAds_ctl00_mediaAd_imgPrimary_LS" />
+    
+            </a>
+        
+
+
+
+
+  
+
+
+
+    
+
+							
+    
+    
+    
+            <a rev="Sponsor2" class=" " rel="nofollow" onclick="window.open('/common/controls/adhandler.aspx?ad_id=8&amp;target=http://www.jamesmetzger.net/wordpress/jcm/', '_blank'); return false;" target="_blank" id="ctl00_ctl06_rptAds_ctl00_hlAdSpot" href="http://www.jamesmetzger.net/wordpress/jcm/" style="display: inline-block;">
+                
+        <img style="border-width:0px;z-index:1;display:block;" alt="Whitmore Group Logo" src="/images/2014/10/23/whit_graphic02.jpg" id="ctl00_ctl06_rptAds_ctl00_mediaAd_imgPrimary_LS" />
+    
+            </a>
+        
+
+
+
+
+  
+
+
+
+    
+
+							
+    
+    
+    
+            <a rev="Sponsor3" class=" " rel="nofollow" onclick="window.open('/common/controls/adhandler.aspx?ad_id=9&amp;target=http://utzsnacks.com/', '_blank'); return false;" target="_blank" id="ctl00_ctl07_rptAds_ctl00_hlAdSpot" href="http://utzsnacks.com/" style="display: inline-block;">
+                
+        <img style="border-width:0px;z-index:1;display:block;" alt="UTZ website" src="/images/2014/10/29/UTZ_website.jpg" id="ctl00_ctl07_rptAds_ctl00_mediaAd_imgPrimary_LS" />
+    
+            </a>
+        
+
+
+
+
+  
+
+
+
+    
+
+							
+    
+    
+    
+
+
+
+
+  
+
+
+
+    
+
+							
+    
+    
+    
+            <a rev="Sponsor5" class=" " rel="nofollow" onclick="window.open('/common/controls/adhandler.aspx?ad_id=100&amp;target=http://www.marriott.com/hotels/travel/nycli-long-island-marriott/', '_blank'); return false;" target="_blank" id="ctl00_ctl09_rptAds_ctl00_hlAdSpot" href="http://www.marriott.com/hotels/travel/nycli-long-island-marriott/" style="display: inline-block;">
+                
+        <img style="border-width:0px;z-index:1;display:block;" alt="Marriott" src="/images/2016/6/7/NYCLI_Primary_CMYK.jpg" id="ctl00_ctl09_rptAds_ctl00_mediaAd_imgPrimary_LS" />
+    
+            </a>
+        
+
+
+
+
+  
+
+
+
+    
+
+							
+    
+    
+    
+            <a rev="Sponsor6" class=" " rel="nofollow" onclick="window.open('/common/controls/adhandler.aspx?ad_id=11&amp;target=http://hofstra.bncollege.com/webapp/wcs/stores/servlet/BNCBHomePage?storeId=22561$$catalogId=10001$$langId=-1', '_blank'); return false;" target="_blank" id="ctl00_ctl10_rptAds_ctl00_hlAdSpot" href="http://hofstra.bncollege.com/webapp/wcs/stores/servlet/BNCBHomePage?storeId=22561&amp;catalogId=10001&amp;langId=-1" style="display: inline-block;">
+                
+        <img style="border-width:0px;z-index:1;display:block;" alt="HU Bookstore Logo" src="/images/2014/10/29/bookstore_logo_website.jpg" id="ctl00_ctl10_rptAds_ctl00_mediaAd_imgPrimary_LS" />
+    
+            </a>
+        
+
+
+
+
+  
+
+
+
+    
+
+							
+    
+    
+    
+            <a rev="Sponsor7" class=" " rel="nofollow" onclick="window.open('/common/controls/adhandler.aspx?ad_id=88&amp;target=http://10minuteoilchangeuniondale.com/', '_blank'); return false;" target="_blank" id="ctl00_ctl11_rptAds_ctl00_hlAdSpot" href="http://10minuteoilchangeuniondale.com/" style="display: inline-block;">
+                
+        <img style="border-width:0px;z-index:1;display:block;" alt="10 MInute Oil Change" src="/images/2015/6/3%5C/10_minute_oil.jpg" id="ctl00_ctl11_rptAds_ctl00_mediaAd_imgPrimary_LS" />
+    
+            </a>
+        
+
+
+
+
+  
+
+
+
+    
+
+							
+    
+    
+    
+
+
+
+
+  
+
+
+
+    
+
+							
+    
+    
+    
+            <a rev="Sponsor9" class=" " rel="nofollow" onclick="window.open('/common/controls/adhandler.aspx?ad_id=10&amp;target=http://headstrong.org/', '_blank'); return false;" target="_blank" id="ctl00_ctl13_rptAds_ctl00_hlAdSpot" href="http://headstrong.org/" style="display: inline-block;">
+                
+        <img style="border-width:0px;z-index:1;display:block;" alt="HEADstrong Logo" src="/images/2014/10/29/HEADstrong_website.jpg" id="ctl00_ctl13_rptAds_ctl00_mediaAd_imgPrimary_LS" />
+    
+            </a>
+        
+
+
+
+
+  
+
+
+
+    
+
+							
+    
+    
+    
+
+
+
+
+  
+
+
+
+    
+
+						</div>
+					</div><div class="ui-carousel-buttons"><div class="ui-carousel-button ui-carousel-prev"></div><div class="ui-carousel-button ui-carousel-next"></div></div>
+				</div>
+			</div>
+			<div id="social">
+				<div>
+    
+    
+    
+            <a rev="Social1" class=" " rel="nofollow" onclick="window.open('/common/controls/adhandler.aspx?ad_id=33&amp;target=https://www.facebook.com/HofstraMLAX', '_blank'); return false;" target="_blank" id="ctl00_ctl15_rptAds_ctl00_hlAdSpot" href="https://www.facebook.com/HofstraMLAX" style="display: block;"><i class="sidearm-ad-icon icon-facebook"><span class="icon_title">Facebook (Men's Lacrosse)</span></i></a>
+        
+
+
+
+
+  
+
+
+
+    
+</div>
+				<div>
+    
+    
+    
+            <a rev="Social2" class=" " rel="nofollow" onclick="window.open('/common/controls/adhandler.aspx?ad_id=50&amp;target=https://twitter.com/HofstraMLAX', '_blank'); return false;" target="_blank" id="ctl00_ctl16_rptAds_ctl00_hlAdSpot" href="https://twitter.com/HofstraMLAX" style="display: block;"><i class="sidearm-ad-icon icon-twitter"><span class="icon_title">Twitter (Men's Lacrosse)</span></i></a>
+        
+
+
+
+
+  
+
+
+
+    
+</div>
+				<div>
+    
+    
+    
+            <a rev="Social3" class=" " rel="nofollow" onclick="window.open('/common/controls/adhandler.aspx?ad_id=67&amp;target=https://www.instagram.com/hofstramlax/', '_blank'); return false;" target="_blank" id="ctl00_ctl17_rptAds_ctl00_hlAdSpot" href="https://www.instagram.com/hofstramlax/" style="display: block;"><i class="sidearm-ad-icon icon-instagram"><span class="icon_title">Instagram (Men's Lacrosse)</span></i></a>
+        
+
+
+
+
+  
+
+
+
+    
+</div>
+				<div>
+    
+    
+    
+            <a rev="Social4" class=" " rel="nofollow" onclick="window.open('/common/controls/adhandler.aspx?ad_id=25&amp;target=/galleries', '_blank'); return false;" target="_blank" id="ctl00_ctl18_rptAds_ctl00_hlAdSpot" href="/galleries" style="display: block;"><i class="sidearm-ad-icon icon-camera"><span class="icon_title">Photos</span></i></a>
+        
+
+
+
+
+  
+
+
+
+    
+</div>
+				<div>
+    
+    
+    
+            <a rev="Social5" class=" " rel="nofollow" onclick="window.open('/common/controls/adhandler.aspx?ad_id=26&amp;target=/rss_feeds.aspx', '_blank'); return false;" target="_blank" id="ctl00_ctl19_rptAds_ctl00_hlAdSpot" href="/rss_feeds.aspx" style="display: block;"><i class="sidearm-ad-icon icon-rss"><span class="icon_title">RSS</span></i></a>
+        
+
+
+
+
+  
+
+
+
+    
+</div>
+				<div>
+    
+    
+    
+            <a rev="Social6" class=" " rel="nofollow" onclick="window.open('/common/controls/adhandler.aspx?ad_id=27&amp;target=/member/sms_signup.aspx', '_blank'); return false;" target="_blank" id="ctl00_ctl20_rptAds_ctl00_hlAdSpot" href="/member/sms_signup.aspx" style="display: block;"><i class="sidearm-ad-icon icon-sms-icon"><span class="icon_title">SMS</span></i></a>
+        
+
+
+
+
+  
+
+
+
+    
+</div>
+				<div>
+    
+    
+    
+            <a rev="Social7" class=" " rel="nofollow" onclick="window.open('/common/controls/adhandler.aspx?ad_id=28&amp;target=https://www.youtube.com/user/GoHofstra', '_blank'); return false;" target="_blank" id="ctl00_ctl21_rptAds_ctl00_hlAdSpot" href="https://www.youtube.com/user/GoHofstra" style="display: block;"><i class="sidearm-ad-icon icon-youtube"><span class="icon_title">Youtube</span></i></a>
+        
+
+
+
+
+  
+
+
+
+    
+</div>
+				<div onkeypress="javascript:return WebForm_FireDefaultButton(event, 'ctl00_ImageButton1')">
+	
+					<div id="search">
+						<div class="left">
+							<label for="ctl00_txtSearch">Search Text</label>
+							<input type="text" style="border-style:None;" onfocus="this.value=''" id="ctl00_txtSearch" value="Search" name="ctl00$txtSearch" />
+						</div>
+						<div class="left">
+							<label for="ctl00_ImageButton1">Search Button</label>
+							<a href="javascript:__doPostBack('ctl00$ImageButton1','')" class="icon-search" id="ctl00_ImageButton1"></a>
+						</div>
+					</div>
+				
+</div>
+			</div>
+		</div>	
+		<footer id="footer">
+			<div class="row">
+				
+    
+    
+    
+            <a rev="Footer1" style="width: 140px; height: 125px; background: transparent url(&quot;/images/2014/10/14/footer_sprite.png&quot;) no-repeat scroll 0px 0px; display: block;" onmouseover="this.style.backgroundPosition='0px 0px '" onclick="window.open('/common/controls/adhandler.aspx?ad_id=17&amp;target=http://www.hofstra.edu/home/', '_blank'); return false;" target="_blank" class="sprite-ad " rel="nofollow" onmouseout="this.style.backgroundPosition='0px 0px '" id="ctl00_ctl23_rptAds_ctl00_hlAdSpot" href="http://www.hofstra.edu/home/">Hofstra University</a>
+        
+
+
+
+
+  
+
+
+
+    
+
+				
+    
+    
+    
+            <a rev="Footer2" style="width: 95px; height: 125px; background: transparent url(&quot;/images/2014/10/14/footer_sprite.png&quot;) no-repeat scroll -140px 0px; display: block;" onmouseover="this.style.backgroundPosition='-140px 0px '" onclick="window.open('/common/controls/adhandler.aspx?ad_id=18&amp;target=http://www.ncaa.org/', '_blank'); return false;" target="_blank" class="sprite-ad " rel="nofollow" onmouseout="this.style.backgroundPosition='-140px 0px '" id="ctl00_ctl24_rptAds_ctl00_hlAdSpot" href="http://www.ncaa.org/">NCAA</a>
+        
+
+
+
+
+  
+
+
+
+    
+
+				
+    
+    
+    
+            <a rev="Footer3" style="width: 145px; height: 125px; background: transparent url(&quot;/images/2014/10/14/footer_sprite.png&quot;) no-repeat scroll -235px 0px; display: block;" onmouseover="this.style.backgroundPosition='-235px 0px '" onclick="window.open('/common/controls/adhandler.aspx?ad_id=19&amp;target=http://caasports.com/', '_blank'); return false;" target="_blank" class="sprite-ad " rel="nofollow" onmouseout="this.style.backgroundPosition='-235px 0px '" id="ctl00_ctl25_rptAds_ctl00_hlAdSpot" href="http://caasports.com/">Colonial Athletic Association</a>
+        
+
+
+
+
+  
+
+
+
+    
+
+				
+    
+    
+    
+            <a rev="Footer4" style="width: 135px; height: 125px; background: transparent url(&quot;/images/2014/10/14/footer_sprite.png&quot;) no-repeat scroll -380px 0px; display: block;" onmouseover="this.style.backgroundPosition='-380px 0px '" onclick="window.open('/common/controls/adhandler.aspx?ad_id=20&amp;target=http://eiwawrestling.org/landing/index', '_blank'); return false;" target="_blank" class="sprite-ad " rel="nofollow" onmouseout="this.style.backgroundPosition='-380px 0px '" id="ctl00_ctl26_rptAds_ctl00_hlAdSpot" href="http://eiwawrestling.org/landing/index">Eastern Intercollegiate Wrestling Association</a>
+        
+
+
+
+
+  
+
+
+
+    
+
+				
+    
+    
+    
+            <a rev="Footer5" style="width: 140px; height: 125px; background: transparent url(&quot;/images/2014/10/14/footer_sprite.png&quot;) no-repeat scroll -515px 0px; display: block;" onmouseover="this.style.backgroundPosition='-515px 0px '" onclick="window.open('/common/controls/adhandler.aspx?ad_id=21&amp;target=http://colonialacademicalliance.org/', '_blank'); return false;" target="_blank" class="sprite-ad " rel="nofollow" onmouseout="this.style.backgroundPosition='-515px 0px '" id="ctl00_ctl27_rptAds_ctl00_hlAdSpot" href="http://colonialacademicalliance.org/">Colonial Academic Alliance</a>
+        
+
+
+
+
+  
+
+
+
+    
+
+				<a id="footer_sidearm" target="_blank" href="http://www.sidearmsports.com">SIDEARM Sports</a>
+				<nav id="footer_nav">
+					
+
+<ul role="menubar" class="accessible_nav"><li role="menuitem" class="footer_teams"><a href="#">Teams</a><div aria-hidden="true" role="menu"><ul><li class="separator"><span>Men's</span></li><li><a href="/index.aspx?path=baseball">Baseball</a></li><li><a href="/index.aspx?path=mbball">Basketball</a></li><li><a href="/index.aspx?path=mcross">Cross Country</a></li><li><a href="/index.aspx?path=mgolf">Golf</a></li><li><a href="/index.aspx?path=mlax">Lacrosse</a></li><li><a href="/index.aspx?path=msoc">Soccer</a></li><li><a href="/index.aspx?path=mten">Tennis</a></li><li><a href="/index.aspx?path=wrestling">Wrestling</a></li></ul><ul><li class="separator"><span>Women's</span></li><li><a href="/index.aspx?path=wbball">Basketball</a></li><li><a href="/index.aspx?path=wcross">Cross Country</a></li><li><a href="/index.aspx?path=fhockey">Field Hockey</a></li><li><a href="/index.aspx?path=wgolf">Golf</a></li><li><a href="/index.aspx?path=wlax">Lacrosse</a></li><li><a href="/index.aspx?path=wsoc">Soccer</a></li><li><a href="/index.aspx?path=softball">Softball</a></li><li><a href="/index.aspx?path=wten">Tennis</a></li><li><a href="/index.aspx?path=vball">Volleyball</a></li></ul></div></li><li role="menuitem" class="footer_athletics"><a href="#">Inside Athletics</a><div aria-hidden="true" role="menu"><ul><li><a href="/archives.aspx">News Archive</a></li><li><a href="/staff.aspx">Staff Directory</a></li><li><a href="#">Tickets</a></li><li><a href="/sports/2014/10/27/GEN_1027140845.aspx">Pride Club</a></li><li><a href="http://hofstra.bncollege.com/webapp/wcs/stores/servlet/BNCBHomePage?storeId=22561&amp;catalogId=10001&amp;langId=-1">Store</a></li></ul></div></li><li role="menuitem" class="footer_multimedia"><a href="#">Multimedia</a><div aria-hidden="true" role="menu"><ul><li><a href="/sports/2014/10/23/GEN_1023143530.aspx">Pride Online</a></li><li><a href="https://twitter.com/hofstrapride">Twitter</a></li><li><a href="https://www.facebook.com/HofstraPride">Facebook</a></li><li><a href="http://instagram.com/hofstrapride">Instagram</a></li><li><a href="https://www.youtube.com/user/GoHofstra">YouTube</a></li><li><a href="http://portal.stretchinternet.com/hofstra/">Pride Productions</a></li><li><a href="http://www.statbroadcast.com/events/statbroadcast.php?t=1&amp;gid=hof">Hofstra Live Statistics</a></li><li><a href="http://portal.stretchinternet.com/caa/">CAA.tv </a></li><li><a href="http://www.statbroadcast.com/events/conferencelive.php?id=caa">CAA Live Statistics</a></li><li><a href="/rss_feeds.aspx">News Feed (RSS)</a></li></ul></div></li></ul>
+
+
+
+
+
+
+
+
+				</nav>
+			</div>
+		</footer>
+		<div id="sticky">
+			<div class="row tabs ui-tabs ui-widget ui-widget-content ui-corner-all">
+				<ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+					<li class="ui-state-default ui-corner-top ui-tabs-selected ui-state-active"><a href="#scoreboard">Scoreboard</a></li>
+					<li class="ui-state-default ui-corner-top"><a href="#twitter">Twitter</a></li>
+				</ul>
+				<div id="scoreboard" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+					<div id="scoreboard_container" class="ui-scoreboard" style="position: relative; top: 0px; left: 0px; width: 1001px; height: 30px; background: transparent url(&quot;/images/sticky_content_bar.png&quot;) no-repeat scroll left top; font-family: robotoboldcondensed,tahoma,sans-serif; font-size: 11px; text-transform: uppercase;"><div class="ui-scoreboard-ticker" style="width: 890px; height: 30px; line-height: 30px; overflow: hidden; position: absolute; top: 0px; left: 80px;"><div class="ui-scoreboard-ticker-item ui-scoreboard-ticker-item-score" style="white-space: nowrap; position: absolute; top: 0px; left: -493.208px;"><span class="info"><span class="date">12.29</span> | <span class="sport">Wrestling</span> | <span class="awayteam">Lock Haven Classic</span> <span class="awayscore"></span> - <span class="hometeam">Pride</span> <span class="homescore"></span> | <a href="http://www.gohofstra.com/news/2016/12/29/wrestling-wrest-hellers-title-leads-hofstra-to-a-fifth-place-finish-at-lock-haven.aspx">WREST: Heller's Title Leads Hofstra To A Fifth-Place Finish At The LHU Classic</a></span></div></div><div class="ui-scoreboard-buttons" style="position: absolute; top: 11px; left: 5px;"><img src="http://assets.sidearmsports.com/common/images/scoreboard_buttons_white/prev.gif" alt="Previous Event" style="float: left;" /><img src="http://assets.sidearmsports.com/common/images/scoreboard_buttons_white/play.gif" alt="Resume Events" style="float: left; display: none;" /><img src="http://assets.sidearmsports.com/common/images/scoreboard_buttons_white/stop.gif" alt="Stop Events" style="float: left;" /><img src="http://assets.sidearmsports.com/common/images/scoreboard_buttons_white/next.gif" alt="Next Event" style="float: left;" /></div></div>
+				</div>
+				<div id="twitter" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+					<div id="tweets" style="position: relative;" class=""><ul class="jta-tweet-list" style="position: absolute; top: -60px;"><li class="jta-tweet-list-item" style=""><div class="jta-tweet-body "><span class="jta-tweet-text">RT @<a rel="nofollow" target="_blank" class="jta-tweet-a twitter-anywhere-user" href="http://twitter.com/HofstraMBB">HofstraMBB</a>: MBB: <a rel="nofollow" target="_blank" title="#Hofstra" class="jta-tweet-a jta-tweet-hashtag" href="http://twitter.com/search?q=%23Hofstra">#Hofstra</a> Looks To Continue Winning Ways As William &amp; Mary Visits Hempstead <a rel="nofollow" target="_blank" title="#RoarWithPride" class="jta-tweet-a jta-tweet-hashtag" href="http://twitter.com/search?q=%23RoarWithPride">#RoarWithPride</a>  <a rel="nofollow" target="_blank" class="jta-tweet-a jta-tweet-link" href="https://t.co/s7L74QQ9ch">https://t.co/s7L74QQ9ch</a></span><span class="jta-tweet-attributes"><br /><span class="jta-tweet-retweeter">Retweeted by <a target="_blank" href="http://twitter.com/HofstraPride" class="jta-tweet-retweeter-link">HofstraPride</a> and 1 other</span></span></div><div class="jta-clear"></div></li><li class="jta-tweet-list-item" style=""><div class="jta-tweet-body "><span class="jta-tweet-text">RT @<a rel="nofollow" target="_blank" class="jta-tweet-a twitter-anywhere-user" href="http://twitter.com/HofstraMBB">HofstraMBB</a>: MBB (In The News): Hofstra beats Delaware in conference opener - via @<a rel="nofollow" target="_blank" class="jta-tweet-a twitter-anywhere-user" href="http://twitter.com/AP">AP</a> / @<a rel="nofollow" target="_blank" class="jta-tweet-a twitter-anywhere-user" href="http://twitter.com/NewsdaySports">NewsdaySports</a> - <a rel="nofollow" target="_blank" class="jta-tweet-a jta-tweet-link" href="https://t.co/9GwzcLYsVf">https://t.co/9GwzcLYsVf</a></span><span class="jta-tweet-attributes"><br /><span class="jta-tweet-retweeter">Retweeted by <a target="_blank" href="http://twitter.com/HofstraPride" class="jta-tweet-retweeter-link">HofstraPride</a> and 2 others</span></span></div><div class="jta-clear"></div></li><li class="jta-tweet-list-item" style=""><div class="jta-tweet-body "><span class="jta-tweet-text">RT @<a rel="nofollow" target="_blank" class="jta-tweet-a twitter-anywhere-user" href="http://twitter.com/HofstraU">HofstraU</a>: Hello 2017! <a rel="nofollow" target="_blank" class="jta-tweet-a jta-tweet-link" href="https://t.co/gNf5NAMcIT">https://t.co/gNf5NAMcIT</a></span><span class="jta-tweet-attributes"><br /><span class="jta-tweet-retweeter">Retweeted by <a target="_blank" href="http://twitter.com/HofstraPride" class="jta-tweet-retweeter-link">HofstraPride</a> and 25 others</span></span></div><div class="jta-clear"></div></li><li class="jta-tweet-list-item" style=""><div class="jta-tweet-body "><span class="jta-tweet-text">RT @<a rel="nofollow" target="_blank" class="jta-tweet-a twitter-anywhere-user" href="http://twitter.com/HofstraMBB">HofstraMBB</a>: MBB: Final Infographic - <a rel="nofollow" target="_blank" title="#Hofstra" class="jta-tweet-a jta-tweet-hashtag" href="http://twitter.com/search?q=%23Hofstra">#Hofstra</a> defeats Delaware, 58-56, in @<a rel="nofollow" target="_blank" class="jta-tweet-a twitter-anywhere-user" href="http://twitter.com/CAABasketball">CAABasketball</a> opener. Go Pride! <a rel="nofollow" target="_blank" title="#RoarWithPride" class="jta-tweet-a jta-tweet-hashtag" href="http://twitter.com/search?q=%23RoarWithPride">#RoarWithPride</a> <a rel="nofollow" target="_blank" class="jta-tweet-a jta-tweet-link" href="https://t.co/%E2%80%A6">https://t.co/…</a></span><span class="jta-tweet-attributes"><br /><span class="jta-tweet-retweeter">Retweeted by <a target="_blank" href="http://twitter.com/HofstraPride" class="jta-tweet-retweeter-link">HofstraPride</a> and 1 other</span></span></div><div class="jta-clear"></div></li><li class="jta-tweet-list-item" style=""><div class="jta-tweet-body "><span class="jta-tweet-text">RT @<a rel="nofollow" target="_blank" class="jta-tweet-a twitter-anywhere-user" href="http://twitter.com/HofstraMBB">HofstraMBB</a>: MBB: <a rel="nofollow" target="_blank" title="#Hofstra" class="jta-tweet-a jta-tweet-hashtag" href="http://twitter.com/search?q=%23Hofstra">#Hofstra</a> Wins @<a rel="nofollow" target="_blank" class="jta-tweet-a twitter-anywhere-user" href="http://twitter.com/CAABasketball">CAABasketball</a> Opener Behind Greer’s Strong Game <a rel="nofollow" target="_blank" title="#RoarWithPride" class="jta-tweet-a jta-tweet-hashtag" href="http://twitter.com/search?q=%23RoarWithPride">#RoarWithPride</a> <a rel="nofollow" target="_blank" class="jta-tweet-a jta-tweet-link" href="https://t.co/3q4lUoaQSR">https://t.co/3q4lUoaQSR</a></span><span class="jta-tweet-attributes"><br /><span class="jta-tweet-retweeter">Retweeted by <a target="_blank" href="http://twitter.com/HofstraPride" class="jta-tweet-retweeter-link">HofstraPride</a></span></span></div><div class="jta-clear"></div></li><li class="jta-tweet-list-item" style=""><div class="jta-tweet-body "><span class="jta-tweet-text">RT @<a rel="nofollow" target="_blank" class="jta-tweet-a twitter-anywhere-user" href="http://twitter.com/HofstraMBB">HofstraMBB</a>: MBB: <a rel="nofollow" target="_blank" title="#HOFSTRA" class="jta-tweet-a jta-tweet-hashtag" href="http://twitter.com/search?q=%23HOFSTRA">#HOFSTRA</a> WINS! Pride earn hard-fought 58-56 victory over Delaware in the @<a rel="nofollow" target="_blank" class="jta-tweet-a twitter-anywhere-user" href="http://twitter.com/CAABasketball">CAABasketball</a> opener. Go Pride! <a rel="nofollow" target="_blank" title="#RoarWithPri" class="jta-tweet-a jta-tweet-hashtag" href="http://twitter.com/search?q=%23RoarWithPri">#RoarWithPri</a>…</span><span class="jta-tweet-attributes"><br /><span class="jta-tweet-retweeter">Retweeted by <a target="_blank" href="http://twitter.com/HofstraPride" class="jta-tweet-retweeter-link">HofstraPride</a> and 16 others</span></span></div><div class="jta-clear"></div></li><li class="jta-tweet-list-item" style=""><div class="jta-tweet-body "><span class="jta-tweet-text">RT @<a rel="nofollow" target="_blank" class="jta-tweet-a twitter-anywhere-user" href="http://twitter.com/HofstraMBB">HofstraMBB</a>: MBB: <a rel="nofollow" target="_blank" title="#Hofstra" class="jta-tweet-a jta-tweet-hashtag" href="http://twitter.com/search?q=%23Hofstra">#Hofstra</a> leads Delaware, 58-56, with 5.7 seconds left. Hofstra ball after timeout. <a rel="nofollow" target="_blank" title="#RoarWithPride" class="jta-tweet-a jta-tweet-hashtag" href="http://twitter.com/search?q=%23RoarWithPride">#RoarWithPride</a></span><span class="jta-tweet-attributes"><br /><span class="jta-tweet-retweeter">Retweeted by <a target="_blank" href="http://twitter.com/HofstraPride" class="jta-tweet-retweeter-link">HofstraPride</a></span></span></div><div class="jta-clear"></div></li><li class="jta-tweet-list-item" style=""><div class="jta-tweet-body "><span class="jta-tweet-text">RT @<a rel="nofollow" target="_blank" class="jta-tweet-a twitter-anywhere-user" href="http://twitter.com/HofstraMBB">HofstraMBB</a>: MBB: <a rel="nofollow" target="_blank" title="#Hofstra" class="jta-tweet-a jta-tweet-hashtag" href="http://twitter.com/search?q=%23Hofstra">#Hofstra</a> leads Delaware, 58-56, with 17.2 seconds left. Delaware ball with 11 seconds on shot clock after timeout. <a rel="nofollow" target="_blank" title="#Ro" class="jta-tweet-a jta-tweet-hashtag" href="http://twitter.com/search?q=%23Ro">#Ro</a>…</span><span class="jta-tweet-attributes"><br /><span class="jta-tweet-retweeter">Retweeted by <a target="_blank" href="http://twitter.com/HofstraPride" class="jta-tweet-retweeter-link">HofstraPride</a></span></span></div><div class="jta-clear"></div></li><li class="jta-tweet-list-item" style=""><div class="jta-tweet-body "><span class="jta-tweet-text">RT @<a rel="nofollow" target="_blank" class="jta-tweet-a twitter-anywhere-user" href="http://twitter.com/HofstraMBB">HofstraMBB</a>: MBB: <a rel="nofollow" target="_blank" title="#Hofstra" class="jta-tweet-a jta-tweet-hashtag" href="http://twitter.com/search?q=%23Hofstra">#Hofstra</a> leads Delaware, 55-51, with 1:58 left in the second half. <a rel="nofollow" target="_blank" title="#RoarWithPride" class="jta-tweet-a jta-tweet-hashtag" href="http://twitter.com/search?q=%23RoarWithPride">#RoarWithPride</a></span><span class="jta-tweet-attributes"><br /><span class="jta-tweet-retweeter">Retweeted by <a target="_blank" href="http://twitter.com/HofstraPride" class="jta-tweet-retweeter-link">HofstraPride</a></span></span></div><div class="jta-clear"></div></li><li class="jta-tweet-list-item" style=""><div class="jta-tweet-body "><span class="jta-tweet-text">RT @<a rel="nofollow" target="_blank" class="jta-tweet-a twitter-anywhere-user" href="http://twitter.com/HofstraMBB">HofstraMBB</a>: MBB: <a rel="nofollow" target="_blank" title="#Hofstra" class="jta-tweet-a jta-tweet-hashtag" href="http://twitter.com/search?q=%23Hofstra">#Hofstra</a> leads Delaware, 53-49, with 2:39 left in the second half. <a rel="nofollow" target="_blank" title="#RoarWithPride" class="jta-tweet-a jta-tweet-hashtag" href="http://twitter.com/search?q=%23RoarWithPride">#RoarWithPride</a></span><span class="jta-tweet-attributes"><br /><span class="jta-tweet-retweeter">Retweeted by <a target="_blank" href="http://twitter.com/HofstraPride" class="jta-tweet-retweeter-link">HofstraPride</a></span></span></div><div class="jta-clear"></div></li></ul><div class="jta-tweet-list-controls"></div><div class="ui-carousel-buttons"><div class="ui-carousel-button ui-carousel-prev"></div><div class="ui-carousel-button ui-carousel-next"></div></div></div>
+					<i class="icon-twitter"></i>
+				</div>
+			</div>
+		</div>
+<div id="sidearm_copyright"><a target="_blank" href="//www.sidearmsports.com/privacypolicy/">Privacy Policy </a><a target="_blank" href="//www.sidearmsports.com/terms-of-service/">Terms of Service</a></div>
+    
+<script type="text/javascript">addLoadEvent(count_ad_master);</script><script type="text/javascript">checkVersion;</script><script type="text/javascript">fkey = '439a7cd9a9a7bcacf22'</script><script type="text/javascript">count_ad(7);</script><script type="text/javascript">launch_ads ('Sponsor1',true,8000)</script><script type="text/javascript">count_ad(8);</script><script type="text/javascript">launch_ads ('Sponsor2',true,8000)</script><script type="text/javascript">count_ad(9);</script><script type="text/javascript">launch_ads ('Sponsor3',true,8000)</script><script type="text/javascript">count_ad(100);</script><script type="text/javascript">launch_ads ('Sponsor5',true,8000)</script><script type="text/javascript">count_ad(11);</script><script type="text/javascript">launch_ads ('Sponsor6',true,8000)</script><script type="text/javascript">count_ad(88);</script><script type="text/javascript">launch_ads ('Sponsor7',true,8000)</script><script type="text/javascript">count_ad(10);</script><script type="text/javascript">launch_ads ('Sponsor9',true,8000)</script><script type="text/javascript">count_ad(33);</script><script type="text/javascript">launch_ads ('Social1',true,8000)</script><script type="text/javascript">count_ad(50);</script><script type="text/javascript">launch_ads ('Social2',true,8000)</script><script type="text/javascript">count_ad(67);</script><script type="text/javascript">launch_ads ('Social3',true,8000)</script><script type="text/javascript">count_ad(25);</script><script type="text/javascript">launch_ads ('Social4',true,8000)</script><script type="text/javascript">count_ad(26);</script><script type="text/javascript">launch_ads ('Social5',true,8000)</script><script type="text/javascript">count_ad(27);</script><script type="text/javascript">launch_ads ('Social6',true,8000)</script><script type="text/javascript">count_ad(28);</script><script type="text/javascript">launch_ads ('Social7',true,8000)</script><script type="text/javascript">count_ad(17);</script><script type="text/javascript">launch_ads ('Footer1',true,8000)</script><script type="text/javascript">count_ad(18);</script><script type="text/javascript">launch_ads ('Footer2',true,8000)</script><script type="text/javascript">count_ad(19);</script><script type="text/javascript">launch_ads ('Footer3',true,8000)</script><script type="text/javascript">count_ad(20);</script><script type="text/javascript">launch_ads ('Footer4',true,8000)</script><script type="text/javascript">count_ad(21);</script><script type="text/javascript">launch_ads ('Footer5',true,8000)</script>
+<script type="text/javascript">
+//&lt;![CDATA[
+Sys.Application.initialize();
+//]]&gt;
+</script>
+</form><div id="earit_popup" class="earit_popup"><style>.earit_popup {display:none;position:absolute;z-index:9999;text-align:left;line-height: 1em !important;}.earit_popup * {margin:0px; padding: 0px;} .earit_popup td {font-family: Arial, Helvetica, sans-serif; }  .earit_popup div {font-family: Arial, Helvetica, sans-serif; } .earit_main {padding: 0px;margin: 0px;width: 280px;font-family: Arial, Helvetica, sans-serif;font-size: 9pt;position:relative;}.earit_head {height:14px; width: 280px;}.earit_foot {	height:13px; width: 280px;margin-top: -1px;}.earit_mid {	background-image: url("http://earit2.thenameengine.com/app/webroot/img/popupmid.png");background-repeat: repeat-y;padding: 0px 12px;}.earit_ads {text-align:center}.earit_logo {font-size: 8px !important;text-transform:uppercase;color: #999999;text-align: right;padding: 2px 5px 3px 2px;vertical-align: bottom;line-height: 1em;}.earit_logo_img {display:inline;width: 54px;position:relative;top:3px;border:0px;vertical-align:baseline;}.earit_tagline {background-color: #94191D;color: #ffffff;padding: 3px;font-weight: bold;font-size: 9pt;text-align: left !important;line-height: 15px !important}.earit_player { height: 85px; }.earit_name { padding: 3px 3px 0px 3px; padding-top: 7px; display:block; line-height: 1em !important; text-align: left !important;font-size: 11pt !important}.earit_pronunciation { line-height: 1em !important;padding: 0px 3px 0px 3px; font-size: 10pt !important; text-align:left !important;}#tne_play{width:0px;}.earit_description { padding: 21px 3px 0px 3px; color: #555555; font-size: 10pt !important;text-align:left !important;line-height: normal !important; &lt;!-- vertical-align: top; --&gt; } img.earit_icon_image { margin: 0px !important; padding: 0px !important; border: 0px none #000 !important; padding-left: 1px !important; display:inline !important; cursor: pointer !important; vertical-align: baseline !important;}.earit_close { position:absolute; top: 8px; right: 8px; }</style><div id="earit_main" class="earit_main"><div class="earit_head"><img class="earit_head_image" src="http://earit2.thenameengine.com/app/webroot/img/popuphead.png" /></div><div class="earit_mid"><table width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td valign="top" class="earit_client_logo" style="width:55px;" rowspan="4"><img style="padding-right: 5px;" src="http://earit2.thenameengine.com/app/webroot/img/upload/1439745721.jpg" /></td><td class="earit_logo" colspan="2"> POWERED BY <a target="_blank" href="http://www.thenameengine.com/ear-it"><img class="earit_logo_img" alt="thenameengine.com" src="http://earit2.thenameengine.com/app/webroot/img/thenameengine.png" /></a></td></tr><tr><td class="earit_tagline" colspan="2" style="background-color: rgb(254, 182, 18);"> Pronunciation Guide</td></tr><tr><td valign="top">	<div class="earit_name earit_new_hocak" id="earit_name"></div><div class="earit_pronunciation earit_new_hocak" id="earit_pronunciation"></div><div class="earit_description earit_new_hocak" id="earit_description"></div></td><td valign="top" style="width:75px" class="earit_player" rowspan="2"><a onclick="earit_play(event)" href="javascript:void(0)"><img src="http://earit2.thenameengine.com/app/webroot/img/player.jpg" class="earit_player_image" /></a><audio preload="auto" type="audio/mpeg" id="tne_play"><source type="audio/mpeg" src="" id="tne_player" /></audio></td></tr><tr><td valign="top"></td></tr></tbody></table><div class="earit_ads" style="height: 0px;"></div></div><div class="earit_foot"><img class="earit_foot_image" src="http://earit2.thenameengine.com/app/webroot/img/popupfoot.png" /></div><div onclick="earit_hidepopup()" class="earit_close"><img style="width:12px" src="http://earit2.thenameengine.com/app/webroot/img/close.gif" /></div></div></div>
+	<script src="http://assets.sidearmsports.com.s3.amazonaws.com/plugins/jquery.overflow-2.0.min.js" type="text/javascript"></script>
+	<script src="http://assets.sidearmsports.com.s3.amazonaws.com/plugins/jquery.jtweetsanywhere-1.3.1.min.js" type="text/javascript"></script>
+	<script>
+		$(document).ready(function(){
+			$(".tabs").tabs();
+			$("#tweets").jTweetsAnywhere({
+				username: '@HofstraPride',
+				count: 20,
+				showTweetFeed: {
+					showUserScreenNames: false,
+					showUserFullNames: false,
+					showTwitterBird: false, 
+					showProfileImages: false,
+					showTimestamp: false,  
+					paging: {
+						mode: 'endless-scroll'
+					},
+					showActionReply: false,
+					showActionRetweet: false,
+					showActionFavorite: false, 
+				}
+			});
+		});
+		$(window).load(function(){
+			$('#sponsors_carousel').overflow({
+				appendButtonsAfterCarousel:true,
+				scrollDirection: "horizontal",
+				inlineBlockChildren: true,
+				itemsPerPanel: 5
+			});
+			$('#tweets').overflow({
+				appendButtonsAfterCarousel:false,
+				scrollDirection: "vertical",
+				itemFilter: ".jta-tweet-list-item",
+			});
+		});
+		$("#scoreboard_container").scoreboard({
+			"width":1001, // container width
+			"height":30, // container width
+			"btmskin": "/images/sticky_content_bar.png", // container background
+			"btns": "http://assets.sidearmsports.com/common/images/scoreboard_buttons_white", // button set, optional defaults to white
+			"bx": 8, // button left offset
+			"by": 11, // button top offset
+			"tx": 80, // ticker left offset
+			"ty": 0, // ticker top offset
+			"th": 30, // ticker height
+			"tw": 890 // ticker width
+		});
+	</script>
+	
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56289553-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<div id="smartBox" style="display: none;"></div></body></html>

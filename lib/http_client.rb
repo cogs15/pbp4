@@ -10,7 +10,7 @@ class HttpClient
 
   def wait()
     min = 0.5
-    max = 2.5
+    max = 1.5
     time = ((max - min) * rand()) + min
     puts "Sleeping for #{time} seconds"
     sleep time
@@ -25,10 +25,10 @@ class HttpClient
       return Nokogiri::HTML(response.body)
     rescue
       puts "failed"
-      if (try_number > 5)
-#exit 1
+     if (try_number > 2)
+#next if try_number == 5
       else
-        puts "On try #{try_number} of 5"
+        puts "On try #{try_number} of 2"
         try_number += 1
         retry
       end
